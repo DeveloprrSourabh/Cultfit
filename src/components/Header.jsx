@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./styles/head.css";
 
 const Header = () => {
@@ -7,13 +8,13 @@ const Header = () => {
       {/* HEADER__START */}
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img
               src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
               alt=""
               className="img1"
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,39 +28,39 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link  mn" aria-current="page" href="#">
+              <Link className="nav-link  mn" aria-current="page" to="/fitness">
                 FITNESS
-              </a>
-              <a className="nav-link mn" href="#">
+              </Link>
+              <Link className="nav-link mn" to="/care">
                 CARE
-              </a>
-              <a className="nav-link mn" href="#">
+              </Link>
+              <Link className="nav-link mn" to="mind">
                 MIND
-              </a>
-              <a className="nav-link mn" href="#">
+              </Link>
+              <Link className="nav-link mn" to="store">
                 STORE
-              </a>
+              </Link>
             </div>
           </div>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link lo" href="#">
+              <Link className="nav-link lo" to="#">
                 Bang..
                 <img
                   src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/header/location.png"
                   alt=""
                   className="lim"
                 />
-              </a>
-              <a style={{color:'white'}} className="nav-link nn1" href="#">
+              </Link>
+              <Link style={{color:'white'}} className="nav-link nn1" to="/">
                 GET APP
-              </a>
-              <a className="nav-link jp nn" href="#">
+              </Link>
+              <Link className="nav-link jp nn" to="#">
                 <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/header/Profile.png" alt="" className="lp" />
-              </a>
-              <a className="nav-link jp1 nn" href="#">
+              </Link>
+              <Link className="nav-link jp1 nn" to="#">
                 <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg" alt="" className="lp1" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
