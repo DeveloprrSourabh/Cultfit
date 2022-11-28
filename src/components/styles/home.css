@@ -1,0 +1,8 @@
+.vd{
+    width: 100%;
+}
+.video{
+    position: relative;
+    bottom: 5rem;
+    z-index: -100;
+}

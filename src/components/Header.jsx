@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <div>
       {/* HEADER__START */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/home">
             <img
               src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
               alt=""
@@ -58,8 +58,8 @@ const Header = () => {
               <Link className="nav-link jp nn" to="#">
                 <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/header/Profile.png" alt="" className="lp" />
               </Link>
-              <Link className="nav-link jp1 nn" to="#">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg" alt="" className="lp1" />
+              <Link className="nav-link jp nn" to="#">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg" alt="" className="lp" />
               </Link>
             </div>
           </div>
