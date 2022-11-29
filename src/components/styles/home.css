@@ -10,16 +10,26 @@
   z-index: -100;
 }
 
+.sign1{
+  margin-top: 5%;
+  padding-bottom: 8%;
+}
+
+.sign3{
+ 
+  display: grid;
+  align-items: center;
+}
 .signs{
   position: relative;
   top: 6rem;  
 }
 .svg3{
-  width: 90%;
+  width: 115%;
+  margin-left: 18%;
 }
 
-svg{
-  
-  width: 100%;
-
+.sign4{
+  position: relative;
+  top: 2rem;
 }

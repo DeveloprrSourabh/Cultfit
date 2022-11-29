@@ -21,15 +21,14 @@ const Home = () => {
         </video>
         <div className="sign">
           <div className="row signs">
-            <div className="col-1"></div>
-            <div className="col-3 sign1">
+            <div className="col-4 sign1">
               <svg
-                width="998"
-                height="399"
+               style={{width:"126%",
+               height:"auto"}}
                 viewBox="0 0 998 399"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-              >
+               >
                 <path
                   id="Path 5"
                   opacity="0.658748"
@@ -58,12 +57,13 @@ const Home = () => {
                 </defs>
               </svg>
               <svg
-                width="1033"
-                height="256"
+                style={{width:"126%",
+               height:"auto"}}
+            
                 viewBox="0 0 1033 256"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-               >
+              >
                 <path
                   id="Path 6"
                   opacity="0.658748"
@@ -87,7 +87,7 @@ const Home = () => {
                 </defs>
               </svg>
             </div>
-            
+
             <div className="col-3 sign3">
               <img
                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_500,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/we-are-cult-logo/text-only-v2.png"
@@ -95,14 +95,14 @@ const Home = () => {
                 className="svg3"
               />
             </div>
-            <div className="col-3 sign4">
+            <div className="col-4 sign4">
               <svg
-                width="906"
-                height="569"
+              style={{width: "81%",
+                marginLeft: "16%"}}
                 viewBox="0 0 906 569"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-               >
+              >
                 <path
                   id="Path 3"
                   opacity="0.815929"
@@ -125,9 +125,39 @@ const Home = () => {
                   </linearGradient>
                 </defs>
               </svg>
+
+              <svg 
+              style={{width: "112%",
+                marginTop: "7%",
+                marginLeft:" 14%"}}
+                
+                viewBox="0 0 1027 281"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  id="Path 4"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.499904 107.489C0.499904 107.489 79.4999 216.344 436 89.0315C792.5 -38.2805 965.255 280.41 965.255 280.41L1026.54 215.707C1026.54 215.707 708 -124.891 397 51.6425C85.9999 228.176 47.9999 89.0315 47.9999 89.0315L0.499904 107.489Z"
+                  fill="url(#paint0_linear_6391_14872)"
+                ></path>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_6391_14872"
+                    x1="604.206"
+                    y1="548.044"
+                    x2="260.146"
+                    y2="17.1812"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#111D27" stop-opacity="0"></stop>
+                    <stop offset="1" stop-color="#FBD94C"></stop>
+                  </linearGradient>
+                </defs>
+              </svg>
             </div>
             <div className="col-1"></div>
-           
           </div>
         </div>
       </div>
