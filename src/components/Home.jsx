@@ -160,6 +160,11 @@ const Home = () => {
             <div className="col-1"></div>
           </div>
         </div>
+        <div className="cpt">
+          <h4 className="rt">
+          A fitness movement that is worth breaking a sweat for
+          </h4>
+        </div>
       </div>
     </>
   );

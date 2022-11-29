@@ -20,6 +20,18 @@
   display: grid;
   align-items: center;
 }
+
+.rt{
+  text-align: center;
+  cursor: default;
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  letter-spacing: 0.01px;
+  line-height: 38px;
+  margin-bottom: 25px;
+}
 .signs{
   position: relative;
   top: 6rem;  
