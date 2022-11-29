@@ -20,8 +20,9 @@ const Home = () => {
           />
         </video>
         <div className="sign">
-          <div className="signs">
-            <div className="sign1">
+          <div className="row signs">
+            <div className="col-1"></div>
+            <div className="col-3 sign1">
               <svg
                 width="998"
                 height="399"
@@ -56,15 +57,13 @@ const Home = () => {
                   </linearGradient>
                 </defs>
               </svg>
-            </div>
-            <div className="sign2">
               <svg
                 width="1033"
                 height="256"
                 viewBox="0 0 1033 256"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-              >
+               >
                 <path
                   id="Path 6"
                   opacity="0.658748"
@@ -88,6 +87,47 @@ const Home = () => {
                 </defs>
               </svg>
             </div>
+            
+            <div className="col-3 sign3">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_500,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/we-are-cult-logo/text-only-v2.png"
+                alt=""
+                className="svg3"
+              />
+            </div>
+            <div className="col-3 sign4">
+              <svg
+                width="906"
+                height="569"
+                viewBox="0 0 906 569"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+               >
+                <path
+                  id="Path 3"
+                  opacity="0.815929"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.541494 567.256C0.541494 567.256 288.184 599.186 412 357.019C535.815 114.851 905.7 128.198 905.7 128.198L853.178 0.542129C853.178 0.542129 460.098 56.1967 363 327.202C265.902 598.207 2.44773 564.478 2.44773 564.478L0.541494 567.256Z"
+                  fill="url(#paint0_linear_6391_14875)"
+                ></path>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_6391_14875"
+                    x1="896.553"
+                    y1="577.97"
+                    x2="66.1909"
+                    y2="486.524"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#111D27" stop-opacity="0"></stop>
+                    <stop offset="1" stop-color="#EC4ED1"></stop>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div className="col-1"></div>
+           
           </div>
         </div>
       </div>

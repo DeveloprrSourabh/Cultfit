@@ -9,3 +9,17 @@
   bottom: 5rem;
   z-index: -100;
 }
+
+.signs{
+  position: relative;
+  top: 6rem;  
+}
+.svg3{
+  width: 90%;
+}
+
+svg{
+  
+  width: 100%;
+
+}
