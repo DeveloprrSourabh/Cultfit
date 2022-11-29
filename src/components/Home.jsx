@@ -23,12 +23,11 @@ const Home = () => {
           <div className="row signs">
             <div className="col-4 sign1">
               <svg
-               style={{width:"126%",
-               height:"auto"}}
+                style={{ width: "126%", height: "auto" }}
                 viewBox="0 0 998 399"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-               >
+              >
                 <path
                   id="Path 5"
                   opacity="0.658748"
@@ -57,9 +56,7 @@ const Home = () => {
                 </defs>
               </svg>
               <svg
-                style={{width:"126%",
-               height:"auto"}}
-            
+                style={{ width: "126%", height: "auto" }}
                 viewBox="0 0 1033 256"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,8 +94,7 @@ const Home = () => {
             </div>
             <div className="col-4 sign4">
               <svg
-              style={{width: "81%",
-                marginLeft: "16%"}}
+                style={{ width: "81%", marginLeft: "16%" }}
                 viewBox="0 0 906 569"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -126,11 +122,8 @@ const Home = () => {
                 </defs>
               </svg>
 
-              <svg 
-              style={{width: "112%",
-                marginTop: "7%",
-                marginLeft:" 14%"}}
-                
+              <svg
+                style={{ width: "112%", marginTop: "7%", marginLeft: " 14%" }}
                 viewBox="0 0 1027 281"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -162,8 +155,23 @@ const Home = () => {
         </div>
         <div className="cpt">
           <h4 className="rt">
-          A fitness movement that is worth breaking a sweat for
+            A fitness movement that is worth breaking a sweat for
           </h4>
+          <div className="btn bn">
+            <a href="" id="ll" className="clf">
+              EXPLORE CULTPASS
+            </a>
+           
+          </div>
+          <div className="err">
+          <a href="" className="ero">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_22,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/Path.png"
+                alt=""
+                className="erimg"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </>

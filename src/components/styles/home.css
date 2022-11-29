@@ -1,7 +1,7 @@
 .vd {
   width: 100%;
   position: absolute;
-    z-index: -100;
+  z-index: -100;
 }
 
 .video {
@@ -10,38 +10,68 @@
   z-index: -100;
 }
 
-.sign1{
+.sign1 {
   margin-top: 5%;
   padding-bottom: 8%;
 }
 
-.sign3{
- 
+.sign3 {
   display: grid;
   align-items: center;
 }
+.cpt {
+  text-align: -webkit-center;
+}
 
-.rt{
+.clf {
+  color: #f06055;
+  background: linear-gradient(134.58deg, #ffdb17 -79.01%, #ff3278 103.85%);
+  -webkit-text-fill-color: initial;
+  -webkit-background-clip: text;
+  background: white;
+  padding: 11.5px 20px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 250ms ease;
+  font-weight: 700;
+  border-radius: 9px;
+}
+
+#ll:hover{
+  color: black;
+  background-color: aliceblue;
+}
+
+.erimg {
+  width: 22px;
+  min-height: fit-content;
+  overflow: hidden;
+  margin-top: 45px;
+}
+
+.rt {
+  width: 33%;
   text-align: center;
   cursor: default;
   margin: 0;
   color: white;
   font-size: 30px;
-  font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-family: Inter-Medium, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
   letter-spacing: 0.01px;
   line-height: 38px;
   margin-bottom: 25px;
 }
-.signs{
+.signs {
   position: relative;
-  top: 6rem;  
+  top: 6rem;
 }
-.svg3{
+.svg3 {
   width: 115%;
   margin-left: 18%;
 }
 
-.sign4{
+.sign4 {
   position: relative;
   top: 2rem;
 }
