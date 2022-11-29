@@ -4,7 +4,8 @@ import style from "./styles/head.css";
 
 const Header = () => {
   return (
-    <div>
+    <div style={{position: "fixed",
+      width: "100%"}}>
       {/* HEADER__START */}
       <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
         <div className="container-fluid">
