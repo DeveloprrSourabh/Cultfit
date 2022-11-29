@@ -174,6 +174,22 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+      {/* THREE__CONTAINER */}
+      <div className="container">
+        <div className="cr">
+        <div className="row">
+          <div className="col-1"></div>
+          <div style={{color:"red"}} className="col-3 ko">HELLO</div>
+          <div style={{color:"red"}} className="col-3 ko">HELLO</div>
+          <div style={{color:"red"}} className="col-3 ko">HELLO</div>
+
+
+        </div>
+        </div>
+        
+      </div>
     </>
   );
 };

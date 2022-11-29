@@ -36,6 +36,10 @@
   font-weight: 700;
   border-radius: 9px;
 }
+.ko{
+  color: red;
+  text-align: center;
+}
 
 #ll:hover{
   color: black;
@@ -48,19 +52,21 @@
   overflow: hidden;
   margin-top: 45px;
 }
-
+.cr{
+  margin-left: 7%;
+}
 .rt {
   width: 33%;
   text-align: center;
   cursor: default;
   margin: 0;
   color: white;
-  font-size: 30px;
+  font-size: 1.7rem;
   font-family: Inter-Medium, Helvetica Neue, Helvetica, Roboto, Arial,
     sans-serif;
   letter-spacing: 0.01px;
   line-height: 38px;
-  margin-bottom: 25px;
+  margin:1.8rem;
 }
 .signs {
   position: relative;
