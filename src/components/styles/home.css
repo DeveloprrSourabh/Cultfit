@@ -36,12 +36,12 @@
   font-weight: 700;
   border-radius: 9px;
 }
-.ko{
+.ko {
   color: red;
   text-align: center;
 }
 
-#ll:hover{
+#ll:hover {
   color: black;
   background-color: aliceblue;
 }
@@ -52,7 +52,7 @@
   overflow: hidden;
   margin-top: 45px;
 }
-.cr{
+.cr {
   margin-left: 7%;
 }
 
@@ -67,7 +67,7 @@
     sans-serif;
   letter-spacing: 0.01px;
   line-height: 38px;
-  margin:1.8rem;
+  margin: 1.8rem;
 }
 .signs {
   position: relative;
