@@ -2,7 +2,9 @@ import React from 'react'
 
 const Care = () => {
   return (
-    <div>Care</div>
+    <div>
+      this is care page
+    </div>
   )
 }
 
