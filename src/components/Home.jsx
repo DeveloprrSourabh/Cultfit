@@ -153,6 +153,7 @@ const Home = () => {
             <div className="col-1"></div>
           </div>
         </div>
+        
         <div className="cpt">
           <h4 className="rt">
             A fitness movement that is worth breaking a sweat for
@@ -161,7 +162,7 @@ const Home = () => {
             <a href="" id="ll" className="clf">
               EXPLORE CULTPASS
             </a>
-           
+
           </div>
           <div className="err">
           <a href="" className="ero">
@@ -181,14 +182,14 @@ const Home = () => {
         <div className="cr">
         <div className="row">
           <div className="col-1"></div>
-          <div style={{color:"red"}} className="col-3 ko">HELLO</div>
+          <div style={{color:"red"}} className="col-3 ko">HELLO world</div>
           <div style={{color:"red"}} className="col-3 ko">HELLO</div>
           <div style={{color:"red"}} className="col-3 ko">HELLO</div>
 
 
         </div>
         </div>
-        
+
       </div>
     </>
   );
