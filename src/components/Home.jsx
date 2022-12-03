@@ -167,7 +167,7 @@ const Home = () => {
           </a>
         </div>
         <div className="err">
-          <a href="" className="ero">
+          <a href="#gyo" className="ero">
             <img
               src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_22,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/Path.png"
               alt=""
@@ -179,7 +179,7 @@ const Home = () => {
       {/* SIGNS -- END */}
 <div className="lm"></div>
       {/* THREE__CONTAINER */}
-      <div className="container">
+      <div id="gyo" className="container">
         <div className="cr">
           <div className="row">
             <div className="col-3 ko">
