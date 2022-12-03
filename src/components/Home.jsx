@@ -189,11 +189,19 @@ const Home = () => {
               <p className="rngc">Unlimited access to group classes, all gyms and at-home workouts</p>
             </div>
             </div>
-            <div style={{}} className="col-3 ko">
-              HELLO
+            <div className="col-3 ko">
+            <div className="imglp">
+            <div> <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" className="rng" /></div>
+             <div><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_78,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro-partial.png" alt="" className="rng11" /></div>
+              <p className="rngc">Unlimited access to all PRO gyms and at-home workouts</p>
             </div>
-            <div style={{}} className="col-3 ko">
-              HELLO
+            </div>
+            <div className="col-3 ko">
+            <div className="imglp">
+            <div> <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" className="rng" /></div>
+             <div><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_85,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-live-partial-4x.png" alt="" className="rng11" /></div>
+              <p className="rngc">Unlimited access to group classes, all gyms and at-home workouts</p>
+            </div>
             </div>
           </div>
         </div>
