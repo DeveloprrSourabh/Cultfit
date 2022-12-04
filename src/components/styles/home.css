@@ -144,3 +144,19 @@ video {
   position: relative;
   top: 2rem;
 }
+
+.tig{
+  display: flex;
+}
+.mntimg{
+  width: 90%;
+}
+.timg1{
+  margin-top: 3%;
+}
+
+.mntimlg{
+  width: 100%;
+  margin-top: 11%;
+  padding: 8%;
+}
