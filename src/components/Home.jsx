@@ -256,18 +256,27 @@ const Home = () => {
       {/* three--container end */}
 
       {/* TWO-- TOP-BOTTOM-BOX---START */}
-<div className="tb">
-  <div id="con" className="container">
-    <div className="itb11">
-      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_1.png" alt="" id="iii" className="itb1" />
-    </div>
-    <div className="itb2">
-      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_2.png" alt="" id="ii" className="itb1" />
-    </div>
-  </div>
-</div>
+      <div className="tb">
+        <div id="con" className="container">
+          <div className="itb11">
+            <img
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_1.png"
+              alt=""
+              id="iii"
+              className="itb1"
+            />
+          </div>
+          <div className="itb2">
+            <img
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_2.png"
+              alt=""
+              id="ii"
+              className="itb1"
+            />
+          </div>
+        </div>
+      </div>
       {/* TWO-- TOP-BOTTOM-BOX---END */}
-
     </div>
   );
 };
