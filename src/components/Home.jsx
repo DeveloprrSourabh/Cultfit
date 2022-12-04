@@ -255,7 +255,7 @@ const Home = () => {
       </div>
       {/* three--container end */}
 
-      {/* TWO-- TOP-BOTTOM-BOX START */}
+      {/* TWO-- TOP-BOTTOM-BOX---START */}
 <div className="tb">
   <div id="con" className="container">
     <div className="itb11">
@@ -266,6 +266,7 @@ const Home = () => {
     </div>
   </div>
 </div>
+      {/* TWO-- TOP-BOTTOM-BOX---END */}
 
     </div>
   );
