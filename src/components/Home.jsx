@@ -277,6 +277,21 @@ const Home = () => {
         </div>
       </div>
       {/* TWO-- TOP-BOTTOM-BOX---END */}
+
+      {/* THREE IMAGE---START */}
+<div className="ti">
+  <div className="tig">
+    <div className="timg1">
+      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_3.png" alt="" className="mntimg" />
+    </div>
+    <div className="timg1">
+      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_4.png" alt="" className="mntimglg" />
+    </div>
+    <div className="timg1">
+      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_5.png" alt="" className="mntimg" />
+    </div>
+  </div>
+</div>
     </div>
   );
 };
