@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fitness = () => {
   return (
-    <div>Fitness</div>
+    <div>Fitness page</div>
   )
 }
 
