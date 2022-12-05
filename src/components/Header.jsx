@@ -52,14 +52,22 @@ const Header = () => {
                   className="lim"
                 />
               </Link>
-              <Link style={{color:'white'}} className="nav-link nn1" to="/">
+              <Link style={{ color: "white" }} className="nav-link nn1" to="/">
                 GET APP
               </Link>
               <Link className="nav-link jp nn" to="#">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/header/Profile.png" alt="" className="lp" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/header/Profile.png"
+                  alt=""
+                  className="lp"
+                />
               </Link>
               <Link className="nav-link jp nn" to="#">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg" alt="" className="lp" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg"
+                  alt=""
+                  className="lp"
+                />
               </Link>
             </div>
           </div>
