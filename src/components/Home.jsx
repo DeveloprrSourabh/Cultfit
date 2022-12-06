@@ -279,19 +279,56 @@ const Home = () => {
       {/* TWO-- TOP-BOTTOM-BOX---END */}
 
       {/* THREE IMAGE---START */}
-<div className="ti">
-  <div className="tig">
-    <div className="timg1">
-      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_3.png" alt="" className="mntimg" />
-    </div>
-    <div className="timg1">
-      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_4.png" alt="" className="mntimglg" />
-    </div>
-    <div className="timg1">
-      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_5.png" alt="" className="mntimg" />
-    </div>
-  </div>
-</div>
+      <div className="ti">
+        <div className="tig">
+          <div className="timg1">
+            <img
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_3.png"
+              alt=""
+              className="mntimg"
+            />
+          </div>
+          <div className="timg1">
+            <img
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_4.png"
+              alt=""
+              className="mntimglg"
+            />
+          </div>
+          <div className="timg1">
+            <img
+            style={{position:"relative",bottom:"9%"}}
+
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_5.png"
+              alt=""
+              className="mntimg"
+            />
+          </div>
+        </div>
+      </div>
+      {/* THREE IMAGE---END */}
+
+      {/* SQUARE IMAGES---START */}
+      <div className="sq">
+        <div className="container">
+          <div className="row sq1">
+            <div className="col-3 sqc1">
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_200,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/tile-1.png" alt="" className="sq1immg" />
+            </div>
+            <div className="col-3 sqc1">
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_200,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/tile-1.png" alt="" className="sq1immg" />
+            </div>
+            <div className="col-3 sqc1">
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_200,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/tile-1.png" alt="" className="sq1immg" />
+            </div>
+            <div className="col-3 sqc1">
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_200,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/tile-1.png" alt="" className="sq1immg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* SQUARE IMAGES---START */}
     </div>
   );
 };
