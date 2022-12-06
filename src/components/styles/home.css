@@ -145,6 +145,18 @@ video {
   position: relative;
   top: 2rem;
 }
+.sq1{
+  margin: 5% 5% 0% 5%;
+}
+.sqc1{
+  padding: 7px;
+}
+.sq2{
+  margin: 0% 5% 7% 5%;
+}
+.ti{
+  text-align: center;
+}
 
 .tig{
   display: flex;
@@ -154,6 +166,10 @@ video {
 }
 .timg1{
   margin-top: 3%;
+}
+.sq1immg{
+  width: -webkit-fill-available;
+  border-radius: 9px;
 }
 
 .mntimglg{
