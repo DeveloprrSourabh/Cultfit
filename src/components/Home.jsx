@@ -395,6 +395,23 @@ const Home = () => {
       </div>
       
       {/* CULTPASS--IMAGE---START */}
+
+      {/* THREE BOX---START */}
+<div className="container">
+  <div className="trrow">
+    <div className="trfir">
+    <div className="ction">
+      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" className="trig" />
+    </div>
+<div className="ction1">
+  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png" alt="" className="trig1" />
+</div>
+    </div>
+  </div>
+</div>
+
+      {/* THREE BOX---START */}
+
     </div>
   );
 };
