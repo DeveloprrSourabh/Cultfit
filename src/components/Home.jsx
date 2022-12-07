@@ -388,6 +388,12 @@ const Home = () => {
         </div>
       </div>
 
+<div className="culi">
+        <div className="icul11">
+         <a href="">LEARN MORE</a> 
+        </div>
+      </div>
+      
       {/* CULTPASS--IMAGE---START */}
     </div>
   );
