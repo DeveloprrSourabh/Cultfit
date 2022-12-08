@@ -404,6 +404,7 @@ const Home = () => {
       {/* THREE BOX---START */}
       <div className="container">
         <div className="trrow">
+          {/* FIRST CONTAINER---START */}
           <div className="trfir">
             <div className="ction">
               <img
@@ -419,7 +420,20 @@ const Home = () => {
                 className="trig1"
               />
             </div>
+            <div className="ttl">
+              <div className="unli">
+                <div className="frunli">
+                Unlimited access to
+                </div>
+                <div className="ul">
+                  <li className="ulili">At-center group classes</li>
+                  <li className="ulili">All ELITE & PRO gyms</li>
+                  <li className="ulili">All ELITE & PRO gyms</li>
+                </div>
+              </div>
+            </div>
           </div>
+          {/* FIRST BOX---END */}
         </div>
       </div>
 
