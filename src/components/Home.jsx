@@ -384,34 +384,46 @@ const Home = () => {
       {/* CULTPASS--IMAGE---START */}
       <div className="culi">
         <div className="icul1">
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_259,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="cult-pass" class=" style-prefix-5blrfd efaomd31" style={{width:"259px", height:"67.96116504854369px"}} />
+          <img
+            src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_259,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+            alt="cult-pass"
+            class=" style-prefix-5blrfd efaomd31"
+            style={{ width: "259px", height: "67.96116504854369px" }}
+          />
         </div>
       </div>
 
-<div className="culi">
+      <div className="culi">
         <div className="icul11">
-         <a href="">LEARN MORE</a> 
+          <a href="">LEARN MORE</a>
         </div>
       </div>
-      
+
       {/* CULTPASS--IMAGE---START */}
 
       {/* THREE BOX---START */}
-<div className="container">
-  <div className="trrow">
-    <div className="trfir">
-    <div className="ction">
-      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" className="trig" />
-    </div>
-<div className="ction1">
-  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png" alt="" className="trig1" />
-</div>
-    </div>
-  </div>
-</div>
+      <div className="container">
+        <div className="trrow">
+          <div className="trfir">
+            <div className="ction">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                alt=""
+                className="trig"
+              />
+            </div>
+            <div className="ction1">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
+                alt=""
+                className="trig1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* THREE BOX---START */}
-
     </div>
   );
 };
