@@ -406,6 +406,7 @@ const Home = () => {
         <div className="trrow">
           {/* FIRST CONTAINER---START */}
           <div className="trfir">
+            <div className="bcim">
             <div className="ction">
               <img
                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
@@ -419,6 +420,7 @@ const Home = () => {
                 alt=""
                 className="trig1"
               />
+            </div>
             </div>
             <div className="ttl">
               <div className="unli">
