@@ -436,10 +436,74 @@ const Home = () => {
             </div>
           </div>
           {/* FIRST BOX---END */}
+          {/* SECOND BOX---START */}
+          <div className="trfir">
+            <div className="bcim">
+            <div className="ction">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                alt=""
+                className="trig"
+              />
+            </div>
+            <div className="ction1">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
+                alt=""
+                className="trig1"
+              />
+            </div>
+            </div>
+            <div className="ttl">
+              <div className="unli">
+                <div className="frunli">
+                Unlimited access to
+                </div>
+                <div className="ul">
+                  <li className="ulili">At-center group classes</li>
+                  <li className="ulili">All ELITE & PRO gyms</li>
+                  <li className="ulili">All ELITE & PRO gyms</li>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* SECOND BOX---END */}
+          {/* THIRD BOX---START */}
+          <div className="trfir">
+            <div className="bcim">
+            <div className="ction">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                alt=""
+                className="trig"
+              />
+            </div>
+            <div className="ction1">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
+                alt=""
+                className="trig1"
+              />
+            </div>
+            </div>
+            <div className="ttl">
+              <div className="unli">
+                <div className="frunli">
+                Unlimited access to
+                </div>
+                <div className="ul">
+                  <li className="ulili">At-center group classes</li>
+                  <li className="ulili">All ELITE & PRO gyms</li>
+                  <li className="ulili">All ELITE & PRO gyms</li>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* THIRD BOX---END */}
         </div>
       </div>
 
-      {/* THREE BOX---START */}
+      {/* THREE BOX---END */}
     </div>
   );
 };

@@ -73,6 +73,10 @@ body {
   font-weight: 700;
   border-radius: 9px;
 }
+.trrow{
+  display: flex;
+    justify-content: center;
+}
 
 .rng {
   width: 35%;
@@ -116,6 +120,9 @@ body {
   margin-left: 7%;
 }
 
+.trfir{
+  margin: 6%;
+}
 .rt {
   width: 33%;
   text-align: center;
@@ -207,4 +214,9 @@ video {
     padding: 15% 2% 3%;
     margin-bottom: 2%;
     border-radius: 14px;
+}
+.bcmi{
+  padding: 10rem 12rem 1rem 3rem;
+  margin-bottom: 2%;
+  border-radius: 14px;
 }
