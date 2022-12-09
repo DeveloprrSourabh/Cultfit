@@ -233,3 +233,50 @@ video {
 .luk3{
   background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cl.png);
 }
+.ttbt{
+  display: flex;
+  margin-top: 60px;
+}
+.fbtn{
+  cursor: pointer;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    border: 1px solid transparent;
+    transition: all 250ms ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(50px);
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    min-width: 100%;
+}
+.sbtn{
+  cursor: pointer;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    border: 1px solid transparent;
+    transition: all 250ms ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    min-width: 100%;
+
+}
+.fb{
+  margin: auto;
+    margin-top: 30px;
+}
+.secbtn{
+  margin: auto;
+    margin-top: 30px;
+}

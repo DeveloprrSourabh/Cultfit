@@ -434,6 +434,17 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <div className="btt">
+              <div className="ttbt">
+                <div className="fb">
+                <button className="fbtn">TRY FOR FREE</button>
+                </div>
+                <div className="secbtn">
+                  <button className="sbtn">LEARN MORE</button>
+                </div>
+
+              </div>
+            </div>
           </div>
           {/* FIRST BOX---END */}
           {/* SECOND BOX---START */}
