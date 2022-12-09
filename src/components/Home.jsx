@@ -406,7 +406,7 @@ const Home = () => {
         <div className="trrow">
           {/* FIRST CONTAINER---START */}
           <div className="trfir">
-            <div className="bcim">
+            <div className="bcim luk1">
             <div className="ction">
               <img
                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
@@ -438,7 +438,7 @@ const Home = () => {
           {/* FIRST BOX---END */}
           {/* SECOND BOX---START */}
           <div className="trfir">
-            <div className="bcim">
+            <div className="bcim luk2">
             <div className="ction">
               <img
                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
@@ -470,7 +470,7 @@ const Home = () => {
           {/* SECOND BOX---END */}
           {/* THIRD BOX---START */}
           <div className="trfir">
-            <div className="bcim">
+            <div className="bcim luk3">
             <div className="ction">
               <img
                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
