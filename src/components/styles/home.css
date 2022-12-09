@@ -198,6 +198,9 @@ video {
     font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     letter-spacing: 0px;
     line-height: 22px;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 13px;
 }
 .frunli{
   text-align: left;
@@ -219,4 +222,14 @@ video {
   padding: 10rem 12rem 1rem 3rem;
   margin-bottom: 2%;
   border-radius: 14px;
+}
+.luk{
+  background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cb.png);
+}
+
+.luk2{
+  background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cg.png);
+}
+.luk2{
+  background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cl.png);
 }
