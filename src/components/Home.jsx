@@ -434,6 +434,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            {/* BTN ADD---START */}
             <div className="btt">
               <div className="ttbt">
                 <div className="fb">
@@ -442,9 +443,10 @@ const Home = () => {
                 <div className="secbtn">
                   <button className="sbtn">LEARN MORE</button>
                 </div>
-
               </div>
             </div>
+            {/* BTN ADD---END */}
+
           </div>
           {/* FIRST BOX---END */}
           {/* SECOND BOX---START */}
@@ -477,6 +479,18 @@ const Home = () => {
                 </div>
               </div>
             </div>
+             {/* BTN ADD---START */}
+             <div className="btt">
+              <div className="ttbt">
+                <div className="fb">
+                <button className="fbtn">TRY FOR FREE</button>
+                </div>
+                <div className="secbtn">
+                  <button className="sbtn">LEARN MORE</button>
+                </div>
+              </div>
+            </div>
+            {/* BTN ADD---END */}
           </div>
           {/* SECOND BOX---END */}
           {/* THIRD BOX---START */}
@@ -509,6 +523,18 @@ const Home = () => {
                 </div>
               </div>
             </div>
+             {/* BTN ADD---START */}
+             <div className="btt">
+              <div className="ttbt">
+                <div className="fb">
+                <button className="fbtn">TRY FOR FREE</button>
+                </div>
+                <div className="secbtn">
+                  <button className="sbtn">LEARN MORE</button>
+                </div>
+              </div>
+            </div>
+            {/* BTN ADD---END */}
           </div>
           {/* THIRD BOX---END */}
         </div>
