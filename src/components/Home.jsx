@@ -573,6 +573,46 @@ const Home = () => {
         </div>
       </div>
       {/* FOR ROW---END */}
+
+
+           {/* FOR ROW---START */}
+           <div className="fbs">
+        <div className="fbst">
+          <div className="row fbsr">
+            {/* FIRST COL---START */}
+            <div className="col-2"></div>
+            <div className="col-4 fbsc">
+              <div className="fbbc fbc3">
+              <div className="fbstxt">
+                <div className="fbh3">cult transform</div>
+                <div className="fbhs">Get coached to lose weight for good</div>
+               </div>
+               <div className="fbflx">
+                <div className="fbser">err</div>
+               </div>
+               </div>
+            </div>
+            {/* FISRT COL---END */}
+
+            {/* SECOND COL---START */}
+            <div className="col-4 fbsc">
+              <div className="fbbc fbc4">
+              <div className="fbstxt">
+                <div className="fbh3">The .fit way</div>
+                <div className="fbhs">Making health easy, one day at a time</div>
+               </div>
+               <div className="fbflx">
+                <div className="fbser">err</div>
+               </div>
+               </div>
+            </div>
+            <div className="col-2"></div>
+
+            {/* SECOND COL---END */}
+          </div>
+        </div>
+      </div>
+      {/* FOR ROW---END */}
     </div>
   );
 };
