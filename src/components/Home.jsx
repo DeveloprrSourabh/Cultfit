@@ -543,30 +543,49 @@ const Home = () => {
             <div className="col-2"></div>
             <div className="col-4 fbsc">
               <div className="fbbc fbc1">
-              <div className="fbstxt">
-                <div className="fbh3">cult transform</div>
-                <div className="fbhs">Get coached to lose weight for good</div>
-               </div>
-               <div className="fbflx">
-                <div className="fbser">
-                  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_40,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/four-square-card/glass-circle-arrow.svg" alt="" className="fbsimg" />
+                <div className="fbstxt">
+                  <div className="fbh3">cult transform</div>
+                  <div className="fbhs">
+                    Get coached to lose weight for good
+                  </div>
                 </div>
-               </div>
-               </div>
+                {/* ERRO IMAGE---START */}
+                <div className="fbflx">
+                  <div className="fbser">
+                    <img
+                      src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_40,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/four-square-card/glass-circle-arrow.svg"
+                      alt=""
+                      className="fbsimg"
+                    />
+                  </div>
+                </div>
+                {/* ERRO IMAGE---END */}
+
+              </div>
             </div>
             {/* FISRT COL---END */}
 
             {/* SECOND COL---START */}
             <div className="col-4 fbsc">
               <div className="fbbc fbc2">
-              <div className="fbstxt">
-                <div className="fbh3">The .fit way</div>
-                <div className="fbhs">Making health easy, one day at a time</div>
-               </div>
-               <div className="fbflx">
-                <div className="fbser">err</div>
-               </div>
-               </div>
+                <div className="fbstxt">
+                  <div className="fbh3">The .fit way</div>
+                  <div className="fbhs">
+                    Making health easy, one day at a time
+                  </div>
+                </div>
+                               {/* ERRO IMAGE---START */}
+                <div className="fbflx">
+                  <div className="fbser">
+                    <img
+                      src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_40,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/four-square-card/glass-circle-arrow.svg"
+                      alt=""
+                      className="fbsimg"
+                    />
+                  </div>
+                </div>
+                {/* ERRO IMAGE---END */}
+              </div>
             </div>
             <div className="col-2"></div>
 
@@ -576,37 +595,56 @@ const Home = () => {
       </div>
       {/*FIRST FOR ROW---END */}
 
-
-           {/*SECOND FOR ROW---START */}
-           <div className="fbs">
+      {/*SECOND FOR ROW---START */}
+      <div className="fbs">
         <div className="fbst">
           <div className="row fbsr">
             {/* FIRST COL---START */}
             <div className="col-2"></div>
             <div className="col-4 fbsc">
               <div className="fbbc fbc3">
-              <div className="fbstxt">
-                <div className="fbh3">Workout Gear</div>
-                <div className="fbhs">Everything you need for your workout</div>
-               </div>
-               <div className="fbflx">
-                <div className="fbser">err</div>
-               </div>
-               </div>
+                <div className="fbstxt">
+                  <div className="fbh3">Workout Gear</div>
+                  <div className="fbhs">
+                    Everything you need for your workout
+                  </div>
+                </div>
+                               {/* ERRO IMAGE---START */}
+                <div className="fbflx">
+                  <div className="fbser">
+                    <img
+                      src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_40,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/four-square-card/glass-circle-arrow.svg"
+                      alt=""
+                      className="fbsimg"
+                    />
+                  </div>
+                </div>
+                {/* ERRO IMAGE---END */}
+              </div>
             </div>
             {/* FISRT COL---END */}
 
             {/* SECOND COL---START */}
             <div className="col-4 fbsc">
               <div className="fbbc fbc4">
-              <div className="fbstxt">
-                <div className="fbh3">Sugar.fit</div>
-                <div className="fbhs">Reverse Type 2 Diabetes and Prediabetes</div>
-               </div>
-               <div className="fbflx">
-                <div className="fbser">err</div>
-               </div>
-               </div>
+                <div className="fbstxt">
+                  <div className="fbh3">Sugar.fit</div>
+                  <div className="fbhs">
+                    Reverse Type 2 Diabetes and Prediabetes
+                  </div>
+                </div>
+                               {/* ERRO IMAGE---START */}
+                <div className="fbflx">
+                  <div className="fbser">
+                    <img
+                      src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_40,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/four-square-card/glass-circle-arrow.svg"
+                      alt=""
+                      className="fbsimg"
+                    />
+                  </div>
+                </div>
+                {/* ERRO IMAGE---END */}
+              </div>
             </div>
             <div className="col-2"></div>
 
