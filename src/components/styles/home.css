@@ -309,8 +309,8 @@ video {
   font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
   letter-spacing: 0px;
   line-height: 22px;
-  max-width: 85%;
   margin-bottom: 20px;
+  margin-top: 5px;
 }
 .fbser{
   background-color: #cacaca;
