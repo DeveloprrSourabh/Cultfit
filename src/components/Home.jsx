@@ -535,7 +535,7 @@ const Home = () => {
 
       {/* THREE BOX---END */}
 
-      {/* FOR ROW---START */}
+      {/*FIRST FOR ROW---START */}
       <div className="fbs">
         <div className="fbst">
           <div className="row fbsr">
@@ -572,10 +572,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* FOR ROW---END */}
+      {/*FIRST FOR ROW---END */}
 
 
-           {/* FOR ROW---START */}
+           {/*SECOND FOR ROW---START */}
            <div className="fbs">
         <div className="fbst">
           <div className="row fbsr">
@@ -584,8 +584,8 @@ const Home = () => {
             <div className="col-4 fbsc">
               <div className="fbbc fbc3">
               <div className="fbstxt">
-                <div className="fbh3">cult transform</div>
-                <div className="fbhs">Get coached to lose weight for good</div>
+                <div className="fbh3">Workout Gear</div>
+                <div className="fbhs">Everything you need for your workout</div>
                </div>
                <div className="fbflx">
                 <div className="fbser">err</div>
@@ -598,8 +598,8 @@ const Home = () => {
             <div className="col-4 fbsc">
               <div className="fbbc fbc4">
               <div className="fbstxt">
-                <div className="fbh3">The .fit way</div>
-                <div className="fbhs">Making health easy, one day at a time</div>
+                <div className="fbh3">Sugar.fit</div>
+                <div className="fbhs">Reverse Type 2 Diabetes and Prediabetes</div>
                </div>
                <div className="fbflx">
                 <div className="fbser">err</div>
@@ -612,7 +612,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* FOR ROW---END */}
+      {/*SECOND FOR ROW---END */}
     </div>
   );
 };
