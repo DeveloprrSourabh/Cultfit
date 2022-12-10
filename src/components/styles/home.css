@@ -313,7 +313,7 @@ video {
   margin-top: 5px;
 }
 .fbser{
-  background-color: #cacaca;
+  background-color: #cacaca26;
   border-radius: 50%;
   color: white;
 }
@@ -339,4 +339,8 @@ video {
 }
 .fbc4{
   background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/sugar-fit-glass-purple.png);
+}
+.fbsimg{
+  width: 29px;
+  height: 29px;
 }

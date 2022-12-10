@@ -548,7 +548,9 @@ const Home = () => {
                 <div className="fbhs">Get coached to lose weight for good</div>
                </div>
                <div className="fbflx">
-                <div className="fbser">err</div>
+                <div className="fbser">
+                  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_40,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/four-square-card/glass-circle-arrow.svg" alt="" className="fbsimg" />
+                </div>
                </div>
                </div>
             </div>
