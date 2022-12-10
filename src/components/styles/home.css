@@ -317,6 +317,14 @@ video {
   border-radius: 50%;
   color: white;
 }
-.fbsc{
+
+.fbflx{
+  margin-left: auto;
+}
+.fbbc{
   display: flex;
+    padding: 2rem 1rem 12rem 2rem;
+    align-items: baseline;
+    background-size: cover;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/four-square-card/cult-transform-glass-green.png);
 }

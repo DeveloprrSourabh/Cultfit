@@ -407,26 +407,24 @@ const Home = () => {
           {/* FIRST CONTAINER---START */}
           <div className="trfir">
             <div className="bcim luk1">
-            <div className="ction">
-              <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
-                alt=""
-                className="trig"
-              />
-            </div>
-            <div className="ction1">
-              <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
-                alt=""
-                className="trig1"
-              />
-            </div>
+              <div className="ction">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                  alt=""
+                  className="trig"
+                />
+              </div>
+              <div className="ction1">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
+                  alt=""
+                  className="trig1"
+                />
+              </div>
             </div>
             <div className="ttl">
               <div className="unli">
-                <div className="frunli">
-                Unlimited access to
-                </div>
+                <div className="frunli">Unlimited access to</div>
                 <div className="ul">
                   <li className="ulili">At-center group classes</li>
                   <li className="ulili">All ELITE & PRO gyms</li>
@@ -438,7 +436,7 @@ const Home = () => {
             <div className="btt">
               <div className="ttbt">
                 <div className="fb">
-                <button className="fbtn">TRY FOR FREE</button>
+                  <button className="fbtn">TRY FOR FREE</button>
                 </div>
                 <div className="secbtn">
                   <button className="sbtn">LEARN MORE</button>
@@ -446,32 +444,29 @@ const Home = () => {
               </div>
             </div>
             {/* BTN ADD---END */}
-
           </div>
           {/* FIRST BOX---END */}
           {/* SECOND BOX---START */}
           <div className="trfir">
             <div className="bcim luk2">
-            <div className="ction">
-              <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
-                alt=""
-                className="trig"
-              />
-            </div>
-            <div className="ction1">
-              <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_78,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro-partial.png"
-                alt=""
-                className="trig1"
-              />
-            </div>
+              <div className="ction">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                  alt=""
+                  className="trig"
+                />
+              </div>
+              <div className="ction1">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_78,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro-partial.png"
+                  alt=""
+                  className="trig1"
+                />
+              </div>
             </div>
             <div className="ttl">
               <div className="unli">
-                <div className="frunli">
-                Unlimited access to
-                </div>
+                <div className="frunli">Unlimited access to</div>
                 <div className="ul">
                   <li className="ulili">At-center group classes</li>
                   <li className="ulili">All ELITE & PRO gyms</li>
@@ -479,11 +474,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-             {/* BTN ADD---START */}
-             <div className="btt">
+            {/* BTN ADD---START */}
+            <div className="btt">
               <div className="ttbt">
                 <div className="fb">
-                <button className="fbtn">TRY FOR FREE</button>
+                  <button className="fbtn">TRY FOR FREE</button>
                 </div>
                 <div className="secbtn">
                   <button className="sbtn">LEARN MORE</button>
@@ -496,26 +491,24 @@ const Home = () => {
           {/* THIRD BOX---START */}
           <div className="trfir">
             <div className="bcim luk3">
-            <div className="ction">
-              <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
-                alt=""
-                className="trig"
-              />
-            </div>
-            <div className="ction1">
-              <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_112,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-home-partial-1.svg"
-                alt=""
-                className="trig1"
-              />
-            </div>
+              <div className="ction">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_68,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                  alt=""
+                  className="trig"
+                />
+              </div>
+              <div className="ction1">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_112,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-home-partial-1.svg"
+                  alt=""
+                  className="trig1"
+                />
+              </div>
             </div>
             <div className="ttl">
               <div className="unli">
-                <div className="frunli">
-                Unlimited access to
-                </div>
+                <div className="frunli">Unlimited access to</div>
                 <div className="ul">
                   <li className="ulili">At-center group classes</li>
                   <li className="ulili">All ELITE & PRO gyms</li>
@@ -523,11 +516,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-             {/* BTN ADD---START */}
-             <div className="btt">
+            {/* BTN ADD---START */}
+            <div className="btt">
               <div className="ttbt">
                 <div className="fb">
-                <button className="fbtn">TRY FOR FREE</button>
+                  <button className="fbtn">TRY FOR FREE</button>
                 </div>
                 <div className="secbtn">
                   <button className="sbtn">LEARN MORE</button>
@@ -543,46 +536,43 @@ const Home = () => {
       {/* THREE BOX---END */}
 
       {/* FOR ROW---START */}
+      <div className="fbs">
+        <div className="fbst">
+          <div className="row fbsr">
+            {/* FIRST COL---START */}
+            <div className="col-2"></div>
+            <div className="col-4 fbsc">
+              <div className="fbbc">
+              <div className="fbstxt">
+                <div className="fbh3">cult transform</div>
+                <div className="fbhs">Get coached to lose weight for good</div>
+               </div>
+               <div className="fbflx">
+                <div className="fbser">err</div>
+               </div>
+               </div>
+            </div>
+            {/* FISRT COL---END */}
 
-<div className="fbs">
-  <div className="fbst">
-    <div className="row fbsr">
-      {/* FIRST COL---START */}
-      <div className="col-4 fbsc">
-        <div className="fbstxt">
-          <div className="fbh3">cult transform</div>
-          <div className="fbhs">Get coached to lose weight for good</div>
-        </div>
-        <div className="fbflx">
-          <div className="fbser">
-            err
+            {/* SECOND COL---START */}
+            <div className="col-4 fbsc">
+              <div className="fbbc">
+              <div className="fbstxt">
+                <div className="fbh3">cult transform</div>
+                <div className="fbhs">Get coached to lose weight for good</div>
+               </div>
+               <div className="fbflx">
+                <div className="fbser">err</div>
+               </div>
+               </div>
+            </div>
+            <div className="col-2"></div>
+
+            {/* SECOND COL---END */}
           </div>
         </div>
-      
       </div>
-      {/* FISRT COL---END */}
-
-  
- {/* SECOND COL---START */}
- <div className="col-4 fbsc">
-        <div className="fbstxt">
-          <div className="fbh3">cult transform</div>
-          <div className="fbhs">Get coached to lose weight for good</div>
-        </div>
-        <div className="fbflx">
-          <div className="fbser">
-            err
-          </div>
-        </div>
-      
-      </div>
-      {/* SECOND COL---END */}
-
-    </div>
-  </div>
-</div>
       {/* FOR ROW---END */}
-
     </div>
   );
 };
