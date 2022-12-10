@@ -317,3 +317,6 @@ video {
   border-radius: 50%;
   color: white;
 }
+.fbsc{
+  display: flex;
+}
