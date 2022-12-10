@@ -536,6 +536,7 @@ const Home = () => {
       {/* THREE BOX---END */}
 
       {/*FIRST FOR ROW---START */}
+      <a href="">
       <div className="fbs">
         <div className="fbst">
           <div className="row fbsr">
@@ -593,10 +594,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+      </a>
       {/*FIRST FOR ROW---END */}
 
-      {/*SECOND FOR ROW---START */}
-      <div className="fbs">
+    <a href="">
+        {/*SECOND FOR ROW---START */}
+        <div className="fbs">
         <div className="fbst">
           <div className="row fbsr">
             {/* FIRST COL---START */}
@@ -652,6 +655,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+    </a>
       {/*SECOND FOR ROW---END */}
     </div>
   );
