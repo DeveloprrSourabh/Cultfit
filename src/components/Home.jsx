@@ -542,11 +542,12 @@ const Home = () => {
 
       {/* THREE BOX---END */}
 
-      {/* FOR BOX---START */}
+      {/* FOR ROW---START */}
 
 <div className="fbs">
   <div className="fbst">
     <div className="row fbsr">
+      {/* FIRST COL---START */}
       <div className="col-4 fbsc">
         <div className="fbstxt">
           <div className="fbh3">cult transform</div>
@@ -559,12 +560,28 @@ const Home = () => {
         </div>
       
       </div>
-      <div className="col-4 fbsc"></div>
+      {/* FISRT COL---END */}
+
+  
+ {/* SECOND COL---START */}
+ <div className="col-4 fbsc">
+        <div className="fbstxt">
+          <div className="fbh3">cult transform</div>
+          <div className="fbhs">Get coached to lose weight for good</div>
+        </div>
+        <div className="fbflx">
+          <div className="fbser">
+            err
+          </div>
+        </div>
+      
+      </div>
+      {/* SECOND COL---END */}
 
     </div>
   </div>
 </div>
-      {/* FOR BOX---END */}
+      {/* FOR ROW---END */}
 
     </div>
   );
