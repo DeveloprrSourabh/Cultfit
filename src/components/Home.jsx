@@ -542,7 +542,7 @@ const Home = () => {
             {/* FIRST COL---START */}
             <div className="col-2"></div>
             <div className="col-4 fbsc">
-              <div className="fbbc">
+              <div className="fbbc fbc1">
               <div className="fbstxt">
                 <div className="fbh3">cult transform</div>
                 <div className="fbhs">Get coached to lose weight for good</div>
@@ -556,10 +556,10 @@ const Home = () => {
 
             {/* SECOND COL---START */}
             <div className="col-4 fbsc">
-              <div className="fbbc">
+              <div className="fbbc fbc2">
               <div className="fbstxt">
-                <div className="fbh3">cult transform</div>
-                <div className="fbhs">Get coached to lose weight for good</div>
+                <div className="fbh3">The .fit way</div>
+                <div className="fbhs">Making health easy, one day at a time</div>
                </div>
                <div className="fbflx">
                 <div className="fbser">err</div>
