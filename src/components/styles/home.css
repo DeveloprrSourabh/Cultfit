@@ -408,6 +408,7 @@ video {
 }
 .hvc{
   display: flex;
+    justify-content: center;
 }
 
 .hvmnimg{

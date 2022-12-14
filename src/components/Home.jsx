@@ -667,6 +667,7 @@ const Home = () => {
       {/* HOVERABLE CONTAINER---START */}
       <div className="hvc">
         {/* HOVERABLE CONTAINER--FCOL---START */}
+        <div className="bbgr">
         <div className="hvfc">
           <div className="hvhl">
             <div className="hvr">
@@ -699,13 +700,14 @@ const Home = () => {
 
         <div className="hvsc">
           <div className="hvimg1">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_442,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/wg_desktop/wg1.png" alt="" className="hvmnimg" />
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy3.png" alt="" className="hvmnimg" />
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png" alt="" className="hvmnimg" />
           </div>
           <div className="hvimg1">
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_535,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/wg_desktop/wg2.png" alt="" className="hvmnimg" />
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
           </div>
+        </div>
         </div>
         {/* HOVERABLE CONTAINER--SCOL---END */}
       </div>
