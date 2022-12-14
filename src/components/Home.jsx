@@ -712,6 +712,17 @@ const Home = () => {
         {/* HOVERABLE CONTAINER--SCOL---END */}
       </div>
       {/* HOVERABLE CONTAINER---END */}
+
+      {/* BIG BOX---START */}
+<div className="bgbx">
+  <div className="insdbgbx">
+    <div className="bgbxftxt">Download the most loved fitness app</div>
+    <div className="bgbxstxt">Start your fitness journey with us. Join the cult!</div>
+  </div>
+</div>
+
+      {/* BIG BOX---START */}
+
     </div>
   );
 };

@@ -7,6 +7,7 @@ a{
 
 a:hover{
   text-decoration: none;
+  color: black;
 }
 body {
   background: rgb(23, 26, 38);
@@ -384,6 +385,9 @@ video {
     display: inline-block;
     white-space: nowrap;
 }
+.hv:hover{
+  color: black;
+}
 .vh1{
   width: fit-content;
   border-radius: 20px;
@@ -427,4 +431,28 @@ video {
 }
 .hvbar{
   margin-top: 13%;
+}
+.bgbxftxt{
+  text-align: start;
+    cursor: default;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.01px;
+    line-height: 38px;
+    margin-bottom: 4%;
+    max-width: 450px;
+}
+.bgbxstxt{
+  text-align: start;
+    cursor: default;
+    margin: 0;
+    color: rgb(255 255 255 / 80%);
+    font-size: 18px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    max-width: 475px;
+    margin-bottom: 8.5%;
 }
