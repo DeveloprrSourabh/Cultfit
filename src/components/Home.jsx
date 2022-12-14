@@ -676,18 +676,18 @@ const Home = () => {
               </div>
             </div>
             <div className="hvbar">
-              <div className="hvbarname">
-                <a href="" className="hv">
+              <div className="hvbarname1">
+                <a href="" className="hv vh1">
                   WORKOUT GEAR
                 </a>
               </div>
               <div className="hvbarname">
-                <a href="" className="hv">
+                <a href="" className="hv vh2">
                   LABS
                 </a>
               </div>
               <div className="hvbarname">
-                <a href="" className="hv">
+                <a href="" className="hv vh3">
                   THERAPY
                 </a>
               </div>
