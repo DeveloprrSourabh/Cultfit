@@ -409,6 +409,12 @@ video {
 .hvc{
   display: flex;
 }
-.hvsc{
+
+.hvmnimg{
+  width: 279px;
+    margin: 1%;
+    height: 140px;
+}
+.hvimg1{
   display: flex;
 }
