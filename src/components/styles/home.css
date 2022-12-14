@@ -469,11 +469,12 @@ video {
   text-align: -webkit-center;
 }
 .bgbxbg {
+  margin-bottom: 10%;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
   border: none;
-  padding: 4rem 27rem 4rem 7rem;
+  padding: 4rem 27rem 9rem 7rem;
   position: relative;
   background-position: right center;
   background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/download-app/download-app-variant-2.png);
