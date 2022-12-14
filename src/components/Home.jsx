@@ -715,9 +715,11 @@ const Home = () => {
 
       {/* BIG BOX---START */}
 <div className="bgbx">
-  <div className="insdbgbx">
-    <div className="bgbxftxt">Download the most loved fitness app</div>
-    <div className="bgbxstxt">Start your fitness journey with us. Join the cult!</div>
+  <div className="container">
+<div className="bgbxbg">
+<p className="bgbxftxt">Download the most loved fitness app</p>
+    <p className="bgbxstxt">Start your fitness journey with us. Join the cult!</p>
+</div>
   </div>
 </div>
 
