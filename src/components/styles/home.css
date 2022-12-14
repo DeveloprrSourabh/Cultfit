@@ -406,3 +406,9 @@ video {
   padding: 9px 86px 9px 1rem;
   margin: 23px 3px -6px 0px;
 }
+.hvc{
+  display: flex;
+}
+.hvsc{
+  display: flex;
+}

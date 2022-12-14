@@ -699,12 +699,12 @@ const Home = () => {
 
         <div className="hvsc">
           <div className="hvimg1">
-            <img src="" alt="" className="hvmnimg" />
-            <img src="" alt="" className="hvmnimg" />
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png" alt="" className="hvmnimg" />
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png" alt="" className="hvmnimg" />
           </div>
           <div className="hvimg1">
-            <img src="" alt="" className="hvmnimg" />
-            <img src="" alt="" className="hvmnimg" />
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png" alt="" className="hvmnimg" />
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png" alt="" className="hvmnimg" />
           </div>
         </div>
         {/* HOVERABLE CONTAINER--SCOL---END */}
