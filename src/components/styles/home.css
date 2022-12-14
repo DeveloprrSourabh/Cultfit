@@ -376,14 +376,13 @@ video {
   width: 75%;
 }
 .hv{
-  color: rgb( 0 0 0 / 70%);
+  color: black;
     font-size: 18px;
     font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     letter-spacing: 0px;
     line-height: 22px;
     display: inline-block;
     white-space: nowrap;
-    
 }
 .vh1{
   width: fit-content;
