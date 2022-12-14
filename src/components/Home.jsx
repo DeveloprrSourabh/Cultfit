@@ -700,13 +700,14 @@ const Home = () => {
         <div className="hvsc">
           <div className="hvimg1">
             <img src="" alt="" className="hvmnimg" />
+            <img src="" alt="" className="hvmnimg" />
           </div>
-          <div className="hvimg2">
+          <div className="hvimg1">
             <img src="" alt="" className="hvmnimg" />
             <img src="" alt="" className="hvmnimg" />
           </div>
         </div>
-        {/* HOVERABLE CONTAINER--SCOL---START */}
+        {/* HOVERABLE CONTAINER--SCOL---END */}
       </div>
       {/* HOVERABLE CONTAINER---END */}
     </div>
