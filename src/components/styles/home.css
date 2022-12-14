@@ -412,11 +412,20 @@ video {
 }
 
 .hvmnimg{
-  width: 279px;
-    margin: 1%;
-    height: 140px;
-    border-radius: 16px;
+  width: 288px;
+  margin: 1%;
+  height: 161px;
+  border-radius: 16px;
 }
 .hvimg1{
   display: flex;
+}
+.bbgr{
+  display: flex;
+  border-radius: 30px;
+  padding: 80px 55px;
+  background: linear-gradient(to bottom, #7d7c9e, #b1bece);
+}
+.hvbar{
+  margin-top: 13%;
 }
