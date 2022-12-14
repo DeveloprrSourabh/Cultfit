@@ -385,6 +385,7 @@ video {
 .hv {
   color: black;
   font-size: 18px;
+  transition: 0.5s;
   font-family: Inter-Medium, Helvetica Neue, Helvetica, Roboto, Arial,
     sans-serif;
   letter-spacing: 0px;
@@ -398,21 +399,24 @@ video {
 .vh1 {
   width: fit-content;
   border-radius: 20px;
-  background: #ffffffbd;
+
   padding: 9px 23px 9px 1rem;
   margin: 9px 3px 6px 0px;
 }
 .vh2 {
   width: fit-content;
   border-radius: 20px;
-  background: #ffffffbd;
+
   padding: 9px 127px 9px 1rem;
   margin: 9px 3px -6px 0px;
+}
+.hv:hover {
+  background: #ffffffbd;
 }
 .vh3 {
   width: fit-content;
   border-radius: 20px;
-  background: #ffffffbd;
+
   padding: 9px 86px 9px 1rem;
   margin: 23px 3px -6px 0px;
 }
