@@ -401,8 +401,8 @@ video {
 }
 .vh3{
   width: fit-content;
-    border-radius: 20px;
-    background: #ffffffbd;
-    padding: 9px 23px 9px 1rem;
-    margin: 9px 3px -6px 0px;
+  border-radius: 20px;
+  background: #ffffffbd;
+  padding: 9px 86px 9px 1rem;
+  margin: 23px 3px -6px 0px;
 }
