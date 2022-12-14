@@ -419,6 +419,7 @@ video {
 .hvc {
   display: flex;
   justify-content: center;
+  margin: 10%;
 }
 
 .hvmnimg {
@@ -469,14 +470,14 @@ video {
 }
 .bgbxbg {
   background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    border: none;
-    padding: 4rem 26rem 4rem 7rem;
-    position: relative;
-    background-position: right center;
-    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/download-app/download-app-variant-2.png);
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  border: none;
+  padding: 4rem 27rem 4rem 7rem;
+  position: relative;
+  background-position: right center;
+  background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1200,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/download-app/download-app-variant-2.png);
 }
-.bgbx{
+.bgbx {
   text-align: -webkit-center;
 }
