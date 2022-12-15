@@ -130,6 +130,9 @@ body {
 .trfir {
   margin: 2%;
 }
+.trfir:hover{
+  transform: scale(1.05);
+}
 .rt {
   width: 33%;
   text-align: center;
