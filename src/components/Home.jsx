@@ -683,7 +683,7 @@ const Home = () => {
                 </a>
               </div>
               <div className="hvbarname">
-                <a href="" className="hv vh2">
+                <a id="fff" href="" className="hv vh2">
                   LABS
                 </a>
               </div>
@@ -698,7 +698,7 @@ const Home = () => {
         {/* HOVERABLE CONTAINER--FCOL---END */}
         {/* HOVERABLE CONTAINER--SCOL---START */}
 
-        <div className="hvsc">
+        <div className="hvsc hov1">
           <div className="hvimg1">
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy3.png" alt="" className="hvmnimg" />
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png" alt="" className="hvmnimg" />
@@ -708,10 +708,25 @@ const Home = () => {
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
           </div>
         </div>
+
+        {/* SECOND HOV CONTAINER---START */}
+        <div className="hov">
+          <div className="hvimg1">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/labs_desk/labs2.png" alt="" className="hvmnimg" />
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/labs_desk/labs1.png" alt="" className="hvmnimg" />
+          </div>
+          <div className="hvimg1">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
+          </div>
+        </div>
+        {/* SECOND HOV CONTAINER---End */}
         </div>
         {/* HOVERABLE CONTAINER--SCOL---END */}
       </div>
       {/* HOVERABLE CONTAINER---END */}
+      
+
 
       {/* BIG BOX---START */}
 <div className="bgbx">

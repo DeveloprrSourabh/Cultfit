@@ -487,3 +487,6 @@ video {
 .bgbx {
   text-align: -webkit-center;
 }
+.hov{
+  display: none;
+}
