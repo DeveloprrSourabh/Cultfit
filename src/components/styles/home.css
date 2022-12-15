@@ -473,6 +473,7 @@ video {
   text-align: -webkit-center;
 }
 .bgbxbg {
+  width: 90%;
   margin-bottom: 10%;
   background-size: cover;
   background-repeat: no-repeat;
