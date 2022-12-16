@@ -36,7 +36,7 @@ const Footer = () => {
                 cult.fit for business
               </a>
             </div>
-            <div className="col-2 ftrfcl">
+            <div className="col-1 ftrfcl">
               <a href="" className="ftratg">
                 partner.fit
               </a>
@@ -52,17 +52,17 @@ const Footer = () => {
           <div className="row ftrfrrow">
             <div className="col-2 ftrfcl">
               <a href="" className="ftratg">
-                cult.fit for business
+                cult.fit franchise
+              </a>
+            </div>
+            <div className="col-1 ftrfcl">
+              <a href="" className="ftratg">
+                blogs
               </a>
             </div>
             <div className="col-2 ftrfcl">
               <a href="" className="ftratg">
-                partner.fit
-              </a>
-            </div>
-            <div className="col-2 ftrfcl">
-              <a href="" className="ftratg">
-                contact us
+                privacy policy
               </a>
             </div>
           </div>
@@ -72,17 +72,17 @@ const Footer = () => {
           <div className="row ftrfrrow">
             <div className="col-2 ftrfcl">
               <a href="" className="ftratg">
-                cult.fit for business
+                corporate partnerships
+              </a>
+            </div>
+            <div className="col-1 ftrfcl">
+              <a href="" className="ftratg">
+                security
               </a>
             </div>
             <div className="col-2 ftrfcl">
               <a href="" className="ftratg">
-                partner.fit
-              </a>
-            </div>
-            <div className="col-2 ftrfcl">
-              <a href="" className="ftratg">
-                contact us
+                cult bmi calculator
               </a>
             </div>
           </div>
@@ -92,42 +92,21 @@ const Footer = () => {
           <div className="row ftrfrrow">
             <div className="col-2 ftrfcl">
               <a href="" className="ftratg">
-                cult.fit for business
+                t&c for business
+              </a>
+            </div>
+            <div className="col-1 ftrfcl">
+              <a href="" className="ftratg">
+                careers
               </a>
             </div>
             <div className="col-2 ftrfcl">
               <a href="" className="ftratg">
-                partner.fit
-              </a>
-            </div>
-            <div className="col-2 ftrfcl">
-              <a href="" className="ftratg">
-                contact us
+                terms & conditions
               </a>
             </div>
           </div>
           {/* FOURTH ROW---END */}
-
-          {/* FIFTH ROW---START */}
-          <div className="row ftrfrrow">
-            <div className="col-2 ftrfcl">
-              <a href="" className="ftratg">
-                cult.fit for business
-              </a>
-            </div>
-            <div className="col-2 ftrfcl">
-              <a href="" className="ftratg">
-                partner.fit
-              </a>
-            </div>
-            <div className="col-2 ftrfcl">
-              <a href="" className="ftratg">
-                contact us
-              </a>
-            </div>
-          </div>
-          {/* FIFTH ROW---END */}
-
         </div>
       </div>
 
