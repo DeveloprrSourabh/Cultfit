@@ -1,8 +1,11 @@
 import React from 'react'
+import Subnavbar from './Subnavbar'
 
 const Fitness = () => {
   return (
-    <div>Fitness page</div>
+<>
+<Subnavbar />
+</>
   )
 }
 
