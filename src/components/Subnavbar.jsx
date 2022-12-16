@@ -22,7 +22,9 @@ const Subnavbar = () => {
             <a href="" className="subatag">
               <div className="aindiv">Luxury Gyms</div>
             </a>
-            
+            <a href="" className="subatag oneonly">
+              <div className="oneonly1">COMPARE PLANS</div>
+            </a>
           </div>
         </div>
       </div>

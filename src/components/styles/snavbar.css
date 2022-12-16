@@ -23,7 +23,8 @@
     color: white;
     opacity: 70%;
 }
-.subnvbar{
+.subnvbr{
+
     width: 100%;
     height: 50px;
     background-color: #393A3B;
@@ -32,4 +33,25 @@
     justify-content: center;
     transform: translateY(0px);
     transition: transform .5s ease;
+}
+.oneonly{
+    cursor: pointer;
+    opacity: 100%;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    border: 1px solid transparent;
+    transition: all 250ms ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(50px);
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+}
+.oneonly1{
+    letter-spacing: 1px;
 }
