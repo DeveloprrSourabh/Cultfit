@@ -786,13 +786,15 @@ const Home = () => {
     <div className="row tbxrw">
       <div className="col-2"></div>
       <div className="col-4 tbxsc">
-        <div className="tbxhd">
+<div className="whltbx">
+<div className="tbxhd">
           <h3 className="tbxh3">Careers at Cult</h3>
-        </div>
-        <div className="tbxfimg">
+         </div>
+         <div className="tbxfimg">
           <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/join-the-cult/career-icons-v2.png" alt="" className="tbxgg" />
         </div>
         <div className="tbxlm">LEARN MORE</div>
+</div>
       </div>
       <div className="col-4 tbxsc"></div>
 

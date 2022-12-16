@@ -506,8 +506,9 @@ video {
     font-weight: revert;
 }
 .tbxh3{
-  text-align: inherit;
+  text-align: center;
   cursor: pointer;
+  font-weight: 600;
   margin: 0;
   color: white;
   font-size: 40px;
@@ -518,4 +519,7 @@ video {
 }
 .tbxfimg{
   text-align: center;
+}
+.tbxgg{
+  width: 94%
 }
