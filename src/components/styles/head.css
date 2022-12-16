@@ -66,7 +66,7 @@
 .lp{
     border-radius: 50%;
     padding: 13px;
-    width: 140%;
+    width: 125%;
 
 }
 
@@ -95,11 +95,15 @@
 }
 
 .nn1{
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.822);
     border-radius: 5px;
     color: white;
+    transition: 0.5s;
     height: fit-content;
-    font-weight: 700;
+    font-weight: 600;
+}
+.nn1:hover{
+    border: 2px solid rgba(255, 255, 255, 0.454);
 }
 .nm{
     width: -webkit-fill-available;
@@ -121,9 +125,12 @@
 
 
 .lim{
-    width: 30%;
+    width: 19%;
     position: relative;
     left: 8px;
+}
+#navbarNavAltMarkup{
+text-align: end;
 }
 
 
@@ -132,4 +139,8 @@
     margin: 0px;
     width: 15.7%;
 
+}
+.nav-link{
+    display: block;
+    padding: 6px 1rem;
 }

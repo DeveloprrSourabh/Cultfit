@@ -1,6 +1,7 @@
 import React from "react";
 import home from "./styles/home.css";
 
+
 const Home = () => {
   return (
     <div id="hmpg">
@@ -266,8 +267,8 @@ const Home = () => {
               className="itb1"
             />
           </div>
-          <div className="itb2">
-            <img
+          <div data-aos="fade-right" className="itb2">
+            <img 
               src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_630,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/image_zoom_widget/image_zoom_widget_img_2.png"
               alt=""
               id="ii"
@@ -311,7 +312,7 @@ const Home = () => {
       <div className="sq">
         <div className="container">
           <div className="row sq1">
-            <div className="col-3 sqc1">
+            <div  data-aos="fade-down-left"  className="col-3 sqc1">
               <img
                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_200,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/trainer-parallax/tile-1.png"
                 alt=""
