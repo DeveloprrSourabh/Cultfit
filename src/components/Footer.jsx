@@ -108,6 +108,26 @@ const Footer = () => {
           </div>
           {/* FOURTH ROW---END */}
 
+          {/* FIFTH ROW---START */}
+          <div className="row ftrfrrow">
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                cult.fit for business
+              </a>
+            </div>
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                partner.fit
+              </a>
+            </div>
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                contact us
+              </a>
+            </div>
+          </div>
+          {/* FIFTH ROW---END */}
+
         </div>
       </div>
 
