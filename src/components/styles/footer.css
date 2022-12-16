@@ -1,5 +1,5 @@
-a{
-    cursor: pointer;
+a {
+  cursor: pointer;
 }
 .ftrcation {
   text-align: left;
@@ -18,71 +18,77 @@ a{
   width: 45%;
 }
 .flexqu {
-    display: flex;
-    width: 100%;
-    position: relative;
-    height: auto;
-    background-color: #000;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 78px 80px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #000;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 78px 80px;
 }
 
-.ftrlgoimg{
-    width: 100%;
+.ftrlgoimg {
+  width: 100%;
 }
-.flogo{
-    margin-bottom: 40px
+.flogo {
+  margin-bottom: 40px;
 }
-.ftratg{
-    text-align: left;
-    cursor: default;
-    opacity: 80%;
-    margin: 0;
-    color: white;
-    font-size: 14px;
-    font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    letter-spacing: 0.5px;
-    line-height: 22px;
+.ftratg {
+  text-align: left;
+  cursor: default;
+  opacity: 80%;
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  font-family: Inter-Regular, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 22px;
 }
 
-.whlelogo{
-    text-align: end;
+.whlelogo {
+  text-align: end;
 }
-.ftrrwcl{
-    width: 37%;
+.ftrrwcl {
+  width: 37%;
 }
-.ftrlogo{
-    width: 14%;
+.ftrlogo {
+  width: 14%;
 }
-.ftrfrrow{
-    margin-bottom: 50px
+.ftrfrrow {
+  margin-bottom: 50px;
 }
-.iconatgmg{
-    width: 32px;
-    height: 32px;
+.iconatgmg {
+  width: 32px;
+  height: 32px;
 }
-.ftricon{
-    width: 130%;
-    text-align: justify;
+.ftricon {
+  width: 130%;
+  text-align: justify;
 }
-.iconatgmg{
-    margin: 2%;
+.iconatgmg {
+  margin: 2%;
 }
-.ftrfcl>a:hover{
-    color: white;
-    opacity: 80%;
+.ftrfcl > a:hover {
+  color: white;
+  opacity: 80%;
 }
-.ftrmnct{
-    display: flex;
+.ftrmnct {
+  display: flex;
 }
-.e1xz8vz91{
-    color: white;
-    text-decoration: none;
-    opacity: 67%;
+.e1xz8vz91,
+.ftrtml {
+  color: white;
+  text-decoration: none;
+  opacity: 67%;
+  padding: 5px;
 }
-.ftrlt{
-    background-color: #111213;
-    padding: 30px 0;
-    width: auto;
+.e1xz8vz91:hover {
+  color: white;
+}
+.ftrlt {
+  background-color: #111213;
+  padding: 30px 0;
+  width: auto;
 }
