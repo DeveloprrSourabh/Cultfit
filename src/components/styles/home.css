@@ -505,3 +505,14 @@ video {
     margin-bottom: 6%;
     font-weight: revert;
 }
+.tbxh3{
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  letter-spacing: 0.01px;
+  line-height: 60px;
+  margin-bottom: 6%;
+}
