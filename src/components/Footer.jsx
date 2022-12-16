@@ -24,31 +24,96 @@ const Footer = () => {
             </div>
           </div>
         </div>
-</div>
+      </div>
 
-{/* ROW COL---START */}
-<div className="ftrrwcl">
-    <div className="ftrclcl">
-        <div className="row ftrfrrow">
+      {/* ROW COL---START */}
+      <div className="ftrrwcl">
+        <div className="ftrclcl">
+          {/* FIRST ROW---START */}
+          <div className="row ftrfrrow">
             <div className="col-2 ftrfcl">
-                <a href="" className="ftratg">cult.fit for business</a>
+              <a href="" className="ftratg">
+                cult.fit for business
+              </a>
             </div>
             <div className="col-2 ftrfcl">
-                <a href="" className="ftratg">partner.fit</a>
+              <a href="" className="ftratg">
+                partner.fit
+              </a>
             </div>
             <div className="col-2 ftrfcl">
-                <a href="" className="ftratg">contact us</a>
+              <a href="" className="ftratg">
+                contact us
+              </a>
             </div>
-            
+          </div>
+          {/* FIRST ROW---END */}
+          {/* SECOND ROW---START */}
+          <div className="row ftrfrrow">
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                cult.fit for business
+              </a>
+            </div>
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                partner.fit
+              </a>
+            </div>
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                contact us
+              </a>
+            </div>
+          </div>
+          {/* SECOND ROW---END */}
+
+          {/* THIRD ROW---START */}
+          <div className="row ftrfrrow">
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                cult.fit for business
+              </a>
+            </div>
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                partner.fit
+              </a>
+            </div>
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                contact us
+              </a>
+            </div>
+          </div>
+          {/* THIRD ROW---END */}
+
+          {/* FOURTH ROW---START */}
+          <div className="row ftrfrrow">
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                cult.fit for business
+              </a>
+            </div>
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                partner.fit
+              </a>
+            </div>
+            <div className="col-2 ftrfcl">
+              <a href="" className="ftratg">
+                contact us
+              </a>
+            </div>
+          </div>
+          {/* FOURTH ROW---END */}
+
         </div>
-        
-    </div>
-</div>
+      </div>
 
-{/* ROW COL---START */}
+      {/* ROW COL---START */}
 
       {/* FOOTER FIRST CONTAINER---START */}
-
     </div>
   );
 };
