@@ -401,7 +401,6 @@ const Home = () => {
 
       {/* CULTPASS--IMAGE---START */}
 
-
       {/* THREE BOX---START */}
       <div className="container">
         <div className="trrow">
@@ -669,86 +668,138 @@ const Home = () => {
       <div className="hvc">
         {/* HOVERABLE CONTAINER--FCOL---START */}
         <div className="bbgr">
-        <div className="hvfc">
-          <div className="hvhl">
-            <div className="hvr">
-              <div className="hvtxt">Wellness Hub</div>
-              <div className="hvsmt">
-                One place for all your well-being needs
+          <div className="hvfc">
+            <div className="hvhl">
+              <div className="hvr">
+                <div className="hvtxt">Wellness Hub</div>
+                <div className="hvsmt">
+                  One place for all your well-being needs
+                </div>
+              </div>
+              <div className="hvbar">
+                <div className="hvbarname1">
+                  <a href="" className="hv vh1">
+                    WORKOUT GEAR
+                  </a>
+                </div>
+                <div className="hvbarname">
+                  <a id="fff" href="" className="hv vh2">
+                    LABS
+                  </a>
+                </div>
+                <div className="hvbarname">
+                  <a href="" className="hv vh3">
+                    THERAPY
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="hvbar">
-              <div className="hvbarname1">
-                <a href="" className="hv vh1">
-                  WORKOUT GEAR
-                </a>
-              </div>
-              <div className="hvbarname">
-                <a id="fff" href="" className="hv vh2">
-                  LABS
-                </a>
-              </div>
-              <div className="hvbarname">
-                <a href="" className="hv vh3">
-                  THERAPY
-                </a>
-              </div>
+          </div>
+          {/* HOVERABLE CONTAINER--FCOL---END */}
+          {/* HOVERABLE CONTAINER--SCOL---START */}
+
+          <div className="hvsc hov1">
+            <div className="hvimg1">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy3.png"
+                alt=""
+                className="hvmnimg"
+              />
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png"
+                alt=""
+                className="hvmnimg"
+              />
+            </div>
+            <div className="hvimg1">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png"
+                alt=""
+                className="hvmnimg"
+              />
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png"
+                alt=""
+                className="hvmnimg"
+              />
             </div>
           </div>
-        </div>
-        {/* HOVERABLE CONTAINER--FCOL---END */}
-        {/* HOVERABLE CONTAINER--SCOL---START */}
 
-        <div className="hvsc hov1">
-          <div className="hvimg1">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy3.png" alt="" className="hvmnimg" />
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy1.png" alt="" className="hvmnimg" />
+          {/* SECOND HOV CONTAINER---START */}
+          <div className="hov">
+            <div className="hvimg1">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/labs_desk/labs2.png"
+                alt=""
+                className="hvmnimg"
+              />
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/labs_desk/labs1.png"
+                alt=""
+                className="hvmnimg"
+              />
+            </div>
+            <div className="hvimg1">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png"
+                alt=""
+                className="hvmnimg"
+              />
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png"
+                alt=""
+                className="hvmnimg"
+              />
+            </div>
           </div>
-          <div className="hvimg1">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
-          </div>
-        </div>
-
-        {/* SECOND HOV CONTAINER---START */}
-        <div className="hov">
-          <div className="hvimg1">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/labs_desk/labs2.png" alt="" className="hvmnimg" />
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/labs_desk/labs1.png" alt="" className="hvmnimg" />
-          </div>
-          <div className="hvimg1">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_276,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/wellness-widget/therapy_desk/therapy4.png" alt="" className="hvmnimg" />
-          </div>
-        </div>
-        {/* SECOND HOV CONTAINER---End */}
+          {/* SECOND HOV CONTAINER---End */}
         </div>
         {/* HOVERABLE CONTAINER--SCOL---END */}
       </div>
       {/* HOVERABLE CONTAINER---END */}
-      
-
 
       {/* BIG BOX---START */}
-<div className="bgbx">
-  <div className="container">
-<div className="bgbxbg">
-<p className="bgbxftxt">Download the most loved fitness app</p>
-    <p className="bgbxstxt">Start your fitness journey with us. Join the cult!</p>
-</div>
-  </div>
-</div>
+      <div className="bgbx">
+        <div className="container">
+          <div className="bgbxbg">
+            <p className="bgbxftxt">Download the most loved fitness app</p>
+            <p className="bgbxstxt">
+              Start your fitness journey with us. Join the cult!
+            </p>
+          </div>
+        </div>
+      </div>
 
       {/* BIG BOX---START */}
 
       {/* BIG HEADING---START */}
-<div className="bhding">
-  <div className="ctrbig">
-    <h1 className="bigctr">Join the cult family</h1>
-  </div>
-</div>
+      <div className="bhding">
+        <div className="ctrbig">
+          <h1 className="bigctr">Join the cult family</h1>
+        </div>
+      </div>
       {/* BIG HEADING---END */}
 
+      {/* TWO BOX---START */}
+<di className="tbx">
+  <div className="tbxst">
+    <div className="row tbxrw">
+      <div className="col-2"></div>
+      <div className="col-4 tbxsc">
+        <div className="tbxhd">
+          <h3 className="tbxh3">Careers at Cult</h3>
+        </div>
+        <div className="tbxfimg">
+          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/join-the-cult/career-icons-v2.png" alt="" className="tbxgg" />
+        </div>
+        <div className="tbxlm">LEARN MORE</div>
+      </div>
+      <div className="col-4 tbxsc"></div>
+
+    </div>
+  </div>
+</di>
+      {/* TWO BOX---END */}
     </div>
   );
 };
