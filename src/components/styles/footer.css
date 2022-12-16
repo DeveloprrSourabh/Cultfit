@@ -1,3 +1,6 @@
+a{
+    cursor: pointer;
+}
 .ftrcation {
   text-align: left;
   cursor: default;
@@ -15,14 +18,14 @@
   width: 45%;
 }
 .flexqu {
-  display: flex;
-  width: 100%;
-  position: relative;
-  height: auto;
-  background-color: #000;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 100px 80px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #000;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 78px 80px;
 }
 
 .ftrlgoimg{
@@ -65,4 +68,11 @@
 }
 .iconatgmg{
     margin: 2%;
+}
+.ftrfcl>a:hover{
+    color: white;
+    opacity: 80%;
+}
+.ftrmnct{
+    display: flex;
 }

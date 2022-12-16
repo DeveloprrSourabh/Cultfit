@@ -112,7 +112,7 @@ const Footer = () => {
         </div>
 
         {/* ROW COL---START */}
-        {/* FOOTER FIRST CONTAINER---START */}
+        {/* FOOTER FIRST CONTAINER---END */}
 
         {/* LOGO---START */}
         <div className="ftrlogo">
@@ -137,25 +137,477 @@ const Footer = () => {
             </div>
             <div className="ftricon">
               <a href="" className="iconftr">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/youtube.svg" alt="" className="iconatgmg" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/youtube.svg"
+                  alt=""
+                  className="iconatgmg"
+                />
               </a>
               <a href="" className="iconftr">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/fb-page.svg" alt="" className="iconatgmg" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/fb-page.svg"
+                  alt=""
+                  className="iconatgmg"
+                />
               </a>
               <a href="" className="iconftr">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/twitter-page.svg" alt="" className="iconatgmg" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/twitter-page.svg"
+                  alt=""
+                  className="iconatgmg"
+                />
               </a>
               <a href="" className="iconftr">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/insta-page.svg" alt="" className="iconatgmg" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/insta-page.svg"
+                  alt=""
+                  className="iconatgmg"
+                />
               </a>
               <a href="" className="iconftr">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/linked-in-page.svg" alt="" className="iconatgmg" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/linked-in-page.svg"
+                  alt=""
+                  className="iconatgmg"
+                />
               </a>
             </div>
           </div>
         </div>
         {/* LOGO---START */}
       </div>
+      {/* FOOTER SECOND CONTAINER---START */}
+      <div className="ftrlst">
+        <div className="ftrlt">
+          <div className="ftrtml">Related Searches</div>
+          {/* MAIN CONTENT---START */}
+          {/* FIRST MAINCONTENT---START */}
+          <div className="ftrmnct">
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          </div>
+          {/* FIRST MAINCONTENT---END */}
+          
+
+ {/* SECOND MAINCONTENT---START */}
+ <div className="ftrmnct">
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          </div>
+          {/* SECOND MAINCONTENT---END */}
+          
+
+ {/* THIRD MAINCONTENT---START */}
+ <div className="ftrmnct">
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          </div>
+          {/* THIRD MAINCONTENT---END */}
+
+
+ {/* FOURTH MAINCONTENT---START */}
+ <div className="ftrmnct">
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          </div>
+          {/* FOURTH MAINCONTENT---END */}
+
+
+          
+
+ {/* FIFTH MAINCONTENT---START */}
+ <div className="ftrmnct">
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          </div>
+          {/* FIFTH MAINCONTENT---END */}
+
+
+
+ {/* SIXTh MAINCONTENT---START */}
+ <div className="ftrmnct">
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          <div class="col-md-2 col-xs-6 col-sm-2">
+            <a
+              href="https://www.cult.fit/fitness/cultpass-elite"
+              className="style-prefix-0 e1xz8vz91"
+            >
+              Gym Near Me
+            </a>
+          </div>
+          </div>
+          {/* SIXTH MAINCONTENT---END */}
+
+   
+          {/* MAIN CONTAINT---END */}
+        </div>
+      </div>
+      {/* FOOTER SECOND CONTAINER---END */}
     </>
   );
 };
