@@ -137,19 +137,19 @@ const Footer = () => {
             </div>
             <div className="ftricon">
               <a href="" className="iconftr">
-                X
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/youtube.svg" alt="" className="iconatgmg" />
               </a>
               <a href="" className="iconftr">
-                X
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/youtube.svg" alt="" className="iconatgmg" />
               </a>
               <a href="" className="iconftr">
-                X
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/youtube.svg" alt="" className="iconatgmg" />
               </a>
               <a href="" className="iconftr">
-                X
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/youtube.svg" alt="" className="iconatgmg" />
               </a>
               <a href="" className="iconftr">
-                X
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_32,q_auto:eco,dpr_2,f_auto,fl_progressive//image/footer-web/FooterV3/youtube.svg" alt="" className="iconatgmg" />
               </a>
             </div>
           </div>
