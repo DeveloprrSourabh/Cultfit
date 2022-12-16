@@ -24,3 +24,26 @@
   justify-content: space-between;
   padding: 100px 80px;
 }
+
+.ftrlgoimg{
+    width: 53%;
+}
+.flogo{
+    margin-bottom: 40px
+}
+.ftratg{
+    text-align: left;
+    cursor: default;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+.ftrfcl{
+    margin-bottom: 1rem;
+}
+.whlelogo{
+    text-align: center;
+}
