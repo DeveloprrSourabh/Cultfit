@@ -808,7 +808,7 @@ const Home = () => {
 
                 </div>
                 <div className="tbxfimg">
-                 <h5 className="btxh5 tbxgg">Partner with the largest fitness brand in India</h5>
+                 <h5 className="btxh5">Partner with the largest fitness brand in India</h5>
                 </div>
                 <div className="btn tbxlm">LEARN MORE</div>
               </div>
