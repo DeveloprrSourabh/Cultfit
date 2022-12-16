@@ -793,7 +793,7 @@ const Home = () => {
          <div className="tbxfimg">
           <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/join-the-cult/career-icons-v2.png" alt="" className="tbxgg" />
         </div>
-        <div className="tbxlm">LEARN MORE</div>
+        <div className="btn tbxlm">LEARN MORE</div>
 </div>
       </div>
       <div className="col-4 tbxsc"></div>

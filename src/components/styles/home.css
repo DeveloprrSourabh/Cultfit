@@ -523,3 +523,32 @@ video {
 .tbxgg{
   width: 94%
 }
+.tbxlm{
+  cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 1px solid transparent;
+    transition: all 250ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3888FF;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 0;
+}
+.whltbx{
+  background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: none;
+    height: 100%;
+    background-position: center center;
+    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/join-the-cult/career-at-cult.png);
+    padding: 5%;
+    width: 105%;
+}
