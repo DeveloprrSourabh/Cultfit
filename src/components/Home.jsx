@@ -781,26 +781,42 @@ const Home = () => {
       {/* BIG HEADING---END */}
 
       {/* TWO BOX---START */}
-<di className="tbx">
-  <div className="tbxst">
-    <div className="row tbxrw">
-      <div className="col-2"></div>
-      <div className="col-4 tbxsc">
-<div className="whltbx">
-<div className="tbxhd">
-          <h3 className="tbxh3">Careers at Cult</h3>
-         </div>
-         <div className="tbxfimg">
-          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/join-the-cult/career-icons-v2.png" alt="" className="tbxgg" />
-        </div>
-        <div className="btn tbxlm">LEARN MORE</div>
-</div>
-      </div>
-      <div className="col-4 tbxsc"></div>
+      <di className="tbx">
+        <div className="tbxst">
+          <div className="row tbxrw">
+            <div className="col-2"></div>
+            <div className="col-4 tbxsc">
+              <div className="whltbx">
+                <div className="tbxhd">
+                  <h3 className="tbxh3">Careers at Cult</h3>
+                </div>
+                <div className="tbxfimg">
+                  <img
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/join-the-cult/career-icons-v2.png"
+                    alt=""
+                    className="tbxgg"
+                  />
+                </div>
+                <div className="btn tbxlm">LEARN MORE</div>
+              </div>
+            </div>
+            <div className="col-4 tbxsc">
+              <div className="whltbx">
+                <div className="tbxhd">
+                  <h3 className="tbxh3 ttbtx">cult.fit franchise</h3>
+                  <h3 className="tbxh3 ttbtx">opportunities</h3>
 
-    </div>
-  </div>
-</di>
+                </div>
+                <div className="tbxfimg">
+                 <h5 className="btxh5 tbxgg">Partner with the largest fitness brand in India</h5>
+                </div>
+                <div className="btn tbxlm">LEARN MORE</div>
+              </div>
+            </div>
+            <div className="col-2"></div>
+          </div>
+        </div>
+      </di>
       {/* TWO BOX---END */}
     </div>
   );
