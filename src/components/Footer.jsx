@@ -196,7 +196,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Face Yoga
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -204,7 +204,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Healthy Recipes
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -212,7 +212,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Chest Exercises
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -220,7 +220,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Exercise To Reduce Belly
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -228,23 +228,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
+                Six Pack Workout
               </a>
             </div>
           </div>
@@ -257,7 +241,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Yoga Postures for Beginners
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -265,7 +249,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Surya Namaskar for Beginners
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -273,7 +257,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Yoga For Stress Relief
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -281,7 +265,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Yoga Asanas
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -289,7 +273,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Meditation Music
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -297,23 +281,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
+                Pranayama
               </a>
             </div>
           </div>
@@ -326,7 +294,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Bedtime Stories for Kids
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -334,7 +302,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Meditation in Hindi
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -342,7 +310,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Mindfulness Meditation
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -350,7 +318,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Yoga Nidra
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -358,7 +326,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Yoga Nidra
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -366,23 +334,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
+                Gyms in Delhi
               </a>
             </div>
           </div>
@@ -395,7 +347,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Pune
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -403,7 +355,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Hyderabad
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -411,7 +363,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Chennai
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -419,7 +371,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Jaipur
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -427,7 +379,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Kolkata
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -435,23 +387,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
+                Gyms in Ahmedabad
               </a>
             </div>
           </div>
@@ -464,7 +400,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Chandigarh
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -472,7 +408,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Indore
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -480,7 +416,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Coimbatore
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -488,7 +424,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Gyms in Bangalore
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -496,7 +432,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Belly Fat Loss Exercise
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -504,36 +440,20 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
+                Weight Loss Exercise
               </a>
             </div>
           </div>
           {/* FIFTH MAINCONTENT---END */}
 
-          {/* SIXTh MAINCONTENT---START */}
+          {/* SIXTH MAINCONTENT---START */}
           <div className="ftrmnct">
             <div class="col-md-2 col-xs-6 col-sm-2">
               <a
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Strength Training
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -541,7 +461,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Mobility Exercises
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -549,7 +469,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                Kids Exercise
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -557,7 +477,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                How to Lose Weight
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -565,7 +485,7 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
+                HIIT Workout
               </a>
             </div>
             <div class="col-md-2 col-xs-6 col-sm-2">
@@ -573,27 +493,93 @@ const Footer = () => {
                 href="https://www.cult.fit/fitness/cultpass-elite"
                 className="style-prefix-0 e1xz8vz91"
               >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
-              </a>
-            </div>
-            <div class="col-md-2 col-xs-6 col-sm-2">
-              <a
-                href="https://www.cult.fit/fitness/cultpass-elite"
-                className="style-prefix-0 e1xz8vz91"
-              >
-                Gym Near Me
+                Exercises for Toned Body
               </a>
             </div>
           </div>
           {/* SIXTH MAINCONTENT---END */}
+
+          {/* SEVENTH MAINCONTENT---START */}
+          <div className="ftrmnct">
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Core Exercises
+              </a>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Butt Exercises
+              </a>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Arm Workout at Home
+              </a>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Back Exercises at Home
+              </a>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Abs Workout at Home
+              </a>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Thigh Exercises
+              </a>
+            </div>
+          </div>
+          {/* SEVENTH MAINCONTENT---END */}
+
+          {/* EIGHTH MAINCONTENT---START */}
+          <div className="ftrmnct">
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Fitness Glossary
+              </a>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Morning Exercise
+              </a>
+            </div>
+            <div class="col-md-2 col-xs-6 col-sm-2">
+              <a
+                href="https://www.cult.fit/fitness/cultpass-elite"
+                className="style-prefix-0 e1xz8vz91"
+              >
+                Home Workouts
+              </a>
+            </div>
+          </div>
+          {/* EIGHTH MAINCONTENT---END */}
 
           {/* MAIN CONTAINT---END */}
         </div>
