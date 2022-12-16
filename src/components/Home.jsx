@@ -401,6 +401,7 @@ const Home = () => {
 
       {/* CULTPASS--IMAGE---START */}
 
+
       {/* THREE BOX---START */}
       <div className="container">
         <div className="trrow">
@@ -739,6 +740,14 @@ const Home = () => {
 </div>
 
       {/* BIG BOX---START */}
+
+      {/* BIG HEADING---START */}
+<div className="bhding">
+  <div className="ctrbig">
+    <h1 className="bigctr">Join the cult family</h1>
+  </div>
+</div>
+      {/* BIG HEADING---END */}
 
     </div>
   );

@@ -493,3 +493,15 @@ video {
 .hov{
   display: none;
 }
+.bigctr{
+  text-align: center;
+    cursor: default;
+    margin: 0;
+    color: white;
+    font-size: 70px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: -1px;
+    line-height: 84px;
+    margin-bottom: 6%;
+    font-weight: revert;
+}
