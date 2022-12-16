@@ -594,3 +594,9 @@ video {
   letter-spacing: -0.3px;
   line-height: 35px;
 }
+.bigfig{
+  width: 33%;
+  float: right;
+  margin-top: 15%;
+  margin-right: 7vw;
+}
