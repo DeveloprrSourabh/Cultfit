@@ -130,7 +130,7 @@ body {
 .trfir {
   margin: 2%;
 }
-.bcim:hover{
+.bcim:hover {
   transform: scale(1.05);
 }
 .rt {
@@ -490,75 +490,76 @@ video {
 .bgbx {
   text-align: -webkit-center;
 }
-.hov{
+.hov {
   display: none;
 }
-.bigctr{
+.bigctr {
   text-align: center;
-    cursor: default;
-    margin: 0;
-    color: white;
-    font-size: 70px;
-    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    letter-spacing: -1px;
-    line-height: 84px;
-    margin-bottom: 6%;
-    font-weight: revert;
+  cursor: default;
+  margin: 0;
+  color: white;
+  font-size: 70px;
+  font-family: Inter-Bold, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  letter-spacing: -1px;
+  line-height: 84px;
+  margin-bottom: 6%;
+  font-weight: revert;
 }
-.tbxh3{
+.tbxh3 {
   text-align: center;
   cursor: pointer;
   font-weight: 600;
   margin: 0;
   color: white;
   font-size: 40px;
-  font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-family: Inter-Bold, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
   letter-spacing: 0.01px;
   line-height: 60px;
   margin-bottom: 6%;
 }
-.tbxfimg{
+.tbxfimg {
   text-align: center;
 }
-.tbxgg{
-  width: 94%
+.tbxgg {
+  width: 94%;
 }
-.tbxlm{
+.tbxlm {
   cursor: pointer;
-    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    border: 1px solid transparent;
-    transition: all 250ms ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #3888FF;
-    background: transparent;
-    font-size: 12px;
-    line-height: 12px;
-    border-radius: 5px;
-    padding: 7px 15px;
-    font-weight: 700;
-    margin: auto;
-    margin-bottom: 0;
+  font-family: Inter-Medium, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  border: 1px solid transparent;
+  transition: all 250ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3888ff;
+  background: transparent;
+  font-size: 12px;
+  line-height: 12px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  font-weight: 700;
+  margin: auto;
+  margin-bottom: 0;
 }
-.whltbx{
+.whltbx {
   background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    border: none;
-    height: 100%;
-    background-position: center center;
-    background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/join-the-cult/career-at-cult.png);
-    padding: 5%;
-    width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: none;
+  height: 100%;
+  background-position: center center;
+  background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/join-the-cult/career-at-cult.png);
+  padding: 5%;
+  width: 100%;
 }
-.ttbtx{
+.ttbtx {
   text-align: center;
   cursor: pointer;
   margin: 0;
   color: white;
   font-size: 40px;
-  font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-family: Inter-Bold, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
   letter-spacing: 0.01px;
   line-height: 60px;
   background-clip: text;
@@ -570,14 +571,26 @@ video {
   margin-right: auto;
   max-width: 400px;
 }
-.btxh5{
+.btxh5 {
   text-align: center;
-    cursor: pointer;
-    margin: 0;
-    color: white;
-    font-size: 22px;
-    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    letter-spacing: -0.3px;
-    line-height: 35px;
-    margin-top: 10%;
+  cursor: pointer;
+  margin: 0;
+  color: white;
+  font-size: 22px;
+  font-family: Inter-Medium, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  letter-spacing: -0.3px;
+  line-height: 35px;
+  margin-top: 10%;
+}
+
+.mainbig{
+  text-align: left;
+  cursor: default;
+  margin: 0;
+  color: rgb(255 255 255 / 70%);
+  font-size: 22px;
+  font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  letter-spacing: -0.3px;
+  line-height: 35px;
 }

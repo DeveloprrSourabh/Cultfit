@@ -805,10 +805,11 @@ const Home = () => {
                 <div className="tbxhd">
                   <h3 className="tbxh3 ttbtx">cult.fit franchise</h3>
                   <h3 className="tbxh3 ttbtx">opportunities</h3>
-
                 </div>
                 <div className="tbxfimg">
-                 <h5 className="btxh5">Partner with the largest fitness brand in India</h5>
+                  <h5 className="btxh5">
+                    Partner with the largest fitness brand in India
+                  </h5>
                 </div>
                 <div className="btn tbxlm">LEARN MORE</div>
               </div>
@@ -818,6 +819,19 @@ const Home = () => {
         </div>
       </di>
       {/* TWO BOX---END */}
+      {/* SIMPLE TEXT---START */}
+      <div className="big">
+        <div className="bigbth">
+          <div className="bigfig">
+            <h5 className="mainbig">
+              At cult.fit, we make group workouts fun, daily food healthy &
+              tasty, mental fitness easy with yoga & meditation, and medical &
+              lifestyle care hassle-free.
+            </h5>
+          </div>
+        </div>
+      </div>
+      {/* SIMPLE TEXT---END */}
     </div>
   );
 };
