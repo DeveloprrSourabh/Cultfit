@@ -12,7 +12,7 @@
   padding-top: 40px;
 }
 .ftrimg {
-  width: 30%;
+  width: 50%;
 }
 .flexqu {
   display: flex;
@@ -26,7 +26,7 @@
 }
 
 .ftrlgoimg{
-    width: 53%;
+    width: 100%;
 }
 .flogo{
     margin-bottom: 40px
@@ -34,6 +34,7 @@
 .ftratg{
     text-align: left;
     cursor: default;
+    opacity: 80%;
     margin: 0;
     color: white;
     font-size: 14px;
@@ -41,9 +42,16 @@
     letter-spacing: 0.5px;
     line-height: 22px;
 }
-.ftrfcl{
-    margin-bottom: 1rem;
-}
+
 .whlelogo{
-    text-align: center;
+    text-align: end;
+}
+.ftrrwcl{
+    width: 37%;
+}
+.ftrlogo{
+    width: 14%;
+}
+.ftrfrrow{
+    margin-bottom: 50px
 }

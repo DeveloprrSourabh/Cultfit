@@ -32,12 +32,12 @@ const Footer = () => {
           <div className="ftrclcl">
             {/* FIRST ROW---START */}
             <div className="row ftrfrrow">
-              <div className="col-4 ftrfcl">
+              <div className="col-5 ftrfcl">
                 <a href="" className="ftratg">
                   cult.fit for business
                 </a>
               </div>
-              <div className="col-4 ftrfcl">
+              <div className="col-3 ftrfcl">
                 <a href="" className="ftratg">
                   partner.fit
                 </a>
@@ -51,12 +51,12 @@ const Footer = () => {
             {/* FIRST ROW---END */}
             {/* SECOND ROW---START */}
             <div className="row ftrfrrow">
-              <div className="col-4 ftrfcl">
+              <div className="col-5 ftrfcl">
                 <a href="" className="ftratg">
                   cult.fit franchise
                 </a>
               </div>
-              <div className="col-4 ftrfcl">
+              <div className="col-3 ftrfcl">
                 <a href="" className="ftratg">
                   blogs
                 </a>
@@ -71,12 +71,12 @@ const Footer = () => {
 
             {/* THIRD ROW---START */}
             <div className="row ftrfrrow">
-              <div className="col-4 ftrfcl">
+              <div className="col-5 ftrfcl">
                 <a href="" className="ftratg">
                   corporate partnerships
                 </a>
               </div>
-              <div className="col-4 ftrfcl">
+              <div className="col-3 ftrfcl">
                 <a href="" className="ftratg">
                   security
                 </a>
@@ -91,12 +91,12 @@ const Footer = () => {
 
             {/* FOURTH ROW---START */}
             <div className="row ftrfrrow">
-              <div className="col-4 ftrfcl">
+              <div className="col-5 ftrfcl">
                 <a href="" className="ftratg">
                   t&c for business
                 </a>
               </div>
-              <div className="col-4 ftrfcl">
+              <div className="col-3 ftrfcl">
                 <a href="" className="ftratg">
                   careers
                 </a>
