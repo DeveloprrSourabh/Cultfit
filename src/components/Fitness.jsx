@@ -112,35 +112,39 @@ const Fitness = () => {
 
       {/* HEADING---END */}
       {/* SECOND HEADING---START */}
-<div className="ftshd">
-  <div className="sshd">
-    <h2 className="hdh5">Trainer-led group classes
-</h2>
-  </div>
-</div>
+      <div className="ftshd">
+        <div className="sshd">
+          <h2 className="hdh5">Trainer-led group classes
+          </h2>
+        </div>
+      </div>
       {/* SECOND HEADING---END */}
       {/* COL BOXES---START */}
-<div className="ftcolstrt">
-  <div className="allftst">
-    <div className="container">
-    <div className=" ftr1">
-      <div className="humbletruth"></div>
-      <div className="humbletruth">
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+      <div className="ftcolstrt">
+        <div className="allftst">
+          <div className="container">
+            <div className=" ftr1">
+              <div className="humbletruth"></div>
+              <div className="humbletruth">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+                <button className="ftbt">EXPLORE NOW</button>
+              </div>
+              <div className="humbletruth">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+                <button className="ftbt">EXPLORE NOW</button>
+              </div>
+              <div className="humbletruth">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+                <button className="ftbt">EXPLORE NOW</button>
+              </div>
+              <div className="humbletruth">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+                <button className="ftbt">EXPLORE NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="humbletruth">
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
-      </div>
-      <div className="humbletruth">
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
-      </div>
-      <div className="humbletruth">
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
-      </div>
-    </div>
-    </div>
-  </div>
-</div>
       {/* COL BOXES---START */}
 
     </>
