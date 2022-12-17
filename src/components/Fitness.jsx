@@ -27,6 +27,41 @@ const Fitness = () => {
         </div>
         </div>
       {/* BTN---END */}
+
+      {/* THREE BOXES---START */}
+      <div id="gyo" class="container">
+        <div class="cr">
+          <div class="row">
+            <div class="col-3 ko">
+              <div class="imglp">
+                <div> 
+                  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" class="rng" /></div><div><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png" alt="" class="rng11" />
+                  </div>
+                  <p class="rngc">Unlimited access to group classes, all gyms and at-home workouts</p>
+                  </div>
+                  </div>
+                  <div class="col-3 ko">
+                    <div class="imglp">
+                      <div>
+                         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" class="rng" />
+                         </div>
+                         <div>
+                          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_78,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro-partial.png" alt="" class="rng11" />
+                          </div>
+                          <p class="rngc">Unlimited access to all PRO gyms and at-home workouts</p>
+                          </div>
+                          </div>
+                          <div class="col-3 ko">
+                            <div class="imglp">
+                              <div>
+                                 <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" class="rng" />
+                                 </div>
+                                 <div>
+                                  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_85,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-live-partial-4x.png" alt="" class="rng11" />
+                                 </div>
+                                 <p class="rngc">Unlimited access to group classes, all gyms and at-home workouts</p></div></div></div></div></div>
+
+      {/* THREE BOXES---END */}
     </>
   );
 };
