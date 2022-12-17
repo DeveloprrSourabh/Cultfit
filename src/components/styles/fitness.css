@@ -40,6 +40,9 @@ width: -webkit-fill-available;
     font-weight: 700;
 }
 .ftrwig{
-    width: 80%;
+    width: 89%;
 
+}
+.ftr1{
+    display: flex;
 }
