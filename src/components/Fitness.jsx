@@ -20,48 +20,105 @@ const Fitness = () => {
 
       {/* BTN---START */}
       <div className="btft">
-      <div className="btn bn">
+        <div className="btn bn">
           <a href="" id="ll" className="clf">
             EXPLORE CULTPASS
           </a>
         </div>
-        </div>
+      </div>
       {/* BTN---END */}
 
       {/* THREE BOXES---START */}
-      <div style={{marginTop:"-15rem"}} id="gyo" class="container ftgogyo">
+      <div style={{ marginTop: "-15rem" }} id="gyo" class="container ftgogyo">
         <div class="cr">
           <div class="row">
             <div class="col-3 ko">
               <div class="imglp">
-                <div> 
-                  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" class="rng" /></div><div><img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png" alt="" class="rng11" />
-                  </div>
-                  <p class="rngc">Unlimited access to group classes, all gyms and at-home workouts</p>
-                  </div>
-                  </div>
-                  <div class="col-3 ko">
-                    <div class="imglp">
-                      <div>
-                         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" class="rng" />
-                         </div>
-                         <div>
-                          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_78,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro-partial.png" alt="" class="rng11" />
-                          </div>
-                          <p class="rngc">Unlimited access to all PRO gyms and at-home workouts</p>
-                          </div>
-                          </div>
-                          <div class="col-3 ko">
-                            <div class="imglp">
-                              <div>
-                                 <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg" alt="" class="rng" />
-                                 </div>
-                                 <div>
-                                  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_85,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-live-partial-4x.png" alt="" class="rng11" />
-                                 </div>
-                                 <p class="rngc">Unlimited access to group classes, all gyms and at-home workouts</p></div></div></div></div></div>
+                <div>
+                  <img
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                    alt=""
+                    class="rng"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_107,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite-partial.png"
+                    alt=""
+                    class="rng11"
+                  />
+                </div>
+                <p class="rngc">
+                  Unlimited access to group classes, all gyms and at-home
+                  workouts
+                </p>
+              </div>
+            </div>
+            <div class="col-3 ko">
+              <div class="imglp">
+                <div>
+                  <img
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                    alt=""
+                    class="rng"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_78,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro-partial.png"
+                    alt=""
+                    class="rng11"
+                  />
+                </div>
+                <p class="rngc">
+                  Unlimited access to all PRO gyms and at-home workouts
+                </p>
+              </div>
+            </div>
+            <div class="col-3 ko">
+              <div class="imglp">
+                <div>
+                  <img
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_106,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass.svg"
+                    alt=""
+                    class="rng"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_85,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-live-partial-4x.png"
+                    alt=""
+                    class="rng11"
+                  />
+                </div>
+                <p class="rngc">
+                  Unlimited access to group classes, all gyms and at-home
+                  workouts
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* THREE BOXES---END */}
+
+      {/* HEADING---START */}
+      <div className="ftsmhd">
+        <div className="lkh">
+          <h5 className="fthdh5">AT-CENTER</h5>
+        </div>
+      </div>
+
+      {/* HEADING---END */}
+      {/* SECOND HEADING---START */}
+<div className="ftshd">
+  <div className="sshd">
+    <h2 className="hdh5">Trainer-led group classes
+</h2>
+  </div>
+</div>
+      {/* SECOND HEADING---END */}
     </>
   );
 };

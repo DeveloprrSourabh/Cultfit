@@ -18,3 +18,23 @@ width: -webkit-fill-available;
 .ftgogyo{
     margin-top: -19rem;
 }
+.fthdh5{
+    text-align: center;
+    cursor: default;
+    margin: 0px 0px 10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: -0.3px;
+    line-height: 35px;
+}
+.hdh5{
+    text-align: center;
+    cursor: default;
+    margin: 0px 0px 50px;
+    color: white;
+    font-size: 50px;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 60px;
+}
