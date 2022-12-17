@@ -123,6 +123,7 @@ const Fitness = () => {
       <div className="ftcolstrt">
         <div className="allftst">
           <div className="container">
+            
             <div className=" ftr1">
               <div className="humbletruth"></div>
               <div className="humbletruth">
