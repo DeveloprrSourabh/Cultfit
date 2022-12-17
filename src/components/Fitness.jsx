@@ -123,17 +123,18 @@ const Fitness = () => {
 <div className="ftcolstrt">
   <div className="allftst">
     <div className="container">
-    <div className="row ftr1">
-      <div className="col-3">
+    <div className=" ftr1">
+      <div className="humbletruth"></div>
+      <div className="humbletruth">
         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
       </div>
-      <div className="col-3">
+      <div className="humbletruth">
         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
       </div>
-      <div className="col-3">
+      <div className="humbletruth">
         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
       </div>
-      <div className="col-3">
+      <div className="humbletruth">
         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
       </div>
     </div>
