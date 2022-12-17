@@ -46,3 +46,7 @@ width: -webkit-fill-available;
 .ftr1{
     display: flex;
 }
+.ftcolstrt{
+    display: flex;
+    flex-direction: column;
+}
