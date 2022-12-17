@@ -29,7 +29,7 @@ const Fitness = () => {
       {/* BTN---END */}
 
       {/* THREE BOXES---START */}
-      <div id="gyo" class="container">
+      <div style={{marginTop:"-15rem"}} id="gyo" class="container ftgogyo">
         <div class="cr">
           <div class="row">
             <div class="col-3 ko">
