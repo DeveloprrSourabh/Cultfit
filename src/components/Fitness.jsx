@@ -19,7 +19,13 @@ const Fitness = () => {
       {/* MAIN IAMGE---END */}
 
       {/* BTN---START */}
-
+      <div className="btft">
+      <div className="btn bn">
+          <a href="" id="ll" className="clf">
+            EXPLORE CULTPASS
+          </a>
+        </div>
+        </div>
       {/* BTN---END */}
     </>
   );
