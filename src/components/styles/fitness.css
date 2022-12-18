@@ -41,6 +41,9 @@ width: -webkit-fill-available;
 }
 .ftrwig{
     width: 89%;
+    position: relative;
+    z-index: -1;
+    top: 37px;
 
 }
 .ftr1{
