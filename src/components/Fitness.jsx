@@ -130,15 +130,15 @@ const Fitness = () => {
                 <button className="ftbt">EXPLORE</button>
               </div>
               <div className="humbletruth">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/8009b1d0-4f5e-49e1-bc94-c41da6a5bcc1.png" alt="" className="ftrwig" />
                 <button className="ftbt">EXPLORE</button>
               </div>
               <div className="humbletruth">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png" alt="" className="ftrwig" />
                 <button className="ftbt">EXPLORE</button>
               </div>
               <div className="humbletruth">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png" alt="" className="ftrwig" />
                 <button className="ftbt">EXPLORE</button>
               </div>
             </div>
