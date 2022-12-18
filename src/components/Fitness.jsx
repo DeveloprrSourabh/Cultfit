@@ -147,6 +147,23 @@ const Fitness = () => {
       </div>
       {/* COL BOXES---START */}
 
+        {/* HEADING---START */}
+        <div className="ftsmhd">
+        <div className="lkh">
+          <h5 className="fthdh5">AT-HOME</h5>
+        </div>
+      </div>
+
+      {/* HEADING---END */}
+      {/* SECOND HEADING---START */}
+      <div className="ftshd">
+        <div className="sshd">
+          <h2 className="hdh5">Unlimited home workouts with calorie tracking
+          </h2>
+        </div>
+      </div>
+      {/* SECOND HEADING---END */}
+
     </>
   );
 };
