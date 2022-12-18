@@ -147,8 +147,8 @@ const Fitness = () => {
       </div>
       {/* COL BOXES---START */}
 
-        {/* HEADING---START */}
-        <div className="ftsmhd">
+      {/* HEADING---START */}
+      <div className="ftsmhd">
         <div className="lkh">
           <h5 className="fthdh5">AT-HOME</h5>
         </div>
@@ -164,41 +164,41 @@ const Fitness = () => {
       </div>
       {/* SECOND HEADING---END */}
       {/* TWO BIG COL---START */}
-<div className="twbgcl">
-  <div className="mainbgfcl">
-    <div className="mainstkak">
-      <div className="ig">
-        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png" alt="" className="mainbgtwcl" />
+      <div className="twbgcl">
+        <div className="mainbgfcl">
+          <div className="mainstkak">
+            <div className="ig">
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png" alt="" className="mainbgtwcl" />
 
-      </div>
-      <div className="bghdbgbg">
-        <h3 className="bgbgbgh3">Unlimited access to everything in your city</h3>
-      </div>
-      <div className="bgagytyo">
-        <h5 className="bgbgbgh5">Unlimited access to</h5>
-      </div>
-      <div className="listgi">
-        <div className="fllitt">
-          <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
+            </div>
+            <div className="bghdbgbg">
+              <h3 className="bgbgbgh3">Unlimited access to everything in your city</h3>
+            </div>
+            <div className="bgagytyo">
+              <h5 className="bgbgbgh5">Unlimited access to</h5>
+            </div>
+            <div className="listgi">
+              <div className="fllitt">
+                <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
+              </div>
+              <div className="licttt">At-center group classes</div>
+            </div>
+            <div className="listgi">
+              <div className="fllitt">
+                <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
+              </div>
+              <div className="licttt">At-center group classes</div>
+            </div>
+            <div className="listgi">
+              <div className="fllitt">
+                <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
+              </div>
+              <div className="licttt">At-center group classes</div>
+            </div>
+
+          </div>
         </div>
-        <div className="licttt">At-center group classes</div>
       </div>
-      <div className="listgi">
-        <div className="fllitt">
-          <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
-        </div>
-        <div className="licttt">At-center group classes</div>
-      </div>
-      <div className="listgi">
-        <div className="fllitt">
-          <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
-        </div>
-        <div className="licttt">At-center group classes</div>
-      </div>
-      
-    </div>
-  </div>
-</div>
 
       {/* TWO BIG COL---START */}
 
