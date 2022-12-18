@@ -42,8 +42,9 @@ width: -webkit-fill-available;
 .ftrwig{
     width: 89%;
     position: relative;
-    z-index: -1;
-    top: 37px;
+    transition: 0.4s;
+
+    top: 43px;
 
 }
 .ftr1{
@@ -54,8 +55,18 @@ width: -webkit-fill-available;
     flex-direction: column;
 }
 .ftbt{
-    margin-left: 69px;
+    margin-left: 85px;
+    z-index: +100;
+    position: relative;
 }
 .allftst{
     margin: 3%;
+}
+.ftrwig:hover{
+    transform: scale(1.1);
+    box-shadow: rgb(0 0 0 / 50%) 0px 12px 30px;
+    filter: brightness(100%);
+}
+.ftrwig:hover +.ftbt{
+    z-index: +100;
 }
