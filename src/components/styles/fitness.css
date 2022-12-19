@@ -91,6 +91,7 @@
   box-shadow: rgb(0 0 0 / 50%) 0px 12px 30px;
   filter: brightness(100%);
 }
+
 .ftrwig:hover + .ftbt {
   z-index: +100;
 
