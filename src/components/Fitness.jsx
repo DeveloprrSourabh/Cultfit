@@ -195,6 +195,10 @@ const Fitness = () => {
               </div>
               <div className="licttt">At-center group classes</div>
             </div>
+<div className="twobtanst">
+<button className="fmmntb">TRY FOR FREE</button>
+<button className="fmmntb">TRY FOR FREE</button>
+</div>
 
           </div>
         </div>
