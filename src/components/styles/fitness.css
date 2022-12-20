@@ -184,3 +184,13 @@
 .ctha{
   display: flex;
 }
+.hju{
+  text-align: start;
+    cursor: default;
+    margin: 0px 0px 0px 8px;
+    color: white;
+    font-size: 14px;
+    font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
