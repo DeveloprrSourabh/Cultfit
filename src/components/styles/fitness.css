@@ -128,7 +128,7 @@
     line-height: 35px;
 }
 .ghti{
-  width: 90%;
+  width: 80%;
 }
 .licttt{
   text-align: left;
@@ -144,4 +144,22 @@
   display: flex;
   margin-bottom: 1%;
   align-items: center;
+}
+.fmmntb{
+  cursor: pointer;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border: 1px solid transparent;
+    transition: all 250ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255 255 255 / 10%);
+    color: white;
+    backdrop-filter: blur(50px);
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    min-width: 100%;
 }
