@@ -130,3 +130,13 @@
 .ghti{
   width: 1.5%;
 }
+.licttt{
+  text-align: left;
+  cursor: default;
+  margin: 0px 0px 0px 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  letter-spacing: 0px;
+  line-height: 22px;
+}
