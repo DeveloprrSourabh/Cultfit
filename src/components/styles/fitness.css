@@ -140,3 +140,7 @@
   letter-spacing: 0px;
   line-height: 22px;
 }
+.listgi{
+  display: flex;
+    align-items: center;
+}
