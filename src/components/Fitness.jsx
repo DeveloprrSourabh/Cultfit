@@ -197,7 +197,7 @@ const Fitness = () => {
             </div>
             <div className="twobtanst">
               <button className="fmmntb">TRY FOR FREE</button>
-              <button className="fmmntb">TRY FOR FREE</button>
+              <button className="fmmntb1">TRY FOR FREE</button>
             </div>
             <div className="ctha">
               <div className="hju">SALE ON NOW</div>
