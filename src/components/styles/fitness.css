@@ -183,6 +183,7 @@
 }
 .ctha{
   display: flex;
+  align-items: center;
 }
 .hju{
   text-align: start;
@@ -196,4 +197,7 @@
 }
 .twobtanst{
   display: inline-flex;
+}
+.klimgsaed{
+  width: 91%;
 }
