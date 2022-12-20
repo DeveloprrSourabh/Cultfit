@@ -200,6 +200,9 @@ const Fitness = () => {
               <button className="fmmntb1">BUY NOW</button>
             </div>
             <div className="ctha">
+              <siv className="igsedonnow">
+                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="" className="klimgsaed" />
+              </siv>
               <div className="hju">SALE ON NOW</div>
             </div>
 
