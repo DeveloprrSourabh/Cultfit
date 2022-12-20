@@ -142,5 +142,6 @@
 }
 .listgi{
   display: flex;
-    align-items: center;
+  margin-bottom: 1%;
+  align-items: center;
 }
