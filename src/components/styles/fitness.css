@@ -108,7 +108,7 @@
 .bgbgbgh3{
   text-align: left;
     cursor: default;
-    margin: 25px 0px 30px;
+    margin: 5px 0px 30px;
     color: white;
     font-size: 40px;
     font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -208,4 +208,8 @@
 } 
 .mainbgtwcl{
   width: 100%;
+}
+.ghjty{
+  width: 100%;
+  border-radius: 20px;
 }

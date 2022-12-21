@@ -202,7 +202,7 @@ const Fitness = () => {
             <div className="ctha">
               <siv className="igsedonnow">
                 <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="" className="klimgsaed" />
-              </siv>
+              </siv>  
               <div className="hju">SALE ON NOW</div>
             </div>
 
