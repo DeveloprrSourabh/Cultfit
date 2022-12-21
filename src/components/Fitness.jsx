@@ -335,66 +335,66 @@ const Fitness = () => {
 
       {/* SINGLE BOX---START */}
       <div className="mainstkak">
-            <div className="ig">
-              <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_339,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-home-1.svg"
-                alt=""
-                className="mainbgtwcl"
-              />
-            </div>
-            <div className="bghdbgbg">
-              <h3 className="bgbgbgh3">
-              Bring the gym home
-              </h3>
-            </div>
-            <div className="bgagytyo">
-              <h5 className="bgbgbgh5">Unlimited access to</h5>
-            </div>
-            <div className="listgi">
-              <div className="fllitt">
-                <img
-                  src="https://static.cure.fit/assets/images/orangeTick.png"
-                  alt=""
-                  className="ghti"
-                />
-              </div>
-              <div className="licttt">At-home workouts</div>
-            </div>
-            <div className="listgi">
-              <div className="fllitt">
-                <img
-                  src="https://static.cure.fit/assets/images/orangeTick.png"
-                  alt=""
-                  className="ghti"
-                />
-              </div>
-              <div className="licttt">At-center group classes</div>
-            </div>
-            <div className="listgi">
-              <div className="fllitt">
-                <img
-                  src="https://static.cure.fit/assets/images/orangeTick.png"
-                  alt=""
-                  className="ghti"
-                />
-              </div>
-              <div className="licttt">At-center group classes</div>
-            </div>
-            <div className="twobtanst">
-              <button className="fmmntb">TRY FOR FREE</button>
-              <button className="fmmntb1">BUY NOW</button>
-            </div>
-            <div className="ctha">
-              <div className="igsedonnow">
-                <img
-                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/offer.png"
-                  alt=""
-                  className="klimgsaed"
-                />
-              </div>
-              <div className="hju">SALE ON NOW</div>
-            </div>
+        <div className="ig">
+          <img
+            src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_339,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-home-1.svg"
+            alt=""
+            className="mainbgtwcl"
+          />
+        </div>
+        <div className="bghdbgbg">
+          <h3 className="bgbgbgh3">Bring the gym home</h3>
+        </div>
+        <div className="bgagytyo">
+          <h5 className="bgbgbgh5">Unlimited access to</h5>
+        </div>
+        <div className="listgi">
+          <div className="fllitt">
+            <img
+              src="https://static.cure.fit/assets/images/orangeTick.png"
+              alt=""
+              className="ghti"
+            />
           </div>
+          <div className="licttt">At-home workouts</div>
+        </div>
+        <div className="listgi">
+          <div className="fllitt">
+            <img
+              src="https://static.cure.fit/assets/images/orangeTick.png"
+              alt=""
+              className="ghti"
+            />
+          </div>
+          <div className="licttt">Celebrity workouts</div>
+        </div>
+        <div className="listgi">
+          <div className="fllitt">
+            <img
+              src="https://static.cure.fit/assets/images/orangeTick.png"
+              alt=""
+              className="ghti"
+            />
+          </div>
+          <div className="licttt">
+            Goal-based workouts & meditation sessions
+          </div>
+        </div>
+        <div className="twobtanst">
+          <button className="fmmntb">TRY FOR FREE</button>
+          <button className="fmmntb1">BUY NOW</button>
+        </div>
+        <div className="ctha">
+          <div className="igsedonnow">
+            <img
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/offer.png"
+              alt=""
+              className="klimgsaed"
+            />
+          </div>
+          <div className="hju">SALE ON NOW</div>
+        </div>
+      </div>
       {/* SINGLE BOX---END */}
     </>
   );
