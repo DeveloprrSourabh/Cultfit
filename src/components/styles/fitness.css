@@ -230,6 +230,10 @@ color: black;
 }
 #klihumnll{
   width: 90%;
+   
+    width: 90%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 60px 115px;
+    background: linear-gradient(221.98deg, rgba(0, 0, 0, 0.0001) 2.58%, #000000 90.61%);
+    border-radius: 20px;
 }
