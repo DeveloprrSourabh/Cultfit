@@ -289,7 +289,7 @@ const Fitness = () => {
                   className="ghti"
                 />
               </div>
-              <div className="licttt">At-center group classes</div>
+              <div className="licttt">All PRO gyms</div>
             </div>
             <div className="listgi">
               <div className="fllitt">
@@ -299,7 +299,7 @@ const Fitness = () => {
                   className="ghti"
                 />
               </div>
-              <div className="licttt">At-center group classes</div>
+              <div className="licttt">At-home live workouts</div>
             </div>
             <div className="listgi">
               <div className="fllitt">
@@ -309,7 +309,7 @@ const Fitness = () => {
                   className="ghti"
                 />
               </div>
-              <div className="licttt">At-center group classes</div>
+              <div className="licttt">2 Sessions/month at ELITE gyms & group classes</div>
             </div>
             <div className="twobtanst">
               <button className="fmmntb">TRY FOR FREE</button>
