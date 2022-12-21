@@ -114,8 +114,7 @@ const Fitness = () => {
       {/* SECOND HEADING---START */}
       <div className="ftshd">
         <div className="sshd">
-          <h2 className="hdh5">Trainer-led group classes
-          </h2>
+          <h2 className="hdh5">Trainer-led group classes</h2>
         </div>
       </div>
       {/* SECOND HEADING---END */}
@@ -126,19 +125,35 @@ const Fitness = () => {
             <div className=" ftr1">
               <div className="humbletruth"></div>
               <div className="humbletruth">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" className="ftrwig" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png"
+                  alt=""
+                  className="ftrwig"
+                />
                 <button className="ftbt">EXPLORE</button>
               </div>
               <div className="humbletruth">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/8009b1d0-4f5e-49e1-bc94-c41da6a5bcc1.png" alt="" className="ftrwig" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/8009b1d0-4f5e-49e1-bc94-c41da6a5bcc1.png"
+                  alt=""
+                  className="ftrwig"
+                />
                 <button className="ftbt">EXPLORE</button>
               </div>
               <div className="humbletruth">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png" alt="" className="ftrwig" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png"
+                  alt=""
+                  className="ftrwig"
+                />
                 <button className="ftbt">EXPLORE</button>
               </div>
               <div className="humbletruth">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png" alt="" className="ftrwig" />
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive//image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png"
+                  alt=""
+                  className="ftrwig"
+                />
                 <button className="ftbt">EXPLORE</button>
               </div>
             </div>
@@ -158,7 +173,8 @@ const Fitness = () => {
       {/* SECOND HEADING---START */}
       <div className="ftshd">
         <div className="sshd">
-          <h2 className="hdh5">Unlimited home workouts with calorie tracking
+          <h2 className="hdh5">
+            Unlimited home workouts with calorie tracking
           </h2>
         </div>
       </div>
@@ -168,30 +184,47 @@ const Fitness = () => {
         <div className="mainbgfcl">
           <div className="mainstkak">
             <div className="ig">
-              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png" alt="" className="mainbgtwcl" />
-
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png"
+                alt=""
+                className="mainbgtwcl"
+              />
             </div>
             <div className="bghdbgbg">
-              <h3 className="bgbgbgh3">Unlimited access to everything in your city</h3>
+              <h3 className="bgbgbgh3">
+                Unlimited access to everything in your city
+              </h3>
             </div>
             <div className="bgagytyo">
               <h5 className="bgbgbgh5">Unlimited access to</h5>
             </div>
             <div className="listgi">
               <div className="fllitt">
-                <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
+                <img
+                  src="https://static.cure.fit/assets/images/orangeTick.png"
+                  alt=""
+                  className="ghti"
+                />
               </div>
               <div className="licttt">At-center group classes</div>
             </div>
             <div className="listgi">
               <div className="fllitt">
-                <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
+                <img
+                  src="https://static.cure.fit/assets/images/orangeTick.png"
+                  alt=""
+                  className="ghti"
+                />
               </div>
               <div className="licttt">At-center group classes</div>
             </div>
             <div className="listgi">
               <div className="fllitt">
-                <img src="https://static.cure.fit/assets/images/orangeTick.png" alt="" className="ghti" />
+                <img
+                  src="https://static.cure.fit/assets/images/orangeTick.png"
+                  alt=""
+                  className="ghti"
+                />
               </div>
               <div className="licttt">At-center group classes</div>
             </div>
@@ -201,21 +234,103 @@ const Fitness = () => {
             </div>
             <div className="ctha">
               <siv className="igsedonnow">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/offer.png" alt="" className="klimgsaed" />
-              </siv>  
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/offer.png"
+                  alt=""
+                  className="klimgsaed"
+                />
+              </siv>
               <div className="hju">SALE ON NOW</div>
             </div>
-
           </div>
           <div className="hgtuo">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/black2.png" alt="" className="ghjty" />
+            <img
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/black2.png"
+              alt=""
+              className="ghjty"
+            />
           </div>
         </div>
       </div>
 
-      {/* TWO BIG COL---START */}
+      {/* TWO BIG COL---END */}
 
+       {/*SECOND TWO BIG COL---START */}
+       <div className="twbgcl">
+        <div className="mainbgfcl">
+          <div className="hgtuo">
+            <img
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/black2.png"
+              alt=""
+              className="ghjty"
+            />
+          </div>
+          <div className="mainstkak">
+            <div className="ig">
+              <img
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png"
+                alt=""
+                className="mainbgtwcl"
+              />
+            </div>
+            <div className="bghdbgbg">
+              <h3 className="bgbgbgh3">
+                Unlimited access to everything in your city
+              </h3>
+            </div>
+            <div className="bgagytyo">
+              <h5 className="bgbgbgh5">Unlimited access to</h5>
+            </div>
+            <div className="listgi">
+              <div className="fllitt">
+                <img
+                  src="https://static.cure.fit/assets/images/orangeTick.png"
+                  alt=""
+                  className="ghti"
+                />
+              </div>
+              <div className="licttt">At-center group classes</div>
+            </div>
+            <div className="listgi">
+              <div className="fllitt">
+                <img
+                  src="https://static.cure.fit/assets/images/orangeTick.png"
+                  alt=""
+                  className="ghti"
+                />
+              </div>
+              <div className="licttt">At-center group classes</div>
+            </div>
+            <div className="listgi">
+              <div className="fllitt">
+                <img
+                  src="https://static.cure.fit/assets/images/orangeTick.png"
+                  alt=""
+                  className="ghti"
+                />
+              </div>
+              <div className="licttt">At-center group classes</div>
+            </div>
+            <div className="twobtanst">
+              <button className="fmmntb">TRY FOR FREE</button>
+              <button className="fmmntb1">BUY NOW</button>
+            </div>
+            <div className="ctha">
+              <siv className="igsedonnow">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_27,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/offer.png"
+                  alt=""
+                  className="klimgsaed"
+                />
+              </siv>
+              <div className="hju">SALE ON NOW</div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
 
+      {/* SECOND TWO BIG COL---END */}
     </>
   );
 };
