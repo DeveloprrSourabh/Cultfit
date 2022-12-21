@@ -334,7 +334,7 @@ const Fitness = () => {
       {/* SECOND TWO BIG COL---END */}
 
       {/* SINGLE BOX---START */}
-      <div className="mainstkak">
+      <div id="klihumnll" className="container mainstkak">
         <div className="ig">
           <img
             src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_339,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-home-1.svg"
