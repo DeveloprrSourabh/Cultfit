@@ -260,7 +260,7 @@ const Fitness = () => {
         <div className="mainbgfcl">
           <div className="hgtuo">
             <img
-              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/black2.png"
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/sku-card-widget/gold2.png"
               alt=""
               className="ghjty"
             />
