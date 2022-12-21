@@ -256,7 +256,7 @@ const Fitness = () => {
       {/* TWO BIG COL---END */}
 
        {/*SECOND TWO BIG COL---START */}
-       <div className="twbgcl">
+       <div style={{marginTop:"15%"}} className="twbgcl">
         <div className="mainbgfcl">
           <div className="hgtuo">
             <img
