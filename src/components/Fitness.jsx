@@ -268,7 +268,7 @@ const Fitness = () => {
           <div className="mainstkak">
             <div className="ig">
               <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_294,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/brand-logo/cult-pass-elite.png"
+                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_265,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cult-pass-pro.png"
                 alt=""
                 className="mainbgtwcl"
               />
