@@ -218,5 +218,12 @@
   display: flex;
 }
 .hgtuo{
-  width: 766px;
+  width: 702px;
+}
+.fmmntb:hover{
+  
+  background: rgb(255 255 255 / 20%);
+}
+.fmmntb1:hover{
+color: black;  
 }
