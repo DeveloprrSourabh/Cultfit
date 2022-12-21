@@ -275,7 +275,7 @@ const Fitness = () => {
             </div>
             <div className="bghdbgbg">
               <h3 className="bgbgbgh3">
-                Unlimited access to everything in your city
+              Unlimited access to PRO gyms in your city
               </h3>
             </div>
             <div className="bgagytyo">
