@@ -16,13 +16,13 @@ const Store = () => {
             <div className="hedstre">
               <a href="" className="mstrehd">Best Sellers</a>
               <a href="" className="mstrehd">Just Launched</a>
-              <a href="" className="mstrehd"></a>
-              <a href="" className="mstrehd"></a>
-              <a href="" className="mstrehd"></a>
-              <a href="" className="mstrehd"></a>
-              <a href="" className="mstrehd"></a>
-              <a href="" className="mstrehd"></a>
-              <a href="" className="mstrehd"></a>
+              <a href="" className="mstrehd">Men</a>
+              <a href="" className="mstrehd">Women</a>
+              <a href="" className="mstrehd">Cardio</a>
+              <a href="" className="mstrehd">Cycles</a>
+              <a href="" className="mstrehd">accessories</a>
+              <a href="" className="mstrehd">Supplement</a>
+              <a href="" className="mstrehd">Equipment</a>
             </div>
           </div>
         </div>
