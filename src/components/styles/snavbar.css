@@ -20,6 +20,7 @@
     font-weight: 600;
     transition: 0.3s;
 }
+
 .subatag:hover{
     color: white;
     opacity: 70%;
