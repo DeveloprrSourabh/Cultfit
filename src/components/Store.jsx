@@ -4,6 +4,7 @@ import store from "./styles/store.css";
 const Store = () => {
   return (
     <>
+
       <div>
         <div className="strenbr">
           <div className="nbrstr">
@@ -354,6 +355,30 @@ const Store = () => {
               </div>
             </div>
           </div>
+          {/* CAROUSEL---START */}
+          <div className="carouselll">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/f909402b-7b71-46a8-97c3-3ce6c663872e.png" alt="First slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/fd72a85d-d0f4-4c42-a6ca-388d49e09bb5.png" alt="Second slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/fd72a85d-d0f4-4c42-a6ca-388d49e09bb5.png..." alt="Third slide" />
+    </div>
+  </div>
+ 
+ 
+</div>
+          </div>
+          {/* CAROUSEL---END */}
         </div>
       </div>
     </>
