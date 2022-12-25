@@ -189,22 +189,27 @@ const Store = () => {
                     <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Sportswear for Men</h3>
+                        <h3 className="frtgfrt">All</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Sportswear for Women</h3>
+                        <h3 className="frtgfrt">Geared cycle</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Outdoor Cycles</h3>
+                        <h3 className="frtgfrt">Single speed cycle</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Cardio Equipments</h3>
+                        <h3 className="frtgfrt">Electric cycle</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Kids cycle</h3>
                       </a>
                     </li>
                   </ul>
