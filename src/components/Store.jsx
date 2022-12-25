@@ -18,6 +18,7 @@ const Store = () => {
               <ul className="hedstre">
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Best Sellers</h3>
+                  {/* HOV---START */}
                   <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
@@ -40,9 +41,20 @@ const Store = () => {
                       </a>
                     </li>
                   </ul>
+                  {/* HOV---END */}
                 </li>
-                <li className="mstrehd">
+                <li className="mstrehd frtgb">
                   <h3 className="lith3rrrr">Just Launched</h3>
+                  {/* HOV---START */}
+                  <ul className="koipl">
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">New Arrivals</h3>
+                      </a>
+                    </li>
+                   
+                  </ul>
+                  {/* HOV---END */}
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Men</h3>
