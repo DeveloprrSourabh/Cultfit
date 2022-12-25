@@ -37,6 +37,7 @@
     transform: translateY(0px);
     transition: transform .5s ease;
 }
+
 .oneonly{
     cursor: pointer;
     opacity: 100%;
