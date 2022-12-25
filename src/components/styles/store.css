@@ -46,6 +46,7 @@ li{
     align-items: center;
 }
 .loginkr{
+    margin: 0px 8px;
     width: 26px;
 }
 .lginkr{
@@ -75,4 +76,7 @@ li{
     z-index: 1;
     transition: all 0.5s;
     align-items: baseline;
+}
+.mstrehd:hover{
+    background-color: #f7f7f7;
 }

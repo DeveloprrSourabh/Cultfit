@@ -50,7 +50,7 @@ const Store = () => {
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/cultsport/prod/Profile.svg" alt="" className="lginkr" />
             </div>
             <div className="loginkr">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/cultsport/prod/Profile.svg" alt="" className="lginkr" />
+            <img src="https://static.cure.fit/assets/images/cart-icon-new.svg" alt="" className="lginkr" />
             </div>
             </div>
           </div>
