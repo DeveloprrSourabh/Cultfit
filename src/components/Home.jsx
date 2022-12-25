@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./Header";
 import home from "./styles/home.css";
 
 
 const Home = () => {
   return (
+    <>
+    <Header />
     <div id="hmpg">
       <div className="video">
         <video
@@ -834,6 +837,8 @@ const Home = () => {
       </div>
       {/* SIMPLE TEXT---END */}
     </div>
+    </>
+
   );
 };
 

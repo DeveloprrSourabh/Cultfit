@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "./Header";
 import snvabr from "./styles/snavbar.css";
 
 const Subnavbar = () => {
   return (
     <>
+    <Header />
       <div className="subnvbr">
         <div className="allsub">
           <div className="snb">
