@@ -1,5 +1,5 @@
 import React from "react";
-import store from "./styles/store.css"
+import store from "./styles/store.css";
 
 const Store = () => {
   return (
@@ -16,33 +16,41 @@ const Store = () => {
             </div>
             <ul className="hedstre">
               <li className="mstrehd">
-                Best Sellers
+                 <h3 className="lith3rrrr"> Best Sellers</h3>
               </li>
               <li className="mstrehd">
-                Just Launched
+               <h3 className="lith3rrrr">Just Launched</h3>
               </li>
               <li className="mstrehd">
-                Men
+                <h3 className="lith3rrrr"> Men</h3>
               </li>
               <li className="mstrehd">
-                Women
+                <h3 className="lith3rrrr"> Women</h3>
               </li>
               <li className="mstrehd">
-                Cardio
+                <h3 className="lith3rrrr"> Cardio</h3>
               </li>
               <li className="mstrehd">
-                Cycles
+                <h3 className="lith3rrrr"> Cycles</h3>
               </li>
               <li className="mstrehd">
-                accessories
+                <h3 className="lith3rrrr"> accessories</h3>
               </li>
               <li className="mstrehd">
-                Supplement
+                <h3 className="lith3rrrr"> Supplement</h3>
               </li>
               <li className="mstrehd">
-                Equipment
+                <h3 className="lith3rrrr"> Equipment</h3>
               </li>
             </ul>
+            <div className="loginhthju">
+            <div className="loginkr">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/cultsport/prod/Profile.svg" alt="" className="lginkr" />
+            </div>
+            <div className="loginkr">
+            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/cultsport/prod/Profile.svg" alt="" className="lginkr" />
+            </div>
+            </div>
           </div>
         </div>
       </div>
