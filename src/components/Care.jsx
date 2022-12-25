@@ -1,10 +1,12 @@
 import React from "react";
 import Subnavbar from "./Subnavbar";
 import fitness from "./styles/fitness.css";
+import Header from "../components/Header";
 
 const Fitness = () => {
   return (
     <>
+    <Header />
       <Subnavbar />
       {/* MAIN IAMGE---START */}
       <div className="ft">
