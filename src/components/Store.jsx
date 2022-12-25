@@ -175,6 +175,11 @@ const Store = () => {
                         <h3 className="frtgfrt">Treadmills</h3>
                       </a>
                     </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Power</h3>
+                      </a>
+                    </li>
                   </ul>
                   {/* HOV---END */}
                 </li>
