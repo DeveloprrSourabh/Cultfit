@@ -91,3 +91,14 @@ li{
     cursor: pointer;
     text-align: left;
 }
+.koipl{
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    background-color: white;
+    list-style-type: none;
+    min-width: 145px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+}
