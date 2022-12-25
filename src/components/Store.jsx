@@ -221,22 +221,37 @@ const Store = () => {
                     <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Sportswear for Men</h3>
+                        <h3 className="frtgfrt">All</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Sportswear for Women</h3>
+                        <h3 className="frtgfrt">Towel</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Outdoor Cycles</h3>
+                        <h3 className="frtgfrt">Gloves</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Cardio Equipments</h3>
+                        <h3 className="frtgfrt">Mask</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Socks</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Yoga mat</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Jumping rope</h3>
                       </a>
                     </li>
                   </ul>
@@ -248,22 +263,47 @@ const Store = () => {
                     <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Sportswear for Men</h3>
+                        <h3 className="frtgfrt">All</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Sportswear for Women</h3>
+                        <h3 className="frtgfrt">Personal Care</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Outdoor Cycles</h3>
+                        <h3 className="frtgfrt">Protein</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Cardio Equipments</h3>
+                        <h3 className="frtgfrt">Snacks</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Staples</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Vitamins</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Weight loss</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Immunity</h3>
+                      </a>
+                    </li>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="frtgfrt">Muscle recovery</h3>
                       </a>
                     </li>
                   </ul>
@@ -275,17 +315,17 @@ const Store = () => {
                     <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Sportswear for Men</h3>
+                        <h3 className="frtgfrt">All</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Sportswear for Women</h3>
+                        <h3 className="frtgfrt">Strength</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
-                        <h3 className="frtgfrt">Outdoor Cycles</h3>
+                        <h3 className="frtgfrt">Others</h3>
                       </a>
                     </li>
                     <li className="ghyutiu">
