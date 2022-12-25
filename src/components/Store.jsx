@@ -18,38 +18,28 @@ const Store = () => {
               <ul className="hedstre">
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Best Sellers</h3>
-                  <ul class="superCategoryWrapper style-prefix-0">
-                    <li class="categoryItem style-prefix-0">
-                      <a
-                        class=" style-prefix-0"
-                        href="/best-selling-mens-collection"
-                      >
-                        <h3 class="style-prefix-1mapn9e">Sportswear for Men</h3>
+                  <ul className="koipl">
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="">Sportswear for Men</h3>
                       </a>
                     </li>
-                    <li class="categoryItem style-prefix-0">
-                      <a
-                        class=" style-prefix-0"
-                        href="/best-selling-womens-collection"
-                      >
-                        <h3 class="style-prefix-1mapn9e">
-                          Sportswear for Women
-                        </h3>
-                   {/* HOVER_SHOW---START */}
-                   </a>
-                    </li>
-                    <li class="categoryItem style-prefix-0">
-                      <a class=" style-prefix-0" href="/best-selling-cycles-st">
-                        <h3 class="style-prefix-1mapn9e">Outdoor Cycles</h3>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="">Sportswear for Women</h3>
                       </a>
                     </li>
-                    <li class="categoryItem style-prefix-0">
-                      <a class=" style-prefix-0" href="/best-selling-cardio-st">
-                        <h3 class="style-prefix-1mapn9e">Cardio Equipments</h3>
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="">Sportswear for Men</h3>
                       </a>
                     </li>
-                  </ul>
-                   {/* HOVER SHOW---END */}
+                    <li className="ghyutiu">
+                      <a href="" className="kioloipl">
+                        <h3 className="">Sportswear for Men</h3>
+                      </a>
+                    </li>
+                  </ul>fijuikhyu
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr">Just Launched</h3>
