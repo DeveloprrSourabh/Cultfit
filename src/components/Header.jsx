@@ -34,10 +34,10 @@ const Header = () => {
               <Link className="nav-link mn" to="/care">
                 CARE
               </Link>
-              <Link className="nav-link mn" to="mind">
+              <Link className="nav-link mn" to="/mind">
                 MIND
               </Link>
-              <Link className="nav-link mn" to="store">
+              <Link className="nav-link mn" to="/store">
                 STORE
               </Link>
             </div>

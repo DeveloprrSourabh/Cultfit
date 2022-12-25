@@ -13,35 +13,35 @@ const Store = () => {
                 className="str1stre"
               />
             </div>
-            <div className="hedstre">
-              <a href="" className="mstrehd">
+            <ul className="hedstre">
+              <li className="mstrehd">
                 Best Sellers
-              </a>
-              <a href="" className="mstrehd">
+              </li>
+              <li className="mstrehd">
                 Just Launched
-              </a>
-              <a href="" className="mstrehd">
+              </li>
+              <li className="mstrehd">
                 Men
-              </a>
-              <a href="" className="mstrehd">
+              </li>
+              <li className="mstrehd">
                 Women
-              </a>
-              <a href="" className="mstrehd">
+              </li>
+              <li className="mstrehd">
                 Cardio
-              </a>
-              <a href="" className="mstrehd">
+              </li>
+              <li className="mstrehd">
                 Cycles
-              </a>
-              <a href="" className="mstrehd">
+              </li>
+              <li className="mstrehd">
                 accessories
-              </a>
-              <a href="" className="mstrehd">
+              </li>
+              <li className="mstrehd">
                 Supplement
-              </a>
-              <a href="" className="mstrehd">
+              </li>
+              <li className="mstrehd">
                 Equipment
-              </a>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
