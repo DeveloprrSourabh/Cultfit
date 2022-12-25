@@ -52,14 +52,13 @@ const Store = () => {
                         <h3 className="frtgfrt">New Arrivals</h3>
                       </a>
                     </li>
-                   
                   </ul>
                   {/* HOV---END */}
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Men</h3>
-                    {/* HOV---START */}
-                    <ul className="koipl">
+                  {/* HOV---START */}
+                  <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
                         <h3 className="frtgfrt">All</h3>
@@ -95,8 +94,8 @@ const Store = () => {
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Women</h3>
-                    {/* HOV---START */}
-                    <ul className="koipl">
+                  {/* HOV---START */}
+                  <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
                         <h3 className="frtgfrt">All</h3>
@@ -153,8 +152,8 @@ const Store = () => {
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Cardio</h3>
-                    {/* HOV---START */}
-                    <ul className="koipl">
+                  {/* HOV---START */}
+                  <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
                         <h3 className="frtgfrt">All</h3>
@@ -185,8 +184,8 @@ const Store = () => {
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Cycles</h3>
-                    {/* HOV---START */}
-                    <ul className="koipl">
+                  {/* HOV---START */}
+                  <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
                         <h3 className="frtgfrt">All</h3>
@@ -217,8 +216,8 @@ const Store = () => {
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> accessories</h3>
-                    {/* HOV---START */}
-                    <ul className="koipl">
+                  {/* HOV---START */}
+                  <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
                         <h3 className="frtgfrt">All</h3>
@@ -259,8 +258,8 @@ const Store = () => {
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Supplement</h3>
-                    {/* HOV---START */}
-                    <ul className="koipl">
+                  {/* HOV---START */}
+                  <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
                         <h3 className="frtgfrt">All</h3>
@@ -311,8 +310,8 @@ const Store = () => {
                 </li>
                 <li className="mstrehd">
                   <h3 className="lith3rrrr"> Equipment</h3>
-                    {/* HOV---START */}
-                    <ul className="koipl">
+                  {/* HOV---START */}
+                  <ul className="koipl">
                     <li className="ghyutiu">
                       <a href="" className="kioloipl">
                         <h3 className="frtgfrt">All</h3>
