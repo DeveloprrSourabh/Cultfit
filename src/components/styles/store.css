@@ -9,7 +9,7 @@ li{
 }
 .hedstre{
     display: flex;
-    color: white;
+    align-items: center;
 }
 .lith3rrrr{
     margin: 0;
@@ -23,12 +23,22 @@ li{
     text-align: center;
 }
 .nbrstr{
-    background: white;
-display: flex;
+    width: 100%;
+    height: 60px;
+    margin-inline: auto;
+    padding-inline: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
 }
 .loginhthju{
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .loginkr{
     width: 26px;
