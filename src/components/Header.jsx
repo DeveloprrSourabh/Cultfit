@@ -8,7 +8,7 @@ const Header = () => {
       {/* HEADER__START */}
       <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/home">
+          <Link className="navbar-brand" to="/">
             <img
               src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
               alt=""
