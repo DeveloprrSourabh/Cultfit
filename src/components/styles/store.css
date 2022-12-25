@@ -4,3 +4,10 @@
 .str1stre{
     width: 100%;
 }
+li{
+    list-style-type: none;
+}
+.hedstre{
+    display: flex;
+    color: white;
+}

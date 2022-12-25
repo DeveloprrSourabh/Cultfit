@@ -1,4 +1,5 @@
 import React from "react";
+import store from "./styles/store.css"
 
 const Store = () => {
   return (
