@@ -14,6 +14,7 @@ const Store = () => {
                 className="str1stre"
               />
             </div>
+            <div className="fiulpo">
             <ul className="hedstre">
               <li className="mstrehd">
                  <h3 className="lith3rrrr"> Best Sellers</h3>
@@ -43,6 +44,7 @@ const Store = () => {
                 <h3 className="lith3rrrr"> Equipment</h3>
               </li>
             </ul>
+            </div>
             <div className="loginhthju">
             <div className="loginkr">
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/cultsport/prod/Profile.svg" alt="" className="lginkr" />

@@ -63,3 +63,16 @@ li{
     justify-content: center;
     cursor: pointer;
 }
+.fiulpo{
+    width: 100%;
+    height: 60px;
+    margin-inline: auto;
+    padding-inline: 50px;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
+    align-items: baseline;
+}
