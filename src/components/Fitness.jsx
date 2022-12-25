@@ -6,7 +6,6 @@ import Header from "./Header";
 const Fitness = () => {
   return (
     <>
-    <Header />
 
       <Subnavbar />
       {/* MAIN IAMGE---START */}

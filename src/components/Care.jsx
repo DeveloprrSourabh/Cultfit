@@ -6,7 +6,6 @@ import Header from "../components/Header";
 const Fitness = () => {
   return (
     <>
-    <Header />
       <Subnavbar />
       {/* MAIN IAMGE---START */}
       <div className="ft">
