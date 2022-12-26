@@ -15,21 +15,25 @@ const Product = () => {
     </div>
     </div>
 <div className="productj">
+{/* FIRST---START */}
+  <a href="" className="mmkkl">
   <div className="agyafinal">
   
-    <div className="mnpdctig">
-      <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mcFkm6K2JzvBewYumhjHk3Se" alt="" className="pdctimghig" />
-    </div>
-    <div className="mmnjhjhjkl">
-        cultsportone
-    </div>
-    <div className="apiheadi">Solid Active Tshirt with Logo</div>
-    <div className="apiagi">
-      <p className="apifpr">₹ 449</p>
-      <p className="apifpr1">₹ 849</p>
-      <p className="apifpr2">50% Off</p>
-    </div>
+  <div className="mnpdctig">
+    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mcFkm6K2JzvBewYumhjHk3Se" alt="" className="pdctimghig" />
   </div>
+  <div className="mmnjhjhjkl">
+      cultsportone
+  </div>
+  <div className="apiheadi">Solid Active Tshirt with Logo</div>
+  <div className="apiagi">
+    <p className="apifpr">₹ 449</p>
+    <p className="apifpr1">₹ 849</p>
+    <p className="apifpr2">50% Off</p>
+  </div>
+</div>
+  </a>
+  {/* FIRST---END */}
   {/* SECOND---START */}
   <div className="agyafinal">
  
