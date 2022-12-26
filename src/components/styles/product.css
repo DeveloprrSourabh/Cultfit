@@ -54,3 +54,25 @@
 .apiagi{
     display: flex;
 }
+.apifpr{
+    margin: 12px 10px 12px 0;
+    color: #262626;
+    font-family: Inter-SemiBold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    white-space: nowr;
+    font-weight: 600;
+}
+.apifpr1{
+    margin: 12px 10px 12px 0;
+    color: rgb( 0 0 0 / 60%);
+    font-family: Inter-SemiBold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    white-space: nowr;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.apifpr2{
+    margin: 12px 10px 12px 0;
+    color: #ff3278;
+    font-family: Inter-SemiBold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    white-space: nowr;
+    font-weight: 600;
+}

@@ -24,7 +24,7 @@ const Product = () => {
     <div className="apiagi">
       <p className="apifpr">₹ 449</p>
       <p className="apifpr1">₹ 849</p>
-      <p className="apifpr1">50% Off</p>
+      <p className="apifpr2">50% Off</p>
     </div>
   </div>
 </div>
