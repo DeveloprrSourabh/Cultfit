@@ -38,4 +38,9 @@
     font-size: 18px;
     line-height: 22px;
     margin-top: 14px;
+    color: rgb( 0 0 0 / 50%);
+    line-height: 16px;
+    margin-top: 3px;
+    font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    text-transform: lowercase;
 }
