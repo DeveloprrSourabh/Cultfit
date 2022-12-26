@@ -5,8 +5,37 @@
 .ghjuijki{
     font-family: Poppins-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-style: italic;
+    font-weight: 800;
 }
 .kkprdct{
     font-size: 30px;
     line-height: 30px;
+}
+.vfrtll{
+
+}
+.allvw{
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top: 5px;
+ 
+    cursor: pointer;
+}
+.vfrtll{
+    color: #ff3278;
+}
+.mnpdctig{
+    width: 300px;
+    min-height: fit-content;
+    overflow: hidden;
+    position: relative;
+    margin-top: 16px;
+}
+.pdctimghig{
+    width: 100%;
+}
+.mmnjhjhjkl{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 14px;
 }
