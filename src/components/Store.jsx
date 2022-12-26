@@ -1,24 +1,24 @@
 import React from "react";
-import './styles/store.css';
-import ReactDOM from 'react-dom';
+import "./styles/store.css";
+import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 
 const Store = () => {
   return (
-    <>
+    <div style={{ background: "white" }}>
       <div>
         <div className="strenbr">
           <div className="nbrstr">
             <div className="strenbrig">
-             <Link to="/" className="homegetr">
-             <img
-                src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_135,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cultsport-black-logo.svg"
-                alt=""
-                className="str1stre"
-              />
-             </Link>
+              <Link to="/" className="homegetr">
+                <img
+                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_135,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/cultsport-black-logo.svg"
+                  alt=""
+                  className="str1stre"
+                />
+              </Link>
             </div>
             <div className="fiulpo">
               <ul className="hedstre">
@@ -361,26 +361,24 @@ const Store = () => {
             </div>
           </div>
           {/* SCROLLBAR---START */}
-<Carousel>
-                <div>
-                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/bfef564a-2101-46a4-add9-46da1bb34924.png" />
-              
-                </div>
-                <div>
-                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/fd72a85d-d0f4-4c42-a6ca-388d49e09bb5.png" />
-              
-                </div>
-                <div>
-                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/f909402b-7b71-46a8-97c3-3ce6c663872e.png" />
-                </div>
-                <div>
-                    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/ed700d62-ef1e-441e-837f-5d2088777c47.png" />
-                </div>
-            </Carousel>
-{/* SCROLLBAR---END */}
+          <Carousel>
+            <div>
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/bfef564a-2101-46a4-add9-46da1bb34924.png" />
+            </div>
+            <div>
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/fd72a85d-d0f4-4c42-a6ca-388d49e09bb5.png" />
+            </div>
+            <div>
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/f909402b-7b71-46a8-97c3-3ce6c663872e.png" />
+            </div>
+            <div>
+              <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_2880:596/dpr_2/image/vm/ed700d62-ef1e-441e-837f-5d2088777c47.png" />
+            </div>
+          </Carousel>
+          {/* SCROLLBAR---END */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
