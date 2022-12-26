@@ -4,8 +4,7 @@ import './styles/product.css'
 const Product = () => {
   return (
     <>
-<div className="productj">
-  <div className="agyafinal">
+    <div className="apihgth">
     <div className="figprdct">
       <div className="kkprdct">
         <span className="ghjuijki">T-SHIRTS</span>
@@ -14,6 +13,10 @@ const Product = () => {
         <a href="" className="vfrtll">VIEW ALL</a>
       </div>
     </div>
+    </div>
+<div className="productj">
+  <div className="agyafinal">
+  
     <div className="mnpdctig">
       <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mcFkm6K2JzvBewYumhjHk3Se" alt="" className="pdctimghig" />
     </div>
@@ -29,14 +32,7 @@ const Product = () => {
   </div>
   {/* SECOND---START */}
   <div className="agyafinal">
-    <div className="figprdct">
-      <div className="kkprdct">
-        <span className="ghjuijki">T-SHIRTS</span>
-      </div>
-      <div className="allvw">
-        <a href="" className="vfrtll">VIEW ALL</a>
-      </div>
-    </div>
+ 
     <div className="mnpdctig">
       <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mcFkm6K2JzvBewYumhjHk3Se" alt="" className="pdctimghig" />
     </div>
@@ -53,14 +49,7 @@ const Product = () => {
   {/* SECOND---END */}
   {/* THIRD---START */}
   <div className="agyafinal">
-    <div className="figprdct">
-      <div className="kkprdct">
-        <span className="ghjuijki">T-SHIRTS</span>
-      </div>
-      <div className="allvw">
-        <a href="" className="vfrtll">VIEW ALL</a>
-      </div>
-    </div>
+  
     <div className="mnpdctig">
       <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mcFkm6K2JzvBewYumhjHk3Se" alt="" className="pdctimghig" />
     </div>
@@ -77,14 +66,7 @@ const Product = () => {
   {/* THIRD---END */}
   {/* FOURTH---START */}
   <div className="agyafinal">
-    <div className="figprdct">
-      <div className="kkprdct">
-        <span className="ghjuijki">T-SHIRTS</span>
-      </div>
-      <div className="allvw">
-        <a href="" className="vfrtll">VIEW ALL</a>
-      </div>
-    </div>
+  
     <div className="mnpdctig">
       <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mcFkm6K2JzvBewYumhjHk3Se" alt="" className="pdctimghig" />
     </div>
