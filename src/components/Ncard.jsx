@@ -20,4 +20,5 @@ const Ncard = (val) => {
   );
 };
 
+Cardapi.map(Ncard);
 export default Ncard;
