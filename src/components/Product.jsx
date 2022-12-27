@@ -9,15 +9,15 @@ function Product(props){
     <div className="figprdct">
       <div className="kkprdct">
         <span className="ghjuijki">{props.heading}</span>
-      </div>
+      </div> 
       <div className="allvw">
-        <a href="" className="vfrtll">VIEW ALL</a>
+        <a href="" className="vfrtll">{props.subheading}</a>
       </div>
     </div>
     </div>
 <div className="productj">
 {/* FIRST---START */}
-<div className="hubnhjk">
+<div className="col-4 hubnhjk">
 <a href="" className="mmkkl">
   <div className="agyafinal">
   
