@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import Product from "./Product";
+import Ncard from "./Ncard";
 
 const Store = () => {
   return (
@@ -379,7 +380,7 @@ const Store = () => {
           {/* SCROLLBAR---END */}
         </div>
       </div>
-      <Product />
+      {Cardapi.map(Ncard)}
     </div>
   );
 };

@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles/product.css'
 
-const Product = () => {
+const Product = (props) => {
+  console.log(props);
   return (
     <>
     <div className="apihgth">
