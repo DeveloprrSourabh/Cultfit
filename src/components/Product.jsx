@@ -1,14 +1,14 @@
 import React from 'react';
 import './styles/product.css'
 
-const Product = (props) => {
-  console.log(props);
+function Product(props){
+  // console.log(props);
   return (
     <>
-    <div className="apihgth">
+    <div key = {props.id} className="apihgth">
     <div className="figprdct">
       <div className="kkprdct">
-        <span className="ghjuijki">T-SHIRTS</span>
+        <span className="ghjuijki">{props.heading}</span>
       </div>
       <div className="allvw">
         <a href="" className="vfrtll">VIEW ALL</a>
@@ -17,23 +17,25 @@ const Product = (props) => {
     </div>
 <div className="productj">
 {/* FIRST---START */}
+<div className="hubnhjk">
 <a href="" className="mmkkl">
   <div className="agyafinal">
   
   <div className="mnpdctig">
-    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mcFkm6K2JzvBewYumhjHk3Se" alt="" className="pdctimghig" />
+    <img src={props.imgsrc} alt="" className="pdctimghig" />
   </div>
   <div className="mmnjhjhjkl">
       cultsportone
   </div>
-  <div className="apiheadi">Solid Active Tshirt with Logo</div>
+  <div className="apiheadi">{props.about}</div>
   <div className="apiagi">
-    <p className="apifpr">₹ 449</p>
-    <p className="apifpr1">₹ 849</p>
-    <p className="apifpr2">50% Off</p>
+    <p className="apifpr">₹{props.prize}</p>
+    <p className="apifpr1"> ₹{props.preprize}</p>
+    <p className="apifpr2"> {props.off}% off</p>
   </div>
 </div>
   </a>
+</div>
   {/* FIRST---END */}
 
 </div>

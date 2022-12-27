@@ -7,6 +7,7 @@ import Mind from "./components/Mind";
 import Store from "./components/Store";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Product from "./components/Product";
 const App = () => {
   return (
     <div>
@@ -16,6 +17,8 @@ const App = () => {
         <Route exact path="/care" element={<Care />} />
         <Route exact path="/mind" element={<Mind />} />
         <Route exact path="/store" element={<Store />} />
+        <Route exact path="/product" element={<Product />} />
+
       </Routes>
       <Footer />
     </div>
