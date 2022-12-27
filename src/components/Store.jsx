@@ -6,6 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import Product from "./Product";
 import Ncard from "./Ncard";
+import Cardapi from "./Cardapi";
 
 const Store = () => {
   return (
