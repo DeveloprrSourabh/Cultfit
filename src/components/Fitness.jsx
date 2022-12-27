@@ -1,6 +1,6 @@
 import React from "react";
 import Subnavbar from "./Subnavbar";
-import './styles/fitness.css';
+import fitness from "./styles/fitness.css";
 import Header from "./Header";
 
 const Fitness = () => {
