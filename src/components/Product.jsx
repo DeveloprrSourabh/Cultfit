@@ -17,8 +17,7 @@ function Product(props){
     </div>
 <div className="productj">
 {/* FIRST---START */}
-<div className="col-4 hubnhjk">
-<a href="" className="mmkkl">
+<a href="" className="col-3 mmkkl">
   <div className="agyafinal">
   
   <div className="mnpdctig">
@@ -35,7 +34,6 @@ function Product(props){
   </div>
 </div>
   </a>
-</div>
   {/* FIRST---END */}
 
 </div>
