@@ -1,44 +1,45 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./styles/product.css";
 
 function Product(props) {
   // console.log(props);
   return (
     <>
-      {/* <div key={props.id} className="apihgth">
-        <div className="figprdct">
-          <div className="kkprdct">
-            <span className="ghjuijki">{props.heading}</span>
-          </div>
-          <div className="allvw">
-            <a href="" className="vfrtll">
-              {props.subheading}
-            </a>
-          </div>
+        <div key={props.id} className="stylishname">
+        <span className="ghnt">{props.heading}</span>
+        <div className="thik">{props.subheading}</div>
+      </div>
+      <div className="card">
+        <div className="flex">
+          <NavLink to={`/cultsport/${props.id}`}>
+            <div className="makecard">
+              <div className="cimg1">
+                <img src={props.imgsrc} alt="" className="makecardimg" />
+              </div>
+              <div className="makecarddiv2">CULTSPORT</div>
+              <div className="makecarddiv3">{props.about}</div>
+              <div className="makecarddiv4">
+                <p style={{ fontWeight: "600" }} className="makecardp">
+                  ₹{props.prize}
+                </p>
+                <p
+                  style={{ textDecoration: "line-through" }}
+                  className="makecardp"
+                >
+                  ₹{props.preprize}
+                </p>
+                <p
+                  style={{ color: "rgb(255 138 183)", fontWeight: "700" }}
+                  className="makecardp"
+                >
+                  {props.off}% off
+                </p>
+              </div>
+            </div>
+          </NavLink>
         </div>
-        
-      </div> */}
-      <a className="flex row productj">
-        {/* FIRST---START */}
-        <a href="" className="col-3 mmkkl">
-          <div className="agyafinal">
-            <div className="mnpdctig">
-              <img src={props.imgsrc} alt="" className="pdctimghig" />
-            </div>
-            <div className="mmnjhjhjkl">cultsportone</div>
-            <div className="apiheadi">{props.about}</div>
-            <div className="apiagi">
-              <p className="apifpr">₹{props.prize}</p>
-              <p className="apifpr1"> ₹{props.preprize}</p>
-              <p className="apifpr2"> {props.off}% off</p>
-            </div>
-          </div>
-        </a>
-        {/* FIRST---END */}
-      </a>
-
-
-      
+      </div>
     </>
   );
 }
