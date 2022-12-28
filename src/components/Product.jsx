@@ -5,7 +5,7 @@ import "./styles/product.css";
 function Product(props) {
   // console.log(props);
   return (
-    <>
+    <>  
           <div key={props.id} className="stylishname">
           <span className="ghnt">{props.heading}</span>
           <a className="thik">{props.subheading}</a>
