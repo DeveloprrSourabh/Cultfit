@@ -105,9 +105,9 @@ color:black;
     width: 300px;
 }
 .stylishname {
-    width: fit-content;
+    /* width: fit-content;
     margin-left: 1.7999999999999998rem;
-    color: black;
+    color: black; */
   }
 
   .ghnt {
