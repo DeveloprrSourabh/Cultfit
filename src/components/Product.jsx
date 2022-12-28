@@ -8,7 +8,7 @@ function Product(props) {
     <>
         <div key={props.id} className="stylishname">
         <span className="ghnt">{props.heading}</span>
-        <div className="thik">{props.subheading}</div>
+        <a className="thik">VIEW ALL</a>
       </div>
       <div className="card">
         <div className="flex">

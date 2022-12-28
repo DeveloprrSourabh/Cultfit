@@ -1,8 +1,7 @@
 const Cardapi = [
   {
     id: 1,
-    heading: "BESTSELLERs",
-    subheading: "LOVED BY CULT MEMBERS",
+    heading: "T-SHIRTS",
     imgsrc:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
     about: "FormFit High Impact Ivy Sports Bra",
@@ -95,7 +94,6 @@ const Cardapi = [
   {
     id: 5,
     heading: "JUST LAUNCHED",
-    subheading: "NEW ARRIVALS",
     color: "Green",
     imgsrc:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
