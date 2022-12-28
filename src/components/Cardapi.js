@@ -2,6 +2,7 @@ const Cardapi = [
   {
     id: 1,
     heading: "T-SHIRTS",
+    subheading:"VIEW ALL",
     imgsrc:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
     about: "FormFit High Impact Ivy Sports Bra",

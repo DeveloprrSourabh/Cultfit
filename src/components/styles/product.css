@@ -105,9 +105,9 @@ color:black;
     width: 300px;
 }
 .stylishname {
-    color: #000000;
     width: fit-content;
-    margin-left: 4.8rem;
+    margin-left: 1.7999999999999998rem;
+    color: black;
   }
 
   .ghnt {
@@ -118,10 +118,11 @@ color:black;
     font-weight: bold;
   }
   .thik {
-    font-size: 21px;
-    line-height: 35px;
-    letter-spacing: 1px;
-    color: rgba(0, 0, 0, 0.6);
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top: 5px;
+    color: #ff3278;
+    cursor: pointer;
   }
   
 
@@ -145,8 +146,9 @@ color:black;
     margin-top: 5px;
   }
   .makecardp {
-    padding-right: 27px;
-    font-size: 19px;
+    margin: 12px 10px 12px 0;
+    font-size: 17px;
+    color: #ff3278;
   }
   .card {
     width: 300px;
