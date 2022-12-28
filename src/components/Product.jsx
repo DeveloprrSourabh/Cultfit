@@ -17,22 +17,16 @@ function Product(props) {
               <div className="cimg1">
                 <img src={props.imgsrc} alt="" className="makecardimg" />
               </div>
-              <div className="makecarddiv2">CULTSPORT</div>
+              <div className="makecarddiv2">CULTSPORTONE</div>
               <div className="makecarddiv3">{props.about}</div>
               <div className="makecarddiv4">
-                <p style={{ fontWeight: "600" }} className="makecardp">
+                <p className="makecardp1">
                   ₹{props.prize}
                 </p>
-                <p
-                  style={{ textDecoration: "line-through" }}
-                  className="makecardp"
-                >
+                <p className="makecardp2">
                   ₹{props.preprize}
                 </p>
-                <p
-                  style={{ color: "rgb(255 138 183)", fontWeight: "700" }}
-                  className="makecardp"
-                >
+                <p className="makecardp3">
                   {props.off}% off
                 </p>
               </div>

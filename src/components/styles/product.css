@@ -114,6 +114,8 @@ color:black;
     font-family: Poppins-Bold, Helvetica Neue, Helvetica, Roboto, Arial,
       sans-serif;
     font-style: italic;
+    opacity: 80%;
+    font-weight:"800";
     font-size: 28px;
     font-weight: bold;
   }
@@ -130,14 +132,22 @@ color:black;
     width: 100%;
   }
   .makecarddiv2 {
-    margin-top: 1rem;
-    opacity: 80%;
-    color: black;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 14px;
+    color: rgb( 0 0 0 / 60%);
+    font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 1px;
   }
   .makecarddiv3 {
-    font-size: 14px;
-    color: black;
-    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    white-space: normal;
+    margin-top: 10px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    
+    color: #262626;
   }
   
   .makecarddiv4 {
@@ -145,10 +155,30 @@ color:black;
     color: black;
     margin-top: 5px;
   }
-  .makecardp {
+  .makecardp3{
     margin: 12px 10px 12px 0;
     font-size: 17px;
     color: #ff3278;
+    letter-spacing: 0.5px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+  .makecardp1{
+    color: #000000;
+    font-family: Inter-SemiBold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 12px 10px 12px 0;
+  }
+  .makecardp2{
+    color: #262626;
+    font-family: Inter-SemiBold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    font-weight: 600;
+    opacity: 90%;
+    text-decoration: line-through;
+    margin: 12px 10px 12px 0;
   }
   .card {
     width: 300px;
