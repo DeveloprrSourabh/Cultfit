@@ -116,6 +116,7 @@ p{
   .ghnt {
     font-family: Poppins-Bold, Helvetica Neue, Helvetica, Roboto, Arial,
       sans-serif;
+      margin: 2%;
     font-style: italic;
     opacity: 80%;
     font-weight:"800";
@@ -187,9 +188,7 @@ p{
  
   }
 
-  div > p.stylishname{
-    display: none;
-  }
+
 
 
 
