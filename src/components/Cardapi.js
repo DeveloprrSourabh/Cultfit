@@ -96,10 +96,10 @@ const Cardapi = [
     heading: "CYCLES",
     color: "Green",
     imgsrc:
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mRmDRFA389Zo8n23tVRCvmty",
-    about: "Ombre Yoga Tights  For You ..",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/q1S4DwudvD6D86TUcuSikyUZ",
+    about: "UT1000, Black, Steel MTB 27.5 T Shimano Geared Mountain Cycle",
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga Ombre leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
-    prize: 2299,
+    prize:10999,
     qnty: 0,
 
     img: [
@@ -110,15 +110,15 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/LvqhvJf6qYz4S6cfshHueJ87",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/6Gsb6d5D1CkcPwoLY7ZXL7Qo",
     ],
-    preprize: 3699,
-    off: 40,
+    preprize: 49999,
+    off: 78,
   },
   {
     id: 6,
     imgsrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
-    about: "2 in 1 Lightweight Yoga Mat  For You",
-    prize: 623,
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/omGT5x3nxUZ1QFbt9xpgx54T",
+    about: "UT3001A27.5, Black, Alloy MTB 27.5 T Shimano Geared Mountain Cycle",
+    prize: 13299,
     color: "Brown",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/12Uc17w8J6Mx6xPrySbZjkXh",
@@ -128,18 +128,18 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Eh9UJw6ceMa6J8g5PcKNZWoK",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Eh9UJw6ceMa6J8g5PcKNZWoK",
     ],
-    preprize: 1199,
+    preprize: 47990,
     qnty: 0,
 
     desc: "Ace those asanas with this signature Yoga Mat. Made out of durable high quality material, this one provides ample padding along with no-slip grip to turn your practice up by a notch. Double this up as your workout mat for strength exercises.",
-    off: 48,
+    off: 72,
   },
   {
     id: 7,
     imgsrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
-    about: "2 in 1 Lightweight Yoga Mat  For You",
-    prize: 623,
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/gAyN3PLJRUsVNUmEjYDscTDA",
+    about: "BOLT UT5000S26, Green, Steel MTB Disc Brakes, 26 T Mountain Cycle (Single Speed)",
+    prize: 8999,
     color: "Cream",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/8LKu6LCyX4LqdK3Rpc1Hkjw7",
@@ -150,15 +150,15 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/izKUG2hwBDDnBXSHNjVWjByr",
     ],
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
-    preprize: 1199,
+    preprize: 18000,
     qnty: 0,
 
-    off: 48,
+    off: 50,
   },
   {
     id: 8,
     imgsrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/iJGstmndhFJaAfywnVLaEppW",
     about: "2 in 1 Lightweight Yoga Mat  For You",
     color: "Royal Green",
     qnty: 0,
