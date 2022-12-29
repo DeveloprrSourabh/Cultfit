@@ -531,9 +531,9 @@ heading:"BOTTOMWEAR",
   },
   {
     id: 25,
-
-    imgsrc:"",
-    about: "",
+heading:"HEALTH & NUTRITION",
+    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ZCAj47EBjCcrTqoJwp38Mvr5",
+    about: "Cultsport Elite 100% Whey Protein, 1 Kg",
     color: "Black",
 
     img: [
@@ -545,17 +545,17 @@ heading:"BOTTOMWEAR",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize: ,
-    preprize: ,
-    off: ,
+    prize: 2599,
+    preprize:3499 ,
+    off: 25,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 26,
 
-    imgsrc:"",
-    about: "",
+    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/VDxmyWjWBtLAsoecqfLURGkg",
+    about: "Cultsport Elite Whey Isolate Protein, 908g",
     color: "Black",
 
     img: [
@@ -567,17 +567,17 @@ heading:"BOTTOMWEAR",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize: ,
-    preprize: ,
-    off: ,
+    prize:2999 ,
+    preprize:4399 ,
+    off:31 ,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 27,
 
-    imgsrc:"",
-    about: "",
+    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/GSTyMSQeHn7pp7Cyw3Dv1yrk  ",
+    about: "Cultsport EAA, 300g",
     color: "Black",
 
     img: [
@@ -589,17 +589,17 @@ heading:"BOTTOMWEAR",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize: ,
-    preprize: ,
-    off: ,
+    prize:1499 ,
+    preprize:1799 ,
+    off:16 ,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 28,
 
-    imgsrc:"",
-    about: "",
+    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ENQM9ukkwLWr86FcTNpWReTd",
+    about: "Cultsport Elite 100% Whey Protein, 500g",
     color: "Black",
 
     img: [
@@ -611,56 +611,13 @@ heading:"BOTTOMWEAR",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize: ,
-    preprize: ,
-    off: ,
+    prize:1224 ,
+    preprize:1749 ,
+    off:30 ,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
-  {
-    id: 1,
-
-    imgsrc:"",
-    about: "",
-    color: "Black",
-
-    img: [
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/mU1dZAHqT6pjRn55ZWYvq6Mf",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/bFNaeVGrnJ2wagRkkTgBEv1n",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/zxZ6xCA2v6VBE9vpMLG5xm1K",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/qzQmE6e63CujJ9GuzxQtaf89",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ZTTm17Y5xfDV1Xp4wU7dqynR",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
-    ],
-    desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize: ,
-    preprize: ,
-    off: ,
-    size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
-  },
-  {
-    id: 1,
-
-    imgsrc:"",
-    about: "",
-    color: "Black",
-
-    img: [
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/mU1dZAHqT6pjRn55ZWYvq6Mf",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/bFNaeVGrnJ2wagRkkTgBEv1n",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/zxZ6xCA2v6VBE9vpMLG5xm1K",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/qzQmE6e63CujJ9GuzxQtaf89",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/ZTTm17Y5xfDV1Xp4wU7dqynR",
-      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
-    ],
-    desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize: ,
-    preprize: ,
-    off: ,
-    size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
-  },
+ 
   
 ];
 
