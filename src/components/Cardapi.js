@@ -616,7 +616,7 @@ heading:"HEALTH & NUTRITION",
     off:30 ,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
-  },
+  },    
  
   
 ];
