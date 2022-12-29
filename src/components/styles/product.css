@@ -1,6 +1,9 @@
 a{
 color:black;
 }
+p{
+  margin: 0px;
+}
 
 .figprdct{
     display: flex;  
@@ -121,8 +124,7 @@ color:black;
   }
   .thik {
     font-size: 17px;
-    margin-left: 25px;
-    margin-top: 5px;
+
     color: #ff3278;
     cursor: pointer;
   }
@@ -189,6 +191,7 @@ color:black;
     background-color: white;
  
   }
+
 
 
 
