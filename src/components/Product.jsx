@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ReactDOM from "react-dom";
-import ReactCardCarousel from "react-card-carousel";
 import "./styles/product.css";
 
 function Product(props) {
