@@ -81,9 +81,7 @@ p{
     white-space: nowr;
     font-weight: 600;
 }
-.productj{
 
-}
 .apihgth{
     display: flex;
     margin-left: 20px;
@@ -107,16 +105,13 @@ p{
 .makecard{
     width: 300px;
 }
-.stylishname {
-    /* width: fit-content;
-    margin-left: 1.7999999999999998rem;
-    color: black; */
-  }
+
 
   .ghnt {
     font-family: Poppins-Bold, Helvetica Neue, Helvetica, Roboto, Arial,
       sans-serif;
-      margin: 2%;
+      position: relative;
+      left: 16%;
     font-style: italic;
     opacity: 80%;
     font-weight:"800";
@@ -189,7 +184,9 @@ p{
   }
 
 
-
+.stylishname{
+  width: fit-content;
+}
 
 
 

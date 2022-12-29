@@ -49,9 +49,9 @@ const Cardapi = [
     id: 3,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/4pF7S8qji3nFu55XYC7HAEu7",
-    about: "FormFit High Impact Ivy Sports Bra",
+    about: "Vitals Running T-shirt",
     color: "Pink",
-    prize: 1499,
+    prize: 714,
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/anBREptvxVED3KMUSXcPpTen",
@@ -61,10 +61,10 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Bm5aSpTs4SPjiCEfUosR3qv9",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/sSKzbF9iU1FTtko1YKkRjiJK",
     ],
-    preprize: 2499,
+    preprize: 1299,
     qnty: 0,
 
-    off: 40,
+    off: 45,
 
     size: ["XS", "S", "M", "L", "XL"],
   },
