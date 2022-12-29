@@ -6,7 +6,7 @@ function Product(props) {
   // console.log(props);
   return (
     <>
-     <p key={props.id} className="stylishname">
+      <p key={props.id} className="stylishname">
         <span className="ghnt">{props.heading}</span>
       </p>
       <div className="card">
@@ -27,8 +27,6 @@ function Product(props) {
           </NavLink>
         </div>
       </div>
-
-
     </>
   );
 }
