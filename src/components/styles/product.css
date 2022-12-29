@@ -122,12 +122,7 @@ p{
     font-size: 28px;
     font-weight: bold;
   }
-  .thik {
-    font-size: 17px;
-    color: #ff3278;
-    padding: 2px 29px;
-    cursor: pointer;
-  }
+
   
 
   .makecardimg {
@@ -192,7 +187,9 @@ p{
  
   }
 
-
+  div > p.stylishname{
+    display: none;
+  }
 
 
 
