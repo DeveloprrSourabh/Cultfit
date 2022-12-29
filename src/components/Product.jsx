@@ -6,10 +6,10 @@ function Product(props) {
   // console.log(props);
   return (
     <>
-     <div key={props.id} className="stylishname">
+     <p key={props.id} className="stylishname">
         <span className="ghnt">{props.heading}</span>
         <a className="thik">{props.subheading}</a>
-      </div>
+      </p>
       <div className="card">
         <div className="flex">
           <NavLink to={`/cultsport/${props.id}`}>
