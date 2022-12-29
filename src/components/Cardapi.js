@@ -2,10 +2,9 @@ const Cardapi = [
   {
     id: 1,
     heading: "T-SHIRTS",
-    subheading:"VIEW ALL",
     imgsrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
-    about: "FormFit High Impact Ivy Sports Bra",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mcFkm6K2JzvBewYumhjHk3Se",
+    about: "Solid Active Tshirt with Logo",
     color: "Black",
 
     img: [
@@ -17,17 +16,17 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize: 1499,
-    preprize: 2499,
-    off: 40,
+    prize: 499,
+    preprize: 899,
+    off: 50,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 2,
     imgsrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
-    about: "Vitals Running T-Shirt For You",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/gyEKit98fH6VGSZ2jv1fFkSm",
+    about: "Textured Performance Tshirt with Logo",
     color: "Gray",
     qnty: 0,
 
@@ -41,15 +40,15 @@ const Cardapi = [
     ],
     desc: "Run your own race, defy the norms and cook up a storm in this workout T-shirt.Meant to move with you, this combines design and technology to deliver a performance as impressive as yours.",
     title: "Vitals Running T-Shirt  For You",
-    prize: 824,
-    preprize: 1499,
-    off: 45,
+    prize: 499,
+    preprize: 999,
+    off: 50,
     size: ["XS", "S", "M", "L", "XL"],
   },
   {
     id: 3,
     imgsrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/4pF7S8qji3nFu55XYC7HAEu7",
     about: "FormFit High Impact Ivy Sports Bra",
     color: "Pink",
     prize: 1499,
@@ -72,7 +71,7 @@ const Cardapi = [
   {
     id: 4,
     imgsrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/szuf3uS7tBKSJm4iguNhQ4yo",
     about: "LAYR Solid Sweatshirt  For You",
     color: "Black",
     prize: 1649,
@@ -94,10 +93,10 @@ const Cardapi = [
   // second row
   {
     id: 5,
-    heading: "JUST LAUNCHED",
+    heading: "CYCLES",
     color: "Green",
     imgsrc:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZ34AwObpfWxd3-nusuCkTymEvcfIwbDcK_rY9sFv&s",
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/mRmDRFA389Zo8n23tVRCvmty",
     about: "Ombre Yoga Tights  For You ..",
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga Ombre leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
     prize: 2299,
