@@ -8,6 +8,7 @@ import Store from "./components/Store";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
+import Details from "./components/Details";
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path="/mind" element={<Mind />} />
         <Route exact path="/store" element={<Store />} />
         <Route exact path="/product" element={<Product />} />
+        <Route exact path="cultsport/:id" element={<Item />} />
 
       </Routes>
       <Footer />

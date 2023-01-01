@@ -1,8 +1,17 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import Cardapi from "./Cardapi";
+import Storenav from "./Storenav";
 
 const Details = () => {
   return (
-    <div>Details</div>
+    <>
+    <div>
+        hjhjhjhbhbfhjsvfjsvfvdsfjdsvfdshfvdsfvbdshfvbhjsfjhdsfvhj
+    </div>
+<Storenav />
+    </>
+
   )
 }
 
