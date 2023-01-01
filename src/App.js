@@ -19,7 +19,7 @@ const App = () => {
         <Route exact path="/mind" element={<Mind />} />
         <Route exact path="/store" element={<Store />} />
         <Route exact path="/product" element={<Product />} />
-        <Route exact path="cultsport/:id" element={<Item />} />
+        <Route exact path="cultsport/:id" element={<Details />} />
 
       </Routes>
       <Footer />
