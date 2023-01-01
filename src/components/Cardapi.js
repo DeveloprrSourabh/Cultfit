@@ -99,7 +99,7 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/q1S4DwudvD6D86TUcuSikyUZ",
     about: "UT1000, Black, Steel MTB 27.5 T Shimano Geared Mountain Cycle",
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga Ombre leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
-    prize:10999,
+    prize: 10999,
     qnty: 0,
 
     img: [
@@ -138,7 +138,8 @@ const Cardapi = [
     id: 7,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/gAyN3PLJRUsVNUmEjYDscTDA",
-    about: "BOLT UT5000S26, Green, Steel MTB Disc Brakes, 26 T Mountain Cycle (Single Speed)",
+    about:
+      "BOLT UT5000S26, Green, Steel MTB Disc Brakes, 26 T Mountain Cycle (Single Speed)",
     prize: 8999,
     color: "Cream",
     img: [
@@ -187,7 +188,8 @@ const Cardapi = [
     color: "Motor HoursePower:3PH",
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/vX1Vgko9H9n3Nn3rdyQnNkrb",
-    about: "Smartbike c1: Bluetooth enabled spin bike with 8-level magnetic resistance",
+    about:
+      "Smartbike c1: Bluetooth enabled spin bike with 8-level magnetic resistance",
     prize: 22999,
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/u48p1giD4ydC4jdvtsAnNYD6",
@@ -205,7 +207,8 @@ const Cardapi = [
     id: 10,
     imgsrc:
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/nTvMdcZi5B2MzrXZJicv7acr",
-    about: "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
+    about:
+      "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
     color: "Motor HoursePower:6PH",
     prize: 24999,
     qnty: 0,
@@ -246,7 +249,8 @@ const Cardapi = [
   {
     id: 12,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/x4H5oZvc2DVoVQ7QzPeF38Ww",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/x4H5oZvc2DVoVQ7QzPeF38Ww",
     about: "OFP-M1, 100 Level Magnetic Resistance Spin Bike",
     color: "Black",
 
@@ -259,16 +263,17 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:20999 ,
-    preprize:59999 ,
+    prize: 20999,
+    preprize: 59999,
     off: 65,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 13,
-heading:"TREADMILLS",
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/GpeKVjiXj2nnH9eafrutHxfm",
+    heading: "TREADMILLS",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/GpeKVjiXj2nnH9eafrutHxfm",
     about: "Smartrun c1: Bluetooth enabled treadmill with 6-level incline",
     color: "Black",
 
@@ -290,8 +295,10 @@ heading:"TREADMILLS",
   {
     id: 14,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/yHz1nfjmiafpYRHeTMiBfB9A",
-    about: "Smartrun c2: Bluetooth enabled treadmill with 15-level auto incline",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/yHz1nfjmiafpYRHeTMiBfB9A",
+    about:
+      "Smartrun c2: Bluetooth enabled treadmill with 15-level auto incline",
     color: "Black",
 
     img: [
@@ -303,8 +310,8 @@ heading:"TREADMILLS",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:39999 ,
-    preprize:81599 ,
+    prize: 39999,
+    preprize: 81599,
     off: 50,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
@@ -312,7 +319,8 @@ heading:"TREADMILLS",
   {
     id: 15,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/B4K4rku74fqHCaWpgEV14uH1",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/B4K4rku74fqHCaWpgEV14uH1",
     about: "FT200M 4.5HP DC Motorized Treadmill",
     color: "Black",
 
@@ -326,15 +334,16 @@ heading:"TREADMILLS",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
     prize: 33999,
-    preprize:80000 ,
-    off:57 ,
+    preprize: 80000,
+    off: 57,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 16,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/FsezbKx6Tyj3DAXyHa7bL6hu",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/FsezbKx6Tyj3DAXyHa7bL6hu",
     about: "FT200S 4.5HP DC Motorized Treadmill",
     color: "Black",
 
@@ -355,8 +364,9 @@ heading:"TREADMILLS",
   },
   {
     id: 17,
-heading:"ACCESSORIES",
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
+    heading: "ACCESSORIES",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/TtKkztyhA84pRRQb6SstMJSP",
     about: "Yoga Strap",
     color: "Black",
 
@@ -378,7 +388,8 @@ heading:"ACCESSORIES",
   {
     id: 18,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/1HyT5rRS8CWYTY4NMzpkTnit",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/1HyT5rRS8CWYTY4NMzpkTnit",
     about: "Raspberry Pink Yoga Mat",
     color: "Black",
 
@@ -391,7 +402,7 @@ heading:"ACCESSORIES",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:1429 ,
+    prize: 1429,
     preprize: 2199,
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
@@ -400,7 +411,8 @@ heading:"ACCESSORIES",
   {
     id: 19,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/brCb5bFWf1FkJSkxhdwzkvcT",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/brCb5bFWf1FkJSkxhdwzkvcT",
     about: "Yoga Mat Bag",
     color: "Black",
 
@@ -414,7 +426,7 @@ heading:"ACCESSORIES",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
     prize: 649,
-    preprize:999 ,
+    preprize: 999,
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
@@ -422,7 +434,8 @@ heading:"ACCESSORIES",
   {
     id: 20,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/MZFfCY195g4quQLCT8F1paub",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/MZFfCY195g4quQLCT8F1paub",
     about: "Multi Utility Waist Pouch",
     color: "Black",
 
@@ -435,16 +448,17 @@ heading:"ACCESSORIES",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:524 ,
-    preprize:749 ,
+    prize: 524,
+    preprize: 749,
     off: 30,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 21,
-heading:"BOTTOMWEAR",
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/iK5BVWbaQ6KoEt1hwBUMuCdq",
+    heading: "BOTTOMWEAR",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/iK5BVWbaQ6KoEt1hwBUMuCdq",
     about: "Halftone Print Active Shorts",
     color: "Black",
 
@@ -459,14 +473,15 @@ heading:"BOTTOMWEAR",
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
     prize: 879,
     preprize: 1599,
-    off:45 ,
+    off: 45,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 22,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/t5VpnpDQrsKVPHRUYgAiTgFL",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/t5VpnpDQrsKVPHRUYgAiTgFL",
     about: "AbsoluteFit Solid Workout Tights",
     color: "Black",
 
@@ -479,8 +494,8 @@ heading:"BOTTOMWEAR",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:1374 ,
-    preprize:2499 ,
+    prize: 1374,
+    preprize: 2499,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
@@ -488,7 +503,8 @@ heading:"BOTTOMWEAR",
   {
     id: 23,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/htjEJCau5FfPzq6orYWXz1vb",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/htjEJCau5FfPzq6orYWXz1vb",
     about: "Halftone Logo Active Shorts",
     color: "Black",
 
@@ -501,16 +517,17 @@ heading:"BOTTOMWEAR",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:879 ,
-    preprize:1599 ,
+    prize: 879,
+    preprize: 1599,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
-  { 
+  {
     id: 24,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/xnVH5ZjMvv51Dxc7i8z7w3Gt",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/xnVH5ZjMvv51Dxc7i8z7w3Gt",
     about: "AbsoluteFit Solid Workout Tights",
     color: "Black",
 
@@ -523,7 +540,7 @@ heading:"BOTTOMWEAR",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:1374 ,
+    prize: 1374,
     preprize: 2499,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
@@ -531,8 +548,9 @@ heading:"BOTTOMWEAR",
   },
   {
     id: 25,
-heading:"HEALTH & NUTRITION",
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ZCAj47EBjCcrTqoJwp38Mvr5",
+    heading: "HEALTH & NUTRITION",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ZCAj47EBjCcrTqoJwp38Mvr5",
     about: "Cultsport Elite 100% Whey Protein, 1 Kg",
     color: "Black",
 
@@ -546,7 +564,7 @@ heading:"HEALTH & NUTRITION",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
     prize: 2599,
-    preprize:3499 ,
+    preprize: 3499,
     off: 25,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
@@ -554,7 +572,8 @@ heading:"HEALTH & NUTRITION",
   {
     id: 26,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/VDxmyWjWBtLAsoecqfLURGkg",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/VDxmyWjWBtLAsoecqfLURGkg",
     about: "Cultsport Elite Whey Isolate Protein, 908g",
     color: "Black",
 
@@ -567,16 +586,17 @@ heading:"HEALTH & NUTRITION",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:2999 ,
-    preprize:4399 ,
-    off:31 ,
+    prize: 2999,
+    preprize: 4399,
+    off: 31,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 27,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/GSTyMSQeHn7pp7Cyw3Dv1yrk  ",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/GSTyMSQeHn7pp7Cyw3Dv1yrk  ",
     about: "Cultsport EAA, 300g",
     color: "Black",
 
@@ -589,16 +609,17 @@ heading:"HEALTH & NUTRITION",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:1499 ,
-    preprize:1799 ,
-    off:16 ,
+    prize: 1499,
+    preprize: 1799,
+    off: 16,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
   },
   {
     id: 28,
 
-    imgsrc:"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ENQM9ukkwLWr86FcTNpWReTd",
+    imgsrc:
+      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/ENQM9ukkwLWr86FcTNpWReTd",
     about: "Cultsport Elite 100% Whey Protein, 500g",
     color: "Black",
 
@@ -611,15 +632,12 @@ heading:"HEALTH & NUTRITION",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/PUBsxgBzpZckbKDVuT1qA2y4",
     ],
     desc: "Your perfect training partner, this sports bra with its hidden stabilizer panels promises extra support and bounce control, especially during high impact activities. The power mesh allows for better ventilation and the hook & eye closure adds to your convenience while offering additional adjustability. Time to be fit with FormFit!",
-    prize:1224 ,
-    preprize:1749 ,
-    off:30 ,
+    prize: 1224,
+    preprize: 1749,
+    off: 30,
     size: ["XS", "S", "M", "L", "XL"],
     qnty: 0,
-  },    
- 
-  
-  
+  },
 ];
 
 export default Cardapi;

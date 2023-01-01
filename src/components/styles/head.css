@@ -7,6 +7,7 @@
     width: 362px;
   }
 
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(255, 255, 255);
 }
@@ -24,7 +25,7 @@
 
 
 .img1{
-    width: 47%;
+    width: 100%;
     margin: 3%;
 }
 
