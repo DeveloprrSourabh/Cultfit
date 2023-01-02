@@ -22,6 +22,7 @@ const App = () => {
         <Route exact path="cultsport/:id" element={<Details />} />
 
       </Routes>
+      
       <Footer />
     </div>
   );
