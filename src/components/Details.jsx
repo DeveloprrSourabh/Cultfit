@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
@@ -72,7 +72,10 @@ const Details = () => {
             </div>
             <div className="jklbt">
               <div className="jkl2bt">
-                <NavLink>
+                <NavLink
+                  to="/cart"
+                 
+                >
                   <div className="jklbt21">Add to Cart</div>
                 </NavLink>
               </div>
