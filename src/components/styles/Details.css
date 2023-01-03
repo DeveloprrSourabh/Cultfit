@@ -1,3 +1,6 @@
+html, body{
+    font-family: 'BrandonTextWeb-Regular';
+}
 .igmgdtg{
     width: calc(50% - 2rem);
     margin: 1rem;
@@ -214,7 +217,7 @@ ul{
 }
 .ndkjkh{
     padding: 0 10px;
-    margin: 10px 0;
+    margin: 10px;
 }
 .li2nd{
     font-size: 14px;
@@ -249,4 +252,8 @@ ul{
 .dtpg{
     display: flex;
     flex-direction: row;
+    background-color: white;
+}
+.treehed{
+    margin: 1% 0px;
 }
