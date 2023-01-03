@@ -107,12 +107,12 @@ const Details = () => {
                 </div>
               </div>
             </div>
-            <ul className="2ndkjkh">
-              <li className="li2nd">
-                <span className="span2nd"> Free delivery within 5-7 days</span>
-                <span className="span2nd"> Easy 30 days return available</span>
+            <ul className="ndkjkh">
+              <li className="li2nd">  <span className="span2nd"> Free delivery within 5-7 days</span></li>
+               <li className="li2nd"> <span className="span2nd"> Easy 30 days return available</span></li>
                 <span className="span2nd"> 30 days exchange available</span>
-                <span className="span2ndalg">
+               <li className="li2nd"> 
+               <span className="span2ndalg">
                   To minimise contact between you and the delivery partner, Pay
                   on Delivery option is temporarily disabled.
                 </span>
