@@ -1,7 +1,11 @@
 .igmgdtg{
     width: calc(50% - 2rem);
-    margin: 2%;
+    margin: 1rem;
 }
 .dtigmgnhj{
     width: 100%;
+}
+.ghftytfff{
+    display: flex;
+    flex-flow: row wrap;
 }
