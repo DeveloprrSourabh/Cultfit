@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
 import Details from "./components/Details";
+import Cart from "./components/Cart";
 const App = () => {
   return (
     <div>
@@ -20,6 +21,8 @@ const App = () => {
         <Route exact path="/store" element={<Store />} />
         <Route exact path="/product" element={<Product />} />
         <Route exact path="cultsport/:id" element={<Details />} />
+        <Route exact path="/cart" element={<Cart />} />
+
       </Routes>
       <Footer />
     </div>

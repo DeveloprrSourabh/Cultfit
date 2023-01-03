@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React, { useReducer, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
+import { reducer } from "./reducer";
 import "./styles/Details.css";
 
+const initialState = {
+  item: Cardapi,
+  totalAmount: 0,
+  totalItem: 0,
+};
+
 const Details = () => {
+  const [state, dispatch] = useReducer(reducer, initialState);
   const proid = useParams();
   const proDetail = Cardapi.filter((x) => x.id == proid.id);
   const product = proDetail[0];
@@ -72,10 +80,7 @@ const Details = () => {
             </div>
             <div className="jklbt">
               <div className="jkl2bt">
-                <NavLink
-                  to="/cart"
-                 
-                >
+                <NavLink to="/cart">
                   <div className="jklbt21">Add to Cart</div>
                 </NavLink>
               </div>

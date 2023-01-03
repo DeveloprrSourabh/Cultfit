@@ -151,12 +151,17 @@ text-align: end;
     padding: 6px 1rem;
 }
 .cartItem{
-    width: 24px;
     background: white;
-    height: 24px;
     border-radius: 50%;
     position: absolute;
     color: black;
+    padding: 0px 8px;
     top: 14px;
     right: 8px;
+}
+.ps-sidebar-root{
+    display: none;
+}
+.jp:focus .ps-sidebar-root {
+display: block;
 }

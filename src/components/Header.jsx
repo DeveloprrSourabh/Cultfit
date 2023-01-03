@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import style from "./styles/head.css";
+import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 
 const Header = () => {
   return (
@@ -62,14 +63,25 @@ const Header = () => {
                   className="lp"
                 />
               </Link>
-              <Link className="nav-link jp nn" to="#">
+              <div className="nav-link jp nn" to="#">
                 <img
                   src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg"
                   alt=""
                   className="lp"
                 />
-                <div className="cartItem"></div>
-              </Link>
+                <div className="cartItem">4</div>
+                <Sidebar>
+                  <Menu>
+                    <SubMenu label="Charts">
+                      <MenuItem> Pie charts </MenuItem>
+                      <MenuItem> Line charts </MenuItem>
+                    </SubMenu>
+                    <MenuItem> Documentation </MenuItem>
+                    <MenuItem> Calendar </MenuItem>
+                  </Menu>
+                </Sidebar>
+                ;
+              </div>
             </div>
           </div>
         </div>
