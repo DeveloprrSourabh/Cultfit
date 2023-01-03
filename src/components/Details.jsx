@@ -57,11 +57,11 @@ const Details = () => {
               <div className="szeguide">(Size Guide)</div>
             </div>
             <div className="mskf">
-              <div className="sdfrtgbh">S</div>
-              <div className="sdfrtgbh">M</div>
-              <div className="sdfrtgbh">L</div>
-              <div className="sdfrtgbh">XL</div>
-              <div className="sdfrtgbh">XXL</div>
+              <div tabindex="1" className="kk sdfrtgbh mmkk">S</div>
+              <div tabindex="1" className="kk sdfrtgbh">M</div>
+              <div tabindex="1" className="kk sdfrtgbh">L</div>
+              <div tabindex="1" className="kk sdfrtgbh">XL</div>
+              <div tabindex="1" className="kk sdfrtgbh">XXL</div>
             </div>
             <div className="jklbt">
               <div className="jkl2bt">
