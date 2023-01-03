@@ -71,6 +71,7 @@ const Details = () => {
                 <div className="jklbt21">Buy Now</div>
               </div>
             </div>
+            <div className="kuji"></div>
             <div className="dtltre">
               <div className="dtlddd">
                 <div className="lkoikjui">PRODUCT DETAILS</div>
@@ -88,6 +89,7 @@ const Details = () => {
                 </ul>
               </div>
             </div>
+            <div className="kkktm"></div>
             <div className="khlpil">
               <div className="belop"></div>
               <div className="pflkhjgfdfs">
