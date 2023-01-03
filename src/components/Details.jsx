@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
 import "./styles/Details.css";
@@ -44,9 +44,7 @@ const Details = () => {
               <p className="fprtr2">{product.off} % Off</p>
             </div>
             <div className="paraf">
-              <p className="trparaf">
-                {product.desc}
-              </p>
+              <p className="trparaf">{product.desc}</p>
             </div>
             <div className="sunobtn">
               <div className="hgjuyhbtn">BEST SELLER</div>
@@ -56,18 +54,32 @@ const Details = () => {
               <div className="szeguide">(Size Guide)</div>
             </div>
             <div className="mskf">
-              <div tabindex="1" className="kk sdfrtgbh mmkk">S</div>
-              <div tabindex="1" className="kk sdfrtgbh">M</div>
-              <div tabindex="1" className="kk sdfrtgbh">L</div>
-              <div tabindex="1" className="kk sdfrtgbh">XL</div>
-              <div tabindex="1" className="kk sdfrtgbh">XXL</div>
+              <div tabindex="1" className="kk sdfrtgbh mmkk">
+                S
+              </div>
+              <div tabindex="1" className="kk sdfrtgbh">
+                M
+              </div>
+              <div tabindex="1" className="kk sdfrtgbh">
+                L
+              </div>
+              <div tabindex="1" className="kk sdfrtgbh">
+                XL
+              </div>
+              <div tabindex="1" className="kk sdfrtgbh">
+                XXL
+              </div>
             </div>
             <div className="jklbt">
               <div className="jkl2bt">
-                <div className="jklbt21">Add to Cart</div>
+                <NavLink>
+                  <div className="jklbt21">Add to Cart</div>
+                </NavLink>
               </div>
               <div className="jkl2bt">
-                <div className="jklbt21">Buy Now</div>
+                <NavLink>
+                  <div className="jklbt21">Buy Now</div>
+                </NavLink>
               </div>
             </div>
             <div className="kuji"></div>
@@ -107,11 +119,17 @@ const Details = () => {
               </div>
             </div>
             <ul className="ndkjkh">
-              <li className="li2nd">  <span className="span2nd"> Free delivery within 5-7 days</span></li>
-               <li className="li2nd"> <span className="span2nd"> Easy 30 days return available</span></li>
-                <span className="span2nd"> 30 days exchange available</span>
-               <li className="li2nd"> 
-               <span className="span2ndalg">
+              <li className="li2nd">
+                {" "}
+                <span className="span2nd"> Free delivery within 5-7 days</span>
+              </li>
+              <li className="li2nd">
+                {" "}
+                <span className="span2nd"> Easy 30 days return available</span>
+              </li>
+              <span className="span2nd"> 30 days exchange available</span>
+              <li className="li2nd">
+                <span className="span2ndalg">
                   To minimise contact between you and the delivery partner, Pay
                   on Delivery option is temporarily disabled.
                 </span>
