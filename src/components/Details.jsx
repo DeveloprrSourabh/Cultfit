@@ -54,7 +54,7 @@ const Details = () => {
             </div>
             <div className="titleconti">
               <div className="chsesze">Choose Size</div>
-              <div className="szeguide">Size Guide</div>
+              <div className="szeguide">(Size Guide)</div>
             </div>
             <div className="mskf">
               <div className="sdfrtgbh">S</div>

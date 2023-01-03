@@ -76,4 +76,18 @@
 }
 .sunobtn{
     display: flex;
+    font-size: 13px;
+    font-weight: 500;
+}
+.chsesze{
+    color: #000;
+}
+.szeguide{
+    color: rgb(240, 74, 126);
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.titleconti{
+    display:flex ;
 }
