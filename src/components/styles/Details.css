@@ -2,6 +2,9 @@
     width: calc(50% - 2rem);
     margin: 1rem;
 }
+ul{
+    list-style: disc;
+}
 .dtigmgnhj{
     width: 100%;
 }
@@ -216,4 +219,34 @@
 .li2nd{
     font-size: 14px;
     line-height: 16px;
+}
+.fbrc1{
+    color: #4a4a4a;
+    font-size: 16px;
+    opacity: 0.92;
+    line-height: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.fbrcli1{
+    padding-left: 4px;
+}
+.spcf2{
+    color: #4a4a4a;
+    font-size: 16px;
+    opacity: 0.92;
+    line-height: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.lispcfli{
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+}
+.dtpg{
+    display: flex;
+    flex-direction: row;
 }
