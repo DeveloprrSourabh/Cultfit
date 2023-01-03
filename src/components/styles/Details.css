@@ -250,10 +250,13 @@ ul{
     display: flex;
 }
 .dtpg{
+
     display: flex;
     flex-direction: row;
     background-color: white;
 }
 .treehed{
     margin: 1% 0px;
+    width: 138%;
+
 }
