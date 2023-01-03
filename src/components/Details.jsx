@@ -15,18 +15,33 @@ const Details = () => {
       <div className="dtpg">
         <div className="igstpg">
           <div className="ghftytfff">
-          <div className="igmgdtg">
-            <img src={product.img[0]} alt="" className="dtigmgnhj" />
+            <div className="igmgdtg">
+              <img src={product.img[0]} alt="" className="dtigmgnhj" />
+            </div>
+            <div className="igmgdtg">
+              <img src={product.img[1]} alt="" className="dtigmgnhj" />
+            </div>
+            <div className="igmgdtg">
+              <img src={product.img[2]} alt="" className="dtigmgnhj" />
+            </div>
+            <div className="igmgdtg">
+              <img src={product.img[3]} alt="" className="dtigmgnhj" />
+            </div>
           </div>
-          <div className="igmgdtg">
-            <img src={product.img[1]} alt="" className="dtigmgnhj" />
+        </div>
+        <div className="treehed">
+          <div className="alltree">
+            <div className="hhjdghf">CULTSPORTONE</div>
           </div>
-          <div className="igmgdtg">
-            <img src={product.img[2]} alt="" className="dtigmgnhj" />
-          </div>
-          <div className="igmgdtg">
-            <img src={product.img[3]} alt="" className="dtigmgnhj" />
-          </div>
+          <div className="trreehd">
+            <div className="mothd">
+            Solid Active Tshirt with Logo
+            </div>
+            <div className="prizertr">
+              <p className="fprtr">₹ 539</p>
+              <p className="fprtr1">₹ 899</p>
+              <p className="fprtr2">40 % Off</p>
+            </div>
           </div>
         </div>
       </div>
