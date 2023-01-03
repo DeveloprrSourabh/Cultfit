@@ -27,6 +27,9 @@ const Details = () => {
             <div className="igmgdtg">
               <img src={product.img[3]} alt="" className="dtigmgnhj" />
             </div>
+            <div className="igmgdtg">
+              <img src={product.img[4]} alt="" className="dtigmgnhj" />
+            </div>
           </div>
         </div>
         <div className="treehed">
