@@ -116,6 +116,24 @@ const Details = () => {
                 </span>
               </li>
             </ul>
+            <div className="llkioklo"></div>
+            <div className="fbrc">
+              <div className="fbrc1">
+                <p className="fbrc3">Fabric</p>
+              </div>
+              <ul className="fbrcul1">
+                <li className="fbrcli1">100% Polyester</li>
+              </ul>
+            </div>
+            <div className="llkioklo"></div>
+            <div className="spcf">
+              <div className="dpcf1">
+                <div className="spcf2">Specification</div>
+                <ul className="spcful">
+                  <li className="lispcfli">Country of Origin: India</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
