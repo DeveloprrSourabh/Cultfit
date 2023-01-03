@@ -150,3 +150,13 @@ text-align: end;
     display: block;
     padding: 6px 1rem;
 }
+.cartItem{
+    width: 24px;
+    background: white;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    color: black;
+    top: 14px;
+    right: 8px;
+}

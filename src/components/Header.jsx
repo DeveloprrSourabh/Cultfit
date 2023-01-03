@@ -68,6 +68,7 @@ const Header = () => {
                   alt=""
                   className="lp"
                 />
+                <div className="cartItem"></div>
               </Link>
             </div>
           </div>
