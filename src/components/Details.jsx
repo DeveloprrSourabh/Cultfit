@@ -1,15 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import Cardapi from "./Cardapi";
-import Product from "./Product";
 import Storenav from "./Storenav";
 
-const Details = (product) => {
+
+const Details = () => {
+
+  const proid = useParams();
+  const proDetail = Cardapi.filter((x) => x.id == proid.id);
+  const product = proDetail[0];
+
   return (
     <>
 
 <Storenav />
-<img src={Cardapi.imgsrc[0]} alt="" className="deimg1" />
+<img src={product.img[0]} alt="" className="deimg1" />
     </>
 
   )
