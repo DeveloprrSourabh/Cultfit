@@ -58,6 +58,25 @@ const Details = () => {
               <div className="chsesze">Choose Size</div>
               <div className="szeguide">Size Guide</div>
             </div>
+            <div className="mskf">
+              <div className="sdfrtgbh">S</div>
+              <div className="sdfrtgbh">M</div>
+              <div className="sdfrtgbh">L</div>
+              <div className="sdfrtgbh">XL</div>
+              <div className="sdfrtgbh">XXL</div>
+            </div>
+            <div className="jklbt">
+              <div className="jkl2bt">
+                <div className="jklbt21">
+                  Add to Cart
+                </div>
+              </div>
+              <div className="jkl2bt">
+                <div className="jklbt21">
+                 Buy Now
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
