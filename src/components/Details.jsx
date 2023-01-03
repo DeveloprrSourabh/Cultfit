@@ -88,6 +88,34 @@ const Details = () => {
                 </ul>
               </div>
             </div>
+            <div className="khlpil">
+              <div className="belop"></div>
+              <div className="pflkhjgfdfs">
+                <p className="sjjsjjss"></p>
+                <div className="indhdhjdi">
+                  <input
+                    pattern="[0-9]"
+                    inputMode="numeric"
+                    maxLength={6}
+                    placeholder="Enter your pincode"
+                    type="text"
+                    className="shghii"
+                  />
+                  <button className="hdhhgfhbtn">CHECK</button>
+                </div>
+              </div>
+            </div>
+            <ul className="2ndkjkh">
+              <li className="li2nd">
+                <span className="span2nd"> Free delivery within 5-7 days</span>
+                <span className="span2nd"> Easy 30 days return available</span>
+                <span className="span2nd"> 30 days exchange available</span>
+                <span className="span2ndalg">
+                  To minimise contact between you and the delivery partner, Pay
+                  on Delivery option is temporarily disabled.
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
