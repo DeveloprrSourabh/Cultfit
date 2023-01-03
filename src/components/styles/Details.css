@@ -186,3 +186,26 @@
     border: 1px solid #bfc0c6;
     caret-color: #ff3278;
 }
+.indhdhjdi{
+    margin: 0 16px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.sjjsjjss{
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+    font-family: Inter-SemiBold;
+    font-weight: 600;
+    margin: 0 16px 12px;
+}
+.hdhhgfhbtn{
+    cursor: pointer;
+    position: absolute;
+    border: transparent;
+    right: 2rem;
+    font-weight: 700;
+    background: transparent;
+    color: #afafaf;
+}
