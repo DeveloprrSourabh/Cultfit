@@ -23,3 +23,30 @@
 .prizertr{
     display: flex;
 }
+.fprtr{
+    margin: 7px 15px 0 0;
+    line-height: 30px;
+    color: #ff3278;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 4px;
+    text-align: left;
+}
+.fprtr1{
+    margin: 7px 15px 0 0;
+    line-height: 30px;
+    color: rgb(74, 74, 74);
+    padding-top: 4px;
+
+    text-decoration: line-through;
+    font-size: 22px;
+    font-weight: 700;
+}
+.fprtr2{
+    margin: 7px 15px 0 0;
+    line-height: 30px;
+    color: #fff;
+    background: rgb(245, 166, 35);
+    padding: 0px 10px;
+    line-height: 34px;
+}
