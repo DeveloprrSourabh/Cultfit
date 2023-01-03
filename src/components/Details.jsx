@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Cardapi from "./Cardapi";
+import Product from "./Product";
 import Storenav from "./Storenav";
 
-const Details = () => {
+const Details = (product) => {
   return (
     <>
-    <div>
-        hjhjhjhbhbfhjsvfjsvfvdsfjdsvfdshfvdsfvbdshfvbhjsfjhdsfvhj
-    </div>
+
 <Storenav />
+<img src={Cardapi.imgsrc[0]} alt="" className="deimg1" />
     </>
 
   )
