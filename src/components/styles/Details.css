@@ -90,6 +90,8 @@
 }
 .titleconti{
     display:flex ;
+    padding-top: 10px;
+
 }
 .mskf{
     display: flex;
@@ -105,13 +107,17 @@
     border: 1px solid transparent;
     color: #000;
 }
-/* .sdfrtgbh:hover{
+.sdfrtgbh:hover{
     border: 1px solid #ffc80a;
-} */
+}
 .mmkk{
     border: 1px solid #ffc80a;
-
 }
 .kk.sdfrtgbh:focus {
     border: 1px solid #ffc80a;
 }
+.jklbt{
+    display: flex;
+
+}
+
