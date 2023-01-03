@@ -121,3 +121,24 @@
 
 }
 
+.jkl2bt{
+    flex-grow: 1;
+    padding: 0 5px;
+}
+.jklbt21{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(265deg, rgb(253, 47, 110), rgb(247, 67, 60)) rgb(255, 56, 90);
+    border-radius: 52px;
+    padding: 10px 0px;
+}
+.jklbt21:hover{
+    box-shadow: rgba(120, 120, 120, 0.3) 0px 6px 8px 0px;
+    color: rgb(255, 255, 255);
+    transition: box-shadow 0.3s ease-in-out 0s;
+}
