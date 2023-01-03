@@ -50,9 +50,7 @@ const Details = () => {
               </p>
             </div>
             <div className="sunobtn">
-              <div className="hgjuyhbtn">
-                BEST SELLER
-              </div>
+              <div className="hgjuyhbtn">BEST SELLER</div>
             </div>
             <div className="titleconti">
               <div className="chsesze">Choose Size</div>
@@ -67,14 +65,27 @@ const Details = () => {
             </div>
             <div className="jklbt">
               <div className="jkl2bt">
-                <div className="jklbt21">
-                  Add to Cart
-                </div>
+                <div className="jklbt21">Add to Cart</div>
               </div>
               <div className="jkl2bt">
-                <div className="jklbt21">
-                 Buy Now
-                </div>
+                <div className="jklbt21">Buy Now</div>
+              </div>
+            </div>
+            <div className="dtltre">
+              <div className="dtlddd">
+                <div className="lkoikjui">PRODUCT DETAILS</div>
+              </div>
+              <div className="ulliokjs">
+                <ul className="unoder">
+                  <li className="filopf">Colour: Black</li>
+                  <li className="filopf">Fabric: 100% Polyester</li>
+                  <li className="filopf">Breathable fabric, Supersoft</li>
+                  <li className="filopf">Light weight, Flydry</li>
+                  <li className="filopf">Moisture Wicking</li>
+                  <li className="filopf">
+                    Medium to Light intensity activities
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
