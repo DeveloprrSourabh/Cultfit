@@ -37,19 +37,15 @@ const Details = () => {
             <div className="hhjdghf">CULTSPORTONE</div>
           </div>
           <div className="trreehd">
-            <div className="mothd">Solid Active Tshirt with Logo</div>
+            <div className="mothd">{product.about}</div>
             <div className="prizertr">
-              <p className="fprtr">₹ 539</p>
-              <p className="fprtr1">₹ 899</p>
-              <p className="fprtr2">40 % Off</p>
+              <p className="fprtr">₹ {product.prize}</p>
+              <p className="fprtr1">₹ {product.preprize}</p>
+              <p className="fprtr2">{product.off} % Off</p>
             </div>
             <div className="paraf">
               <p className="trparaf">
-                Update your sportswear essentials, with this practical and
-                versatile t-shirt from Cultsport One. It's designed in a
-                comfortable fit and with all performance features. The
-                breathable fabric is moisture-wicking and quick-drying, to keep
-                you cool and collected no matter how hard you train.
+                {product.desc}
               </p>
             </div>
             <div className="sunobtn">
