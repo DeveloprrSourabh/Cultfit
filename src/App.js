@@ -10,7 +10,8 @@ import Footer from "./components/Footer";
 import Product from "./components/Product";
 import Details from "./components/Details";
 import Cart from "./components/Cart";
-const App = () => {
+import { Sidebar } from "react-pro-sidebar";
+  const App = () => {
   return (
     <div>
       <Routes>
@@ -22,6 +23,10 @@ const App = () => {
         <Route exact path="/product" element={<Product />} />
         <Route exact path="cultsport/:id" element={<Details />} />
         <Route exact path="/cart" element={<Cart />} />
+        <Route exact path="/side" element={<Sidebar />} />
+
+
+
 
       </Routes>
       <Footer />
