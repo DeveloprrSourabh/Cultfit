@@ -3,9 +3,22 @@ import "./styles/side.css";
 import { Link } from "react-router-dom";
 
 const Sideb = ({ sidebar }) => {
-  const[count,setCount] = useState(0);
-  const increase = () =>{
-    return count =  setCount+1;
+  const [count, setCount] = useState(0);
+
+  const incNum = () =>{
+    if (count < 9) {
+      setCount(count + 1)
+      }else{
+        alert("You can Exceed The Limit!")
+      }
+  }
+
+  const decNum = () =>{
+    if (count > 0) {
+    setCount(count - 1)
+    }else{
+      setCount(0)
+    }
   }
   return (
     <>
@@ -39,15 +52,16 @@ const Sideb = ({ sidebar }) => {
             </div>
             <div className="brtcrt">
               <div className="sizecrt">Size:ALL</div>
-              <div className="bhvccrt">₹ 12999</div>
+              <div className="bhvccrt">₹ {12999*count}</div>
               <div className="hjycrtpm">
-                <img
+                <img onClick={decNum}
                   src="https://static.cure.fit/assets/images/minus.svg"
                   alt=""
                   className="minusimg"
                 />
+
                 <div className="countgdhy">{count}</div>
-                <img
+                <img onClick={incNum}
                   src="https://static.cure.fit/assets/images/plus.svg"
                   alt=""
                   className="minusimg"
@@ -56,8 +70,10 @@ const Sideb = ({ sidebar }) => {
             </div>
           </div>
           <div className="kata">
-            <img onClick={increase} src="https://static.cure.fit/assets/images/modal-close.svg" className="imgktgt"  />
-
+            <img
+              src="https://static.cure.fit/assets/images/modal-close.svg"
+              className="imgktgt"
+            />
           </div>
         </div>
       </div>
