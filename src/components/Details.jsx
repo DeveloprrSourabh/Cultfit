@@ -2,7 +2,6 @@ import React, { useReducer, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
-import { reducer } from "./reducer";
 import "./styles/Details.css";
 
 const initialState = {
@@ -12,7 +11,6 @@ const initialState = {
 };
 
 const Details = () => {
-  const [state, dispatch] = useReducer(reducer, initialState);
   const proid = useParams();
   const proDetail = Cardapi.filter((x) => x.id == proid.id);
   const product = proDetail[0];

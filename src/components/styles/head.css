@@ -12,7 +12,10 @@
     color: rgb(255, 255, 255);
 }
 
+#flx{
+    display: flex;
 
+}
 .nav-link.mn:focus{
     color: white;
    border-bottom: 4px solid white;

@@ -63,24 +63,15 @@ const Header = () => {
                   className="lp"
                 />
               </Link>
-              <div className="nav-link jp nn" to="#">
+              <div id="flx" className="nav-link jp nn" to="#">
                 <img
                   src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg"
                   alt=""
                   className="lp"
                 />
-                <div className="cartItem">4</div>
-                <Sidebar>
-                  <Menu>
-                    <SubMenu label="Charts">
-                      <MenuItem> Pie charts </MenuItem>
-                      <MenuItem> Line charts </MenuItem>
-                    </SubMenu>
-                    <MenuItem> Documentation </MenuItem>
-                    <MenuItem> Calendar </MenuItem>
-                  </Menu>
-                </Sidebar>
-                ;
+
+                <div className="cartItem">4</div>;
+                <Sidebar />
               </div>
             </div>
           </div>
