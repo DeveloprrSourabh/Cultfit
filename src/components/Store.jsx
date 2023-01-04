@@ -15,9 +15,9 @@ import Sideb from "./Sideb";
 const Store = () => {
   const [sidebar, setsidebar] = useState(false);
 
-    const toggleSidebar = () => {
-      setsidebar((prevState) => !prevState);
-    };
+  const toggleSidebar = () => {
+    setsidebar((prevState) => !prevState);
+  };
 
   return (
     <div style={{ background: "white" }}>
@@ -363,11 +363,10 @@ const Store = () => {
                   alt=""
                   className="lginkr"
                 />
-               
               </div>
               <div className="loginkr">
-              <Storebtn  openSidebar={toggleSidebar} />
-                <Backdrop  sidebar={sidebar} closeSidebar={toggleSidebar} />
+                <Storebtn openSidebar={toggleSidebar} />
+                <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <Sideb sidebar={sidebar} />
               </div>
             </div>
