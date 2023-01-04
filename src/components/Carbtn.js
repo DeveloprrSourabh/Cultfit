@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/head.css";
-const carbtn = ({ openSidebar }) => {
+const Carbtn = ({ openSidebar }) => {
 
     
   return (
@@ -19,4 +19,4 @@ const carbtn = ({ openSidebar }) => {
   );
 };
 
-export default carbtn;
+export default Carbtn;

@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import Ncard from "./Ncard";
 // import Product from "./Product";
 import Cardapi from "./Cardapi";
+import Carbtn from "./Carbtn";
 
 const Store = () => {
   return (
@@ -354,13 +355,7 @@ const Store = () => {
                   className="lginkr"
                 />
               </div>
-              <div className="loginkr">
-                <img
-                  src="https://static.cure.fit/assets/images/cart-icon-new.svg"
-                  alt=""
-                  className="lginkr"
-                />
-              </div>
+            <Carbtn />
             </div>
           </div>
           {/* SCROLLBAR---START */}
