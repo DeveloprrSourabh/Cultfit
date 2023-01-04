@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import style from "./styles/head.css";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import Sideb from "./Sideb";
+import Backdrop from "./Backdrop";
 
 const Header = () => {
   return (
@@ -70,9 +72,11 @@ const Header = () => {
                   className="lp"
                 />
 
-                <div className="cartItem">4</div>;
-                <Sidebar />
+                <div className="cartItem">4</div>
               </div>
+              <Backdrop />
+              <Sideb />
+
             </div>
           </div>
         </div>

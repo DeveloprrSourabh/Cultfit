@@ -1,10 +1,11 @@
 import React from 'react';
-import "./styles/side.css";
+import"./styles/side.css";
 
 
-const Sidebar = () => {
+const Sideb = () => {
   return (
     <>
+
     <div className="sidebar">
         <li className="HOME">Home</li>
         <li className="HOME">Product</li>
@@ -15,4 +16,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sideb
