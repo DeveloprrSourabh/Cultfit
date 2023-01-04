@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import style from "./styles/head.css";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
@@ -6,6 +6,8 @@ import Sideb from "./Sideb";
 import Backdrop from "./Backdrop";
 
 const Header = () => {
+const[sidebar,setsidebar] = useState(false)
+
   return (
     <div className="nbr">
       {/* HEADER__START */}
