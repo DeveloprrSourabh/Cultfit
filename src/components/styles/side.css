@@ -1,5 +1,5 @@
 .sidebar{
-    transform: translateX(100%);
+    transform: translatey(-120%);
     transition: all 0.4s;
     z-index: +5;
     position: absolute;
