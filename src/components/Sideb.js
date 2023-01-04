@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/side.css";
 import { Link } from "react-router-dom";
 
 const Sideb = ({ sidebar }) => {
+  const[count,setCount] = useState(0);
+  const increase = () =>{
+    return count =  setCount+1;
+  }
   return (
     <>
       <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
@@ -42,7 +46,7 @@ const Sideb = ({ sidebar }) => {
                   alt=""
                   className="minusimg"
                 />
-                <div className="countgdhy">1</div>
+                <div className="countgdhy">{count}</div>
                 <img
                   src="https://static.cure.fit/assets/images/plus.svg"
                   alt=""
@@ -52,7 +56,7 @@ const Sideb = ({ sidebar }) => {
             </div>
           </div>
           <div className="kata">
-            <img src="https://static.cure.fit/assets/images/modal-close.svg" className="imgktgt"  />
+            <img onClick={increase} src="https://static.cure.fit/assets/images/modal-close.svg" className="imgktgt"  />
 
           </div>
         </div>
