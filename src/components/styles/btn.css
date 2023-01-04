@@ -1,0 +1,15 @@
+.nne{
+    display: flex;
+    padding: 4px 1rem;
+}
+.cartItem22{
+    position: relative;
+    bottom: 10px;
+    position: relative;
+    bottom: 10px;
+    background: black;
+    padding: 0px 8px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 50%;
+}

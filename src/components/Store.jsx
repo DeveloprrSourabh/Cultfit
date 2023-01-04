@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/store.css";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -8,8 +8,17 @@ import Ncard from "./Ncard";
 // import Product from "./Product";
 import Cardapi from "./Cardapi";
 import Carbtn from "./Carbtn";
+import Storebtn from "./Storebtn";
+import Backdrop from "./Backdrop";
+import Sideb from "./Sideb";
 
 const Store = () => {
+  const [sidebar, setsidebar] = useState(false);
+
+    const toggleSidebar = () => {
+      setsidebar((prevState) => !prevState);
+    };
+
   return (
     <div style={{ background: "white" }}>
       <div>
@@ -354,8 +363,13 @@ const Store = () => {
                   alt=""
                   className="lginkr"
                 />
+               
               </div>
-            <Carbtn />
+              <div className="loginkr">
+              <Storebtn  openSidebar={toggleSidebar} />
+                <Backdrop />
+                <Sideb sidebar={sidebar} />
+              </div>
             </div>
           </div>
           {/* SCROLLBAR---START */}
