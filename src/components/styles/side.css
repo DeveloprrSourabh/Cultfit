@@ -49,5 +49,20 @@
     min-height: 110px;
 }
 .iiiopicrt{
+    border-radius: 10px;
     width: 100%;
+}
+.fcrttion{
+    text-align: center;
+    margin: 0px;
+    cursor: default;
+    user-select: none;
+    color: rgb(0, 0, 0);
+}
+.hjyitcrt2{
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
