@@ -35,7 +35,7 @@ const Sideb = ({sidebar}) => {
       <div className="hjycrtpm">
         <img src="https://static.cure.fit/assets/images/minus.svg" alt="" className="minusimg" />
 <div className="countgdhy">1</div>
-<img src="https://static.cure.fit/assets/images/minus.svg" alt="" className="minusimg" />
+<img src="https://static.cure.fit/assets/images/plus.svg" alt="" className="minusimg" />
 
       </div>
     </div>

@@ -40,3 +40,14 @@
     display: flex;
     align-items: center;
 }
+.prdtcrt{
+    display: flex;
+}
+.piccrt{
+    min-width: 90px;
+    max-width: 105px;
+    min-height: 110px;
+}
+.iiiopicrt{
+    width: 100%;
+}
