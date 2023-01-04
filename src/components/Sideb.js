@@ -7,10 +7,16 @@ const Sideb = ({sidebar}) => {
     <>
 
     <div className={sidebar?"sidebar sidebar--open":"sidebar"}>
-        <li className="HOME">Home</li>
-        <li className="HOME">Product</li>
-        <li className="HOME">Carrer</li>
-        <li className="HOME">Help</li>
+<div className="crtero">
+  <div className="errovret">
+    <img src="https://static.cure.fit/assets/images/back-arrow-black.svg" alt="" className="crtrtecdft" />
+  </div>
+  <div className="yourcart">
+    Your Cart
+  </div>
+</div>
+
+
     </div>
     </>
   )

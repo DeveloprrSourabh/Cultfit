@@ -3,7 +3,7 @@
     transition: all 0.4s;
     z-index: +5;
     position: absolute;
-    background-color: #222f3e;
+    background-color: #ffffff;
     color: #fff;
     top: 69px;
     left: 1073px;
@@ -23,4 +23,18 @@
 }
 .sidebar--open{
     transform: translateX(0%);
+}
+.errovret{
+    display: flex;
+}
+.crtrtecdft{
+    padding: 1rem;
+}
+.yourcart{
+    color: black;
+    font-weight: 600;
+}
+.crtero{
+    display: flex;
+    align-items: center;
 }
