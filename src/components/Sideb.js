@@ -26,7 +26,7 @@ const Sideb = ({sidebar}) => {
   </div>
   <div className="vcationcrt">
       <div className="fcrttion">Urban Terrain</div>
-    <div className="hjyitcrt2">UT1001, Blue, Steel MTB 27.5 T Shimano Geared Mountain Cycle (21 Gear)</div>
+   <div className="hcrt"> <div className="hjyitcrt2">UT1001, Blue, Steel MTB 27.5 T Shimano Geared Mountain Cycle (21 Gear)</div></div>
     <div className="brtcrt">
       <div className="sizecrt">Size:ALL</div>
       <div className="bhvccrt">
