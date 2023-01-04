@@ -38,6 +38,8 @@
 }
 .crtero{
     display: flex;
+    padding: 3%;
+    border-bottom: 1px solid #0000008f;
     align-items: center;
 }
 .prdtcrt{
@@ -123,6 +125,6 @@
 }
 .kata{
     position: absolute;
-    top: 3rem;
+    top: 5rem;
     right: 1rem;
 }
