@@ -75,7 +75,7 @@
 .lp{
     border-radius: 50%;
     padding: 13px;
-    width: 125%;
+    width: 100%;
 
 }
 
@@ -102,6 +102,7 @@
 .jp{
     text-align: center;
     display: flex;
+
 }
 
 .nn1{
@@ -147,8 +148,7 @@ text-align: end;
 .nav-link.jp{
     padding: 0px;
     margin: 0px;
-    width: 15.7%;
-
+    width: 74px;
 }
 .nav-link{
     display: block;
@@ -161,7 +161,7 @@ text-align: end;
     color: black;
     padding: 0px 8px;
     top: 14px;
-    right: 8px;
+    right: 18px;
 }
 .ps-sidebar-root{
     display: none;
