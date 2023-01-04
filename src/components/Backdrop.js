@@ -1,9 +1,9 @@
 import React from 'react';
 import "./styles/back.css"
-const Backdrop = () => {
+const Backdrop = ({sidebar,closeSidebar}) => {
   return (
     <>
-    <div className="backdrop">
+    <div className={sidebar ? "backdrop backdrop--open" : "backdrop"} onClick={closeSidebar}>
 
     </div>
     </>

@@ -38,7 +38,7 @@
 }
 .crtero{
     display: flex;
-    padding: 3%;
+    margin: 4%;
     border-bottom: 1px solid #0000008f;
     align-items: center;
 }
@@ -125,6 +125,6 @@
 }
 .kata{
     position: absolute;
-    top: 5rem;
+    top: 5frem;
     right: 1rem;
 }

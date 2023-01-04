@@ -367,7 +367,7 @@ const Store = () => {
               </div>
               <div className="loginkr">
               <Storebtn  openSidebar={toggleSidebar} />
-                <Backdrop />
+                <Backdrop  sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <Sideb sidebar={sidebar} />
               </div>
             </div>
