@@ -15,9 +15,12 @@ import Sideb from "./Sideb";
 const Store = () => {
   const [sidebar, setsidebar] = useState(false);
 
+
+
   const toggleSidebar = () => {
     setsidebar((prevState) => !prevState);
   };
+  const [item, setItem] = useState(Cardapi);
 
   return (
     <div style={{ background: "white" }}>
@@ -365,9 +368,15 @@ const Store = () => {
                 />
               </div>
               <div className="loginkr">
-                <Storebtn openSidebar={toggleSidebar} />
+              <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
-                <Sideb sidebar={sidebar} />
+                {  
+                  item.map((curItem)=>{
+                     return    <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
+                  })
+
+                }
+                 
               </div>
             </div>
           </div>
