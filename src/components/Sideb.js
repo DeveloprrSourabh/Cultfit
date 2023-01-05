@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles/side.css";
 import { Link } from "react-router-dom";
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 const Sideb = ({ sidebar }) => {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ const Sideb = ({ sidebar }) => {
   }
   return (
     <>
+
       <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
         <div className="crtero">
           <div className="errovret">
@@ -74,7 +76,7 @@ const Sideb = ({ sidebar }) => {
             />
           </div>
         </div>
-       
+      
       </div>
     </>
   );

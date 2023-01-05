@@ -2,12 +2,11 @@
     transform: translatey(-120%);
     transition: all 0.4s;
     z-index: +5;
-    position: absolute;
     background-color: #ffffff;
     color: #fff;
-    right: 18px;
+    position: relative;
     width: 341px;
-    top: 4rem;
+    right: 17rem;
 }
 .sidebar li{
     list-style: none;
@@ -21,6 +20,7 @@
 }
 .sidebar--open{
     transform: translateX(0%);
+    
 }
 .errovret{
     display: flex;
