@@ -3,7 +3,7 @@ import "./styles/side.css";
 import { Link } from "react-router-dom";
 import { Scrollbars } from 'react-custom-scrollbars-2';
 
-const Sideb = ({ sidebar }) => {
+const Sideb = ({heading,imgsrc,about,color,desc,prize,preprize,off, sidebar }) => {
   const [count, setCount] = useState(0);
 
   const incNum = () =>{
@@ -41,13 +41,13 @@ const Sideb = ({ sidebar }) => {
         <div className="prdtcrt">
           <div className="piccrt">
             <img
-              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_125,ar_5:6,c_fit/dpr_2/cultgear-content/vtg2iiscHQwMC3K1Dd6C8ztf"
+              src={imgsrc}
               alt=""
               className="iiiopicrt"
             />
           </div>
           <div className="vcationcrt">
-            <div className="fcrttion">Urban Terrain</div>
+            <div className="fcrttion">{about}</div>
             <div className="hcrt">
               <div className="hjyitcrt2">UT1001, Blue, Steel MTB 27.5...</div>
             </div>
