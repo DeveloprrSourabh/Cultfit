@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./styles/side.css";
 import { Link } from "react-router-dom";
+import Cardapi from "./Cardapi";
 
-const Sideb = ({id,heading,imgsrc,about,color,prize,preprize,off,size,qunty, sidebar }) => {
+const Sideb = (id,heading,imgsrc,about,color,prize,preprize,off,size,qunty,{ sidebar }) => {
   const [count, setCount] = useState(0);
 
   const incNum = () =>{
@@ -19,7 +20,10 @@ const Sideb = ({id,heading,imgsrc,about,color,prize,preprize,off,size,qunty, sid
     }else{
       setCount(0)
     }
+
   }
+  const [item, setItem] = useState(Cardapi);
+
   return (
     <>
       <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
@@ -27,7 +31,7 @@ const Sideb = ({id,heading,imgsrc,about,color,prize,preprize,off,size,qunty, sid
           <div className="errovret">
             <Link to="/store">
               <img
-                src="{img}"
+                src="https://static.cure.fit/assets/images/back-arrow-black.svg"
                 alt=""
                 className="crtrtecdft"
               />
@@ -39,7 +43,7 @@ const Sideb = ({id,heading,imgsrc,about,color,prize,preprize,off,size,qunty, sid
         <div className="prdtcrt">
           <div className="piccrt">
             <img
-              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_125,ar_5:6,c_fit/dpr_2/cultgear-content/vtg2iiscHQwMC3K1Dd6C8ztf"
+              src={item.imgsrc}
               alt=""
               className="iiiopicrt"
             />
