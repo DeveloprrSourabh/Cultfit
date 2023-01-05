@@ -31,6 +31,14 @@ const Store = () => {
   // const [item, setItem] = useState(Cardapi);
   const item = useContext(CartContext);
   const [state, dispatch] = useReducer(reducer, initialState);
+
+  // to delete product from cart 
+  const removeItem = (id) =>{
+return dispatch({
+  type:"REMOVE_ITEM",
+  payload:id,
+})
+  }
   return (
     <div style={{ background: "white" }}>
       <div>
@@ -380,7 +388,7 @@ const Store = () => {
                 <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <div className="scoll">
-                <CartContext.Provider value={{...state}}>
+                <CartContext.Provider value={{...state,removeItem}}>
                 
                   {item.map((curItem) => {
                     return (
