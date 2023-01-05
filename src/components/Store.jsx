@@ -11,7 +11,7 @@ import Carbtn from "./Carbtn";
 import Storebtn from "./Storebtn";
 import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
-
+import { Scrollbars } from 'react-custom-scrollbars-2';
 const Store = () => {
   const [sidebar, setsidebar] = useState(false);
 
@@ -370,13 +370,13 @@ const Store = () => {
               <div className="loginkr">
               <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
-                {  
+                <div className="scoll"> {  
                   item.map((curItem)=>{
                      return  <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
                   })
 
                 }
-                 
+                 </div>
               </div>
             </div>
           </div>

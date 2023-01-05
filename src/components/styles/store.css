@@ -109,3 +109,10 @@ li{
 .mstrehd:hover .koipl{
     display: block;
 }
+.scoll{
+    width: fit-content;
+    position: absolute;
+    right: 1rem;
+    width: fit-content;
+
+}
