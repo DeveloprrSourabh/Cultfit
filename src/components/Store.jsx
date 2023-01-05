@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 import "./styles/store.css";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -11,17 +11,18 @@ import Carbtn from "./Carbtn";
 import Storebtn from "./Storebtn";
 import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
-import { Scrollbars } from 'react-custom-scrollbars-2';
+import { Scrollbars } from "react-custom-scrollbars-2";
+
+export const CartContext = createContext();
+
 const Store = () => {
   const [sidebar, setsidebar] = useState(false);
-
-
 
   const toggleSidebar = () => {
     setsidebar((prevState) => !prevState);
   };
-  const [item, setItem] = useState(Cardapi);
-
+  // const [item, setItem] = useState(Cardapi);
+  const item = useContext(CartContext);
   return (
     <div style={{ background: "white" }}>
       <div>
@@ -368,16 +369,16 @@ const Store = () => {
                 />
               </div>
               <div className="loginkr">
-              <Storebtn openSidebar={toggleSidebar} />
+                <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
-              
-                <div className="scoll"> {  
-                  item.map((curItem)=>{
-                     return  <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
-                  })
-
-                }
-                 </div>
+                <div className="scoll">
+                  {" "}
+                  {item.map((curItem) => {
+                    return (
+                      <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>
