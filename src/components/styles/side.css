@@ -2,12 +2,12 @@
     transform: translatey(-120%);
     transition: all 0.4s;
     z-index: +5;
-    position: relative;
+    position: absolute;
     background-color: #ffffff;
     color: #fff;
-    right: 262px;
-    width: 337px;
-    top: 23rem;
+    right: 18px;
+    width: 341px;
+    top: 4rem;
 }
 .sidebar li{
     list-style: none;
