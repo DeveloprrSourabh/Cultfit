@@ -41,9 +41,9 @@
     align-items: center;
 }
 .prdtcrt{
-    padding: 31px 15px 15px 15px;
+    padding: 31px 15px 80px 15px;
     border-bottom: 1px solid #000;
-    margin: 5%;
+    margin: 2px 2px -65px 2px;
     display: flex;
 }
 .piccrt{
