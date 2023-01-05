@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext,useReducer,rducer, useContext, useState } from "react";
 import "./styles/store.css";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -13,7 +13,13 @@ import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
 import { Scrollbars } from "react-custom-scrollbars-2";
 
-export const CartContext = createContext();
+export const CartContext = createContext(Cardapi);
+
+const initialState = {
+  item:Cardapi,
+  totalAmount:0,
+  totalItem:0,
+}
 
 const Store = () => {
   const [sidebar, setsidebar] = useState(false);
@@ -23,6 +29,7 @@ const Store = () => {
   };
   // const [item, setItem] = useState(Cardapi);
   const item = useContext(CartContext);
+  const [state, dispatch] = useReducer(reducer, initialState);
   return (
     <div style={{ background: "white" }}>
       <div>
@@ -372,12 +379,14 @@ const Store = () => {
                 <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <div className="scoll">
-                  {" "}
+                <CartContext.Provider value={Cardapi}>
+                
                   {item.map((curItem) => {
                     return (
                       <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
                     );
                   })}
+                  </CartContext.Provider>
                 </div>
               </div>
             </div>
