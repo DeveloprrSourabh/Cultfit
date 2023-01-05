@@ -372,7 +372,7 @@ const Store = () => {
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
                 {  
                   item.map((curItem)=>{
-                     return    <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
+                     return  <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
                   })
 
                 }
