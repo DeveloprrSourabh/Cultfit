@@ -114,5 +114,6 @@ li{
     position: absolute;
     right: 1rem;
     width: fit-content;
-
+    height: 692px;
+    overflow: scroll;
 }

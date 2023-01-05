@@ -370,6 +370,7 @@ const Store = () => {
               <div className="loginkr">
               <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
+              
                 <div className="scoll"> {  
                   item.map((curItem)=>{
                      return  <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
