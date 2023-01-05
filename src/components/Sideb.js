@@ -3,7 +3,7 @@ import "./styles/side.css";
 import { Link } from "react-router-dom";
 import { Scrollbars } from 'react-custom-scrollbars-2';
 
-const Sideb = ({heading,imgsrc,about,color,desc,prize,preprize,off, sidebar }) => {
+const Sideb = ({id,heading,imgsrc,about,color,desc,prize,preprize,off, sidebar }) => {
   const [count, setCount] = useState(0);
 
   const incNum = () =>{
@@ -71,7 +71,7 @@ const Sideb = ({heading,imgsrc,about,color,desc,prize,preprize,off, sidebar }) =
             </div>
           </div>
           <div className="kata">
-            <img
+            <img onClick={() => removeItem(id)}
               src="https://static.cure.fit/assets/images/modal-close.svg"
               className="imgktgt"
             />
