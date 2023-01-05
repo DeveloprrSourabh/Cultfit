@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import Ncard from "./Ncard";
+import reducer from "./reducer";
 // import Product from "./Product";
 import Cardapi from "./Cardapi";
 import Carbtn from "./Carbtn";
@@ -379,7 +380,7 @@ const Store = () => {
                 <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <div className="scoll">
-                <CartContext.Provider value={Cardapi}>
+                <CartContext.Provider value={{...state}}>
                 
                   {item.map((curItem) => {
                     return (
