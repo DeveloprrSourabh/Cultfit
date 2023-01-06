@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./styles/side.css";
 import { Link } from "react-router-dom";
-import { Scrollbars } from 'react-custom-scrollbars-2';
+import { CartContext } from "./Store";
 
 const Sideb = ({id,heading,imgsrc,about,color,desc,prize,preprize,off, sidebar }) => {
   const [count, setCount] = useState(0);
-
+const removeItem = useContext(CartContext)
   const incNum = () =>{
     if (count < 9) {
       setCount(count + 1)
@@ -71,7 +71,7 @@ const Sideb = ({id,heading,imgsrc,about,color,desc,prize,preprize,off, sidebar }
             </div>
           </div>
           <div className="kata">
-            <img onClick={() => removeItem(id)}
+            <img onClick={() =>  removeItem (id)}
               src="https://static.cure.fit/assets/images/modal-close.svg"
               className="imgktgt"
             />
