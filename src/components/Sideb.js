@@ -1,30 +1,43 @@
-import React, { useContext, useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 import "./styles/side.css";
 import { Link } from "react-router-dom";
 import { CartContext } from "./Store";
+import Cardapi from "./Cardapi";
 
-const Sideb = ({id,heading,imgsrc,about,color,desc,prize,preprize,off, sidebar }) => {
+const Sideb = ({
+  id,
+  heading,
+  imgsrc,
+  about,
+  color,
+  desc,
+  prize,
+  preprize,
+  off,
+  sidebar,
+}) => {
+
+  const item = useContext(CartContext);
+
   const [count, setCount] = useState(0);
-const removeItem = useContext(CartContext)
-  const incNum = () =>{
+  const incNum = () => {
     if (count < 9) {
-      setCount(count + 1)
-      }else{
-        alert("You can Exceed The Limit!")
-      }
-  }
-
-  const decNum = () =>{
-    if (count > 0) {
-    setCount(count - 1)
-    }else{
-      setCount(0)
+      setCount(count + 1);
+    } else {
+      alert("You can Exceed The Limit!");
     }
-  }
+  };
+
+  const decNum = () => {
+    if (count > 0) {
+      setCount(count - 1);
+    } else {
+      setCount(0);
+    }
+  };
+
   return (
     <>
-
-  
       <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
         <div className="crtero">
           <div className="errovret">
@@ -40,11 +53,7 @@ const removeItem = useContext(CartContext)
         </div>
         <div className="prdtcrt">
           <div className="piccrt">
-            <img
-              src={imgsrc}
-              alt=""
-              className="iiiopicrt"
-            />
+            <img src={imgsrc} alt="" className="iiiopicrt" />
           </div>
           <div className="vcationcrt">
             <div className="fcrttion">{about}</div>
@@ -53,16 +62,18 @@ const removeItem = useContext(CartContext)
             </div>
             <div className="brtcrt">
               <div className="sizecrt">Size:ALL</div>
-              <div className="bhvccrt">₹ {12999*count}</div>
+              <div className="bhvccrt">₹ {12999 * count}</div>
               <div className="hjycrtpm">
-                <img onClick={decNum}
+                <img
+                  onClick={decNum}
                   src="https://static.cure.fit/assets/images/minus.svg"
                   alt=""
                   className="minusimg"
                 />
 
                 <div className="countgdhy">{count}</div>
-                <img onClick={incNum}
+                <img
+                  onClick={incNum}
                   src="https://static.cure.fit/assets/images/plus.svg"
                   alt=""
                   className="minusimg"
@@ -71,13 +82,13 @@ const removeItem = useContext(CartContext)
             </div>
           </div>
           <div className="kata">
-            <img onClick={() =>  removeItem (id)}
+            <img
+              // onClick={() => removeItem(id)}
               src="https://static.cure.fit/assets/images/modal-close.svg"
               className="imgktgt"
             />
           </div>
         </div>
-      
       </div>
     </>
   );

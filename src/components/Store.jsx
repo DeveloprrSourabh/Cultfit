@@ -18,9 +18,10 @@ export const CartContext = createContext(Cardapi);
 
 const initialState = {
   item:Cardapi,
-  totalAmount:0,
+  totalamount:0,
   totalItem:0,
-}
+};
+
 
 const Store = () => {
   const [sidebar, setsidebar] = useState(false);
@@ -29,16 +30,11 @@ const Store = () => {
     setsidebar((prevState) => !prevState);
   };
   // const [item, setItem] = useState(Cardapi);
-  const item = useContext(CartContext);
-  const [state, dispatch] = useReducer(reducer, initialState);
 
-  // to delete product from cart 
-  const removeItem = (id) =>{
-return dispatch({
-  type:"REMOVE_ITEM",
-  payload:id,
-})
-  }
+
+const [state, dispatch] = useReducer(reducer, initialState);
+
+  
   return (
     <div style={{ background: "white" }}>
       <div>
@@ -388,7 +384,7 @@ return dispatch({
                 <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <div className="scoll">
-                <CartContext.Provider value={{...state,removeItem}}>
+                <CartContext.Provider value={Cardapi}>
                 
                   {item.map((curItem) => {
                     return (
