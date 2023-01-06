@@ -1,9 +1,13 @@
 .sidebar{
     transform: translatex(120%);
-    transition: all 0.4s;
+    transition: all 0.6s;
     background-color: #ffffff;
     color: #fff;
     width: 341px;
+}
+.imgktgt{
+    position: absolute;
+    bottom: 15rem;
 }
 .sidebar li{
     list-style: none;

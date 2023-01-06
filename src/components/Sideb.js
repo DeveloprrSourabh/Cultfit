@@ -16,10 +16,9 @@ const Sideb = ({
   off,
   sidebar,
 }) => {
-
-  const item = useContext(CartContext);
-
   const [count, setCount] = useState(0);
+
+
   const incNum = () => {
     if (count < 9) {
       setCount(count + 1);
@@ -81,13 +80,7 @@ const Sideb = ({
               </div>
             </div>
           </div>
-          <div className="kata">
-            <img
-              // onClick={() => removeItem(id)}
-              src="https://static.cure.fit/assets/images/modal-close.svg"
-              className="imgktgt"
-            />
-          </div>
+         
         </div>
       </div>
     </>

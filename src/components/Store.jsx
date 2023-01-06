@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import Ncard from "./Ncard";
+import item from "./Sideb";
 import { reducer } from "./reducer";
 // import Product from "./Product";
 import Cardapi from "./Cardapi";
@@ -29,11 +30,11 @@ const Store = () => {
   const toggleSidebar = () => {
     setsidebar((prevState) => !prevState);
   };
-  // const [item, setItem] = useState(Cardapi);
+  const [item, setItem] = useState(Cardapi);
 
 
-const [state, dispatch] = useReducer(reducer, initialState);
 
+ 
   
   return (
     <div style={{ background: "white" }}>
@@ -384,14 +385,22 @@ const [state, dispatch] = useReducer(reducer, initialState);
                 <Storebtn openSidebar={toggleSidebar} />
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <div className="scoll">
-                <CartContext.Provider value={Cardapi}>
                 
                   {item.map((curItem) => {
                     return (
+                      <>
                       <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
+                      <div className="kata">
+                      <img
+                        src="https://static.cure.fit/assets/images/modal-close.svg"
+                        className="imgktgt"
+                      />
+                    </div>
+                    </>
                     );
+                   
                   })}
-                  </CartContext.Provider>
+                  
                 </div>
               </div>
             </div>
