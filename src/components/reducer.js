@@ -4,7 +4,7 @@ if(action.type === "REMOVE_ITEM"){
         ...state,
         item: state.item.filter((curElem) =>{
 return curElem.id !== action.payload;
-        })
+        }),
     };
 }
     return state;

@@ -26,7 +26,14 @@ const initialState = {
 
 const Store = () => {
 
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(reducer, initialState);  
+
+  const  removeItem = (id) =>{
+  return dispatch({
+    type:"REMOVE_ITEM",
+    payload:id,
+  })
+  }
 
   return (
     <div style={{ background: "white" }}>
@@ -373,7 +380,7 @@ const Store = () => {
                   className="lginkr"
                 />
               </div>
-              <CartContext.Provider value={{...state}}>
+              <CartContext.Provider value={{...state,removeItem}}>
               <ContextCart />
 
               </CartContext.Provider>
