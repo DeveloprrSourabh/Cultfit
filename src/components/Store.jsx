@@ -17,11 +17,7 @@ import { Scrollbars } from "react-custom-scrollbars-2";
 
 export const CartContext = createContext(Cardapi);
 
-const initialState = {
-  item:Cardapi,
-  totalamount:0,
-  totalItem:0,
-};
+
 
 
 const Store = () => {
