@@ -376,7 +376,10 @@ const Store = () => {
                   className="lginkr"
                 />
               </div>
+              <CartContext>
               <ContextCart />
+
+              </CartContext>
             </div>
           </div>
           {/* SCROLLBAR---START */}
