@@ -38,6 +38,7 @@ const Sideb = ({
 
   return (
     <>
+     <Link to="/cultsport/cart">
       <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
         <div className="crtero">
           <div className="errovret">
@@ -91,6 +92,7 @@ const Sideb = ({
          
         </div>
       </div>
+      </Link>
     </>
   );
 };
