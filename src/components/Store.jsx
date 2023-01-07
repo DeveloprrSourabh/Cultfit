@@ -376,10 +376,10 @@ const Store = () => {
                   className="lginkr"
                 />
               </div>
-              <CartContext>
+              <CartContext.Provider value={Cardapi}>
               <ContextCart />
 
-              </CartContext>
+              </CartContext.Provider>
             </div>
           </div>
           {/* SCROLLBAR---START */}
