@@ -18,6 +18,14 @@ const Cart = () => {
                           className="img_start"
                         />
                       </div>
+                      <div className="cation_str">
+                        <div className="cation_flx">
+                          <div className="fr_hd">cultsportone</div>
+                          <div className="lambi">
+                            <div className="lmbi_str">Textured Performance Tshirt with Logo</div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
