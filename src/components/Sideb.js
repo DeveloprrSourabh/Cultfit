@@ -37,17 +37,19 @@ const Sideb = ({
 
   return (
     <>
-      <Link to="/cultsport/cart">
         <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
           <div className="crtero">
             <div className="errovret">
               <Link to="/store">
+      <Link to="/cultsport/cart">
                 <img
                   src="https://static.cure.fit/assets/images/back-arrow-black.svg"
                   alt=""
                   className="crtrtecdft"
                 />
               </Link>
+              </Link>
+
             </div>
             <div className="yourcart">Your Cart</div>
           </div>
@@ -91,7 +93,6 @@ const Sideb = ({
             </div>
           </div>
         </div>
-      </Link>
     </>
   );
 };

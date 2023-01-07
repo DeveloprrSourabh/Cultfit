@@ -4,11 +4,7 @@ import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
 import "./styles/Details.css";
 
-const initialState = {
-  item: Cardapi,
-  totalAmount: 0,
-  totalItem: 0,
-};
+
 
 const Details = () => {
   const proid = useParams();

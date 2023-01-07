@@ -28,7 +28,7 @@ const Store = () => {
 
   const [state, dispatch] = useReducer(reducer, initialState);  
 
-  const  removeItem = (id) =>{
+   const  removeItem = (id) =>{
   return dispatch({
     type:"REMOVE_ITEM",
     payload:id,
