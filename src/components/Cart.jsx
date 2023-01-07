@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/Cart.css";
 
 const Cart = () => {
   return (
@@ -23,6 +24,20 @@ const Cart = () => {
                           <div className="fr_hd">cultsportone</div>
                           <div className="lambi">
                             <div className="lmbi_str">Textured Performance Tshirt with Logo</div>
+                          </div>
+                          <div className="fbtn_st">
+                            <div className="fbtn3">
+                              <div className="mainbtn_str">BEST SELLER</div>
+                            </div>
+                          </div>
+                          <div className="size_str">Size: L</div>
+                          <div className="price_tr">₹ 499</div>
+                          <div className="btn34_stret">
+                            <div className="pink_str">
+                              <img src="https://static.cure.fit/assets/images/minus.svg" alt="" className="minus_str" />
+                              <div className="count_str">1</div>
+                              <img src="https://static.cure.fit/assets/images/plus.svg" alt="" className="plus_str" />
+                            </div>
                           </div>
                         </div>
                       </div>
