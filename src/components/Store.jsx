@@ -16,21 +16,9 @@ import Sideb from "./Sideb";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import ContextCart from "./ContextCart";
 
-export const CartContext = createContext(Cardapi);
-
-
-
+export const CartContext = createContext(); 
 
 const Store = () => {
-
-
-  
- 
-
-
-
- 
-  
   return (
     <div style={{ background: "white" }}>
       <div>

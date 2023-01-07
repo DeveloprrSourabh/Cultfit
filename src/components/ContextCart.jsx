@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Backdrop from './Backdrop';
 import Cardapi from './Cardapi';
 import Sideb from './Sideb';
+import { CartContext } from './Store';
 import Storebtn from './Storebtn';
 
 
 const ContextCart = () => {
-  const [item, setItem] = useState(Cardapi);
+//   const [item, setItem] = useState(Cardapi);
+
+  const item = useContext(CartContext)
 
     const [sidebar, setsidebar] = useState(false);
 
