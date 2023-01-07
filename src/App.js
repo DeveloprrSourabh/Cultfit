@@ -24,6 +24,7 @@ import { Sidebar } from "react-pro-sidebar";
         <Route exact path="/product" element={<Product />} />
         <Route exact path="cultsport/:id" element={<Details />} />
         <Route exact path="/cart" element={<Cart />} />
+        
 
 
 
