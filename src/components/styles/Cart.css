@@ -147,3 +147,27 @@ height: auto;
 .dele_item{
     align-self: flex-start;
 }
+.second_str{
+    padding-right: 4rem;
+}
+.impt_str2{
+    margin-left: 10px;
+}
+.roe_mao{
+    display: flex;
+}
+.img_secclol{
+    height: 28px;
+    margin-top: 10px;
+    width: 28px;
+}
+.prima_clr{
+    color: #ff3278;
+margin-top: 8px;
+}
+.khali_pilik{
+    height: 1px;
+    opacity: 0.53;
+    background-color: rgb(151, 151, 151);
+    margin: 15px 0px;
+}

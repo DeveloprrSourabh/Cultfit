@@ -61,6 +61,7 @@ const Cart = () => {
                 </div>
               </div>
             </div>
+            {/* SECOND_COL---START */}
             <div className="col-6">
               <div className="second_str">
                 <div className="inpt_str">
