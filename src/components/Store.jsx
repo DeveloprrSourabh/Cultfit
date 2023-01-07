@@ -373,7 +373,7 @@ const Store = () => {
                   className="lginkr"
                 />
               </div>
-              <CartContext.Provider value={Cardapi}>
+              <CartContext.Provider value={{...state}}>
               <ContextCart />
 
               </CartContext.Provider>
