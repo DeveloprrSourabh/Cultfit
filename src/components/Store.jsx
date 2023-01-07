@@ -18,7 +18,16 @@ import ContextCart from "./ContextCart";
 
 export const CartContext = createContext(); 
 
+const initialState = {
+    item:Cardapi,
+    totalAmount:0,
+    totalitem:0,
+}
+
 const Store = () => {
+
+  const [state, dispatch] = useReducer(reducer, initialState);
+
   return (
     <div style={{ background: "white" }}>
       <div>

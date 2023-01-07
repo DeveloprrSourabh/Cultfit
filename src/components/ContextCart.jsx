@@ -9,7 +9,7 @@ import Storebtn from './Storebtn';
 const ContextCart = () => {
 //   const [item, setItem] = useState(Cardapi);
 
-  const item = useContext(CartContext)
+  const item = useContext(CartContext);
 
     const [sidebar, setsidebar] = useState(false);
 
