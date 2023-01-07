@@ -5,6 +5,22 @@ import Cardapi from "./Cardapi";
 const Cart = () => {
   const [count, setCount] = useState(0);
   const [list, setList] = useState(Cardapi);
+  
+  const inc = () =>{
+    if (count<9) {
+      setCount(count + 1);
+    }else{
+      alert("You Exceed The Limit!")
+    }
+  }
+  const dec = () =>{
+    if (count > 0) {
+      setCount(count - 1);
+    }else{
+      setCount(0)
+    }
+  }
+
   return (
     <>
       <div className="check_page">
@@ -46,13 +62,13 @@ const Cart = () => {
                                     <div className="price_tr">₹ {e.prize}</div>
                                     <div className="btn34_stret">
                                       <div className="pink_str">
-                                        <img
+                                        <img  onClick={dec}
                                           src="https://static.cure.fit/assets/images/minus.svg"
                                           alt=""
                                           className="minus_str"
                                         />
                                         <div className="count_str">{count}</div>
-                                        <img
+                                        <img   onClick={inc}
                                           src="https://static.cure.fit/assets/images/plus.svg"
                                           alt=""
                                           className="plus_str"
