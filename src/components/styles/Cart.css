@@ -24,3 +24,122 @@
     justify-content: space-between;
     padding-bottom: 10px;
 }
+.fir_img{
+    min-width: 90px;
+    max-width: 105px;
+    min-height: 110px;
+}
+.img_start{
+    border-radius: 10px;
+    width: 100%;
+}
+.cation_str{
+    min-height: 80px;
+    padding-left: 10px;
+}
+.cation_flx{
+    flex: 15 1 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.fr_hd{
+    text-align: center;
+    margin: 0px;
+    cursor: default;
+    user-select: none;
+    color: rgb(0, 0, 0);
+}
+.lambi{
+    text-align: left;
+    margin: 0px;
+    cursor: default;
+    user-select: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.lmbi_str{
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.fbtn_st{
+    display: flex;
+    margin-top: 0px;
+    overflow: hidden;
+}
+.ftbn3{
+    overflow: hidden;
+
+}
+.mainbtn_str{
+    font-size: 10px;
+    padding: 4px 5px 2px;
+    border-radius: 0px;
+    font-family: BrandonTextWeb-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border: 1px solid rgb(227, 226, 252);
+    color: rgb(115, 108, 240);
+    background-color: rgb(227, 226, 252);
+}
+.size_str{
+    text-align: center;
+    margin: 0px;
+    cursor: default;
+    user-select: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    padding-top: 8px;
+}
+.price_tr{
+    text-align: center;
+    margin: 0px;
+    cursor: default;
+    user-select: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    padding-top: 12px;
+}
+.btn34_stret{
+    width: 80px;
+    padding-top: 12px;
+    color: rgb(0, 0, 0);
+}
+.pink_str{
+    display: flex;
+    flex-direction: row;
+    place-content: center space-around;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 50, 120);
+    color: rgb(0, 0, 0);
+    opacity: 0.87;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 0px;
+    border-radius: 20px;
+    line-height: 27px;
+}
+.minus_str{
+    cursor: pointer;
+height: auto;
+width: 100%;
+}
+.plus_str{
+    cursor: pointer;
+height: auto;
+width: 100%;
+}
