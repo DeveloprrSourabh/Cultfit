@@ -25,6 +25,9 @@ const initialState = {
 
 
 const Store = () => {
+
+
+  
   const [sidebar, setsidebar] = useState(false);
 
   const toggleSidebar = () => {
@@ -32,7 +35,9 @@ const Store = () => {
   };
   const [item, setItem] = useState(Cardapi);
 
-
+const removeItem = (e) =>{
+ return setItem(item.filter(x=>x.id!==item.id));
+}
 
  
   
@@ -392,6 +397,8 @@ const Store = () => {
                       <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
                       <div className="kata">
                       <img
+                      onClick={removeItem}
+                      sidebar={sidebar} 
                         src="https://static.cure.fit/assets/images/modal-close.svg"
                         className="imgktgt"
                       />
