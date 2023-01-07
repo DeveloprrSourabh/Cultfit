@@ -28,13 +28,7 @@ const toggleSidebar = () => {
                     return (
                       <>
                       <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
-                      <div className="kata">
-                      <img
-                      sidebar={sidebar} 
-                        src="https://static.cure.fit/assets/images/modal-close.svg"
-                        className="imgktgt"
-                      />
-                    </div>
+                    
                     </>
                     );
                    

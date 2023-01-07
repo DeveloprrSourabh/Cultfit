@@ -78,6 +78,13 @@ const Sideb = ({
                   className="minusimg"
                 />
               </div>
+              <div className="kata">
+                      <img
+                      sidebar={sidebar} 
+                        src="https://static.cure.fit/assets/images/modal-close.svg"
+                        className="imgktgt"
+                      />
+                    </div>
             </div>
           </div>
          

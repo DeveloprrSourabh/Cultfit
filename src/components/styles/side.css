@@ -5,10 +5,7 @@
     color: #fff;
     width: 341px;
 }
-.imgktgt{
-    position: absolute;
-    bottom: 15rem;
-}
+
 .sidebar li{
     list-style: none;
     padding: 1rem 2rem;
@@ -126,6 +123,6 @@ opacity: 1;
 }
 .kata{
     position: absolute;
-    top: 5frem;
+    top: 5rem;
     right: 1rem;
 }
