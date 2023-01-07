@@ -14,6 +14,7 @@ import Storebtn from "./Storebtn";
 import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
 import { Scrollbars } from "react-custom-scrollbars-2";
+import ContextCart from "./ContextCart";
 
 export const CartContext = createContext(Cardapi);
 
@@ -24,16 +25,9 @@ const Store = () => {
 
 
   
-  const [sidebar, setsidebar] = useState(false);
+ 
 
-  const toggleSidebar = () => {
-    setsidebar((prevState) => !prevState);
-  };
-  const [item, setItem] = useState(Cardapi);
 
-const removeItem = (e) =>{
- return setItem(item.filter(x=>x.id!==item.id));
-}
 
  
   
@@ -382,30 +376,7 @@ const removeItem = (e) =>{
                   className="lginkr"
                 />
               </div>
-              <div className="loginkr">
-                <Storebtn openSidebar={toggleSidebar} />
-                <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
-                <div className="scoll">
-                
-                  {item.map((curItem) => {
-                    return (
-                      <>
-                      <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
-                      <div className="kata">
-                      <img
-                      onClick={removeItem}
-                      sidebar={sidebar} 
-                        src="https://static.cure.fit/assets/images/modal-close.svg"
-                        className="imgktgt"
-                      />
-                    </div>
-                    </>
-                    );
-                   
-                  })}
-                  
-                </div>
-              </div>
+              <ContextCart />
             </div>
           </div>
           {/* SCROLLBAR---START */}
