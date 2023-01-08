@@ -8,6 +8,7 @@ const BrandContext = () => {
 
   const[list,setList]= useState(Cardapi)
 
+
   return (
     <>
       {list.map((Ele) => {
@@ -19,6 +20,7 @@ const BrandContext = () => {
                     );
                    
                   })}
+              <button className="gg">x</button>
                    
     </>
   )
