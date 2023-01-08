@@ -1,5 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext, useReducer, useState } from 'react';
+import Cardapi from './Cardapi';
+import { reducer } from './reducer';
+import  CartContext  from './Store';
 import "./styles/Cart.css";
+import {removeItem} from "./Cart"
+
 
 
 
@@ -13,6 +18,10 @@ const Brand = ({  id,
     preprize,
     off,
     sidebar,}) => {
+
+        const  {removeItem}  = useContext(CartContext);
+
+       
 
     const [count, setCount] = useState(0);
 
@@ -78,6 +87,8 @@ const Brand = ({  id,
                             </div>
                           </div>
                           <img
+                  onClick={() => removeItem(id)}
+
                             src="https://static.cure.fit/assets/images/modal-close.svg"
                             alt=""
                             className="dele_item"

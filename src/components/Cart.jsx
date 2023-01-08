@@ -1,14 +1,19 @@
-import React, { useContext, useState } from "react";
+import React, { createContext, useContext, useReducer, useState } from "react";
 import "./styles/Cart.css";
 import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
 import Brand from "./Brand";
-import { CartContext } from "./Store";
+import { reducer } from "./reducer";
+
+
+
+
 
 const Cart = () => {
   const [item, setItem] = useState(Cardapi);
 
 
+  
 
   return (
     <>
@@ -118,5 +123,4 @@ const Cart = () => {
     </>
   );
 };
-
 export default Cart;

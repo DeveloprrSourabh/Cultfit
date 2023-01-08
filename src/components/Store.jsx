@@ -16,7 +16,7 @@ import Sideb from "./Sideb";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import ContextCart from "./ContextCart";
 
-export const CartContext = createContext(); 
+export const CartContext = createContext(Cardapi); 
 
 const initialState = {
     item:Cardapi,
