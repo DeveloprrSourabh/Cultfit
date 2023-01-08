@@ -355,7 +355,7 @@ const Storenav = () => {
               </div>
               <div className="loginkr">
               <img
-                  src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg"
+                  src="https://static.cure.fit/assets/images/cart-icon-new.svg"
                   alt=""
                   className="lginkr"
                 />
