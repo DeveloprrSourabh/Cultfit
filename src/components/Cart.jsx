@@ -9,10 +9,24 @@ import { CartContext } from "./Store";
 
 
 
-
+const initialState = {
+  item:Cardapi,
+  totalAmount:0,
+  totalitem:0,
+}
 
 
 const Cart = () => {
+
+  const [state, dispatch] = useReducer(reducer, initialState);  
+
+   const  removeItem = (id) =>{
+  return dispatch({
+    type:"REMOVE_ITEM",
+    payload:id,
+  })
+  }
+
   const [item, setItem] = useState(Cardapi);
 
 
@@ -25,8 +39,9 @@ const Cart = () => {
         <div className="container">
           <div className="p">
            <div className="ghfr">
+            <CartContext.Provider value={{removeItem}} >
 <BrandContext />
-
+</CartContext.Provider>
 </div>
            
             <div className="jki">

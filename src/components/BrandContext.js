@@ -1,21 +1,25 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import Brand from './Brand';
 import Cardapi from './Cardapi';
+import { CartContext } from './Store';
 
 const BrandContext = () => {
-  const[item,setItem]= useState(Cardapi)
+  // const {item} = useContext(CartContext);
+
+  const[list,setList]= useState(Cardapi)
 
   return (
     <>
-     {item.map((curItem) => {
+      {list.map((Ele) => {
                     return (
                       <>
-                      <Brand key={curItem.id} {...curItem}/>
+                      <Brand key={Ele.id} {...Ele}  />
                     
                     </>
                     );
                    
                   })}
+                   
     </>
   )
 }

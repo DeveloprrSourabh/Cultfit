@@ -16,7 +16,7 @@ import Sideb from "./Sideb";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import ContextCart from "./ContextCart";
 
-export const CartContext = createContext(Cardapi); 
+ const CartContext = createContext(Cardapi); 
 
 const initialState = {
     item:Cardapi,
@@ -24,7 +24,7 @@ const initialState = {
     totalitem:0,
 }
 
-const Store = () => {
+const Store = ({child}) => {
 
   const [state, dispatch] = useReducer(reducer, initialState);  
 
@@ -382,7 +382,7 @@ const Store = () => {
               </div>
               <CartContext.Provider value={{...state,removeItem}}>
               <ContextCart />
-
+{child}
               </CartContext.Provider>
             </div>
           </div>
@@ -408,5 +408,5 @@ const Store = () => {
     </div>
   );
 };
-
+export {CartContext};
 export default Store;

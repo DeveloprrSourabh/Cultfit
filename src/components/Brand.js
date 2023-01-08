@@ -17,7 +17,7 @@ const Brand = ({
   off,
   sidebar,
 }) => {
-  const  {removeItem} = useContext(CartContext);
+  const  { removeItem } = useContext(CartContext);
 
   const [count, setCount] = useState(0);
 
@@ -82,8 +82,8 @@ const Brand = ({
                       </div>
                     </div>
                     <img
-                      onClick={() => removeItem(id)}
-                      src="https://static.cure.fit/assets/images/modal-close.svg"
+                  onClick={() => removeItem(id)}
+                  src="https://static.cure.fit/assets/images/modal-close.svg"
                       alt=""
                       className="dele_item"
                     />
