@@ -4,6 +4,9 @@ import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
 import Brand from "./Brand";
 import { reducer } from "./reducer";
+import BrandContext from "./BrandContext";
+import { CartContext } from "./Store";
+
 
 
 
@@ -22,15 +25,7 @@ const Cart = () => {
         <div className="container">
           <div className="p">
            <div className="ghfr">
-          {item.map((curItem) => {
-                    return (
-                      <>
-                      <Brand key={curItem.id} {...curItem}/>
-                    
-                    </>
-                    );
-                   
-                  })}
+<BrandContext />
 
 </div>
            
