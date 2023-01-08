@@ -292,5 +292,5 @@ margin-top: 8px;
 .p{
     display: flex;
     justify-content: space-between;
-
+    flex-direction: column;
 }
