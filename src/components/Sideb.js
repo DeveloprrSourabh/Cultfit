@@ -55,7 +55,6 @@ const Sideb = ({
         <div className="prdtcrt">
           <div className="piccrt">
             <Link to="/cart">
-              {" "}
               <img src={imgsrc} alt="" className="iiiopicrt" />
             </Link>
           </div>
