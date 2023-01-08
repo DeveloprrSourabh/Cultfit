@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import "./styles/Cart.css";
 import Cardapi from "./Cardapi";
+import Storenav from "./Storenav";
 import Brand from "./Brand";
 import { CartContext } from "./Store";
 
@@ -11,10 +12,11 @@ const Cart = () => {
 
   return (
     <>
+    <Storenav />
       <div className="check_page">
         <div className="container">
           <div className="p">
-           
+           <div className="ghfr">
           {item.map((curItem) => {
                     return (
                       <>
@@ -25,7 +27,7 @@ const Cart = () => {
                    
                   })}
 
-
+</div>
            
             <div className="jki">
               <div className="col-12">

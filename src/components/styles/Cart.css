@@ -1,5 +1,6 @@
 .check_page{
     background-color: #fff;
+    padding: 2rem 1rem;
 }
 
 .main_div{
@@ -292,5 +293,4 @@ margin-top: 8px;
 .p{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
 }
