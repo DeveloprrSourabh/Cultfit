@@ -20,7 +20,6 @@ const BrandContext = () => {
                     );
                    
                   })}
-              <button className="gg">x</button>
                    
     </>
   )
