@@ -44,7 +44,7 @@ const Store = ({ child }) => {
   useEffect(() => {
     dispatch({ type: "GET_TOTALS" });
     console.log("Hello");
-  }, [state]);
+  });
 
   return (
     <div style={{ background: "white" }}>
