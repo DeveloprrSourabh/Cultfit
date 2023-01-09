@@ -1,4 +1,11 @@
-import React, { createContext,useReducer,rducer, useContext, useState, useEffect } from "react";
+import React, {
+  createContext,
+  useReducer,
+  rducer,
+  useContext,
+  useState,
+  useEffect,
+} from "react";
 import "./styles/store.css";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -16,25 +23,28 @@ import Sideb from "./Sideb";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import ContextCart from "./ContextCart";
 
- const CartContext = createContext(Cardapi); 
+const CartContext = createContext(Cardapi);
 
 const initialState = {
-    item:Cardapi,
-    totalAmount:0,
-    totalitem:0,
-}
+  item: Cardapi,
+  totalAmount: 0,
+  totalItem: 0,
+};
 
-const Store = ({child}) => {
+const Store = ({ child }) => {
+  const [state, dispatch] = useReducer(reducer, initialState);
 
-  const [state, dispatch] = useReducer(reducer, initialState);  
+  const removeItem = (id) => {
+    return dispatch({
+      type: "REMOVE_ITEM",
+      payload: id,
+    });
+  };
 
-   const  removeItem = (id) =>{
-  return dispatch({
-    type:"REMOVE_ITEM",
-    payload:id,
-  })
-  }
-
+  useEffect(() => {
+    dispatch({ type: "GET_TOTALS" });
+    console.log("Hello");
+  }, [state]);
 
   return (
     <div style={{ background: "white" }}>
@@ -381,9 +391,9 @@ const Store = ({child}) => {
                   className="lginkr"
                 />
               </div>
-              <CartContext.Provider value={{...state,removeItem}}>
-              <ContextCart />
-{child}
+              <CartContext.Provider value={{ ...state, removeItem }}>
+                <ContextCart />
+                {child}
               </CartContext.Provider>
             </div>
           </div>
@@ -409,5 +419,5 @@ const Store = ({child}) => {
     </div>
   );
 };
-export {CartContext};
+export { CartContext };
 export default Store;
