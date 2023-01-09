@@ -14,26 +14,13 @@ const Sideb = ({
   prize,
   preprize,
   off,
+  quantity,
   sidebar,
 }) => {
-  const { removeItem } = useContext(CartContext);
+  const { removeItem, increment } = useContext(CartContext);
   const [count, setCount] = useState(0);
 
-  const incNum = () => {
-    if (count < 9) {
-      setCount(count + 1);
-    } else {
-      alert("You can Exceed The Limit!");
-    }
-  };
 
-  const decNum = () => {
-    if (count > 0) {
-      setCount(count - 1);
-    } else {
-      setCount(0);
-    }
-  };
 
   return (
     <>
@@ -65,18 +52,18 @@ const Sideb = ({
             </div>
             <div className="brtcrt">
               <div className="sizecrt">Size:ALL</div>
-              <div className="bhvccrt">₹ {12999 * count}</div>
+              <div className="bhvccrt">₹ {quantity * prize}</div>
               <div className="hjycrtpm">
                 <img
-                  onClick={decNum}
+                  onClick={() => increment(id)}
                   src="https://static.cure.fit/assets/images/minus.svg"
                   alt=""
                   className="minusimg"
                 />
 
-                <div className="countgdhy">{count}</div>
+                <div className="countgdhy">{quantity}</div>
                 <img
-                  onClick={incNum}
+                  onClick={() => increment(id)}
                   src="https://static.cure.fit/assets/images/plus.svg"
                   alt=""
                   className="minusimg"

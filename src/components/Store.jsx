@@ -46,6 +46,20 @@ const Store = ({ child }) => {
     console.log("Hello");
   });
 
+  // Increment The Item
+const increment = (id) =>{
+return dispatch({
+  type:"INCREMENT",
+  payload:id,
+})
+};
+// Decrement The Item
+const decrement = (id) =>{
+  return dispatch({
+    type:"DECREMENT",
+    payload:id,
+  })
+  };
   return (
     <div style={{ background: "white" }}>
       <div>
@@ -391,7 +405,7 @@ const Store = ({ child }) => {
                   className="lginkr"
                 />
               </div>
-              <CartContext.Provider value={{ ...state, removeItem }}>
+              <CartContext.Provider value={{ ...state, removeItem,increment }}>
                 <ContextCart />
                 {child}
               </CartContext.Provider>

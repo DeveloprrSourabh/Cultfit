@@ -7,14 +7,16 @@ return curElem.id !== action.payload;
         }),
     };
 }
-if (action.type === "INCRE") {
-    let upCart = state.item.map((curElem)=>{
+if (action.type === "INCREMENT") {
+    let updateCart = state.item.map((curElem)=>{
         if (curElem.id === action.payload) {
-            return{...state, quantity:curElem.quantity + 1};
+            return{...curElem, quantity:curElem.quantity + 1};
         }
         return curElem;
-    })
+    });
+    return {...state,item :updateCart }
 }
+
 
     return state;
 };
