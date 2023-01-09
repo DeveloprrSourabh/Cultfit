@@ -6,7 +6,7 @@ import { CartContext } from './Store';
 import Storebtn from './Storebtn';
 
 
-const ContextCart = () => {
+const ContextCart = ({quantity}) => {
 //   const [item, setItem] = useState(Cardapi);
 
   const {item} = useContext(CartContext);
@@ -20,7 +20,11 @@ const toggleSidebar = () => {
     <>
     
     <div className="loginkr">
+                <div className="lfx">
                 <Storebtn openSidebar={toggleSidebar} />
+        <div className="cartItem22">{quantity}</div>
+                </div>
+
                 <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <div className="scoll">
                 

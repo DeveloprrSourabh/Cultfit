@@ -13,7 +13,6 @@ const Storebtn = ({ openSidebar }) => {
           className="lpwe"
         />
 
-        <div className="cartItem22">4</div>
       </div>
     </>
   );

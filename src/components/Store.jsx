@@ -1,4 +1,4 @@
-import React, { createContext,useReducer,rducer, useContext, useState } from "react";
+import React, { createContext,useReducer,rducer, useContext, useState, useEffect } from "react";
 import "./styles/store.css";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -34,6 +34,12 @@ const Store = ({child}) => {
     payload:id,
   })
   }
+
+  useEffect(() => {
+  dispatch({type:"GET_TOTAL"});
+  // console.log("Awesome");
+  },[state.item])
+  
 
   return (
     <div style={{ background: "white" }}>

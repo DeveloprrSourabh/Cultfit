@@ -15,5 +15,15 @@ if (action.type === "INCRE") {
         return curElem;
     })
 }
+if (action.type==="GET_TOTAL") {
+    let {totalItem} = state.item.reduce((accum,currVal) => { 
+        let {quantity} = currVal;
+        accum.totalItem += quantity;
+        return accum;
+    },{
+totalItem:0,
+    });
+    return {...state, totalItem}
+}
     return state;
 };
