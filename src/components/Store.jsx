@@ -41,10 +41,7 @@ const Store = ({ child }) => {
     });
   };
 
-  useEffect(() => {
-    dispatch({ type: "GET_TOTALS" });
-    console.log("Hello");
-  });
+   
 
   // Increment The Item
 const increment = (id) =>{
@@ -60,6 +57,12 @@ const decrement = (id) =>{
     payload:id,
   })
   };
+
+  // UseEffect To Update Data
+  useEffect(()=>{
+dispatch({type:"GET_TOTAL"});
+console.log("Awesome");
+  },[state.item])
   return (
     <div style={{ background: "white" }}>
       <div>

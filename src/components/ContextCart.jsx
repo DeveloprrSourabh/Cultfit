@@ -4,9 +4,20 @@ import Cardapi from "./Cardapi";
 import Sideb from "./Sideb";
 import { CartContext } from "./Store";
 import Storebtn from "./Storebtn";
-import count from "./Sideb";
 
-const ContextCart = () => {
+const ContextCart = ({   id,
+  heading,
+  imgsrc,
+  about,
+  color,
+  desc,
+  prize,
+  preprize,
+  off,
+  totalItem,
+   }) => {
+  const { removeItem, increment, decrement } = useContext(CartContext);
+
   //   const [item, setItem] = useState(Cardapi);
 
   const { item } = useContext(CartContext);
@@ -21,21 +32,18 @@ const ContextCart = () => {
       <div className="loginkr">
       <div className="lfx">
           <Storebtn openSidebar={toggleSidebar} />
-
+<button style={{position:"absolute",zIndex:"1020"}}>{preprize}</button>
         </div>
 
         <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
         <div className="scoll">
-
           {item.map((curItem) => {
             return (
               <>
-                <Sideb count={count} key={curItem.id} {...curItem} sidebar={sidebar} />
+                <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
               </>
             );
           })}
-    <div className="outline-primary">{count}</div>
-
         </div>
       </div>
     </>
