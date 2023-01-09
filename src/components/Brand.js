@@ -81,12 +81,7 @@ const Brand = ({
                         </div>
                       </div>
                     </div>
-                    <img
-                  onClick={() => removeItem(id)}
-                  src="https://static.cure.fit/assets/images/modal-close.svg"
-                      alt=""
-                      className="dele_item"
-                    />
+               
                   </div>
                 </div>
               </div>

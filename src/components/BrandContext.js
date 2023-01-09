@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import Brand from './Brand';
 import Cardapi from './Cardapi';
 import { CartContext } from './Store';
+import "./styles/Cart.css";
 
 const BrandContext = () => {
   // const {item} = useContext(CartContext);
@@ -10,21 +11,30 @@ const BrandContext = () => {
 
 const handleDelete =(i)=>{
   const deletVal = [...list]
-  deletVal.splice(i)
+  deletVal.splice(i,1)
   setList(deletVal)
 }
 
   return (
     <>
-      {list.map((Ele,i) => {
+   <div className="klji">
+   {list.map((Ele,i) => {
                     return (
                       <>
-                      <Brand key={Ele.id} {...Ele}  />
-                    <button onClick={()=>handleDelete(i)} className="outline-primary ggf">x</button>
+                    <div className="kjkjfx">
+                    <Brand key={Ele.id} {...Ele}  />
+                   <img
+                   onClick={()=>handleDelete(i)} 
+                  src="https://static.cure.fit/assets/images/modal-close.svg"
+                      alt=""
+                      className="dele_item"
+                    />
+                    </div>
                     </>
                     );
                    
                   })}
+   </div>
                    
     </>
   )

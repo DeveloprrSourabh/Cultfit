@@ -93,6 +93,13 @@
     color: rgb(115, 108, 240);
     background-color: rgb(227, 226, 252);
 }
+.kjkjfx{
+    display: flex;
+    justify-content: space-between;
+}
+.co{
+    width: -webkit-fill-available;
+}
 .size_str{
     text-align: center;
     margin: 0px;
@@ -147,6 +154,8 @@ height: auto;
 }
 .dele_item{
     align-self: flex-start;
+    padding: 2rem 0px;
+
 }
 
 .impt_str2{
