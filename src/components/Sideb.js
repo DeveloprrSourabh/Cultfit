@@ -26,6 +26,7 @@ const Sideb = ({
 
   return (
     <>
+<button style={{position:"absolute",zIndex:"1020"}}>{}</button>
 
       <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
 

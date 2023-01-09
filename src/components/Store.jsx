@@ -408,7 +408,6 @@ console.log("Awesome");
                   className="lginkr"
                 />
               </div>
-<button style={{position:"absolute",zIndex:"1020"}}>{accum}</button>
 
               <CartContext.Provider value={{ ...state,decrement, removeItem,increment }}>
                 <ContextCart />
