@@ -1,7 +1,7 @@
 import React, { useContext, useReducer, useState } from "react";
 import Cardapi from "./Cardapi";
 import { reducer } from "./reducer";
-import {CartContext} from "./Store";
+import { CartContext } from "./Store";
 import "./styles/Cart.css";
 import { removeItem } from "./Cart";
 
@@ -17,7 +17,7 @@ const Brand = ({
   off,
   sidebar,
 }) => {
-  const  { removeItem } = useContext(CartContext);
+  const { removeItem } = useContext(CartContext);
 
   const [count, setCount] = useState(0);
 
@@ -81,7 +81,6 @@ const Brand = ({
                         </div>
                       </div>
                     </div>
-               
                   </div>
                 </div>
               </div>
