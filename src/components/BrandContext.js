@@ -8,14 +8,19 @@ const BrandContext = () => {
 
   const[list,setList]= useState(Cardapi)
 
+const handleDelete =(i)=>{
+  const deletVal = [...list]
+  deletVal.splice(i)
+  setList(deletVal)
+}
 
   return (
     <>
-      {list.map((Ele) => {
+      {list.map((Ele,i) => {
                     return (
                       <>
                       <Brand key={Ele.id} {...Ele}  />
-                    
+                    <button onClick={()=>handleDelete(i)} className="outline-primary ggf">x</button>
                     </>
                     );
                    

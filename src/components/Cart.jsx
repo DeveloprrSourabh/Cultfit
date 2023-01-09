@@ -2,35 +2,9 @@ import React, { createContext, useContext, useReducer, useState } from "react";
 import "./styles/Cart.css";
 import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
-import Brand from "./Brand";
-import { reducer } from "./reducer";
 import BrandContext from "./BrandContext";
-import { CartContext } from "./Store";
-
-
-
-const initialState = {
-  item:Cardapi,
-  totalAmount:0,
-  totalitem:0,
-}
-
 
 const Cart = () => {
-
-  const [state, dispatch] = useReducer(reducer, initialState);  
-
-   const  removeItem = (id) =>{
-  return dispatch({
-    type:"REMOVE_ITEM",
-    payload:id,
-  })
-  }
-
-  const [item, setItem] = useState(Cardapi);
-
-
-  
 
   return (
     <>
@@ -39,9 +13,7 @@ const Cart = () => {
         <div className="container">
           <div className="p">
            <div className="ghfr">
-            <CartContext.Provider value={{removeItem}} >
 <BrandContext />
-</CartContext.Provider>
 </div>
            
             <div className="jki">
