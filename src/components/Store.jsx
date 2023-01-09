@@ -405,7 +405,7 @@ const decrement = (id) =>{
                   className="lginkr"
                 />
               </div>
-              <CartContext.Provider value={{ ...state, removeItem,increment }}>
+              <CartContext.Provider value={{ ...state,decrement, removeItem,increment }}>
                 <ContextCart />
                 {child}
               </CartContext.Provider>

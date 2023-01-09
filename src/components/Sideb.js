@@ -17,7 +17,7 @@ const Sideb = ({
   quantity,
   sidebar,
 }) => {
-  const { removeItem, increment } = useContext(CartContext);
+  const { removeItem, increment, decrement } = useContext(CartContext);
   const [count, setCount] = useState(0);
 
 
@@ -55,7 +55,7 @@ const Sideb = ({
               <div className="bhvccrt">₹ {quantity * prize}</div>
               <div className="hjycrtpm">
                 <img
-                  onClick={() => increment(id)}
+                  onClick={() => decrement(id)}
                   src="https://static.cure.fit/assets/images/minus.svg"
                   alt=""
                   className="minusimg"
