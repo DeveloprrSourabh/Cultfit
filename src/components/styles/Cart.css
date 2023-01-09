@@ -154,6 +154,9 @@ height: auto;
 }
 .dele_item{
     align-self: flex-start;
+
+}
+.h{
     padding: 2rem 0px;
 
 }

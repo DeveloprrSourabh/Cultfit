@@ -23,12 +23,14 @@ const handleDelete =(i)=>{
                       <>
                     <div className="kjkjfx">
                     <Brand key={Ele.id} {...Ele}  />
+                   <div className="h">
                    <img
                    onClick={()=>handleDelete(i)} 
                   src="https://static.cure.fit/assets/images/modal-close.svg"
                       alt=""
                       className="dele_item"
                     />
+                   </div>
                     </div>
                     </>
                     );
