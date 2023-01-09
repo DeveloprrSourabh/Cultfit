@@ -16,6 +16,9 @@ const Sideb = ({
   off,
   sidebar,
 }) => {
+
+
+  
   const { removeItem } = useContext(CartContext);
   const [count, setCount] = useState(0);
 

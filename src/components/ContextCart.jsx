@@ -1,47 +1,45 @@
-import React, { useContext, useState } from 'react';
-import Backdrop from './Backdrop';
-import Cardapi from './Cardapi';
-import Sideb from './Sideb';
-import { CartContext } from './Store';
-import Storebtn from './Storebtn';
+import React, { useContext, useState } from "react";
+import Backdrop from "./Backdrop";
+import Cardapi from "./Cardapi";
+import Sideb from "./Sideb";
+import { CartContext } from "./Store";
+import Storebtn from "./Storebtn";
+import count from "./Sideb";
 
+const ContextCart = () => {
+  //   const [item, setItem] = useState(Cardapi);
 
-const ContextCart = ({quantity}) => {
-//   const [item, setItem] = useState(Cardapi);
+  const { item } = useContext(CartContext);
 
-  const {item} = useContext(CartContext);
+  const [sidebar, setsidebar] = useState(false);
 
-    const [sidebar, setsidebar] = useState(false);
-
-const toggleSidebar = () => {
-  setsidebar((prevState) => !prevState);
-};
+  const toggleSidebar = () => {
+    setsidebar((prevState) => !prevState);
+  };
   return (
     <>
-    
-    <div className="loginkr">
-                <div className="lfx">
-                <Storebtn openSidebar={toggleSidebar} />
-        <div className="cartItem22">{quantity}</div>
-                </div>
+      <div className="loginkr">
+      <div className="lfx">
+          <Storebtn openSidebar={toggleSidebar} />
 
-                <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
-                <div className="scoll">
-                
-                  {item.map((curItem) => {
-                    return (
-                      <>
-                      <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
-                    
-                    </>
-                    );
-                   
-                  })}
-                  
-                </div>
-              </div>
+        </div>
+
+        <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
+        <div className="scoll">
+
+          {item.map((curItem) => {
+            return (
+              <>
+                <Sideb count={count} key={curItem.id} {...curItem} sidebar={sidebar} />
+              </>
+            );
+          })}
+    <div className="outline-primary">{count}</div>
+
+        </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default ContextCart
+export default ContextCart;
