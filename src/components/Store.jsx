@@ -35,11 +35,6 @@ const Store = ({child}) => {
   })
   }
 
-  useEffect(() => {
-  dispatch({type:"GET_TOTAL"});
-  // console.log("Awesome");
-  },[state.item])
-  
 
   return (
     <div style={{ background: "white" }}>
