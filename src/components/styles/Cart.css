@@ -154,7 +154,12 @@ height: auto;
 }
 .dele_item{
     align-self: flex-start;
-
+    padding: 5px;
+    border-radius: 50%;
+}
+.dele_item:hover{
+    background: red;
+ 
 }
 .h{
     padding: 2rem 0px;
