@@ -31,9 +31,9 @@ const initialState = {
   totalItem: 0,
 };
 
-const Store = ({ child }) => {
+const Store = ({accum}) => {
   const [state, dispatch] = useReducer(reducer, initialState);
-
+const {item} = useContext(CartContext);
   const removeItem = (id) => {
     return dispatch({
       type: "REMOVE_ITEM",
@@ -408,9 +408,10 @@ console.log("Awesome");
                   className="lginkr"
                 />
               </div>
+<button style={{position:"absolute",zIndex:"1020"}}>{accum}</button>
+
               <CartContext.Provider value={{ ...state,decrement, removeItem,increment }}>
                 <ContextCart />
-                {child}
               </CartContext.Provider>
             </div>
           </div>

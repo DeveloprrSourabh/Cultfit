@@ -14,7 +14,7 @@ const ContextCart = ({   id,
   prize,
   preprize,
   off,
-  totalItem,
+  quantity,
    }) => {
   const { removeItem, increment, decrement } = useContext(CartContext);
 
@@ -31,8 +31,7 @@ const ContextCart = ({   id,
     <>
       <div className="loginkr">
       <div className="lfx">
-          <Storebtn openSidebar={toggleSidebar} />
-<button style={{position:"absolute",zIndex:"1020"}}>{preprize}</button>
+            <Storebtn openSidebar={toggleSidebar} />
         </div>
 
         <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
@@ -40,6 +39,7 @@ const ContextCart = ({   id,
           {item.map((curItem) => {
             return (
               <>
+
                 <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
               </>
             );

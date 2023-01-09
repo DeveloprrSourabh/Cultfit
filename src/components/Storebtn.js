@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { CartContext } from "./Store";
 import "./styles/btn.css";
 const Storebtn = ({ openSidebar }) => {
 
-    
+  const { item } = useContext(CartContext);
+
   return (
     <>
       <div onClick={openSidebar} id="flxew" className="nav-link jpe nne" to="#">

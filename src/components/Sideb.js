@@ -14,6 +14,8 @@ const Sideb = ({
   prize,
   preprize,
   off,
+  accum,
+  totalItem,
   quantity,
   sidebar,
 }) => {
@@ -26,6 +28,7 @@ const Sideb = ({
     <>
 
       <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
+
         <div className="crtero">
           <div className="errovret">
             <Link to="/store">
