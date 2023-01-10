@@ -8,21 +8,21 @@ export const reducer = (secState, action) => {
       }
       return curElem;
     });
-      console.log("updateCart");
-
-    return { ...secState, item: updateCart };
+    console.log(updateCart[0].quantity);
+    
   }
 
   // Decrement
   if (action.type === "DECREMENTS") {
-    let updateCart = secState.item.map((curElem) => {
+    let updateCart = secState.items.map((curElem) => {
         if (curElem.id === action.payload) {
           return { ...secState, quantity: curElem.quantity - 1 };
         }
         return curElem;
       })
+      console.log(updateCart);
       
-    return { ...secState, item: updateCart };
+    return { ...secState, items: updateCart };
   }
  
   return secState;
