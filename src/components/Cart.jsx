@@ -1,31 +1,31 @@
 import React, { createContext, useContext, useReducer, useState } from "react";
 import "./styles/Cart.css";
 import Cardapi from "./Cardapi";
-import Storenav from "./Storenav";
-import BrandContext from "./BrandContext";
-import Sidehar from "./Sidehar";
+
 import secreducer from "./secreducer";
 import Whole from "./Whole";
 
-
 const ContextBrand = createContext(Cardapi);
+
 const secinitialState = {
-  item: Cardapi,
-  totalAmount: 0,
-  totalItem: 0,
+  items: Cardapi,
+  totalAmounts: 0,
+  totalItems: 0,
 };
 
  
 
 const Cart = () => {
+
+const [secState, dispatchs] = useReducer(secreducer, secinitialState);
+
  // Increment The Item
  const inc = (id) =>{
-  return dispatch({
+  return dispatchs({
     type:"INCREMENTS",
-    payload:id,
+    pay:id,
   })
   };
-const [secState, dispatch] = useReducer(secreducer, secinitialState)
   return (
     <>
     <ContextBrand.Provider value={{...secState,inc}}>
@@ -34,4 +34,6 @@ const [secState, dispatch] = useReducer(secreducer, secinitialState)
     </>
   );
 };
+export { ContextBrand };
+
 export default Cart;

@@ -8,7 +8,7 @@ export const reducer = (state, action) => {
     };
   }
   // Increment
-  if (action.type === "INCREMENTS") {
+  if (action.type === "INCREMENT") {
     let updateCart = state.item.map((curElem) => {
       if (curElem.id === action.payload) {
         return { ...curElem, quantity: curElem.quantity + 1 };

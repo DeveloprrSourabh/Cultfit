@@ -59,10 +59,7 @@ const decrement = (id) =>{
   };
 
   // UseEffect To Update Data
-  useEffect(()=>{
-dispatch({type:"GET_TOTAL"});
-console.log("Awesome");
-  },[state.item])
+
   return (
     <div style={{ background: "white" }}>
       <div>

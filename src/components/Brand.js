@@ -2,7 +2,7 @@ import React, { useContext, useReducer, useState } from "react";
 import Cardapi from "./Cardapi";
 import { reducer } from "./reducer";
 import "./styles/Cart.css";
-import {removeItem } from "./Cart";
+import { ContextBrand, removeItem } from "./Cart";
 
 const Brand = ({
   id,
@@ -15,10 +15,10 @@ const Brand = ({
   preprize,
   off,
   sidebar,
+  quantity,
 }) => {
-
-const { inc } = useContext(ContextBrand)
-  const [count, setCount] = useState(0);
+  const { inc } = useContext(ContextBrand);
+  // const [count, setCount] = useState(0);
 
   // const incNum = () => {
   //   if (count < 9) {
@@ -68,7 +68,7 @@ const { inc } = useContext(ContextBrand)
                               alt=""
                               className="minus_str"
                             />
-                            <div className="count_str">{count}</div>
+                            <div className="count_str">{quantity}</div>
                             <img
                               onClick={() => inc(id)}
                               src="https://static.cure.fit/assets/images/plus.svg"

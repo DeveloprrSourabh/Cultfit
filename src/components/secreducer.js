@@ -1,29 +1,16 @@
-export const secreducer = (secState, action) =>{
+export const secreducer = (secState, actio) =>{
 
   // Increment
-  if (action.type === "INCREMENTS") {
-    let updateCarts = secState.item.map((curElem) => {
-      if (curElem.id === action.payload) {
+  if (actio.type === "INCREMENTS") {
+    let updateCart = secState.items.map((curElem) => {
+      if (curElem.id === actio.pay) {
         return { ...curElem, quantity: curElem.quantity + 1 };
       }
       return curElem;
     });
-    return { ...secState, item: updateCarts };
+    return { ...secState, items: updateCart };
   }
 
-if (action.type === "GET_TOTAL") {
-  let {totalItem,totalAmount} = secState.item.reduce((accum,curVal) => {
-      let {quantity,prize} = curVal;
-      let updatedTotalAmount = prize*quantity;
-      accum.totalAmount+=updatedTotalAmount;
-      accum.totalItem += quantity;
-      return accum; 
-  }, {
-      totalItem: 0,
-      totalAmount:0,
-  });
-  return {...secState,totalItem,totalAmount};
-}
 return secState;
 }
-export default secreducer
+export default secreducer;
