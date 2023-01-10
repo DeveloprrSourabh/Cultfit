@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Fitness from "./components/Fitness";
 import Care from "./components/Care";
 import Mind from "./components/Mind";
-import Store from "./components/Store";
+import Store, { CartContext } from "./components/Store";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
@@ -24,12 +24,6 @@ import { Sidebar } from "react-pro-sidebar";
         <Route exact path="/product" element={<Product />} />
         <Route exact path="cultsport/:id" element={<Details />} />
         <Route exact path="/cart" element={<Cart />} />
-        
-
-
-
-
-
       </Routes>
       <Footer />
     </div>

@@ -31,9 +31,8 @@ const initialState = {
   totalItem: 0,
 };
 
-const Store = ({accum}) => {
+const Store = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
-const {item} = useContext(CartContext);
   const removeItem = (id) => {
     return dispatch({
       type: "REMOVE_ITEM",

@@ -6,9 +6,9 @@ import "./styles/Cart.css";
 
 
 const BrandContext = () => {
-  // const {item} = useContext(CartContext);
+const a = useContext(CartContext);
 
-  const[list,setList]= useState(Cardapi)
+  const[list,setList]= useState(Cardapi);
 
 const handleDelete =(i)=>{
   const deletVal = [...list]
