@@ -4,7 +4,7 @@ import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
 import BrandContext from "./BrandContext";
 
-const Cart = () => {
+const Cart = ({totalAmount}) => {
 
   return (
     <>
@@ -83,7 +83,7 @@ const Cart = () => {
                 <div className="thre_coni">
                   <div className="lk_str">
                     <p className="p_str">Total Price</p>
-                    <p className="tr_vl">₹999</p>
+                    <p className="tr_vl">₹{totalAmount}</p>
                   </div>
                   <div className="lk_str">
                     <p className="p_str2">(-) Flat 50% Off</p>
