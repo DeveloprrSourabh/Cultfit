@@ -1,9 +1,8 @@
 import React, { useContext, useReducer, useState } from "react";
 import Cardapi from "./Cardapi";
 import { reducer } from "./reducer";
-import { CartContext } from "./Store";
 import "./styles/Cart.css";
-import { removeItem } from "./Cart";
+import {removeItem } from "./Cart";
 
 const Brand = ({
   id,
@@ -17,25 +16,25 @@ const Brand = ({
   off,
   sidebar,
 }) => {
-  const { removeItem } = useContext(CartContext);
 
+const { inc } = useContext(ContextBrand)
   const [count, setCount] = useState(0);
 
-  const incNum = () => {
-    if (count < 9) {
-      setCount(count + 1);
-    } else {
-      alert("You can Exceed The Limit!");
-    }
-  };
+  // const incNum = () => {
+  //   if (count < 9) {
+  //     setCount(count + 1);
+  //   } else {
+  //     alert("You can Exceed The Limit!");
+  //   }
+  // };
 
-  const decNum = () => {
-    if (count > 0) {
-      setCount(count - 1);
-    } else {
-      setCount(0);
-    }
-  };
+  // const decNum = () => {
+  //   if (count > 0) {
+  //     setCount(count - 1);
+  //   } else {
+  //     setCount(0);
+  //   }
+  // };
 
   return (
     <>
@@ -65,14 +64,13 @@ const Brand = ({
                         <div className="btn34_stret">
                           <div className="pink_str">
                             <img
-                              onClick={decNum}
                               src="https://static.cure.fit/assets/images/minus.svg"
                               alt=""
                               className="minus_str"
                             />
                             <div className="count_str">{count}</div>
                             <img
-                              onClick={incNum}
+                              onClick={() => inc(id)}
                               src="https://static.cure.fit/assets/images/plus.svg"
                               alt=""
                               className="plus_str"
