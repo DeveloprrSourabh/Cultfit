@@ -22,14 +22,9 @@ const Sideb = ({
   const { removeItem, increment, decrement } = useContext(CartContext);
   const [count, setCount] = useState(0);
 
-
-
   return (
     <>
-<button style={{position:"absolute",zIndex:"1020"}}>{}</button>
-
       <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
-
         <div className="crtero">
           <div className="errovret">
             <Link to="/store">
