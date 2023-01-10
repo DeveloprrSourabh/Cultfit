@@ -2,7 +2,8 @@ import React, { useContext, useReducer, useState } from "react";
 import Cardapi from "./Cardapi";
 import { reducer } from "./reducer";
 import "./styles/Cart.css";
-import { ContextBrand, removeItem } from "./Cart";
+import { ContextBrand } from "./Cart";
+import { CartContext } from "./Store";
 
 const Brand = ({
   id,
@@ -16,11 +17,9 @@ const Brand = ({
   off,
   sidebar,
   quantity,
-  quantit
-
-
 }) => {
-  const { increment,decrement } = useContext(ContextBrand);
+  const a = useContext(ContextBrand);
+  const { increment, decrement } = useContext(ContextBrand);
   // const [count, setCount] = useState(0);
 
   // const incNum = () => {
@@ -63,18 +62,17 @@ const Brand = ({
                           </div>
                         </div>
                         <div className="size_str">Size: L</div>
-                        <div className="price_tr">₹ {prize}</div>
+                        <div className="price_tr">₹ {quantity}</div>
                         <div className="btn34_stret">
                           <div className="pink_str">
                             <img
-                            onClick={() => decrement(id)}
+                              onClick={() => decrement(id)}
                               src="https://static.cure.fit/assets/images/minus.svg"
                               alt=""
                               className="minus_str"
                             />
                             <div className="count_str">{quantity}</div>
-                            <div className="count_str">{quantit}</div>
-                            
+
                             <img
                               onClick={() => increment(id)}
                               src="https://static.cure.fit/assets/images/plus.svg"

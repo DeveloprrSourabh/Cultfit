@@ -19,7 +19,7 @@ const Whole = () => {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default Whole

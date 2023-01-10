@@ -8,7 +8,7 @@ import Whole from "./Whole";
 const ContextBrand = createContext(Cardapi);
 
 const secinitialState = {
-  items: Cardapi,
+  item  : Cardapi,
   totalAmounts: 0,
   totalItems: 0,
 };

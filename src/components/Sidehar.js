@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { ContextBrand } from './Cart';
 
-const Sidehar = () => {
+const Sidehar = ({ quantity }) => {
+  const a = useContext(ContextBrand);
   return (
     <>
     <div className="jki">
@@ -70,7 +72,7 @@ const Sidehar = () => {
                 <div className="thre_coni">
                   <div className="lk_str">
                     <p className="p_str">Total Price</p>
-                    <p className="tr_vl">₹999</p>
+                    <p className="tr_vl">₹</p>
                   </div>
                   <div className="lk_str">
                     <p className="p_str2">(-) Flat 50% Off</p>
