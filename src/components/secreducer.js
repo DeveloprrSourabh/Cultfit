@@ -1,16 +1,31 @@
-export const secreducer = (secState, actio) =>{
+export const reducer = (secState, action) => {
 
   // Increment
-  if (actio.type === "INCREMENTS") {
+  if (action.type === "INCREMENTS") {
     let updateCart = secState.items.map((curElem) => {
-      if (curElem.id === actio.pay) {
+      if (curElem.id === action.payload) {
         return { ...curElem, quantity: curElem.quantity + 1 };
       }
       return curElem;
     });
-    return { ...secState, items: updateCart };
+      console.log("updateCart");
+
+    return { ...secState, item: updateCart };
   }
 
-return secState;
-}
-export default secreducer;
+  // Decrement
+  if (action.type === "DECREMENTS") {
+    let updateCart = secState.item.map((curElem) => {
+        if (curElem.id === action.payload) {
+          return { ...secState, quantity: curElem.quantity - 1 };
+        }
+        return curElem;
+      })
+      
+    return { ...secState, item: updateCart };
+  }
+ 
+  return secState;
+};
+
+export default reducer;

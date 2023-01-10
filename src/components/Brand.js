@@ -17,7 +17,7 @@ const Brand = ({
   sidebar,
   quantity,
 }) => {
-  const { inc } = useContext(ContextBrand);
+  const { increment,decrement } = useContext(ContextBrand);
   // const [count, setCount] = useState(0);
 
   // const incNum = () => {
@@ -64,13 +64,14 @@ const Brand = ({
                         <div className="btn34_stret">
                           <div className="pink_str">
                             <img
+                            onClick={() => decrement(id)}
                               src="https://static.cure.fit/assets/images/minus.svg"
                               alt=""
                               className="minus_str"
                             />
                             <div className="count_str">{quantity}</div>
                             <img
-                              onClick={() => inc(id)}
+                              onClick={() => increment(id)}
                               src="https://static.cure.fit/assets/images/plus.svg"
                               alt=""
                               className="plus_str"

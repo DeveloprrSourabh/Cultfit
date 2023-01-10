@@ -6,7 +6,7 @@ import "./styles/Cart.css";
 
 
 const BrandContext = () => {
-const a = useContext(CartContext);
+const {a} = useContext(CartContext);
 
   const[list,setList]= useState(Cardapi);
 

@@ -14,7 +14,7 @@ export const reducer = (state, action) => {
         return { ...curElem, quantity: curElem.quantity + 1 };
       }
       return curElem;
-    });
+    })
     return { ...state, item: updateCart };
   }
 
