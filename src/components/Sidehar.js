@@ -3,9 +3,7 @@ import { ContextBrand } from './Cart';
 
 const Sidehar = ({ quantity }) => {
   const {first} = useContext(ContextBrand);
- { first.map((curele)=>{
-    return curele.prize;
-  });}
+
   return (
     <>
     <div className="jki">
