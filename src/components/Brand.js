@@ -18,8 +18,7 @@ const Brand = ({
   sidebar,
   quantity,
 }) => {
-  const a = useContext(ContextBrand);
-  const { increment, decrement } = useContext(ContextBrand);
+  const { increments, decrements } = React.useContext(ContextBrand);
   // const [count, setCount] = useState(0);
 
   // const incNum = () => {
@@ -62,11 +61,11 @@ const Brand = ({
                           </div>
                         </div>
                         <div className="size_str">Size: L</div>
-                        <div className="price_tr">₹ {quantity}</div>
+                        <div className="price_tr">₹ {prize}</div>
                         <div className="btn34_stret">
                           <div className="pink_str">
                             <img
-                              onClick={() => decrement(id)}
+                              onClick={() => decrements(id)}
                               src="https://static.cure.fit/assets/images/minus.svg"
                               alt=""
                               className="minus_str"
@@ -74,7 +73,7 @@ const Brand = ({
                             <div className="count_str">{quantity}</div>
 
                             <img
-                              onClick={() => increment(id)}
+                              onClick={() => increments(id)}
                               src="https://static.cure.fit/assets/images/plus.svg"
                               alt=""
                               className="plus_str"

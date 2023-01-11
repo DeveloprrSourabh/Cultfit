@@ -20,7 +20,7 @@ const Cart = () => {
 const [secState, dispatchs] = useReducer(secreducer, secinitialState);
 
  // Increment The Item
- const increment = (id) =>{
+ const increments = (id) =>{
   return dispatchs({
     type:"INCREMENTS",
     payload:id,
@@ -28,7 +28,7 @@ const [secState, dispatchs] = useReducer(secreducer, secinitialState);
   };
 
   // Decrement The Item
-const decrement = (id) =>{
+const decrements = (id) =>{
   return dispatchs({
     type:"DECREMENTS",
     payload:id,
@@ -36,7 +36,7 @@ const decrement = (id) =>{
   };
   return (
     <>
-    <ContextBrand.Provider value={{...secState,increment,decrement}}>
+    <ContextBrand.Provider value={{...secState,increments,decrements}}>
     <Whole />
     </ContextBrand.Provider>
     </>
