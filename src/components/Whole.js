@@ -3,7 +3,7 @@ import BrandContext from './BrandContext'
 import Sidehar from './Sidehar'
 import Storenav from './Storenav'
 
-const Whole = () => {
+const Whole = ({quantity}) => {
   return (
     <>
         <Storenav />

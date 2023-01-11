@@ -8,14 +8,14 @@ import Whole from "./Whole";
 const ContextBrand = createContext(Cardapi);
 
 const secinitialState = {
-  item  : Cardapi,
+  items:Cardapi,
   totalAmounts: 0,
   totalItems: 0,
 };
 
  
 
-const Cart = () => {
+const Cart = ({children}) => {
 
 const [secState, dispatchs] = useReducer(secreducer, secinitialState);
 
@@ -38,6 +38,7 @@ const decrements = (id) =>{
     <>
     <ContextBrand.Provider value={{...secState,increments,decrements}}>
     <Whole />
+    {children}
     </ContextBrand.Provider>
     </>
   );

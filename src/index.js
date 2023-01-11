@@ -5,13 +5,16 @@ import { ProSidebarProvider } from 'react-pro-sidebar';
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import Cart from "./components/Cart";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
     <ProSidebarProvider>
+      <Cart>
       <App />
+      </Cart>
 </ProSidebarProvider>
     </React.StrictMode>
   </BrowserRouter>

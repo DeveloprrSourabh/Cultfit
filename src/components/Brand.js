@@ -18,7 +18,7 @@ const Brand = ({
   sidebar,
   quantity,
 }) => {
-  const { increments, decrements } = React.useContext(ContextBrand);
+  const { increments, decrements } = useContext(ContextBrand);
   // const [count, setCount] = useState(0);
 
   // const incNum = () => {
