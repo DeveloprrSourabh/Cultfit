@@ -4,7 +4,7 @@ export const reducer = (secState, action) => {
   if (action.type === "INCREMENTS") {
     let updatedCart = secState.items.map((curElems) => {
       if (curElems.id === action.payload) {
-        return { ...secState, quantity: curElems.quantity + 1 };
+        return { ...curElems, quantity: curElems.quantity + 1 };
       }
       return curElems;
     });

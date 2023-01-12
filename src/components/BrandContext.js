@@ -1,13 +1,14 @@
 import React, { useContext, useState } from 'react'
 import Brand from './Brand';
 import Cardapi from './Cardapi';
+import { ContextBrand } from './Cart';
 import { CartContext } from './Store';
 import Storenav from './Storenav';
 import "./styles/Cart.css";
 
 
 const BrandContext = () => {
-const {a} = useContext(CartContext);
+// const {a} = useContext(ContextBrand);
 
   const[list,setList]= useState(Cardapi);
 
