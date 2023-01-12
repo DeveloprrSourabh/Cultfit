@@ -4,6 +4,7 @@ import Cardapi from "./Cardapi";
 
 import secreducer from "./secreducer";
 import Whole from "./Whole";
+import BrandContext from "./BrandContext";
 
 const ContextBrand = createContext(Cardapi);
 
@@ -34,7 +35,7 @@ const Cart = ({ children }) => {
   return (
     <>
       <ContextBrand.Provider value={{ ...secState, increments, decrements }}>
-        <Whole />
+        <BrandContext />
         {children}
       </ContextBrand.Provider>
     </>

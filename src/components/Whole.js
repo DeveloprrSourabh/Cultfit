@@ -6,18 +6,8 @@ import Storenav from "./Storenav";
 const Whole = ({ quantity }) => {
   return (
     <>
-      <Storenav />
-      <div className="check_page">
-        <div className="container">
-          <div className="p">
-            <div className="ghfr">
-              <BrandContext />
-            </div>
-
-            <Sidehar />
-          </div>
-        </div>
-      </div>
+      
+      
     </>
   );
 };
