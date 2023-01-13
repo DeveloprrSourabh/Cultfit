@@ -48,7 +48,6 @@ const Cart = () => {
       type: "INCREMENTS",
       payload: id,
     });
->>>>>>> c2ed7585931e3115c1f8b720c0bca18a511bb66b
   };
 
   // Decrement The Item
@@ -223,9 +222,8 @@ const Cart = () => {
         <BrandContext />
         
       </ContextBrand.Provider>
->>>>>>> c2ed7585931e3115c1f8b720c0bca18a511bb66b
     </>
-  );
+  )};
 };
 export { ContextBrand };
 

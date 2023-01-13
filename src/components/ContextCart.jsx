@@ -29,7 +29,6 @@ const ContextCart = ({   id,
   };
   return (
     <>
-<<<<<<< HEAD
     
     <div className="loginkr">
                 <Storebtn openSidebar={toggleSidebar} />
@@ -49,15 +48,13 @@ const ContextCart = ({   id,
                   
                 </div>
               </div>
-    </>
-  )
-}
-=======
+  
+
+
       <div className="loginkr">
       <div className="lfx">
             <Storebtn openSidebar={toggleSidebar} />
         </div>
->>>>>>> c2ed7585931e3115c1f8b720c0bca18a511bb66b
 
         <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
         <div className="scoll">
@@ -71,7 +68,7 @@ const ContextCart = ({   id,
           })}
         </div>
       </div>
-    </>
+      </>
   );
 };
 
