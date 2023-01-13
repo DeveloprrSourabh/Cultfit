@@ -20,7 +20,6 @@ import Carbtn from "./Carbtn";
 import Storebtn from "./Storebtn";
 import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
-import { Scrollbars } from "react-custom-scrollbars-2";
 import ContextCart from "./ContextCart";
 
 const CartContext = createContext(Cardapi);
