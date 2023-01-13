@@ -12,9 +12,7 @@ root.render(
   <BrowserRouter>
     <React.StrictMode>
     <ProSidebarProvider>
-      <Cart>
       <App />
-      </Cart>
 </ProSidebarProvider>
     </React.StrictMode>
   </BrowserRouter>

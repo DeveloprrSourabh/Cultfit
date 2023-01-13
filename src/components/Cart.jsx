@@ -13,7 +13,7 @@ const secinitialState = {
   totalItems: 0,
 };
 
-const Cart = ({ children }) => {
+const Cart = () => {
   const [secState, dispatchs] = useReducer(secreducer, secinitialState);
 
   // Increment The Item
@@ -35,7 +35,6 @@ const Cart = ({ children }) => {
     <>
       <ContextBrand.Provider value={{ ...secState, increments, decrements }}>
         <Whole />
-        {children}
       </ContextBrand.Provider>
     </>
   );
