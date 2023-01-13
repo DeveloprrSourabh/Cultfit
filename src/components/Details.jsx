@@ -7,6 +7,10 @@ import { CartContext } from "./Store";
 import Storenav from "./Storenav";
 import "./styles/Details.css";
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2ed7585931e3115c1f8b720c0bca18a511bb66b
 
 
 const initialState = {

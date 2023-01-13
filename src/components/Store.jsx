@@ -1,4 +1,11 @@
-import React, { createContext,useReducer,rducer, useContext, useState } from "react";
+import React, {
+  createContext,
+  useReducer,
+  rducer,
+  useContext,
+  useState,
+  useEffect,
+} from "react";
 import "./styles/store.css";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -13,27 +20,44 @@ import Carbtn from "./Carbtn";
 import Storebtn from "./Storebtn";
 import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
-import { Scrollbars } from "react-custom-scrollbars-2";
 import ContextCart from "./ContextCart";
 
-export const CartContext = createContext(); 
+const CartContext = createContext(Cardapi);
 
 const initialState = {
-    item:Cardapi,
-    totalAmount:0,
-    totalitem:0,
-}
+  item: Cardapi,
+  totalAmount: 0,
+  totalItem: 0,
+};
 
 const Store = () => {
+  const [state, dispatch] = useReducer(reducer, initialState);
+const {item} = useContext(CartContext);
+  const removeItem = (id) => {
+    return dispatch({
+      type: "REMOVE_ITEM",
+      payload: id,
+    });
+  };
 
-  const [state, dispatch] = useReducer(reducer, initialState);  
+   
 
-  const  removeItem = (id) =>{
+  // Increment The Item
+const increment = (id) =>{
+return dispatch({
+  type:"INCREMENT",
+  payload:id,
+})
+};
+// Decrement The Item
+const decrement = (id) =>{
   return dispatch({
-    type:"REMOVE_ITEM",
+    type:"DECREMENT",
     payload:id,
   })
-  }
+  };
+
+  // UseEffect To Update Data
 
   return (
     <div style={{ background: "white" }}>
@@ -380,9 +404,9 @@ const Store = () => {
                   className="lginkr"
                 />
               </div>
-              <CartContext.Provider value={{...state,removeItem}}>
-              <ContextCart />
 
+              <CartContext.Provider value={{ ...state,decrement, removeItem,increment }}>
+                <ContextCart />
               </CartContext.Provider>
             </div>
           </div>
@@ -408,5 +432,5 @@ const Store = () => {
     </div>
   );
 };
-
+export { CartContext };
 export default Store;

@@ -8,11 +8,7 @@ import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
 
 const Storenav = () => {
-  const [sidebar, setsidebar] = useState(false);
-
-  const toggleSidebar = () => {
-    setsidebar((prevState) => !prevState);
-  };
+  
 
   return (
       <div className="nbrstr">
@@ -358,9 +354,11 @@ const Storenav = () => {
                 />
               </div>
               <div className="loginkr">
-                <Storebtn openSidebar={toggleSidebar} />
-                <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
-                <Sideb sidebar={sidebar} />
+              <img
+                  src="https://static.cure.fit/assets/images/cart-icon-new.svg"
+                  alt=""
+                  className="lginkr"
+                />
               </div>
             </div>
           </div>

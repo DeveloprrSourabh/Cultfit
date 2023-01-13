@@ -20,7 +20,8 @@ const Cardapi = [
     preprize: 899,
     off: 40,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 2,
@@ -28,7 +29,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Va5gn1P8ZPCumwMpkfKawCwN",
     about: "Graphic Print Workout Tshirt",
     color: "Peach",
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Va5gn1P8ZPCumwMpkfKawCwN",
@@ -61,7 +63,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/VZsLx6jBxjGN9oA1DzzJnFWY",
     ],
     preprize: 1699,
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     off:31,
 
@@ -83,7 +86,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/DRUQ8RSqRmxxduASR7eN9hAG",
     ],
     preprize: 1099,
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     off: 40,
   },
@@ -98,7 +102,8 @@ const Cardapi = [
     about: "UT1000, Black, Steel MTB 27.5 T Shimano Geared Mountain Cycle",
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga Ombre leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
     prize: 12999,
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/q1S4DwudvD6D86TUcuSikyUZ",
@@ -125,7 +130,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/X1MdD8ytSaDwTBGaMqgpeCHP",
     ],
     preprize: 43999,
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     desc: "Ace those asanas with this signature Yoga Mat. Made out of durable high quality material, this one provides ample padding along with no-slip grip to turn your practice up by a notch. Double this up as your workout mat for strength exercises.",
     off: 62,
@@ -147,7 +153,8 @@ const Cardapi = [
     ],
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
     preprize: 47990,
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     off: 71,
   },
@@ -157,7 +164,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/9v9sBNMay6wxih67ie1s6Qc4",
     about: "Neel 26' 21-speed alloy MTB (Shimano gears)",
     color: "Royal Green",
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     prize: 16799,
     img: [
@@ -176,7 +184,8 @@ const Cardapi = [
 
   {
     id: 9,
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     heading: "SPINBIKES",
     color: "Motor HoursePower:3PH",
@@ -204,7 +213,8 @@ const Cardapi = [
       "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
     color: "Motor HoursePower:6PH",
     prize: 16799,
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nTvMdcZi5B2MzrXZJicv7acr",
@@ -223,7 +233,8 @@ const Cardapi = [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/hLRHejipikjgepcD8ittFXBB",
     about: "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
     prize: 16999,
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
 
     color: "Motor HoursePower:4PH",
     img: [
@@ -257,7 +268,8 @@ const Cardapi = [
     preprize: 59999,
     off: 65,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 13,
@@ -279,7 +291,8 @@ const Cardapi = [
     preprize: 68999,
     off: 50,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 14,
@@ -302,7 +315,8 @@ const Cardapi = [
     preprize: 81599,
     off: 50,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 15,
@@ -324,7 +338,8 @@ const Cardapi = [
     preprize: 80000,
     off: 57,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 16,
@@ -346,7 +361,8 @@ const Cardapi = [
     preprize: 75000,
     off: 58,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 17,
@@ -367,7 +383,8 @@ const Cardapi = [
     preprize: 599,
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 18,
@@ -389,7 +406,8 @@ const Cardapi = [
     preprize: 2199,
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 19,
@@ -411,7 +429,8 @@ const Cardapi = [
     preprize: 999,
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 20,
@@ -433,7 +452,8 @@ const Cardapi = [
     preprize: 749,
     off: 30,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 21,
@@ -455,7 +475,8 @@ const Cardapi = [
     preprize: 1599,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 22,
@@ -477,7 +498,8 @@ const Cardapi = [
     preprize: 2499,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 23,
@@ -499,7 +521,8 @@ const Cardapi = [
     preprize: 1599,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 24,
@@ -521,7 +544,8 @@ const Cardapi = [
     preprize: 2499,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 25,
@@ -543,7 +567,8 @@ const Cardapi = [
     preprize: 3499,
     off: 25,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 26,
@@ -565,7 +590,8 @@ const Cardapi = [
     preprize: 4399,
     off: 31,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 27,
@@ -587,7 +613,8 @@ const Cardapi = [
     preprize: 1799,
     off: 16,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
   {
     id: 28,
@@ -609,7 +636,8 @@ const Cardapi = [
     preprize: 1749,
     off: 30,
     size: ["XS", "S", "M", "L", "XL"],
-    qnty: 0,
+    quantity: 1,
+    quantit:2,
   },
 ];
 

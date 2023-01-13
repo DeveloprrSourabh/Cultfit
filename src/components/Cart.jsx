@@ -1,12 +1,25 @@
-import React, { useState } from "react";
+import React, { createContext, useContext, useReducer, useState } from "react";
 import "./styles/Cart.css";
 import Storenav from "./Storenav";
 import Cardapi from "./Cardapi";
 
-const Cart = () => {
-  const [count, setCount] = useState(0);
-  const [list, setList] = useState(Cardapi);
+import secreducer from "./secreducer";
+import Whole from "./Whole";
+import BrandContext from "./BrandContext";
 
+const ContextBrand = createContext(Cardapi);
+
+const secinitialState = {
+  items: Cardapi,
+  totalAmounts: 0,
+  totalItems: 0,
+};
+console.log(secinitialState.items);
+
+const Cart = () => {
+  const [secState, dispatchs] = useReducer(secreducer, secinitialState);
+
+<<<<<<< HEAD
   // Remove_ITEM
 
   const handleDelete =(i)=>{
@@ -28,10 +41,26 @@ const Cart = () => {
     } else {
       setCount(0);
     }
+=======
+  // Increment The Item
+  const increments = (id) => {
+    return dispatchs({
+      type: "INCREMENTS",
+      payload: id,
+    });
+>>>>>>> c2ed7585931e3115c1f8b720c0bca18a511bb66b
   };
 
+  // Decrement The Item
+  const decrements = (id) => {
+    return dispatchs({
+      type: "DECREMENTS",
+      payload: id,
+    });
+  };
   return (
     <>
+<<<<<<< HEAD
       <div className="check_page">
         <div className="container">
           <div className="p">
@@ -189,8 +218,15 @@ const Cart = () => {
           </div>
         </div>
       </div>
+=======
+      <ContextBrand.Provider value={{ ...secState, increments, decrements }}>
+        <BrandContext />
+        
+      </ContextBrand.Provider>
+>>>>>>> c2ed7585931e3115c1f8b720c0bca18a511bb66b
     </>
   );
 };
+export { ContextBrand };
 
 export default Cart;

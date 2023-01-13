@@ -7,11 +7,7 @@
   import Carbtn from "./Carbtn";
 
   const Header = () => {
-    const [sidebar, setsidebar] = useState(false);
-
-    const toggleSidebar = () => {
-      setsidebar((prevState) => !prevState);
-    };
+   
 
     return (
       <div className="nbr">
@@ -73,16 +69,24 @@
                   />
                 </Link>
                 <Link className="nav-link jp nn" to="#">
+<<<<<<< HEAD
                 <img
+=======
+                  <img
+>>>>>>> c2ed7585931e3115c1f8b720c0bca18a511bb66b
                     src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/header/Profile.png"
                     alt=""
                     className="lp"
                   />
+<<<<<<< HEAD
               {/* <Carbtn openSidebar={toggleSidebar} />
                 <Backdrop  sidebar={sidebar} closeSidebar={toggleSidebar} />
                 <Sideb sidebar={sidebar} /> */}
                 </Link>
 
+=======
+                </Link>
+>>>>>>> c2ed7585931e3115c1f8b720c0bca18a511bb66b
               </div>
             </div>
           </div>

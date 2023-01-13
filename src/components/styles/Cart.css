@@ -1,6 +1,9 @@
 .check_page{
     background-color: #fff;
+    padding: 2rem 1rem;
+   
 }
+
 
 .main_div{
     width: 100%;
@@ -90,6 +93,13 @@
     color: rgb(115, 108, 240);
     background-color: rgb(227, 226, 252);
 }
+.kjkjfx{
+    display: flex;
+    justify-content: space-between;
+}
+.co{
+    width: -webkit-fill-available;
+}
 .size_str{
     text-align: center;
     margin: 0px;
@@ -144,6 +154,19 @@ height: auto;
 }
 .dele_item{
     align-self: flex-start;
+    padding:  6px;
+    border-radius: 50%;
+}
+.dele_item:hover{
+    background: red;
+}
+.lfx{
+    display: flex;
+
+}
+.h{
+    margin: 2rem 1px;
+
 }
 
 .impt_str2{
@@ -292,5 +315,4 @@ margin-top: 8px;
 .p{
     display: flex;
     justify-content: space-between;
-
 }
