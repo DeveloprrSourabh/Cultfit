@@ -21,7 +21,7 @@ const Cardapi = [
     off: 40,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const Cardapi = [
     about: "Graphic Print Workout Tshirt",
     color: "Peach",
     quantity: 1,
-    quantit: 2,
+   
 
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Va5gn1P8ZPCumwMpkfKawCwN",
@@ -63,7 +63,7 @@ const Cardapi = [
     ],
     preprize: 1699,
     quantity: 1,
-    quantit: 2,
+   
 
     off: 31,
 
@@ -86,7 +86,7 @@ const Cardapi = [
     ],
     preprize: 1099,
     quantity: 1,
-    quantit: 2,
+   
 
     off: 40,
   },
@@ -102,7 +102,7 @@ const Cardapi = [
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga Ombre leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
     prize: 12999,
     quantity: 1,
-    quantit: 2,
+   
 
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/q1S4DwudvD6D86TUcuSikyUZ",
@@ -130,7 +130,7 @@ const Cardapi = [
     ],
     preprize: 43999,
     quantity: 1,
-    quantit: 2,
+   
 
     desc: "Ace those asanas with this signature Yoga Mat. Made out of durable high quality material, this one provides ample padding along with no-slip grip to turn your practice up by a notch. Double this up as your workout mat for strength exercises.",
     off: 62,
@@ -153,7 +153,7 @@ const Cardapi = [
     desc: "Designed with flexibility in mind this high-waisted Made for Yoga leggings to give you all the technical features you could want for your workout. They have everything you could want: a high waistband, a shaping effect, no camel toe, ultra-flat seams for more comfort.",
     preprize: 47990,
     quantity: 1,
-    quantit: 2,
+   
 
     off: 71,
   },
@@ -164,7 +164,7 @@ const Cardapi = [
     about: "Neel 26' 21-speed alloy MTB (Shimano gears)",
     color: "Royal Green",
     quantity: 1,
-    quantit: 2,
+   
 
     prize: 16799,
     img: [
@@ -184,7 +184,7 @@ const Cardapi = [
   {
     id: 9,
     quantity: 1,
-    quantit: 2,
+   
 
     heading: "SPINBIKES",
     color: "Motor HoursePower:3PH",
@@ -213,7 +213,7 @@ const Cardapi = [
     color: "Motor HoursePower:6PH",
     prize: 16799,
     quantity: 1,
-    quantit: 2,
+   
 
     img: [
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/nTvMdcZi5B2MzrXZJicv7acr",
@@ -233,7 +233,7 @@ const Cardapi = [
     about: "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
     prize: 16999,
     quantity: 1,
-    quantit: 2,
+   
 
     color: "Motor HoursePower:4PH",
     img: [
@@ -268,7 +268,7 @@ const Cardapi = [
     off: 65,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 13,
@@ -291,7 +291,7 @@ const Cardapi = [
     off: 50,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 14,
@@ -315,7 +315,7 @@ const Cardapi = [
     off: 50,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 15,
@@ -338,7 +338,7 @@ const Cardapi = [
     off: 57,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 16,
@@ -361,7 +361,7 @@ const Cardapi = [
     off: 58,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 17,
@@ -383,7 +383,7 @@ const Cardapi = [
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 18,
@@ -406,7 +406,7 @@ const Cardapi = [
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 19,
@@ -429,7 +429,7 @@ const Cardapi = [
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 20,
@@ -452,7 +452,7 @@ const Cardapi = [
     off: 30,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 21,
@@ -475,7 +475,7 @@ const Cardapi = [
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 22,
@@ -498,7 +498,7 @@ const Cardapi = [
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 23,
@@ -521,7 +521,7 @@ const Cardapi = [
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 24,
@@ -544,7 +544,7 @@ const Cardapi = [
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 25,
@@ -567,7 +567,7 @@ const Cardapi = [
     off: 25,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 26,
@@ -590,7 +590,7 @@ const Cardapi = [
     off: 31,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 27,
@@ -613,7 +613,7 @@ const Cardapi = [
     off: 16,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
   {
     id: 28,
@@ -636,7 +636,7 @@ const Cardapi = [
     off: 30,
     size: ["XS", "S", "M", "L", "XL"],
     quantity: 1,
-    quantit: 2,
+   
   },
 ];
 

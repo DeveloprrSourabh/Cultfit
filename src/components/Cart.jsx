@@ -7,7 +7,7 @@ import Whole from "./Whole";
 
 const ContextBrand = createContext(Cardapi);
 
-const secinitialState = {
+const initialState = {
   items:Cardapi,
   totalAmounts: 0,
   totalItems: 0,
@@ -17,11 +17,11 @@ const secinitialState = {
 
 const Cart = () => {
 
-const [secState, dispatchs] = useReducer(secreducer, secinitialState);
+const [secState, dispatch] = useReducer(secreducer, initialState);
 
  // Increment The Item
  const increments = (id) =>{
-  return dispatchs({
+  return dispatch({
     type:"INCREMENTS",
     payload:id,
   })
@@ -29,7 +29,7 @@ const [secState, dispatchs] = useReducer(secreducer, secinitialState);
 
   // Decrement The Item
 const decrements = (id) =>{
-  return dispatchs({
+  return dispatch({
     type:"DECREMENTS",
     payload:id,
   })
