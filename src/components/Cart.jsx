@@ -19,7 +19,7 @@ console.log(secinitialState.items);
 const Cart = () => {
   const [secState, dispatchs] = useReducer(secreducer, secinitialState);
 
-<<<<<<< HEAD
+
   // Remove_ITEM
 
   const handleDelete =(i)=>{
@@ -41,7 +41,7 @@ const Cart = () => {
     } else {
       setCount(0);
     }
-=======
+
   // Increment The Item
   const increments = (id) => {
     return dispatchs({
@@ -60,7 +60,7 @@ const Cart = () => {
   };
   return (
     <>
-<<<<<<< HEAD
+
       <div className="check_page">
         <div className="container">
           <div className="p">
@@ -218,7 +218,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
-=======
+
       <ContextBrand.Provider value={{ ...secState, increments, decrements }}>
         <BrandContext />
         
