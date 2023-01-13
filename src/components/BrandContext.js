@@ -1,12 +1,13 @@
 import React, { useContext, useState } from 'react'
 import Brand from './Brand';
 import Cardapi from './Cardapi';
+import { ContextBrand } from './Cart';
 import { CartContext } from './Store';
 import "./styles/Cart.css";
 
 
 const BrandContext = () => {
-const {a} = useContext(CartContext);
+
 
   const[list,setList]= useState(Cardapi);
 
@@ -19,7 +20,7 @@ const handleDelete =(i)=>{
   return (
     <>
    <div className="klji">
-   {list.map((Ele,i) => {
+   { list.map((Ele,i) => {
                     return (
                       <>
                     <div className="kjkjfx">
@@ -36,11 +37,12 @@ const handleDelete =(i)=>{
                     </>
                     );
                    
-                  })}
+                  })
+                  }
    </div>
                    
     </>
   )
 }
 
-export default BrandContext
+export default BrandContext;

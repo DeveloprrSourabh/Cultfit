@@ -36,7 +36,7 @@ const decrements = (id) =>{
   };
   return (
     <>
-    <ContextBrand.Provider value={{...secState,increments,decrements}}>
+    <ContextBrand.Provider value={{...secState, increments,decrements}}>
     <Whole />
     </ContextBrand.Provider>
     </>
