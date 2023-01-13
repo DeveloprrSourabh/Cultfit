@@ -1,10 +1,19 @@
 import React, { useState } from "react";
 import "./styles/Cart.css";
+import Storenav from "./Storenav";
 import Cardapi from "./Cardapi";
 
 const Cart = () => {
   const [count, setCount] = useState(0);
   const [list, setList] = useState(Cardapi);
+
+  // Remove_ITEM
+
+  const handleDelete =(i)=>{
+    const deletVal = [...list]
+    deletVal.splice(i,1)
+    setList(deletVal)
+  }
 
   const inc = () => {
     if (count < 9) {
@@ -27,7 +36,7 @@ const Cart = () => {
         <div className="container">
           <div className="p">
             <div className="co">
-              {list.map((e) => {
+              {list.map((e,i) => {
                 return (
                   <>
                     <div className="row">
@@ -78,6 +87,7 @@ const Cart = () => {
                                   </div>
                                 </div>
                                 <img
+                                onClick={()=>handleDelete(i)}
                                   src="https://static.cure.fit/assets/images/modal-close.svg"
                                   alt=""
                                   className="dele_item"
