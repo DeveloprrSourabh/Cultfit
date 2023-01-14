@@ -15,10 +15,9 @@ const Brand = ({
   prize,
   preprize,
   off,
-  sidebar,quantity,
+  sidebar,
+  quantity,
 }) => {
-
-
   const { increments, decrements } = useContext(ContextBrand);
 
   // const [count, setCount] = useState(0);
