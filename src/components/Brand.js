@@ -21,7 +21,7 @@ const Brand = ({
   const { increments, decrements } = useContext(ContextBrand);
   // const [count, setCount] = useState(0);
 
-  // const incNum = () => {
+  // const incNum = ( => {
   //   if (count < 9) {
   //     setCount(count + 1);
   //   } else {
