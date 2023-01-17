@@ -12,9 +12,8 @@ import MenuItem from "@mui/material/MenuItem";
 import { useSelector } from "react-redux";
 
 const Storenav = () => {
-
-const getdata = useSelector((state) =>state.cartreducer);
-console.log(getdata);
+  const getdata = useSelector((state) => state.cartreducer);
+  console.log(getdata);
 
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -411,10 +410,10 @@ console.log(getdata);
                     Looks like you haven't made any purchases yet
                   </div>
                   <div className="btem">
-                <button onClick={handleClose} className="cartbtnrmy">
-                  <div className="cartrmty">BACK</div>
-                </button>
-              </div>
+                    <button onClick={handleClose} className="cartbtnrmy">
+                      <div className="cartrmty">BACK</div>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
