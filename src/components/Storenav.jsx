@@ -377,24 +377,43 @@ const Storenav = () => {
             <span className="circle">4</span>
           </div>
           <Menu
-        id="demo-positioned-menu"
-        aria-labelledby="demo-positioned-button"
-        anchorEl={anchorEl}
-        open={open}
-        onClose={handleClose}
-        anchorOrigin={{
-          vertical: 'top',
-          horizontal: 'left',
-        }}
-        transformOrigin={{
-          vertical: 'top',
-          horizontal: 'left',
-        }}
-      >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
-      </Menu>
+            id="demo-positioned-menu"
+            aria-labelledby="demo-positioned-button"
+            anchorEl={anchorEl}
+            open={open}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: "top",
+              horizontal: "left",
+            }}
+            transformOrigin={{
+              vertical: "top",
+              horizontal: "left",
+            }}
+          >
+            <div className="card_details">
+              <div className="refgi">
+                <div className="abkr">
+                  <div className="cartimgempty">
+                    <img
+                      src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg"
+                      alt=""
+                      className="emty"
+                    />
+                  </div>
+                  <div className="ycie">Your cart is empty</div>
+                  <div className="lokkk">
+                    Looks like you haven't made any purchases yet
+                  </div>
+                  <div className="btem">
+                <button className="cartbtnrmy">
+                  <div className="cartrmty">BACK</div>
+                </button>
+              </div>
+                </div>
+              </div>
+            </div>
+          </Menu>
         </div>
       </div>
       {/* SCROLLBAR---START */}

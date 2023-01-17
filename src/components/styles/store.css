@@ -118,3 +118,76 @@ li{
     height: 677px;
     overflow: hidden;
 }
+.emty{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.ycie{
+    text-align: center;
+    margin: 0px;
+    cursor: default;
+    user-select: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    padding: 8px 0px;
+}
+.lokkk{
+    text-align: center;
+    margin: 0px;
+    cursor: default;
+    user-select: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 20%;
+}
+.btem{
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    margin-top: 36%;
+    padding: 0px 20px;
+}
+.cartbtnrmy{
+    cursor: pointer;
+    font-family: Inter-Medium, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    border: 1px solid transparent;
+    transition: all 250ms ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 49, 109);
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.cartrmty{
+    color: white;
+    -webkit-text-fill-color: initial;
+    background: linear-gradient(134.58deg, rgb(255, 219, 23) -79.01%, rgb(255, 50, 120) 103.85%) text;
+}
+.card_details{
+    top: 60px;
+    width: 320px;
+    transition: all 0.3s ease-in-out 0s;
+    z-index: 101;
+    right: 0px;
+    bottom: 0px;
+    height: 100vh;
+    color: white;
+    background-color: white;
+    flex-direction: column;
+}
+.abkr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 0%;
+    margin-bottom: 50px;
+}
