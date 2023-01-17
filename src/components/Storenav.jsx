@@ -353,12 +353,13 @@ const Storenav = () => {
                   className="lginkr"
                 />
               </div>
-              <div className="loginkr">
+              <div className="loginkr kyu">
               <img
                   src="https://static.cure.fit/assets/images/cart-icon-new.svg"
                   alt=""
                   className="lginkr"
                 />
+                <span className="circle">4</span>
               </div>
             </div>
           </div>
