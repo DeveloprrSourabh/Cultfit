@@ -48,13 +48,13 @@ const Brand = ({
                 <div className="main_item">
                   <div className="both_item">
                     <div className="fir_img">
-                      <img src={imgsrc} alt="" className="img_start" />
+                      <img src=      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/VRq8XF8FDizkeyN8mg7bt49U" alt="" className="img_start" />
                     </div>
                     <div className="cation_str">
                       <div className="cation_flx">
                         <div className="fr_hd">cultsportone</div>
                         <div className="lambi">
-                          <div className="lmbi_str">{about}</div>
+                          <div className="lmbi_str">This Is best Brand</div>
                         </div>
                         <div className="fbtn_st">
                           <div className="fbtn3">
@@ -62,19 +62,17 @@ const Brand = ({
                           </div>
                         </div>
                         <div className="size_str">Size: L</div>
-                        <div className="price_tr">₹ {prize}</div>
+                        <div className="price_tr">₹ 300</div>
                         <div className="btn34_stret">
                           <div className="pink_str">
                             <img
-                              onClick={() => decrements(id)}
                               src="https://static.cure.fit/assets/images/minus.svg"
                               alt=""
                               className="minus_str"
                             />
-                            <div className="count_str">{quantity}</div>
+                            <div className="count_str">1</div>
 
                             <img
-                              onClick={() => increments(id)}
                               src="https://static.cure.fit/assets/images/plus.svg"
                               alt=""
                               className="plus_str"

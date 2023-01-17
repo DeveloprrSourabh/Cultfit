@@ -1,9 +1,12 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 import { NavLink } from "react-router-dom";
 import "./styles/product.css";
 
 function Product(props) {
   // console.log(props);
+
+
   return (
     <>
       <p key={props.id} className="stylishname">

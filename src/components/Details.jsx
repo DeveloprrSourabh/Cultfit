@@ -1,4 +1,5 @@
 import React, { useReducer, useState } from "react";
+import { useDispatch } from "react-redux";
 import { NavLink, useParams } from "react-router-dom";
 import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
@@ -7,6 +8,13 @@ import "./styles/Details.css";
 
 
 const Details = () => {
+
+  const dispatch = useDispatch();
+
+  const send = (e) =>{
+console.log(e);
+  }
+
   const proid = useParams();
   const proDetail = Cardapi.filter((x) => x.id == proid.id);
   const product = proDetail[0];
@@ -75,7 +83,9 @@ const Details = () => {
             <div className="jklbt">
               <div className="jkl2bt">
                 <NavLink to="/cart">
-                  <div className="jklbt21">Add to Cart</div>
+                  <div
+                  onClick={()=>send(product)}
+                  className="jklbt21">Add to Cart</div>
                 </NavLink>
               </div>
               <div className="jkl2bt">
