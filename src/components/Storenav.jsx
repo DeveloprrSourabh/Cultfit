@@ -406,7 +406,7 @@ const Storenav = () => {
                     Looks like you haven't made any purchases yet
                   </div>
                   <div className="btem">
-                <button className="cartbtnrmy">
+                <button onClick={handleClose} className="cartbtnrmy">
                   <div className="cartrmty">BACK</div>
                 </button>
               </div>
