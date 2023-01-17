@@ -31,7 +31,8 @@ const ContextCart = ({
   return (
     <>
       <div className="loginkr">
-        <Storebtn openSidebar={toggleSidebar} />
+        {/* <Storebtn openSidebar={toggleSidebar} /> */}
+        
         <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
         <div className="scoll">
           {item.map((curItem) => {
