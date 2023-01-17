@@ -5,7 +5,8 @@ import Sideb from "./Sideb";
 import { CartContext } from "./Store";
 import Storebtn from "./Storebtn";
 
-const ContextCart = ({   id,
+const ContextCart = ({
+  id,
   heading,
   imgsrc,
   about,
@@ -15,7 +16,7 @@ const ContextCart = ({   id,
   preprize,
   off,
   quantity,
-   }) => {
+}) => {
   const { removeItem, increment, decrement } = useContext(CartContext);
 
   //   const [item, setItem] = useState(Cardapi);
@@ -29,31 +30,24 @@ const ContextCart = ({   id,
   };
   return (
     <>
-    
-    <div className="loginkr">
-                <Storebtn openSidebar={toggleSidebar} />
-                <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
-                <div className="scoll">
-                
-                  {item.map((curItem) => {
-                    return (
-                      <>
-                      <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
-                    
-                    </>
-                    );
-                   
-                  })}
-
-                  
-                </div>
-              </div>
-  
-
-
       <div className="loginkr">
-      <div className="lfx">
-            <Storebtn openSidebar={toggleSidebar} />
+        {/* <Storebtn openSidebar={toggleSidebar} /> */}
+        
+        <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
+        <div className="scoll">
+          {item.map((curItem) => {
+            return (
+              <>
+                <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
+              </>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* <div className="loginkr">
+        <div className="lfx">
+          <Storebtn openSidebar={toggleSidebar} />
         </div>
 
         <Backdrop sidebar={sidebar} closeSidebar={toggleSidebar} />
@@ -61,14 +55,13 @@ const ContextCart = ({   id,
           {item.map((curItem) => {
             return (
               <>
-
                 <Sideb key={curItem.id} {...curItem} sidebar={sidebar} />
               </>
             );
           })}
         </div>
-      </div>
-      </>
+      </div> */}
+    </>
   );
 };
 
