@@ -418,19 +418,13 @@ const Storenav = () => {
                       <div className="prdtcrt">
                         <div className="piccrt">
                           <Link to="/cart">
-                            <img
-                              src={e.imgsrc}
-                              alt=""
-                              className="iiiopicrt"
-                            />
+                            <img src={e.imgsrc} alt="" className="iiiopicrt" />
                           </Link>
                         </div>
                         <div className="vcationcrt">
                           <div className="fcrttion">{e.about}</div>
                           <div className="hcrt">
-                            <div className="hjyitcrt2">
-                              {e.desc}
-                            </div>
+                            <div className="hjyitcrt2">{e.desc}</div>
                           </div>
                           <div className="brtcrt">
                             <div className="sizecrt">Size:ALL</div>
@@ -449,15 +443,14 @@ const Storenav = () => {
                                 className="minusimg"
                               />
                             </div>
-                            
                           </div>
                         </div>
                         <div className="kata">
-                              <img
-                                src="https://static.cure.fit/assets/images/modal-close.svg"
-                                className="imgktgt"
-                              />
-                            </div>
+                          <img
+                            src="https://static.cure.fit/assets/images/modal-close.svg"
+                            className="imgktgt"
+                          />
+                        </div>
                       </div>
                     </>
                   );
