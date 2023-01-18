@@ -24,7 +24,7 @@ const Sideb = ({
 
   return (
     <>
-      <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
+      <div className="de">
         <div className="crtero">
           <div className="errovret">
             <Link to="/store">

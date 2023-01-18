@@ -10,7 +10,7 @@ import "./styles/store.css";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Ncard from "./Ncard";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
@@ -25,6 +25,7 @@ import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
 import ContextCart from "./ContextCart";
 import Storenav from "./Storenav";
+import Product from "./Product";
 
 const CartContext = createContext(Cardapi);
 
@@ -34,7 +35,7 @@ const initialState = {
   totalItem: 0,
 };
 
-const Store = () => {
+const Store = (props) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { item } = useContext(CartContext);
   const removeItem = (id) => {
@@ -74,12 +75,8 @@ const Store = () => {
       <div>
         <div className="strenbr">
           <div className="nbrstr">
-          <Storenav />
-              <CartContext.Provider
-                value={{ ...state, decrement, removeItem, increment }}
-              >
-                <ContextCart />
-              </CartContext.Provider>
+            <Storenav />
+          
           </div>
           {/* SCROLLBAR---START */}
           <Carousel>
