@@ -23,13 +23,7 @@ const handleDelete =(i)=>{
 
                     <div className="kjkjfx">
                     <Brand />
-                   <div className="h">
-                   <img
-                  src="https://static.cure.fit/assets/images/modal-close.svg"
-                      alt=""
-                      className="dele_item"
-                    />
-                   </div>
+                  
                     </div>
                   
                 

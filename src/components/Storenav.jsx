@@ -14,7 +14,6 @@ import { useSelector } from "react-redux";
 
 const Storenav = () => {
   const getdata = useSelector((state) => state.cartreducer.carts);
-  console.log(getdata);
 
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -417,7 +416,7 @@ const Storenav = () => {
                     <>
                       <div className="prdtcrt">
                         <div className="piccrt">
-                          <Link to="/cart">
+                          <Link to={`/cart/${e.id}`}>
                             <img src={e.imgsrc} alt="" className="iiiopicrt" />
                           </Link>
                         </div>
