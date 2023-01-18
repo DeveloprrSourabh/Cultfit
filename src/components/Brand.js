@@ -48,7 +48,11 @@ const Brand = ({
                 <div className="main_item">
                   <div className="both_item">
                     <div className="fir_img">
-                      <img src=      "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/VRq8XF8FDizkeyN8mg7bt49U" alt="" className="img_start" />
+                      <img
+                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/VRq8XF8FDizkeyN8mg7bt49U"
+                        alt=""
+                        className="img_start"
+                      />
                     </div>
                     <div className="cation_str">
                       <div className="cation_flx">
