@@ -4,6 +4,7 @@ import { NavLink, useParams } from "react-router-dom";
 import Cardapi from "./Cardapi";
 import Storenav from "./Storenav";
 import "./styles/Details.css";
+import { ADD } from "../redux/actions/action";
 
 
 
@@ -12,7 +13,9 @@ const Details = () => {
   const dispatch = useDispatch();
 
   const send = (e) =>{
-console.log(e);
+// console.log(e);
+
+dispatch(ADD(e))
   }
 
   const proid = useParams();
@@ -82,7 +85,7 @@ console.log(e);
             </div>
             <div className="jklbt">
               <div className="jkl2bt">
-                <NavLink to="/cart">
+                <NavLink to="">
                   <div
                   onClick={()=>send(product)}
                   className="jklbt21">Add to Cart</div>

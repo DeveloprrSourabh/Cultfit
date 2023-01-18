@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./styles/store.css";
 import Carbtn from "./Carbtn";
 import "./styles/head.css";
+import "./styles/side.css";
 import Storebtn from "./Storebtn";
 import Backdrop from "./Backdrop";
 import Sideb from "./Sideb";
@@ -12,7 +13,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { useSelector } from "react-redux";
 
 const Storenav = () => {
-  const getdata = useSelector((state) => state.cartreducer);
+  const getdata = useSelector((state) => state.cartreducer.carts);
   console.log(getdata);
 
   const [anchorEl, setAnchorEl] = useState(null);
@@ -378,7 +379,7 @@ const Storenav = () => {
               alt=""
               className="lginkr"
             />
-            <span className="circle">4</span>
+            <span className="circle">{getdata.length}</span>
           </div>
           <Menu
             id="demo-positioned-menu"
@@ -395,28 +396,97 @@ const Storenav = () => {
               horizontal: "left",
             }}
           >
-            <div className="card_details">
-              <div className="refgi">
-                <div className="abkr">
-                  <div className="cartimgempty">
-                    <img
-                      src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg"
-                      alt=""
-                      className="emty"
-                    />
+            {getdata.length ? (
+              <div className="fd">
+                <div className="crtero">
+                  <div className="errovret">
+                    <Link to="/store">
+                      <Link to="/cultsport/cart">
+                        <img
+                          src="https://static.cure.fit/assets/images/back-arrow-black.svg"
+                          alt=""
+                          className="crtrtecdft"
+                        />
+                      </Link>
+                    </Link>
                   </div>
-                  <div className="ycie">Your cart is empty</div>
-                  <div className="lokkk">
-                    Looks like you haven't made any purchases yet
-                  </div>
-                  <div className="btem">
-                    <button onClick={handleClose} className="cartbtnrmy">
-                      <div className="cartrmty">BACK</div>
-                    </button>
+                  <div className="yourcart">Your Cart</div>
+                </div>
+                {getdata.map((e) => {
+                  return (
+                    <>
+                      <div className="prdtcrt">
+                        <div className="piccrt">
+                          <Link to="/cart">
+                            <img
+                              src={e.imgsrc}
+                              alt=""
+                              className="iiiopicrt"
+                            />
+                          </Link>
+                        </div>
+                        <div className="vcationcrt">
+                          <div className="fcrttion">{e.about}</div>
+                          <div className="hcrt">
+                            <div className="hjyitcrt2">
+                              {e.desc}
+                            </div>
+                          </div>
+                          <div className="brtcrt">
+                            <div className="sizecrt">Size:ALL</div>
+                            <div className="bhvccrt">₹ {e.prize}</div>
+                            <div className="hjycrtpm">
+                              <img
+                                src="https://static.cure.fit/assets/images/minus.svg"
+                                alt=""
+                                className="minusimg"
+                              />
+
+                              <div className="countgdhy">{e.quantity}</div>
+                              <img
+                                src="https://static.cure.fit/assets/images/plus.svg"
+                                alt=""
+                                className="minusimg"
+                              />
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div className="kata">
+                              <img
+                                src="https://static.cure.fit/assets/images/modal-close.svg"
+                                className="imgktgt"
+                              />
+                            </div>
+                      </div>
+                    </>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="card_details">
+                <div className="refgi">
+                  <div className="abkr">
+                    <div className="cartimgempty">
+                      <img
+                        src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg"
+                        alt=""
+                        className="emty"
+                      />
+                    </div>
+                    <div className="ycie">Your cart is empty</div>
+                    <div className="lokkk">
+                      Looks like you haven't made any purchases yet
+                    </div>
+                    <div className="btem">
+                      <button onClick={handleClose} className="cartbtnrmy">
+                        <div className="cartrmty">BACK</div>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            )}
           </Menu>
         </div>
       </div>
