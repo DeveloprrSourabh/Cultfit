@@ -16,6 +16,7 @@
 .all_item{
     border-top: 1px solid #000;
     padding: 10px 0;
+    width:150%;
 }
 
 .main_item{
@@ -26,6 +27,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 10px;
+    width: max-content;
 }
 .fir_img{
     min-width: 90px;
@@ -155,6 +157,8 @@ height: auto;
     align-self: flex-start;
     padding:  6px;
     border-radius: 50%;
+    position: relative;
+    left: 296%;
 }
 .dele_item:hover{
     background: red;
