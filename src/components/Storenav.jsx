@@ -446,6 +446,7 @@ const Storenav = () => {
                         </div>
                         <div className="kata">
                           <img
+                            onClick={handleClose}
                             src="https://static.cure.fit/assets/images/modal-close.svg"
                             className="imgktgt"
                           />
