@@ -1,11 +1,14 @@
 import React, { useContext } from "react";
+import { useSelector } from "react-redux";
 import { ContextBrand } from "./Cart";
 
 const Sidehar = ({ quantity }) => {
   const { first } = useContext(ContextBrand);
+  const getdata = useSelector((state) => state.cartreducer.carts);
 
   return (
     <>
+      
       <div className="jki">
         <div className="col-12">
           <div className="second_str">
