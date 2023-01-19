@@ -7,7 +7,7 @@ const Sidehar = () => {
   const getdata = useSelector((state) => state.cartreducer.carts);
 
   const [prize, setPrize] = useState(0);
-  console.log(prize);
+  // console.log(prize);
 
   const { first } = useContext(ContextBrand);
 

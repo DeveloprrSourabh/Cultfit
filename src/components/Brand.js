@@ -6,7 +6,7 @@ import { ContextBrand } from "./Cart";
 import { CartContext } from "./Store";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { DLT } from "../redux/actions/action";
+import { DLT,ADD,REMOVE } from "../redux/actions/action";
 
 const Brand = () => {
 
@@ -31,10 +31,22 @@ const history = useNavigate();
     setData(comparedata);
   };
 
+// add data
+const send = (e) =>{
+  // console.log(e);
+  
+  dispatch(ADD(e))
+    }
+
   const dlt = (id) => {
     dispatch(DLT(id));
     history("/store")
   };
+
+  // remove one
+  const remove = (item) =>{
+    dispatch(REMOVE(item))
+  }
 
   useEffect(() => {
     compare();
@@ -74,10 +86,12 @@ const history = useNavigate();
                                 </div>
                               </div>
                               <div className="size_str">Size: L</div>
-                              <div className="price_tr">₹ {ele.prize}</div>
+                              <div className="price_tr">₹ {ele.prize * ele.quantity}</div>
                               <div className="btn34_stret">
                                 <div className="pink_str">
                                   <img
+                              onClick={ele.quantity <= 1 ? () =>dlt(ele.id):()=>remove(ele)}
+
                                     src="https://static.cure.fit/assets/images/minus.svg"
                                     alt=""
                                     className="minus_str"
@@ -87,6 +101,7 @@ const history = useNavigate();
                                   </div>
 
                                   <img
+                                  onClick={()=>send(ele)}
                                     src="https://static.cure.fit/assets/images/plus.svg"
                                     alt=""
                                     className="plus_str"
