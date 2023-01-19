@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./styles/store.css";
 import Carbtn from "./Carbtn";
@@ -15,7 +15,6 @@ import { DLT } from "../redux/actions/action";
 
 const Storenav = () => {
 
-  const[price, setPrice] = useState(0)
 
   const getdata = useSelector((state) => state.cartreducer.carts);
 
@@ -34,12 +33,7 @@ const dispatch = useDispatch();
     dispatch(DLT(id))
   }
 
-  const total = () =>{
-    let price = 0;
-    getdata.map((ele,k)=>{
-      price = ele.price + price
-    })
-  }
+  
 
   return (
     <div className="nbrstr">

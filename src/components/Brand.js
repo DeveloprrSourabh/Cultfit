@@ -9,6 +9,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { DLT } from "../redux/actions/action";
 
 const Brand = () => {
+
+
+
   const { increments, decrements } = useContext(ContextBrand);
 
   const [data, setData] = useState([]);
@@ -36,6 +39,9 @@ const history = useNavigate();
   useEffect(() => {
     compare();
   }, [id]);
+
+ 
+
 
   return (
     <>

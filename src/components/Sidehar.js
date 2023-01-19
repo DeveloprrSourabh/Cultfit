@@ -1,10 +1,31 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { ContextBrand } from "./Cart";
+import Cardapi from "./Cardapi";
 
-const Sidehar = ({ quantity }) => {
-  const { first } = useContext(ContextBrand);
+const Sidehar = () => {
+  
   const getdata = useSelector((state) => state.cartreducer.carts);
+
+
+  const[prize, setPrize] = useState(0);
+console.log(prize);
+
+  const { first } = useContext(ContextBrand);
+
+
+  
+  const total = ()=>{
+    let prize = 0;
+    getdata.map((ele,k)=>{
+      prize = ele.prize + prize;
+    });
+    setPrize(prize);
+  };
+
+  useEffect(()=>{
+    total();
+  },[total])
 
   return (
     <>
@@ -75,16 +96,16 @@ const Sidehar = ({ quantity }) => {
 
           <div className="thre_coni">
             <div className="lk_str">
-              <p className="p_str">Total Price</p>
-              <p className="tr_vl">₹{}</p>
+              <p className="p_str">Total prize</p>
+              <p className="tr_vl">₹{prize}</p>
             </div>
             <div className="lk_str">
-              <p className="p_str2">(-) Flat 50% Off</p>
-              <p className="tr_vl2">₹999</p>
+              <p className="p_str2">(-) Flat 45% Off</p>
+              <p className="tr_vl2">₹ {Math.round((prize*45/100))}</p>
             </div>
             <div className="lk_str1">
               <p className="alg_str">Total Payable</p>
-              <p className="vlfg">₹499</p>
+              <p className="vlfg">₹ {Math.round((prize*45/100))} </p>
             </div>
           </div>
           <div className="chot_bt">
