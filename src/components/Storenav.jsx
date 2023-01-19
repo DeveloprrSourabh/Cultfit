@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./styles/store.css";
 import Carbtn from "./Carbtn";
@@ -10,10 +10,15 @@ import Sideb from "./Sideb";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { DLT } from "../redux/actions/action";
 
 const Storenav = () => {
+
+
   const getdata = useSelector((state) => state.cartreducer.carts);
+
+const dispatch = useDispatch();
 
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -23,6 +28,12 @@ const Storenav = () => {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  const dlt = (id) =>{
+    dispatch(DLT(id))
+  }
+
+  
 
   return (
     <div className="nbrstr">
@@ -416,7 +427,7 @@ const Storenav = () => {
                     <>
                       <div className="prdtcrt">
                         <div className="piccrt">
-                          <Link to={`/cart/${e.id}`}>
+                          <Link to={`/cart/${e.id}`} onClick={handleClose}>
                             <img src={e.imgsrc} alt="" className="iiiopicrt" />
                           </Link>
                         </div>
@@ -446,7 +457,7 @@ const Storenav = () => {
                         </div>
                         <div className="kata">
                           <img
-                            onClick={handleClose}
+                          onClick={()=>dlt(e.id)}
                             src="https://static.cure.fit/assets/images/modal-close.svg"
                             className="imgktgt"
                           />
