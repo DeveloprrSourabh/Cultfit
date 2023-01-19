@@ -5,3 +5,11 @@ export const ADD = (item) => {
     };
   };
   
+//Remove--Items
+  export const DLT = (id) => {
+    return {
+      type: "RMV_CART",
+      payload: id,
+    };
+  };
+  

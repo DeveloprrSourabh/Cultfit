@@ -4,33 +4,20 @@ import { reducer } from "./reducer";
 import "./styles/Cart.css";
 import { ContextBrand } from "./Cart";
 import { CartContext } from "./Store";
-import { useParams } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useNavigate, useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { DLT } from "../redux/actions/action";
 
 const Brand = () => {
   const { increments, decrements } = useContext(ContextBrand);
 
-  // const [count, setCount] = useState(0);
-
-  // const incNum = () => {
-  //   if (count < 9) {
-  //     setCount(count + 1);
-  //   } else {
-  //     alert("You can Exceed The Limit!");
-  //   }
-  // };
-
-  // const decNum = () => {
-  //   if (count > 0) {
-  //     setCount(count - 1);
-  //   } else {
-  //     setCount(0);
-  //   }
-  // };
-
   const [data, setData] = useState([]);
 
   const { id } = useParams();
+
+const history = useNavigate();
+
+  const dispatch = useDispatch();
 
   const getdata = useSelector((state) => state.cartreducer.carts);
 
@@ -39,6 +26,11 @@ const Brand = () => {
       return e.id == id;
     });
     setData(comparedata);
+  };
+
+  const dlt = (id) => {
+    dispatch(DLT(id));
+    history("/store")
   };
 
   useEffect(() => {
@@ -68,9 +60,7 @@ const Brand = () => {
                             <div className="cation_flx">
                               <div className="fr_hd">cultsportone</div>
                               <div className="lambi">
-                                <div className="lmbi_str">
-                                  This Is best Brand
-                                </div>
+                                <div className="lmbi_str">{ele.about}</div>
                               </div>
                               <div className="fbtn_st">
                                 <div className="fbtn3">
@@ -99,17 +89,17 @@ const Brand = () => {
                               </div>
                             </div>
                             <div className="h">
-                   <img
-                  src="https://static.cure.fit/assets/images/modal-close.svg"
-                      alt=""
-                      className="dele_item"
-                    />
-                   </div>
+                              <img
+                                onClick={() => dlt(ele.id)}
+                                src="https://static.cure.fit/assets/images/modal-close.svg"
+                                alt=""
+                                className="dele_item"
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    
                   </>
                 );
               })}
