@@ -13,3 +13,10 @@ export const ADD = (item) => {
     };
   };
   
+  // remove individual item
+  export const REMOVE = (item) => {
+    return {
+      type: "RMV_ONE",
+      payload: item,
+    };
+  };

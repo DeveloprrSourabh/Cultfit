@@ -11,14 +11,12 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { useDispatch, useSelector } from "react-redux";
-import { DLT } from "../redux/actions/action";
+import { DLT, ADD, REMOVE } from "../redux/actions/action";
 
 const Storenav = () => {
-
-
   const getdata = useSelector((state) => state.cartreducer.carts);
 
-const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -29,11 +27,20 @@ const dispatch = useDispatch();
     setAnchorEl(null);
   };
 
-  const dlt = (id) =>{
-    dispatch(DLT(id))
-  }
+  // add data
+  const send = (e) => {
+    // console.log(e);
+    dispatch(ADD(e));
+  };
 
-  
+  const dlt = (id) => {
+    dispatch(DLT(id));
+  };
+
+  // remove one
+  const remove = (item) => {
+    dispatch(REMOVE(item));
+  };
 
   return (
     <div className="nbrstr">
@@ -438,9 +445,16 @@ const dispatch = useDispatch();
                           </div>
                           <div className="brtcrt">
                             <div className="sizecrt">Size:ALL</div>
-                            <div className="bhvccrt">₹ {e.prize}</div>
+                            <div className="bhvccrt">
+                              ₹ {e.prize * e.quantity}
+                            </div>
                             <div className="hjycrtpm">
                               <img
+                                onClick={
+                                  e.quantity <= 1
+                                    ? () => dlt(e.id)
+                                    : () => remove(e)
+                                }
                                 src="https://static.cure.fit/assets/images/minus.svg"
                                 alt=""
                                 className="minusimg"
@@ -448,6 +462,7 @@ const dispatch = useDispatch();
 
                               <div className="countgdhy">{e.quantity}</div>
                               <img
+                                onClick={() => send(e)}
                                 src="https://static.cure.fit/assets/images/plus.svg"
                                 alt=""
                                 className="minusimg"
@@ -457,7 +472,7 @@ const dispatch = useDispatch();
                         </div>
                         <div className="kata">
                           <img
-                          onClick={()=>dlt(e.id)}
+                            onClick={() => dlt(e.id)}
                             src="https://static.cure.fit/assets/images/modal-close.svg"
                             className="imgktgt"
                           />

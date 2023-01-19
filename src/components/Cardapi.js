@@ -20,7 +20,7 @@ desc:"Work Activities With....",
     preprize: 899,
     off: 40,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -29,7 +29,7 @@ desc:"Work Activities With....",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/Va5gn1P8ZPCumwMpkfKawCwN",
     about: "Graphic Print Workout Tshirt",
     color: "Peach",
-    quantity: 1,
+    quantity: 0,
    
 
     img: [
@@ -62,7 +62,7 @@ desc:"Work Activities With....",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/VZsLx6jBxjGN9oA1DzzJnFWY",
     ],
     preprize: 1699,
-    quantity: 1,
+    quantity: 0,
    
 
     off: 31,
@@ -85,7 +85,7 @@ desc:"Work Activities With....",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/DRUQ8RSqRmxxduASR7eN9hAG",
     ],
     preprize: 1099,
-    quantity: 1,
+    quantity: 0,
    
 
     off: 40,
@@ -101,7 +101,7 @@ desc:"Work Activities With....",
     about: "UT1000, Black, Steel MTB 27.5 T Shimano Geared Mountain Cycle",
 desc:"Work Activities With....",
     prize: 12999,
-    quantity: 1,
+    quantity: 0,
    
 
     img: [
@@ -129,7 +129,7 @@ desc:"Work Activities With....",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/X1MdD8ytSaDwTBGaMqgpeCHP",
     ],
     preprize: 43999,
-    quantity: 1,
+    quantity: 0,
    
 
 desc:"Work Activities With....",
@@ -152,7 +152,7 @@ desc:"Work Activities With....",
     ],
 desc:"Work Activities With....",
     preprize: 47990,
-    quantity: 1,
+    quantity: 0,
    
 
     off: 71,
@@ -163,7 +163,7 @@ desc:"Work Activities With....",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_3:4,c_fill/dpr_2/cultgear-content/9v9sBNMay6wxih67ie1s6Qc4",
     about: "Neel 26' 21-speed alloy MTB (Shimano gears)",
     color: "Royal Green",
-    quantity: 1,
+    quantity: 0,
    
 
     prize: 16799,
@@ -183,7 +183,7 @@ desc:"Work Activities With....",
 
   {
     id: 9,
-    quantity: 1,
+    quantity: 0,
    
 
     heading: "SPINBIKES",
@@ -212,7 +212,7 @@ desc:"Work Activities With....",
       "Smartbike c2: Bluetooth enabled spin bike with stepless magnetic resistance",
     color: "Motor HoursePower:6PH",
     prize: 16799,
-    quantity: 1,
+    quantity: 0,
    
 
     img: [
@@ -232,7 +232,7 @@ desc:"Work Activities With....",
       "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill/dpr_2/cultgear-content/hLRHejipikjgepcD8ittFXBB",
     about: "OFP-1000, 8 Level Magnetic Resistance Spin Bike",
     prize: 16999,
-    quantity: 1,
+    quantity: 0,
    
 
     color: "Motor HoursePower:4PH",
@@ -267,7 +267,7 @@ desc:"Work Activities With....",
     preprize: 59999,
     off: 65,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -290,7 +290,7 @@ desc:"Work Activities With....",
     preprize: 68999,
     off: 50,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -314,7 +314,7 @@ desc:"Work Activities With....",
     preprize: 81599,
     off: 50,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -337,7 +337,7 @@ desc:"Work Activities With....",
     preprize: 80000,
     off: 57,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -360,7 +360,7 @@ desc:"Work Activities With....",
     preprize: 75000,
     off: 58,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -382,7 +382,7 @@ desc:"Work Activities With....",
     preprize: 599,
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -405,7 +405,7 @@ desc:"Work Activities With....",
     preprize: 2199,
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -428,7 +428,7 @@ desc:"Work Activities With....",
     preprize: 999,
     off: 35,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -451,7 +451,7 @@ desc:"Work Activities With....",
     preprize: 749,
     off: 30,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -474,7 +474,7 @@ desc:"Work Activities With....",
     preprize: 1599,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -497,7 +497,7 @@ desc:"Work Activities With....",
     preprize: 2499,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -520,7 +520,7 @@ desc:"Work Activities With....",
     preprize: 1599,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -543,7 +543,7 @@ desc:"Work Activities With....",
     preprize: 2499,
     off: 45,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -566,7 +566,7 @@ desc:"Work Activities With....",
     preprize: 3499,
     off: 25,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -589,7 +589,7 @@ desc:"Work Activities With....",
     preprize: 4399,
     off: 31,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -612,7 +612,7 @@ desc:"Work Activities With....",
     preprize: 1799,
     off: 16,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
   {
@@ -635,7 +635,7 @@ desc:"Work Activities With....",
     preprize: 1749,
     off: 30,
     size: ["XS", "S", "M", "L", "XL"],
-    quantity: 1,
+    quantity: 0,
    
   },
 ];
