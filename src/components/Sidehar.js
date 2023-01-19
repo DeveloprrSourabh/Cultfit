@@ -4,32 +4,27 @@ import { ContextBrand } from "./Cart";
 import Cardapi from "./Cardapi";
 
 const Sidehar = () => {
-  
   const getdata = useSelector((state) => state.cartreducer.carts);
 
-
-  const[prize, setPrize] = useState(0);
-console.log(prize);
+  const [prize, setPrize] = useState(0);
+  console.log(prize);
 
   const { first } = useContext(ContextBrand);
 
-
-  
-  const total = ()=>{
+  const total = () => {
     let prize = 0;
-    getdata.map((ele,k)=>{
+    getdata.map((ele, k) => {
       prize = ele.prize + prize;
     });
     setPrize(prize);
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     total();
-  },[total])
+  }, [total]);
 
   return (
     <>
-      
       <div className="jki">
         <div className="col-12">
           <div className="second_str">
@@ -101,11 +96,11 @@ console.log(prize);
             </div>
             <div className="lk_str">
               <p className="p_str2">(-) Flat 45% Off</p>
-              <p className="tr_vl2">₹ {Math.round((prize*45/100))}</p>
+              <p className="tr_vl2">₹ {Math.round((prize * 45) / 100)}</p>
             </div>
             <div className="lk_str1">
               <p className="alg_str">Total Payable</p>
-              <p className="vlfg">₹ {Math.round((prize*45/100))} </p>
+              <p className="vlfg">₹ {Math.round((prize * 45) / 100)} </p>
             </div>
           </div>
           <div className="chot_bt">
