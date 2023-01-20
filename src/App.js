@@ -12,13 +12,14 @@ import Details from "./components/Details";
 import Cart from "./components/Cart";
 import { Sidebar } from "react-pro-sidebar";
 
+
 const App = () => {
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route exact path="/fitness" element={<Fitness />} />
-        <Route exact path="/care" element={<Care />} />
+       <Routes>
+         <Route path="/" element={<Home />} />
+         <Route exact path="/fitness" element={<Fitness />} />
+         <Route exact path="/care" element={<Care />} />
         <Route exact path="/mind" element={<Mind />} />
         <Route exact path="/store" element={<Store />} />
         <Route exact path="/product" element={<Product />} />
