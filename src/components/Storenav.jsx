@@ -23,6 +23,9 @@ const Storenav = () => {
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
+  const handleClicks = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -41,6 +44,12 @@ const Storenav = () => {
   const remove = (item) => {
     dispatch(REMOVE(item));
   };
+
+
+  const [show, setShow] = useState(false);
+
+  const handleCloses = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <div className="nbrstr">
@@ -382,9 +391,27 @@ const Storenav = () => {
             <img
               src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/cultsport/prod/Profile.svg"
               alt=""
+             onClick={handleShow}
+
               className="lginkr"
             />
+
+<div show={show} onHide={handleCloses}>
+        <div closeButton>
+          <div>div heading</div>
+        </div>
+        <div>Woohoo, you're reading this text in a div!</div>
+        <div>
+          <Button variant="secondary" onClick={handleCloses}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </div>
+      </div>
           </div>
+          
           <div className="loginkr kyu">
             <img
               id="demo-positioned-button"
@@ -473,7 +500,7 @@ const Storenav = () => {
                         <div className="kata">
                           <img
                             onClick={() => dlt(e.id)}
-                            src="https://static.cure.fit/assets/images/modal-close.svg"
+                            src="https://static.cure.fit/assets/images/div-close.svg"
                             className="imgktgt"
                           />
                         </div>
