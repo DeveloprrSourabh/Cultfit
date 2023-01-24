@@ -12,6 +12,7 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { useDispatch, useSelector } from "react-redux";
 import { DLT, ADD, REMOVE } from "../redux/actions/action";
+import Example from "./Example";
 
 const Storenav = () => {
   const getdata = useSelector((state) => state.cartreducer.carts);
@@ -21,9 +22,6 @@ const Storenav = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClicks = (event) => {
     setAnchorEl(event.currentTarget);
   };
   const handleClose = () => {
@@ -44,12 +42,6 @@ const Storenav = () => {
   const remove = (item) => {
     dispatch(REMOVE(item));
   };
-
-
-  const [show, setShow] = useState(false);
-
-  const handleCloses = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   return (
     <div className="nbrstr">
@@ -387,31 +379,9 @@ const Storenav = () => {
           </ul>
         </div>
         <div className="loginhthju">
-          <div className="loginkr">
-            <img
-              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive/image/cultsport/prod/Profile.svg"
-              alt=""
-             onClick={handleShow}
+         
+<Example />
 
-              className="lginkr"
-            />
-
-<div show={show} onHide={handleCloses}>
-        <div closeButton>
-          <div>div heading</div>
-        </div>
-        <div>Woohoo, you're reading this text in a div!</div>
-        <div>
-          <Button variant="secondary" onClick={handleCloses}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </div>
-      </div>
-          </div>
-          
           <div className="loginkr kyu">
             <img
               id="demo-positioned-button"
@@ -500,7 +470,7 @@ const Storenav = () => {
                         <div className="kata">
                           <img
                             onClick={() => dlt(e.id)}
-                            src="https://static.cure.fit/assets/images/div-close.svg"
+                            src="https://static.cure.fit/assets/images/modal-close.svg"
                             className="imgktgt"
                           />
                         </div>
