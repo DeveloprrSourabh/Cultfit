@@ -30,7 +30,10 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import { GoogleLoginButton } from "react-social-login-buttons";
 import "./styles/Login.css";
+import { LoginSocialGoogle } from "react-social-login";
+
 
 function Example() {
   const [show, setShow] = useState(false);
@@ -41,8 +44,23 @@ function Example() {
   return (
     <>
       <button onClick={handleShow} className="gghhjjhg">
-        <div className="btnexilgin">LOGIN TO CONTINUE</div>
+        <div  className="btnexilgin">LOGIN TO CONTINUE</div>
       </button>
+
+                      <GoogleLoginButton  
+                       client_id={
+                        "559150664034-fhkdot9rcs5dh83n2msm0k7vlalc92ce.apps.googleusercontent.com"
+                      }
+                      scope="openid profile email"
+                      discoveryDocs="claims_supported"
+                      access_type="offline"
+                      onResolve={({ provider, data }) => {
+                        console.log(provider, data);
+                      }}
+                      onReject={(err) => {
+                        console.log(err);
+                      }}
+                      />
       <div className="bda">
         <Modal className="hu" show={show} onHide={handleClose}>
           <Modal.Header closeButton>
@@ -87,7 +105,8 @@ function Example() {
                               <div className="flatu1"></div>
                             </div>
                             <div className="gphotyo">
-                              <img
+                              <img 
+                               
                                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_24,ar_1,q_auto:eco,dpr_2,f_auto,fl_progressive//image/cultsport/assets/google-logo.png"
                                 alt=""
                                 className="google"
