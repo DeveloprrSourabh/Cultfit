@@ -31,7 +31,9 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "./styles/Login.css";
-import Loginbtn from "./Loginbtn"
+import Loginbtn from "./Loginbtn";
+import { GoogleLoginButton } from "react-social-login-buttons";
+import { LoginSocialGoogle } from "react-social-login";
 
 function Example() {
   const [show, setShow] = useState(false);
@@ -56,8 +58,9 @@ function Example() {
               <div className="mainexiti">
                 <div className="byutghgshhgj">
                   <div className="fbexiti"> Existing user?</div>
+                 
                   <div className="loginbtnexiti">
-                  <Loginbtn />
+                    <Loginbtn />
                   </div>
                   <div className="flxprecxit">
                     <div className="flatu"></div>
@@ -102,7 +105,11 @@ function Example() {
                     </div>
                     <div className="floatLabe adress">
                       <div className="agnameexi">Address</div>
-                      <input placeholder="Address" type="text" className="samein" />
+                      <input
+                        placeholder="Address"
+                        type="text"
+                        className="samein"
+                      />
                     </div>
                     <div className="floatLabe city">
                       <div className="agnameexi">City</div>

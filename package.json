@@ -26,8 +26,11 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "react-social-login": "^3.4.16",
+    "react-social-login-buttons": "^3.6.1",
     "reactjs-popup": "^2.0.5",
     "redux": "^4.2.0",
+    "social-login-buttons": "^0.0.4",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
