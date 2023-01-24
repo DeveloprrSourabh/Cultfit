@@ -11,6 +11,7 @@ import Product from "./components/Product";
 import Details from "./components/Details";
 import Cart from "./components/Cart";
 import { Sidebar } from "react-pro-sidebar";
+import Example from "./components/Example"
 
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
          <Route exact path="/fitness" element={<Fitness />} />
          <Route exact path="/care" element={<Care />} />
         <Route exact path="/mind" element={<Mind />} />
-        <Route exact path="/store" element={<Store />} />
+        <Route exact path="/store" element={<Example />} />
         <Route exact path="/product" element={<Product />} />
         <Route exact path="cultsport/:id" element={<Details />} />
         <Route exact path="/cart/:id" element={<Cart />} />
