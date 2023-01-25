@@ -1,8 +1,26 @@
-const express = require('express');
-const app = express(); 
+const dotenv = require("dotenv");
+const mongoose = require('mongoose');
+const express = require("express");
+const app = express();
 
-app.get('/', (req,res)=>{
-res.send(`Hello world`)
+dotenv.config({path:'./config.env'});
+require('./db/conn');
+
+//middleware
+
+const middleware = (req, res, next) => {
+  console.log(`hello my middleware`);
+  next();
+};
+
+app.get("/", (req, res) => {
+  res.send(`Hello world`);
 });
 
-console.log(`sol`);
+app.get("/about", middleware, (req, res) => {
+  res.send(`Hello about`);
+});
+
+app.listen(3000, () => {
+  console.log(`server is running on port 3000`);
+});
