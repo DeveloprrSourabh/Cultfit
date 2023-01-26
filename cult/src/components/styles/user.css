@@ -1,0 +1,308 @@
+input:focus-visible{
+    border: none;
+}
+
+.abjio{
+    width: 25%;
+    position: relative;
+background-color: white;
+    box-shadow: rgb(0 0 0 / 6%) -1px 0px 15px 0px;
+}
+.merpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    align-items: center;
+}
+.meripo{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+.flbl{
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 35px;
+}
+.lblh6{
+
+    margin-bottom: 10px;
+    color: rgb(255, 49, 109);
+    font-size: 12px;
+}
+.lnbad{
+        padding-left: 1.5em;
+        justify-content: space-evenly;
+        margin-top: 8%;
+}
+.captionahgy{
+    padding-left: inherit;
+}
+.imgdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    border-right: 5px solid white;
+}
+.ctuibnhg{
+    background: white;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-right: 5px solid white;
+    font-size: 16px;
+    font-weight: unset;
+}
+.fontawe{
+    margin-right: 5px;
+    width: 17px;
+    height: 22px;
+}
+.seccol{
+    width: 75%;
+    background-color: rgb(243, 243, 243);
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom:3%;
+}
+.kagyu{
+    display: flex;
+}
+.agyseccol{
+    padding: 5% 3% 3%;
+}
+.memeo{
+    border: none;
+    padding: 0px;
+    background: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    align-self: center;
+    height: 150px;
+    width: 150px;
+}
+.ctruimg{
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+}
+.style-prefix-13257ux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: all 0.2s ease-in-out 0s;
+    width: 100%;
+    height: 22%;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.98;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+}
+.jkdiujied6{
+    display: flex;
+    padding-top: 6%
+}
+.llko2pikoi{
+    font-size: 22px;
+    display: flex;
+    width: 80%;
+    margin-bottom: 3%;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+}
+.vkfpara{
+    margin: 0;
+    font-weight: 700;
+}
+.anotoho{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+    margin-left: -1em;
+}
+.fir1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+.fir2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+    margin-right: 4%;
+}
+.fir2d{
+    width: 92%;
+    transition: border 1s ease-in 0s;
+    margin-bottom: 15px;
+}
+.firlb{
+    font-size: 15px;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+.firdiv{
+    display: grid;
+    position: relative;
+    grid-template-columns: 90% 10%;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.entername{
+    background: transparent;
+    width: 92%;
+    border: 0px;
+    font-size: 15px;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+.firdiv4{
+    background: transparent;
+    width: 92%;
+    transition: border 1s ease-in 0s;
+    margin-bottom: 15px;
+    border: 0px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    font-size: 16px;
+    font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+.jfir4{
+    width: 96%;
+}
+.gdr{
+    font-size: 15px;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+.twochij{
+    position: relative;
+    display: flex;
+}
+.firstcij{
+    width: 100%;
+}
+.cjfdiio{
+    -webkit-text-size-adjust: 100%;
+color: gray;
+    box-sizing: border-box;
+    outline: none!important;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    line-height: inherit;
+    border-radius: 0;
+    text-transform: capitalize;
+    background: transparent;
+    width: 100%;
+    border: 0px;
+   
+    padding-bottom: 12px;
+    font-size: 15px;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+.bhgjvkl{
+    display: flex;
+    margin-top: -6px;
+    position: absolute;
+    right: 0px;
+}
+.dollbtn{
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-right: 1px solid rgb(216, 216, 216);
+    margin-right: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    background: none;
+}
+.srcfghj{
+    height: auto;
+    max-width: 100%;
+}
+.admijdjd{
+    background: none;
+    border: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.srcadi {
+    height: auto;
+    max-width: 100%;
+}
+.lastformfur{
+    width: 92%;
+    transition: border 1s ease-in 0s;
+    margin-bottom: 15px;
+}
+.ksiisk{
+    font-size: 15px;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+.labldivfg{
+    display: grid;
+    position: relative;
+    grid-template-columns: 90% 10%;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.ajhsdghjsadb{
+    background: transparent;
+    width: 92%;
+    border: 0px;
+    font-size: 15px;
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+.fir3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+    margin-right: 0%;
+}
+.fir2d{
+    width: 92%;
+    transition: border 1s ease-in 0s;
+    margin-bottom: 15px;
+}
+
+
+.cdsdf{
+    background: transparent;
+    color: #000;
+    font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif!important;
+    font-size: 16px;
+    opacity: 1;
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+.addldldld{
+    position: absolute;
+    right: 12px;
+    border: none;
+    background: none;
+    color: rgb(247, 69, 48);
+    font-size: 12px;
+}
