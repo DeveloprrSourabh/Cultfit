@@ -84,11 +84,21 @@ function Example({ provider, data }) {
                   <div className="dusradu">
                     <div className="jjkkig">
                       <div className="num">
-                        <div className="puranum">+91</div>
+                        <div className="puranum">Email</div>
                       </div>
                       <input
-                        placeholder="Enter your phone number"
-                        type="number"
+             
+                        type="email"
+                        className="numinput"
+                      />
+                    </div>
+                    <div className="jjkkig">
+                      <div className="num">
+                        <div className="puranum">Password</div>
+                      </div>
+                      <input
+                        placeholder="Enter your Password"
+                        type="email"
                         className="numinput"
                       />
                     </div>
