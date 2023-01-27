@@ -34,36 +34,52 @@ import { GoogleLoginButton } from "react-social-login-buttons";
 import "./styles/Login.css";
 import { LoginSocialGoogle } from "reactjs-social-login";
 import { useAuth0 } from "@auth0/auth0-react";
+import { useNavigate } from "react-router-dom";
 
-function Example({ provider, data }) {
+function Loginbtn() {
+  const navigate = useNavigate();     
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const loginUser = async (e) => {
+    e.preventDefault();
+
+    const res = await fetch("/signin", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    });
+
+const data = res.json();
+if(res.status === 400 || !data){
+alert("Invalid Credentials");
+}else{
+  alert("Login Successfuly");
+
+  navigate('/store');
+
+}
+
+
+  };
+
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  
   return (
     <>
       <button onClick={handleShow} className="gghhjjhg">
         <div className="btnexilgin">LOGIN TO CONTINUE</div>
       </button>
 
-      {/* <LoginSocialGoogle
-        client_id={
-          "559150664034-fhkdot9rcs5dh83n2msm0k7vlalc92ce.apps.googleusercontent.com"
-        }
-        scope="openid profile email"
-        discoveryDocs="claims_supported"
-        access_type="offline"
-        onResolve={({ provider, data }) => {
-          console.log(provider, data);
-        }}
-        onReject={(err) => {
-          console.log(err);
-        }}
-      >
-        <GoogleLoginButton />
-      </LoginSocialGoogle> */}
       <div className="bda">
         <Modal className="hu" show={show} onHide={handleClose}>
           <Modal.Header closeButton>
@@ -86,33 +102,41 @@ function Example({ provider, data }) {
                       <div className="num">
                         <div className="puranum">Email</div>
                       </div>
-                      <input
-             
-                        type="email"
-                        className="numinput"
-                      />
-                    </div>
-                    <div className="jjkkig">
-                      <div className="num">
-                        <div className="puranum">Password</div>
-                      </div>
-                      <input
-                        placeholder="Enter your Password"
-                        type="email"
-                        className="numinput"
-                      />
-                    </div>
-                    <div className="senti">
-                      <div className="llkop">
-                        Receive order updates and reminders on Whatsapp
-                      </div>
-                    </div>
-                    <div className="nvhgjk">
-                      <button className="hkhkfjh">
-                        <div className="kjfkdjfs">CONTINUE</div>
-                      </button>
-                    </div>
 
+                      <input
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        type="email"
+                        className="numinput"
+                      />
+                    </div>
+                    <form method="POST">
+                      <div className="jjkkig">
+                        <div className="num">
+                          <div className="puranum">Password</div>
+                        </div>
+
+                        <input
+                          value={password}
+                          onChange={(e) => setPassword(e.target.value)}
+                          placeholder="Enter your Password"
+                          type="email"
+                          className="numinput"
+                        />
+                      </div>
+                      <div className="senti">
+                        <div className="llkop">
+                          Receive order updates and reminders on Whatsapp
+                        </div>
+                      </div>
+                      <div className="nvhgjk">
+                        <button className="hkhkfjh">
+                          <div onClick={loginUser} className="kjfkdjfs">
+                            Login
+                          </div>
+                        </button>
+                      </div>
+                    </form>
                     <div className="kartb">
                       <div className="majkl">
                         <div className="jjghyy">
@@ -177,4 +201,4 @@ function Example({ provider, data }) {
   );
 }
 
-export default Example;
+export default Loginbtn;

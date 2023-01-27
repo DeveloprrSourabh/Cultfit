@@ -12,19 +12,9 @@ app.use(express.json());
 
 app.use(require("./router/auth"));
 
-//middleware
-
-const middleware = (req, res, next) => {
-  console.log(`hello my middleware`);
-  next();
-};
-
-app.get("/", (req, res) => {
-  res.send(`Hello world`);
-});
-
-app.get("/about", middleware, (req, res) => {
-  res.send(`Hello about`);
+app.get("/contact", (req, res) => {
+    res.cookie("test","thapa")
+  res.send(`Hello contact`);
 });
 
 app.listen(3000, () => {
