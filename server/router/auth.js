@@ -1,5 +1,8 @@
 const express = require("express");
+const Authenticate = require("../middleware/authenticate");
 const router = express.Router();
+const jwt = require('jsonwebtoken')
+
 
 require("../db/conn");
 
@@ -71,6 +74,8 @@ router.post("/register", async (req, res) => {
 
 router.post("/signin", async (req, res) => {
   try {
+let token;
+
     const { email, password } = req.body;
 
     if (!email || !password) {
@@ -79,17 +84,28 @@ router.post("/signin", async (req, res) => {
 
     const userLogin = await User.findOne({ email: email });
 
+ token = await userLogin.generateAuthToken();
+console.log(token);
+
+res.cookie('jwtoken',token,{
+  expires:new Date(Date.now() + 2592000000),
+  httpOnly:true
+});
+
     if (!userLogin) {
-    res.status(400).json({ error: "user error" });
-      
-    }else{
+      res.status(400).json({ error: "user error" });
+    } else {
       res.json({ message: "user signin successfuly" });
-
     }
-
   } catch (error) {
     console.log(error);
-  } 
+  }
+});
+
+//about s page
+router.get("/about", Authenticate ,(req, res) => {
+  console.log("hello my about");
+  res.send("hello about page from the server");
 });
 
 module.exports = router;
