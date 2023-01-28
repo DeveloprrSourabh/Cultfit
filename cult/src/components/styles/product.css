@@ -188,13 +188,16 @@ p{
 }
 
 
-
-
-
-
-
-
-
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+.card{
+  width: 210px;
+  margin-left: 4%;
+}
+.makecard {
+  width: 200px;
+}
+}
 
 
 

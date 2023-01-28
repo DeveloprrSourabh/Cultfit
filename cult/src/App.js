@@ -22,6 +22,8 @@ const App = () => {
          <Route exact path="/care" element={<Care />} />
         <Route exact path="/mind" element={<Mind />} />
         <Route exact path="/store" element={<Store />} />
+        <Route exact path="/signin" element={<Store />} />
+        <Route exact path="/register" element={<Store />} />
         <Route exact path="/product" element={<Product />} />
         <Route exact path="cultsport/:id" element={<Details />} />
         <Route exact path="/cart/:id" element={<Cart />} />

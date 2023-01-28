@@ -37,15 +37,15 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router-dom";
 
 function Loginbtn() {
-  const navigate = useNavigate();     
+  const navigate = useNavigate();
 
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
   const loginUser = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("/signin", {
+    const res = await fetch("/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -56,17 +56,14 @@ function Loginbtn() {
       }),
     });
 
-const data = res.json();
-if(res.status === 400 || !data){
-alert("Invalid Credentials");
-}else{
-  alert("Login Successfuly");
+    const data = res.json();
+    if (res.status === 400 || !data) {
+      alert("Invalid Credentials");
+    } else {
+      alert("Login Successfuly");
 
-  navigate('/store');
-
-}
-
-
+      navigate('/store');
+    }
   };
 
   const [show, setShow] = useState(false);
@@ -98,7 +95,8 @@ alert("Invalid Credentials");
                     </div>
                   </div>
                   <div className="dusradu">
-                    <div className="jjkkig">
+                   <form method="POST">
+                   <div className="jjkkig">
                       <div className="num">
                         <div className="puranum">Email</div>
                       </div>
@@ -110,33 +108,32 @@ alert("Invalid Credentials");
                         className="numinput"
                       />
                     </div>
-                    <form method="POST">
-                      <div className="jjkkig">
-                        <div className="num">
-                          <div className="puranum">Password</div>
-                        </div>
+                    <div className="jjkkig">
+                      <div className="num">
+                        <div className="puranum">Password</div>
+                      </div>
 
-                        <input
-                          value={password}
-                          onChange={(e) => setPassword(e.target.value)}
-                          placeholder="Enter your Password"
-                          type="email"
-                          className="numinput"
-                        />
+                      <input
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        placeholder="Enter your Password"
+                        type="email"
+                        className="numinput"
+                      />
+                    </div>
+                    <div className="senti">
+                      <div className="llkop">
+                        Receive order updates and reminders on Whatsapp
                       </div>
-                      <div className="senti">
-                        <div className="llkop">
-                          Receive order updates and reminders on Whatsapp
+                    </div>
+                    <div className="nvhgjk">
+                      <button className="hkhkfjh">
+                        <div onClick={loginUser} className="kjfkdjfs">
+                          Login
                         </div>
-                      </div>
-                      <div className="nvhgjk">
-                        <button className="hkhkfjh">
-                          <div onClick={loginUser} className="kjfkdjfs">
-                            Login
-                          </div>
-                        </button>
-                      </div>
-                    </form>
+                      </button>
+                    </div>
+                   </form>
                     <div className="kartb">
                       <div className="majkl">
                         <div className="jjghyy">
