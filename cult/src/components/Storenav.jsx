@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./styles/store.css";
 import Carbtn from "./Carbtn";
 import "./styles/head.css";
@@ -381,7 +381,7 @@ const Storenav = () => {
         <div className="loginhthju">
          
 <Example />
-
+<NavLink to="/user" className="btn-outline-primary">ok</NavLink>
           <div className="loginkr kyu">
             <img
               id="demo-positioned-button"

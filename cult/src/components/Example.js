@@ -70,10 +70,10 @@ function Example() {
 
     const { name, email, phone, password, cpassword } = user;
 
-    const res = await fetch("/register", {
+    const res = await fetch('/register', {
       method: "POST",
       headers: {
-        "content-Type": "application/json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
         name,
@@ -81,19 +81,19 @@ function Example() {
         phone,
         password,
         cpassword,
-      }),
+      })
     });
 
-    const data = await res.json();
+    const data = res.json();
 
-    if (data.status === 422 || !data) {
+    if (res.status === 422 || !data) {
       alert("Invalid Registration");
       console.log("Invalid Registration");
     } else {
       alert(" Registration Successfuly");
       console.log("Successfuly Registration");
 
-      navigate('/store');
+      // navigate('/store');
     }
   };
 
