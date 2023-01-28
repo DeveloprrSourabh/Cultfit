@@ -45,7 +45,7 @@ function Loginbtn() {
   const loginUser = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("/login", {
+    const res = await fetch('/signin', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
