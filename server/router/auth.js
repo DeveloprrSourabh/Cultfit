@@ -72,10 +72,11 @@ router.post("/register", async (req, res) => {
 });
 
 //login route
+//login route
 
-router.post("/login", async (req, res) => {
+router.post("/signin", async (req, res) => {
   try {
-    let token;
+let token;
 
     const { email, password } = req.body;
 
@@ -85,17 +86,15 @@ router.post("/login", async (req, res) => {
 
     const userLogin = await User.findOne({ email: email });
 
-    const isMatch = await bcrypt.compare(password, userLogin.password);
+ token = await userLogin.generateAuthToken();
+console.log(token);
 
-    token = await userLogin.generateAuthToken();
-    console.log(token);
+res.cookie('jwtoken',token,{
+  expires:new Date(Date.now() + 2592000000),
+  httpOnly:true
+});
 
-    res.cookie("jwtoken", token, {
-      expires: new Date(Date.now() + 2592000000),
-      httpOnly: true,
-    });
-
-    if (!isMatch) {
+    if (!userLogin) {
       res.status(400).json({ error: "user error" });
     } else {
       res.json({ message: "user signin successfuly" });
@@ -104,7 +103,6 @@ router.post("/login", async (req, res) => {
     console.log(error);
   }
 });
-
 //about s page
 router.get("/user", authenticate, (req, res) => {
   console.log("hello my about");
