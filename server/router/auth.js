@@ -1,9 +1,7 @@
 const express = require("express");
 const authenticate = require("../middleware/authenticate");
 const router = express.Router();
-const jwt = require('jsonwebtoken')
-
-
+const jwt = require("jsonwebtoken");
 
 require("../db/conn");
 
@@ -56,20 +54,18 @@ router.post("/register", async (req, res) => {
 
     if (userExist) {
       return res.status(422).json({ error: "Email already exist" });
-    }if (password != cpassword) {
+    }
+    if (password != cpassword) {
       return res.status(422).json({ error: "Email already exist" });
-      
-    }else{
+    } else {
       const user = new User({ name, email, phone, password, cpassword });
-    
+
       const userRegister = await user.save();
-  
+
       if (userRegister) {
         res.status(201).json({ message: "user register successfuly" });
       }
     }
-
-   
   } catch (err) {
     console.log(err);
   }
@@ -79,7 +75,7 @@ router.post("/register", async (req, res) => {
 
 router.post("/login", async (req, res) => {
   try {
-let token;
+    let token;
 
     const { email, password } = req.body;
 
@@ -89,15 +85,15 @@ let token;
 
     const userLogin = await User.findOne({ email: email });
 
-    const isMatch  = await bcrypt.compare(password,userLogin.password);
+    const isMatch = await bcrypt.compare(password, userLogin.password);
 
- token = await userLogin.generateAuthToken();
-console.log(token);
+    token = await userLogin.generateAuthToken();
+    console.log(token);
 
-res.cookie('jwtoken',token,{
-  expires:new Date(Date.now() + 2592000000),
-  httpOnly:true
-});
+    res.cookie("jwtoken", token, {
+      expires: new Date(Date.now() + 2592000000),
+      httpOnly: true,
+    });
 
     if (!isMatch) {
       res.status(400).json({ error: "user error" });
@@ -110,7 +106,7 @@ res.cookie('jwtoken',token,{
 });
 
 //about s page
-router.get("/user", authenticate ,(req, res) => {
+router.get("/user", authenticate, (req, res) => {
   console.log("hello my about");
   res.send(req.rootUser);
 });
