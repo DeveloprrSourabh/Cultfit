@@ -1,12 +1,14 @@
 const express = require("express");
-const Authenticate = require("../middleware/authenticate");
+const authenticate = require("../middleware/authenticate");
 const router = express.Router();
 const jwt = require('jsonwebtoken')
+
 
 
 require("../db/conn");
 
 const User = require("../model/userSchema");
+const bcrypt = require("bcryptjs/dist/bcrypt");
 
 router.get("/", (req, res) => {
   res.send(`Hello india`);
@@ -54,17 +56,20 @@ router.post("/register", async (req, res) => {
 
     if (userExist) {
       return res.status(422).json({ error: "Email already exist" });
+    }if (password != cpassword) {
+      return res.status(422).json({ error: "Email already exist" });
+      
+    }else{
+      const user = new User({ name, email, phone, password, cpassword });
+    
+      const userRegister = await user.save();
+  
+      if (userRegister) {
+        res.status(201).json({ message: "user register successfuly" });
+      }
     }
 
-    const user = new User({ name, email, phone, password, cpassword });
-
-    const userRegister = await user.save();
-
-    if (userRegister) {
-      res.status(201).json({ message: "user register successfuly" });
-    } else {
-      res.sattus(500).json({ error: "Failed to Register" });
-    }
+   
   } catch (err) {
     console.log(err);
   }
@@ -72,7 +77,7 @@ router.post("/register", async (req, res) => {
 
 //login route
 
-router.post("/signin", async (req, res) => {
+router.post("/login", async (req, res) => {
   try {
 let token;
 
@@ -84,6 +89,8 @@ let token;
 
     const userLogin = await User.findOne({ email: email });
 
+    const isMatch  = await bcrypt.compare(password,userLogin.password);
+
  token = await userLogin.generateAuthToken();
 console.log(token);
 
@@ -92,7 +99,7 @@ res.cookie('jwtoken',token,{
   httpOnly:true
 });
 
-    if (!userLogin) {
+    if (!isMatch) {
       res.status(400).json({ error: "user error" });
     } else {
       res.json({ message: "user signin successfuly" });
@@ -103,9 +110,9 @@ res.cookie('jwtoken',token,{
 });
 
 //about s page
-router.get("/about", Authenticate ,(req, res) => {
+router.get("/user", authenticate ,(req, res) => {
   console.log("hello my about");
-  res.send("hello about page from the server");
+  res.send(req.rootUser);
 });
 
 module.exports = router;
