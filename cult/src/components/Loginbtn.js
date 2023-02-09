@@ -39,13 +39,13 @@ import { useNavigate } from "react-router-dom";
 function Loginbtn() {
   const navigate = useNavigate();
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const loginUser = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('/signin', {
+    const res = await fetch('/login', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -62,7 +62,7 @@ function Loginbtn() {
     } else {
       alert("Login Successfuly");
 
-      navigate('/store');
+      navigate("/store");
     }
   };
 
@@ -95,45 +95,45 @@ function Loginbtn() {
                     </div>
                   </div>
                   <div className="dusradu">
-                   <form method="POST">
-                   <div className="jjkkig">
-                      <div className="num">
-                        <div className="puranum">Email</div>
-                      </div>
-
-                      <input
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        type="email"
-                        className="numinput"
-                      />
-                    </div>
-                    <div className="jjkkig">
-                      <div className="num">
-                        <div className="puranum">Password</div>
-                      </div>
-
-                      <input
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                        placeholder="Enter your Password"
-                        type="email"
-                        className="numinput"
-                      />
-                    </div>
-                    <div className="senti">
-                      <div className="llkop">
-                        Receive order updates and reminders on Whatsapp
-                      </div>
-                    </div>
-                    <div className="nvhgjk">
-                      <button className="hkhkfjh">
-                        <div onClick={loginUser} className="kjfkdjfs">
-                          Login
+                    <form method="POST">
+                      <div className="jjkkig">
+                        <div className="num">
+                          <div className="puranum">Email</div>
                         </div>
-                      </button>
-                    </div>
-                   </form>
+
+                        <input
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                          type="email"
+                          className="numinput"
+                        />
+                      </div>
+                      <div className="jjkkig">
+                        <div className="num">
+                          <div className="puranum">Password</div>
+                        </div>
+
+                        <input
+                          value={password}
+                          onChange={(e) => setPassword(e.target.value)}
+                          placeholder="Enter your Password"
+                          type="password"
+                          className="numinput"
+                        />
+                      </div>
+                      <div className="senti">
+                        <div className="llkop">
+                          Receive order updates and reminders on Whatsapp
+                        </div>
+                      </div>
+                      <div className="nvhgjk">
+                        <button className="hkhkfjh">
+                          <div onClick={loginUser} className="kjfkdjfs">
+                            Login
+                          </div>
+                        </button>
+                      </div>
+                    </form>
                     <div className="kartb">
                       <div className="majkl">
                         <div className="jjghyy">

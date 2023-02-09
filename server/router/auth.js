@@ -72,9 +72,8 @@ router.post("/register", async (req, res) => {
 });
 
 //login route
-//login route
 
-router.post("/signin", async (req, res) => {
+router.post("/login", async (req, res) => {
   try {
 let token;
 
@@ -86,7 +85,7 @@ let token;
 
     const userLogin = await User.findOne({ email: email });
 
- token = await userLogin.generateAuthToken();
+ token = await userLogin.generateAuthToken()
 console.log(token);
 
 res.cookie('jwtoken',token,{

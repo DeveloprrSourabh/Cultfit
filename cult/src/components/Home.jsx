@@ -157,7 +157,7 @@ const Home = () => {
               </defs>
             </svg>
           </div>
-          <div className="col-1"></div>
+          <div className="col-1 ff"></div>
         </div>
       </div>
 
@@ -185,7 +185,7 @@ const Home = () => {
       {/* THREE__CONTAINER */}
       <div id="gyo" className="container">
         <div className="cr">
-          <div className="row">
+          <div className="row mainjk">
             <div className="col-3 ko">
               <div className="imglp">
                 <div>
@@ -406,7 +406,7 @@ const Home = () => {
       {/* CULTPASS--IMAGE---START */}
 
       {/* THREE BOX---START */}
-      <div className="container">
+      <div className="container setmedia">
         <div className="trrow">
           {/* FIRST CONTAINER---START */}
           <div className="trfir">
@@ -545,7 +545,7 @@ const Home = () => {
         <div className="fbst">
           <div className="row fbsr">
             {/* FIRST COL---START */}
-            <div className="col-2"></div>
+            <div className="col-2 ff"></div>
             <div className="col-4 fbsc">
               <a href="" className="dcr">
                 <div className="fbbc fbc1">
@@ -609,7 +609,7 @@ const Home = () => {
         <div className="fbst">
           <div className="row fbsr">
             {/* FIRST COL---START */}
-            <div className="col-2"></div>
+            <div className="col-2 ff"></div>
             <div className="col-4 fbsc">
               <a href="" className="d">
                 <div className="fbbc fbc3">

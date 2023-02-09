@@ -609,3 +609,156 @@ video {
   background-size: 100% 100%;
   background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1000,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/we_are_cult_new.svg);
 }
+
+@media only screen and (max-width: 993px) {
+ .bcim{
+  border-radius: 14%;
+ }
+ .trfir{
+  width: 15rem;
+ }
+ .setmedia{
+  display: flex;
+ }
+ .fb{
+  padding-right: 13px;
+ }
+ .fbbc{
+  width: 17rem;
+  height: 17rem;
+  padding: 9px 14px 7px 12px;
+  border-radius: 1rem;
+ }
+ .fbsc{
+  margin: 0rem 2rem;
+ }
+ .bgbxbg{
+  width: auto;
+  padding-top: 2rem;
+  height: 18rem
+ }
+ .ff{
+  width: 72px;
+ }
+ .bgbxftxt{
+  width: 25rem;
+ }
+ .bgbxstxt{
+  width: 25rem;
+ }
+ /* .navbar-toggler{
+  margin-right: 4rem;
+
+ } */
+ .trrow{
+  width: -webkit-fill-available;
+ }
+ .bbgr{
+  display: none;
+ }
+}
+@media only screen and (max-width: 700px) {
+#gyo{
+  max-width: 100%;
+}
+.cr{
+  margin-left: 13%;
+}
+.tig{
+  display: block;
+}
+.trrow{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.trfir {
+  width: 23rem;
+}
+.fbsr{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem;
+  margin-left: 4rem;
+}
+.fbsc{
+  margin: 1rem 2rem;
+}
+
+.bgbxbg{
+  width: inherit;
+}
+.tbxsc{
+  display: contents;
+
+}
+.whltbx{
+  margin: 2rem 1rem 2rem 86px;
+}
+html{
+  width: 145%;
+}
+video{
+  width: 145%;
+}
+.rt{
+  width: 64%;
+}
+#gyo{
+  margin-top: -18rem;
+}
+.flexqu{
+  flex-direction: column;
+  padding: 0px;
+}
+.ftrclcl{
+  width: max-content;
+}
+.ftrcation{
+  padding-bottom: 2rem;
+}
+.ftrlogo{
+      width: 36%;
+
+}
+.row{
+  --bs-gutter-x: 0px;
+}
+}
+
+@media only screen and (max-width:375px)  {
+  html{
+    width: -webkit-fill-available;
+  }
+  
+  video{
+    width: 100%;
+  }
+  .rt{
+    width: 93%;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+  }
+  .mainjk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ko{
+    width: 15rem;
+  }
+  .fbbc{
+    position: relative;
+    right: 3rem;
+  }
+  .bgbx{
+    display: none;
+  }
+ 
+  .row{
+    --bs-gutter-x: 0rem;
+  }
+ 
+}

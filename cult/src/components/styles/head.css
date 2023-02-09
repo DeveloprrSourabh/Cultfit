@@ -124,9 +124,7 @@
     border: 2px solid white;
 }
 
-.collapse{
-    margin-left: 14%;
-}
+
 .navbarl{
     position: relative;
     right: 17%;
@@ -169,3 +167,20 @@ text-align: end;
 .jp:focus .ps-sidebar-root {
 display: block;
 }
+.wi{
+    width: 22rem;
+}
+
+@media only screen and (max-width: 993px) {
+    .mediahalo{
+display: none;
+    }
+    .wi{
+        width: max-content;
+    }
+    .container-fluid{
+        background: rgb(23, 26, 38);    }
+        .img1{
+            width: 65%;
+        }
+  }

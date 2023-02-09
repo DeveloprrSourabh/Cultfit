@@ -18,7 +18,7 @@
         {/* HEADER__START */}
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand wi" to="/">
               <img
                 src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_120,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png"
                 alt=""
@@ -52,7 +52,7 @@
                 </Link>
               </div>
             </div>
-            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="collapse navbar-collapse mediahalo" id="navbarNavAltMarkup">
               <div className="navbar-nav">
                 <Link className="nav-link lo" to="#">
                   Banglore
@@ -63,7 +63,7 @@
                   />
                 </Link>
                 <Link style={{ color: "white" }} className="nav-link nn1" to="/">
-                  GET APP
+                  GETAPP
                 </Link>
                 <Link className="nav-link jp nn" to="#">
                   <img
